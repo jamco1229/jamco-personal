@@ -12,6 +12,14 @@ Variables
 
 }
 @font-face {
+  font-family: 'undefined-medium';
+  src: url('undefined-medium.woff') format('woff'),
+       url('undefined-medium.woff2') format('woff2');
+  font-weight: normal;
+ font-style: normal;
+
+}
+@font-face {
   font-family: 'pp_neue_montrealbook';
   src: url('ppneuemontreal-book-webfont.woff2') format('woff2'),
        url('ppneuemontreal-book-webfont.woff') format('woff');
@@ -85,7 +93,7 @@ html {
 }
 
 body {
-  font-family: "pp_neue_montrealmedium", sans-serif;
+  font-family: "pp_neue_montrealbook", sans-serif;
   font-size: var(--font-size-body);
   line-height: var(--line-height);
   margin: 0;
@@ -106,6 +114,7 @@ h6 {
   margin-bottom: 1em;
   margin-top: 3em;
   color: #fff;
+  font-family: "undefined-medium";
 }
 p {
   margin-bottom: var(--padding-container);
