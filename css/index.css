@@ -4,7 +4,7 @@ Variables
 
 */
 @font-face {
-  font-family: 'pp_neue_montrealbold';
+  font-family: 'PP NM Bold';
   src: url('ppneuemontreal-bold-webfont.woff2') format('woff2'),
        url('ppneuemontreal-bold-webfont.woff') format('woff');
   font-weight: normal;
@@ -20,7 +20,7 @@ Variables
 
 }
 @font-face {
-  font-family: 'pp_neue_montrealbook';
+  font-family: 'PP NM Book';
   src: url('ppneuemontreal-book-webfont.woff2') format('woff2'),
        url('ppneuemontreal-book-webfont.woff') format('woff');
   font-weight: normal;
@@ -28,7 +28,7 @@ Variables
 
 }
 @font-face {
-  font-family: 'pp_neue_montrealitalic';
+  font-family: 'PP NM Italic';
   src: url('ppneuemontreal-italic-webfont.woff2') format('woff2'),
        url('ppneuemontreal-italic-webfont.woff') format('woff');
   font-weight: normal;
@@ -36,7 +36,7 @@ Variables
 
 }
 @font-face {
-  font-family: 'pp_neue_montrealmedium';
+  font-family: 'PP NM Medium';
   src: url('ppneuemontreal-medium-webfont.woff2') format('woff2'),
        url('ppneuemontreal-medium-webfont.woff') format('woff');
   font-weight: normal;
@@ -44,17 +44,9 @@ Variables
 
 }
 @font-face {
-  font-family: 'pp_neue_montrealthin';
+  font-family: 'PP NM Thin';
   src: url('ppneuemontreal-thin-webfont.woff2') format('woff2'),
        url('ppneuemontreal-thin-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-@font-face {
-  font-family: 'pp_writerregular_italic';
-  src: url('ppwriter-regularitalic-webfont.woff2') format('woff2'),
-       url('ppwriter-regularitalic-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -62,6 +54,8 @@ Variables
 
 :root {
   /* Typography */
+  --font-family-body: "PP NM Book", sans-serif;
+  --font-family-header: "PP NM Bold", sans-serif;
   --font-size-body: 1rem;
   --font-size-small: 0.75rem;
   --font-weight-normal: 400;
@@ -121,12 +115,13 @@ h6 {
   margin-bottom: 0.2em;
   margin-top: 3em;
   color: #fff;
-  font-family: "pp_neue_montrealmedium";
+  font-family: var(--font-family-header)
 }
 p {
   margin-bottom: var(--padding-container);
   margin-top: 0;
   color: #E0F2FD;
+  font-family: var(--font-family-body);
 }
 
 a {
@@ -157,7 +152,12 @@ body > header a:hover {
 
 b,
 strong {
- font-family: "pp_neue_montrealmedium";
+ font-family: var(--font-family-header);
+}
+em{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 100;
 }
 
 code,
