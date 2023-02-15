@@ -265,6 +265,7 @@ Layout / global includes
   margin-right: auto;
   width: 100%;
   max-width: var(--width-textcol);
+  opacity: 50%;
 }
 
 .site-footer > p {
