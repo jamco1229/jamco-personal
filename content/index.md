@@ -8,7 +8,7 @@ entries:
   - sample-project-letters
   - sample-project-traffic-signs
 ---
-<img src="/content/media/profile.png">
+<img src="/content/media/profile.png"/>
 ![Profile pic...](/content/media/profile.png)
 ![image](/content/media/eames-1.jpg)
 # James Coy
