@@ -2,11 +2,7 @@
 layout: home
 entries:
   - portfolio-starter
-  - sample-project-muybridge
-  - sample-project-optics
-  - sample-project-eames
-  - sample-project-letters
-  - sample-project-traffic-signs
+  - stay
 ---
 <img class="profile" src="https://github.com/jamco1229/jamco-personal/blob/master/content/media/profile%20pic.png?raw=true" />
 
