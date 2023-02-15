@@ -4,10 +4,9 @@ permalink: "/"
 ---
 
 <div class="home-intro">
-<img src(/content/media/profile.png)/>
   {{ content | safe }}
 </div>
-
+<div class='image'><img src(/content/media/profile.png)/></div>
 
 {% set entries = collections.all | getPagesByPaths(entries) if entries else collections.projects %}
 
