@@ -118,21 +118,14 @@ a {
   background-size: 100% 4px;
   background-position: bottom;
   background-repeat: no-repeat;
-  color: #fff;
   padding-bottom: .05rem;
   text-decoration: underline;
+  color: #89dfb9;
 }
 
 a.plain {
   background-image: none;
   /* Shouldn't these have the padding removed, and some other affordance added? */
-}
-a:hover{
-  color: #89dfb9;
-}
-a:focus,
-a:hover {
-  text-decoration: none;
 }
 
 body > header a {
