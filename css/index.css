@@ -285,11 +285,11 @@ Homepage
 }
 
 .home-block {
-  align-items: center;
+  align-items: left;
   display: flex;
   flex-direction: column;
   margin-bottom: 8rem;
-  text-align: center;
+  text-align: left;
 }
 
 .home-block > a {
@@ -297,10 +297,6 @@ Homepage
   text-decoration: none;
 }
 
-.home-block > a:focus,
-.home-block > a:hover {
-  text-decoration: underline;
-}
 
 .home-block.sm > a {
   width: var(--width-media-sm);
