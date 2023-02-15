@@ -216,6 +216,8 @@ Layout / global includes
 }
 
 .site-nav ul {
+  font-family: "undefined-medium";
+  font-size: 1em;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
