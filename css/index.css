@@ -107,7 +107,7 @@ body {
   height: 88px;
   border-radius: 100%;
   border: #E0F2FD solid 1px;
-  margin-bottom: -3em;
+  margin-bottom: -4em;
 }
 
 h1,
@@ -116,7 +116,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: inherit;
   margin-bottom: 1em;
   margin-top: 3em;
@@ -206,6 +206,8 @@ Layout / global includes
 }
 
 .site-name {
+  font-size: 1em;
+  color: #fff;
   font-weight: inherit;
   margin-bottom: 0.25rem;
   margin-right: auto;
