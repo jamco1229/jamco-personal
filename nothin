@@ -1,0 +1,44 @@
+.home-block {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8rem;
+  text-align: center;
+}
+
+.home-block > a {
+  max-width: 100%;
+  text-decoration: none;
+}
+
+.home-block > a:focus,
+.home-block > a:hover {
+  text-decoration: underline;
+}
+
+.home-block.sm > a {
+  width: var(--width-media-sm);
+}
+
+.home-block.md > a {
+  width: var(--width-media-md);
+}
+
+.home-block.lg > a {
+  width: var(--width-media-lg);
+}
+
+.home-block.lg {
+  margin-left: calc(var(--padding-container) * -1);
+  margin-right: calc(var(--padding-container) * -1);
+}
+
+.home-block img:not([width]),
+.home-block video:not([width]) {
+  width: 100%;
+}
+
+.home-block-title {
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
