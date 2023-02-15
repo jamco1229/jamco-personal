@@ -258,7 +258,7 @@ Layout / global includes
 }
 
 .site-footer {
-  font-size: var(--font-size-small);
+  font-size: inherit;
   margin-top: auto;
   margin-bottom: 1rem;
   margin-left: auto;
