@@ -3,6 +3,9 @@ layout: home
 entries:
   - portfolio-starter
   - stay-project
+  - stay-project
+  - stay
+  - post
 ---
 <img class="profile" src="https://github.com/jamco1229/jamco-personal/blob/master/content/media/profile%20pic.png?raw=true" />
 

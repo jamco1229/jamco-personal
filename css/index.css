@@ -264,7 +264,7 @@ Layout / global includes
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: var(--width-textcol);
+  max-width: var(--width-media-lg);
   opacity: 50%;
 }
 
