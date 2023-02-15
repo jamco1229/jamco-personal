@@ -4,10 +4,11 @@ layout: project
 dateEnd: 2023-02-15 12:14:23
 media:
   - type: image
-    filename: buttons.gif
+    filename: cover.png
     size: md
     alt: Poster for Portfolio Starter
 ---
+
 
 
 # Stay - Hotel Booking App (Concept)
