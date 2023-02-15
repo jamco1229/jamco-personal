@@ -105,7 +105,7 @@ h6 {
   font-weight: inherit;
   margin-bottom: 1em;
   margin-top: 3em;
-  color: #E0F2FD;
+  color: #fff;
 }
 p {
   margin-bottom: var(--padding-container);
@@ -120,7 +120,7 @@ a {
   background-repeat: no-repeat;
   color: #fff;
   padding-bottom: .05rem;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a.plain {
@@ -128,8 +128,7 @@ a.plain {
   /* Shouldn't these have the padding removed, and some other affordance added? */
 }
 a:hover{
-  background-image: url("/splat-underline-white.svg");
-  color: #D70A1B;
+  color: #89dfb9;
 }
 a:focus,
 a:hover {
