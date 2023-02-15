@@ -8,37 +8,18 @@ media:
     size: md
     alt: Poster for Portfolio Starter
 ---
-<table>
-  <tr>
-    <th>Role</th>
-    <td>UX Design</td>
-  </tr>
-  <tr>
-    <th>Completion date</th>
-    <td>Dec 2022</td>
-  </tr>
-  <tr>
-    <th>Platform</th>
-    <td>Mobile</td>
-  </tr>
-  <tr>
-    <th>Read time</th>
-    <td>5mins</td>
-  </tr>
-</table>
-
 <div class="row">
   <div class="column">
-    <p>Role</p>
+    <h3>Role</h3>
   </div>
   <div class="column">
-    <p>Completion date</p>
+    <h3>Completion date</h3>
   </div>
   <div class="column">
-    <p>Platform</p>
+    <h3>Platform</h3>
   </div>
   <div class="column">
-    <p>Read time</p>
+    <h3>Read time</h3>
   </div>
 </div>
 <div class="row">
@@ -55,6 +36,7 @@ media:
     <p>5mins</p>
   </div>
 </div>
+
 
 
 # TLDR —
