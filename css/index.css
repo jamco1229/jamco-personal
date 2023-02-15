@@ -443,7 +443,7 @@ Pagination
 
 .pagination {
   text-align: center;
-  max-width: var(--width-textcol);
+  width: 100%;
   justify-content: center;
 
 }
