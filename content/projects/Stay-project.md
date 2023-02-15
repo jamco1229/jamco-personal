@@ -1,5 +1,5 @@
 ---
-title: Stay - Hotel Booking App (Concept)
+title: Stay
 layout: project
 dateEnd: 2023-02-15 12:14:23
 media:
@@ -8,7 +8,7 @@ media:
     size: md
     alt: Poster for Portfolio Starter
 ---
-### Role
+### Role cos its serious
 UX Design
 ### Completion date
 Dec 2022
