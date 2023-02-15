@@ -289,10 +289,9 @@ Homepage
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: 8rem;
+  margin: 0rem 8rem auto;
   text-align: center;
   max-width: var(--width-textcol);
-  margin: auto;
 }
 
 .home-block > a {
