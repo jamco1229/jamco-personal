@@ -75,6 +75,7 @@ Base styles
 
 html {
   box-sizing: border-box;
+  background-color: #0E6698;
 }
 
 *,
@@ -104,10 +105,12 @@ h6 {
   font-weight: inherit;
   margin-bottom: 1em;
   margin-top: 3em;
+  color: #E0F2FD;
 }
 p {
   margin-bottom: var(--padding-container);
   margin-top: 0;
+  color: #E0F2FD;
 }
 
 a {
@@ -115,10 +118,9 @@ a {
   background-size: 100% 4px;
   background-position: bottom;
   background-repeat: no-repeat;
-  color: #000;
+  color: #fff;
   padding-bottom: .05rem;
   text-decoration: none;
-  -webkit-tap-highlight-color:hsla(1, 76%, 51%, .4);
 }
 
 a.plain {
