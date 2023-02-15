@@ -296,6 +296,7 @@ Homepage
 .home-block > a {
   max-width: 100%;
   text-decoration: none;
+  background-image: none;
 }
 
 .home-block > a:focus,
