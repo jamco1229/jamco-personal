@@ -7,7 +7,16 @@ entries:
   - sample-project-eames
   - sample-project-letters
   - sample-project-traffic-signs
+media:
+  - type: image
+    filename: profile-pic.jpeg
+    size: sm
+    alt: Profile Pic
 ---
+[/profile-pic.jpeg]
+
+<img href='/profile-pic.jpeg'>
+
 # James Coy
 — Product Designer — UX Specialist — Invested in building meaningful products.
 
