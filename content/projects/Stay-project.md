@@ -8,7 +8,6 @@ media:
     size: md
     alt: Poster for Portfolio Starter
 ---
-# Stay - Hotel Booking App (Concept)
 ### Role
 UX Design
 ### Completion date
