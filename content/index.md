@@ -8,6 +8,7 @@ entries:
   - sample-project-letters
   - sample-project-traffic-signs
 ---
+
 ![Profile](profile.png)
 ![Profile](https://github.com/jamco1229/jamco-personal/blob/562d5c2364cf77262eb9adb99e2bbfb348a467a4/profile.png)
 # James Coy
