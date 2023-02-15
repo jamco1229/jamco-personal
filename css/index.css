@@ -271,6 +271,19 @@ Layout / global includes
 .site-footer > p {
   margin-bottom: 0;
 }
+/*
+table
+*/
+.row {
+  display: flex;
+}
+
+.column {
+  flex-basis: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
 
 /*
 

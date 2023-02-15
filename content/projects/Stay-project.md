@@ -27,6 +27,36 @@ media:
   </tr>
 </table>
 
+<div class="row">
+  <div class="column">
+    <p>Role</p>
+  </div>
+  <div class="column">
+    <p>Completion date</p>
+  </div>
+  <div class="column">
+    <p>Platform</p>
+  </div>
+  <div class="column">
+    <p>Read time</p>
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <p>UX Design</p>
+  </div>
+  <div class="column">
+    <p>Dec 2022</p>
+  </div>
+  <div class="column">
+    <p>Mobile</p>
+  </div>
+  <div class="column">
+    <p>5mins</p>
+  </div>
+</div>
+
+
 # TLDR —
 Don’t have much time? No worries, here’s a rundown of the important bits.
 ### **For UX Design Institute I analysed friction points in a Hotel booking apps. I then designed a solution to them in the form of a prototype.**
