@@ -462,6 +462,7 @@ Pagination
 .pagination-item {
   margin-bottom: 0.5rem;
   margin-top: 0;
+  margin: auto;
 }
 
 .pagination-item a:not([aria-current]) {
