@@ -289,10 +289,8 @@ Homepage
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 100%;
-  margin: 0rem 8rem auto;
+  margin-bottom: 8rem;
   text-align: center;
-  max-width: var(--width-container);
 }
 
 .home-block > a {
@@ -300,6 +298,10 @@ Homepage
   text-decoration: none;
 }
 
+.home-block > a:focus,
+.home-block > a:hover {
+  color: #fff;
+}
 
 .home-block.sm > a {
   width: var(--width-media-sm);
@@ -327,7 +329,6 @@ Homepage
   margin-bottom: 0;
   margin-top: 2rem;
 }
-
 /*
 
 Page
