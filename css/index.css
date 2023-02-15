@@ -289,7 +289,7 @@ Homepage
   display: flex;
   flex-direction: column;
   margin-bottom: 8rem;
-  text-align: left;
+  text-align: center;
   max-width: var(--width-textcol);
   margin: auto;
 }
@@ -444,6 +444,7 @@ Pagination
   margin-bottom: 4rem;
   margin-top: 4rem;
   text-align: center;
+  max-width: var(--width-textcol);
 }
 
 .pagination-list {
