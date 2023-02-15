@@ -8,8 +8,8 @@ entries:
   - sample-project-letters
   - sample-project-traffic-signs
 ---
-![Profile](profile-pic.jpeg)
-![Profile](https://github.com/jamco1229/jamco-personal/blob/60f9db125ba84be9e998d5acad98a7a2116c5be7/profile-pic.jpeg)
+![Profile](profile.png)
+![Profile](https://github.com/jamco1229/jamco-personal/blob/562d5c2364cf77262eb9adb99e2bbfb348a467a4/profile.png)
 # James Coy
 — Product Designer — UX Specialist — Invested in building meaningful products.
 
