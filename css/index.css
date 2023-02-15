@@ -291,6 +291,7 @@ Homepage
   margin-bottom: 8rem;
   text-align: center;
   max-width: var(--width-textcol);
+  margin: auto;
 }
 
 .home-block > a {
