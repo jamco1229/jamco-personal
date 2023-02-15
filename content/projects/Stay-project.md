@@ -8,15 +8,24 @@ media:
     size: md
     alt: Poster for Portfolio Starter
 ---
-### Role cos its serious
-UX Design
-### Completion date
-Dec 2022
-### Platform
-Mobile
-### Read time
-5mins
----
+<table>
+  <tr>
+    <th>Role</th>
+    <td>UX Design</td>
+  </tr>
+  <tr>
+    <th>Completion date</th>
+    <td>Dec 2022</td>
+  </tr>
+  <tr>
+    <th>Platform</th>
+    <td>Mobile</td>
+  </tr>
+  <tr>
+    <th>Read time</th>
+    <td>5mins</td>
+  </tr>
+</table>
 # TLDR —
 Don’t have much time? No worries, here’s a rundown of the important bits.
 ### **For UX Design Institute I analysed friction points in a Hotel booking apps. I then designed a solution to them in the form of a prototype.**
