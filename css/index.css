@@ -1,113 +1,133 @@
 /**
- * Bolt.css
- * Version 0.5.0
- * https://github.com/tbolt/boltcss
- *
- * Sections
- * 1. Content sectioning
- * 2. Text content
- * 3. Inline text semantics
- * 4. Image and multimedia
- * 5. Tables
- * 6. Forms
- * 7. Interactive elements
- *
+ * Theme: default
  */
-
 :root {
-  --highlight-border-radius: 7px;
-  --border-radius: 11px;
-
-  --links: #0f6dff;
-  --background-body: #fff;
-  --background-main: #f1f1f1;
-  --background-inputs: #fcfcfc;
-  --text: #1c1d1e;
-  --border: #dddddd;
-  --focus-highlight: #b8b8b8;
-  --shadow-color: #545454;
-  --table-highlight: #f1f1f1;
-  --select-icon-url: url("data:image/svg+xml,%3Csvg width='292' height='292' viewBox='0 0 292 292' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cpath id='Path' fill='%23222222' stroke='none' d='M 287 69 C 283.606537 65.469971 278.895844 63.513214 274 63.600006 L 18.4 63.600006 C 13.4 63.600006 9.1 65.400009 5.5 69 C 1.984143 72.328568 -0.005267 76.958466 -0 81.800003 C -0 86.800003 1.8 91.100006 5.4 94.699997 L 133.399994 222.600006 C 137 226.200012 141.199997 228 146.199997 228 C 151.199997 228 155.399994 226.200012 159 222.600006 L 287 94.600006 C 290.5 91.100006 292.399994 86.800003 292.399994 81.800003 C 292.399994 76.800003 290.5 72.600006 286.899994 69 Z'/%3E%3C/svg%3E");
+  --font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
+    "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  --line-height: 1.5;
+  --font-weight: 400;
+  --font-size: 16px;
+  --border-radius: 0.25rem;
+  --border-width: 1px;
+  --outline-width: 3px;
+  --spacing: 1rem;
+  --typography-spacing-vertical: 1.5rem;
+  --block-spacing-vertical: calc(var(--spacing) * 2);
+  --block-spacing-horizontal: var(--spacing);
+  --grid-spacing-vertical: 0;
+  --grid-spacing-horizontal: var(--spacing);
+  --form-element-spacing-vertical: 0.75rem;
+  --form-element-spacing-horizontal: 1rem;
+  --nav-element-spacing-vertical: 1rem;
+  --nav-element-spacing-horizontal: 0.5rem;
+  --nav-link-spacing-vertical: 0.5rem;
+  --nav-link-spacing-horizontal: 0.5rem;
+  --form-label-font-weight: var(--font-weight);
+  --transition: 0.2s ease-in-out;
+  --modal-overlay-backdrop-filter: blur(0.25rem);
 }
-
-@media (prefers-color-scheme: dark) {
+@media (min-width: 576px) {
   :root {
-    --links: #4589ee;
-    --background-body: #0f0f0f;
-    --background-main: #222;
-    --background-inputs: #222;
-    --text: #efefef;
-    --border: #444;
-    --focus-highlight: #888;
-    --shadow-color: #bebebe;
-    --table-highlight: #222;
-    --select-icon-url: url("data:image/svg+xml,%3Csvg width='292' height='292' viewBox='0 0 292 292' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cpath id='Path' fill='%23ffffff' stroke='none' d='M 287 69 C 283.606537 65.469971 278.895844 63.513214 274 63.600006 L 18.4 63.600006 C 13.4 63.600006 9.1 65.400009 5.5 69 C 1.984143 72.328568 -0.005267 76.958466 -0 81.800003 C -0 86.800003 1.8 91.100006 5.4 94.699997 L 133.399994 222.600006 C 137 226.200012 141.199997 228 146.199997 228 C 151.199997 228 155.399994 226.200012 159 222.600006 L 287 94.600006 C 290.5 91.100006 292.399994 86.800003 292.399994 81.800003 C 292.399994 76.800003 290.5 72.600006 286.899994 69 Z'/%3E%3C/svg%3E");
+    --font-size: 17px;
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    --font-size: 18px;
+  }
+}
+@media (min-width: 992px) {
+  :root {
+    --font-size: 19px;
+  }
+}
+@media (min-width: 1200px) {
+  :root {
+    --font-size: 20px;
   }
 }
 
-*,
-::after,
-::before {
-  box-sizing: border-box;
+@media (min-width: 576px) {
+  body > header,
+  body > main,
+  body > footer,
+  section {
+    --block-spacing-vertical: calc(var(--spacing) * 2.5);
+  }
+}
+@media (min-width: 768px) {
+  body > header,
+  body > main,
+  body > footer,
+  section {
+    --block-spacing-vertical: calc(var(--spacing) * 3);
+  }
+}
+@media (min-width: 992px) {
+  body > header,
+  body > main,
+  body > footer,
+  section {
+    --block-spacing-vertical: calc(var(--spacing) * 3.5);
+  }
+}
+@media (min-width: 1200px) {
+  body > header,
+  body > main,
+  body > footer,
+  section {
+    --block-spacing-vertical: calc(var(--spacing) * 4);
+  }
 }
 
-html,
-body {
-  margin: 0;
-  font-size: 12pt;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
-    sans-serif;
-  color: var(--text);
-  background: var(--background-body);
+@media (min-width: 576px) {
+  article {
+    --block-spacing-horizontal: calc(var(--spacing) * 1.25);
+  }
+}
+@media (min-width: 768px) {
+  article {
+    --block-spacing-horizontal: calc(var(--spacing) * 1.5);
+  }
+}
+@media (min-width: 992px) {
+  article {
+    --block-spacing-horizontal: calc(var(--spacing) * 1.75);
+  }
+}
+@media (min-width: 1200px) {
+  article {
+    --block-spacing-horizontal: calc(var(--spacing) * 2);
+  }
 }
 
-/* Content sectioning */
-address {
-  font-style: normal;
-  line-height: 1.6rem;
+dialog > article {
+  --block-spacing-vertical: calc(var(--spacing) * 2);
+  --block-spacing-horizontal: var(--spacing);
+}
+@media (min-width: 576px) {
+  dialog > article {
+    --block-spacing-vertical: calc(var(--spacing) * 2.5);
+    --block-spacing-horizontal: calc(var(--spacing) * 1.25);
+  }
+}
+@media (min-width: 768px) {
+  dialog > article {
+    --block-spacing-vertical: calc(var(--spacing) * 3);
+    --block-spacing-horizontal: calc(var(--spacing) * 1.5);
+  }
 }
 
-/* Todo: Revisit this and try to find a way to handle margin depending on float direction  */
-aside {
-  width: 40%;
-  padding: 0.84rem;
-  margin: 0.16rem;
-  font-style: italic;
-  color: var(--text);
-  background-color: var(--background-main);
-  border-radius: var(--border-radius);
+a {
+  --text-decoration: none;
+}
+a.secondary, a.contrast {
+  --text-decoration: underline;
 }
 
-/* No styles provided */
-footer {
-}
-header {
-}
-
-h1 {
-  font-size: 2.5rem;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.75rem;
-}
-
-h4 {
-  font-size: 1.5rem;
-}
-
-h5 {
-  font-size: 1.25rem;
-  font-weight: normal;
-}
-
-h6 {
-  font-size: 1rem;
-  font-weight: normal;
+small {
+  --font-size: 0.875em;
 }
 
 h1,
@@ -116,404 +136,391 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  --font-weight: 700;
 }
 
-h1,
-h2,
-h3,
-h4,
-b,
-strong,
-th {
-  font-weight: 700;
+h1 {
+  --font-size: 2rem;
+  --typography-spacing-vertical: 3rem;
 }
 
-/* Not provided */
-hgroup {
+h2 {
+  --font-size: 1.75rem;
+  --typography-spacing-vertical: 2.625rem;
 }
 
-/* Not provided */
-main {
+h3 {
+  --font-size: 1.5rem;
+  --typography-spacing-vertical: 2.25rem;
 }
 
-/* Not provided */
-nav {
+h4 {
+  --font-size: 1.25rem;
+  --typography-spacing-vertical: 1.874rem;
 }
 
-/* Not provided */
-section {
+h5 {
+  --font-size: 1.125rem;
+  --typography-spacing-vertical: 1.6875rem;
 }
 
-/* Text content */
-blockquote {
-  position: relative;
-  padding-left: 1.5rem;
-  margin: 0;
+[type=checkbox],
+[type=radio] {
+  --border-width: 2px;
 }
 
-blockquote:before {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  height: 100%;
-  border-left: 7px solid var(--border);
-  border-radius: 6px;
+[type=checkbox][role=switch] {
+  --border-width: 3px;
 }
 
-dd {
-  margin-left: 0;
-  padding-bottom: 11px;
+thead th,
+thead td,
+tfoot th,
+tfoot td {
+  --border-width: 3px;
 }
 
-dl {
+:not(thead, tfoot) > * > td {
+  --font-size: 0.875em;
 }
 
-dt {
-  font-weight: bold;
-}
-
-figcaption {
-  padding-top: 10px;
-  font-size: 0.8rem;
-}
-
-figure {
-  margin: 0;
-}
-
-hr {
-  border: 2px solid var(--border);
-}
-
-ul,
-ol {
-}
-
-li {
-  line-height: 1.6em;
-}
-
-p {
-  display: block;
-  line-height: 1.6em;
-}
-
-/* Inline text elements */
-a {
-  color: var(--links);
-}
-
-a:active,
-a:hover,
-a:focus {
-  text-decoration: none;
-}
-
-mark,
-samp,
-kbd,
+pre,
 code,
-time {
-  border-radius: var(--highlight-border-radius, 4px);
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
-}
-
-mark {
-  background-color: #fffab7;
-  padding: 3px 5px;
-}
-
+kbd,
 samp {
-  display: inline-block;
-  font-weight: bold;
-  padding: 10px 20px;
-  background-color: var(--background-main);
-  color: var(--text);
+  --font-family: "Menlo", "Consolas", "Roboto Mono", "Ubuntu Monospace",
+    "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-kbd,
-time {
-  padding: 2px 4px;
-  background-color: var(--background-main);
-  color: var(--text);
+kbd {
+  --font-weight: bolder;
 }
 
-code,
-pre {
-  font-size: 1em;
-  padding: 2px 4px;
-  background: var(--background-main);
-  border: 1px solid darkgray;
-  max-width: fit-content;
-  overflow-x: auto;
+[data-theme=light],
+:root:not([data-theme=dark]) {
+  --background-color: #fff;
+  --color: hsl(205deg, 20%, 32%);
+  --h1-color: hsl(205deg, 30%, 15%);
+  --h2-color: #24333e;
+  --h3-color: hsl(205deg, 25%, 23%);
+  --h4-color: #374956;
+  --h5-color: hsl(205deg, 20%, 32%);
+  --h6-color: #4d606d;
+  --muted-color: hsl(205deg, 10%, 50%);
+  --muted-border-color: hsl(205deg, 20%, 94%);
+  --primary: hsl(195deg, 85%, 41%);
+  --primary-hover: hsl(195deg, 90%, 32%);
+  --primary-focus: rgba(16, 149, 193, 0.125);
+  --primary-inverse: #fff;
+  --secondary: hsl(205deg, 15%, 41%);
+  --secondary-hover: hsl(205deg, 20%, 32%);
+  --secondary-focus: rgba(89, 107, 120, 0.125);
+  --secondary-inverse: #fff;
+  --contrast: hsl(205deg, 30%, 15%);
+  --contrast-hover: #000;
+  --contrast-focus: rgba(89, 107, 120, 0.125);
+  --contrast-inverse: #fff;
+  --mark-background-color: #fff2ca;
+  --mark-color: #543a26;
+  --ins-color: #388e3c;
+  --del-color: #c62828;
+  --blockquote-border-color: var(--muted-border-color);
+  --blockquote-footer-color: var(--muted-color);
+  --button-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  --button-hover-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  --form-element-background-color: transparent;
+  --form-element-border-color: hsl(205deg, 14%, 68%);
+  --form-element-color: var(--color);
+  --form-element-placeholder-color: var(--muted-color);
+  --form-element-active-background-color: transparent;
+  --form-element-active-border-color: var(--primary);
+  --form-element-focus-color: var(--primary-focus);
+  --form-element-disabled-background-color: hsl(205deg, 18%, 86%);
+  --form-element-disabled-border-color: hsl(205deg, 14%, 68%);
+  --form-element-disabled-opacity: 0.5;
+  --form-element-invalid-border-color: #c62828;
+  --form-element-invalid-active-border-color: #d32f2f;
+  --form-element-invalid-focus-color: rgba(211, 47, 47, 0.125);
+  --form-element-valid-border-color: #388e3c;
+  --form-element-valid-active-border-color: #43a047;
+  --form-element-valid-focus-color: rgba(67, 160, 71, 0.125);
+  --switch-background-color: hsl(205deg, 16%, 77%);
+  --switch-color: var(--primary-inverse);
+  --switch-checked-background-color: var(--primary);
+  --range-border-color: hsl(205deg, 18%, 86%);
+  --range-active-border-color: hsl(205deg, 16%, 77%);
+  --range-thumb-border-color: var(--background-color);
+  --range-thumb-color: var(--secondary);
+  --range-thumb-hover-color: var(--secondary-hover);
+  --range-thumb-active-color: var(--primary);
+  --table-border-color: var(--muted-border-color);
+  --table-row-stripped-background-color: #f6f8f9;
+  --code-background-color: hsl(205deg, 20%, 94%);
+  --code-color: var(--muted-color);
+  --code-kbd-background-color: var(--contrast);
+  --code-kbd-color: var(--contrast-inverse);
+  --code-tag-color: hsl(330deg, 40%, 50%);
+  --code-property-color: hsl(185deg, 40%, 40%);
+  --code-value-color: hsl(40deg, 20%, 50%);
+  --code-comment-color: hsl(205deg, 14%, 68%);
+  --accordion-border-color: var(--muted-border-color);
+  --accordion-close-summary-color: var(--color);
+  --accordion-open-summary-color: var(--muted-color);
+  --card-background-color: var(--background-color);
+  --card-border-color: var(--muted-border-color);
+  --card-box-shadow:
+    0.0145rem 0.029rem 0.174rem rgba(27, 40, 50, 0.01698),
+    0.0335rem 0.067rem 0.402rem rgba(27, 40, 50, 0.024),
+    0.0625rem 0.125rem 0.75rem rgba(27, 40, 50, 0.03),
+    0.1125rem 0.225rem 1.35rem rgba(27, 40, 50, 0.036),
+    0.2085rem 0.417rem 2.502rem rgba(27, 40, 50, 0.04302),
+    0.5rem 1rem 6rem rgba(27, 40, 50, 0.06),
+    0 0 0 0.0625rem rgba(27, 40, 50, 0.015);
+  --card-sectionning-background-color: #fbfbfc;
+  --dropdown-background-color: #fbfbfc;
+  --dropdown-border-color: #e1e6eb;
+  --dropdown-box-shadow: var(--card-box-shadow);
+  --dropdown-color: var(--color);
+  --dropdown-hover-background-color: hsl(205deg, 20%, 94%);
+  --modal-overlay-background-color: rgba(213, 220, 226, 0.7);
+  --progress-background-color: hsl(205deg, 18%, 86%);
+  --progress-color: var(--primary);
+  --loading-spinner-opacity: 0.5;
+  --tooltip-background-color: var(--contrast);
+  --tooltip-color: var(--contrast-inverse);
+  --icon-checkbox: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
+  --icon-chevron: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(65, 84, 98)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  --icon-chevron-button: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  --icon-chevron-button-inverse: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  --icon-close: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(115, 130, 140)' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='18' y1='6' x2='6' y2='18'%3E%3C/line%3E%3Cline x1='6' y1='6' x2='18' y2='18'%3E%3C/line%3E%3C/svg%3E");
+  --icon-date: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(65, 84, 98)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='4' width='18' height='18' rx='2' ry='2'%3E%3C/rect%3E%3Cline x1='16' y1='2' x2='16' y2='6'%3E%3C/line%3E%3Cline x1='8' y1='2' x2='8' y2='6'%3E%3C/line%3E%3Cline x1='3' y1='10' x2='21' y2='10'%3E%3C/line%3E%3C/svg%3E");
+  --icon-invalid: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(198, 40, 40)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='8' x2='12' y2='12'%3E%3C/line%3E%3Cline x1='12' y1='16' x2='12.01' y2='16'%3E%3C/line%3E%3C/svg%3E");
+  --icon-minus: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='5' y1='12' x2='19' y2='12'%3E%3C/line%3E%3C/svg%3E");
+  --icon-search: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(65, 84, 98)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E");
+  --icon-time: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(65, 84, 98)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cpolyline points='12 6 12 12 16 14'%3E%3C/polyline%3E%3C/svg%3E");
+  --icon-valid: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(56, 142, 60)' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
+  color-scheme: light;
 }
 
-pre > code {
-  padding: 10px;
-  border: 0;
-  display: block;
-  overflow-x: auto;
+@media only screen and (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --background-color: #11191f;
+    --color: hsl(205deg, 16%, 77%);
+    --h1-color: hsl(205deg, 20%, 94%);
+    --h2-color: #e1e6eb;
+    --h3-color: hsl(205deg, 18%, 86%);
+    --h4-color: #c8d1d8;
+    --h5-color: hsl(205deg, 16%, 77%);
+    --h6-color: #afbbc4;
+    --muted-color: hsl(205deg, 10%, 50%);
+    --muted-border-color: #1f2d38;
+    --primary: hsl(195deg, 85%, 41%);
+    --primary-hover: hsl(195deg, 80%, 50%);
+    --primary-focus: rgba(16, 149, 193, 0.25);
+    --primary-inverse: #fff;
+    --secondary: hsl(205deg, 15%, 41%);
+    --secondary-hover: hsl(205deg, 10%, 50%);
+    --secondary-focus: rgba(115, 130, 140, 0.25);
+    --secondary-inverse: #fff;
+    --contrast: hsl(205deg, 20%, 94%);
+    --contrast-hover: #fff;
+    --contrast-focus: rgba(115, 130, 140, 0.25);
+    --contrast-inverse: #000;
+    --mark-background-color: #d1c284;
+    --mark-color: #11191f;
+    --ins-color: #388e3c;
+    --del-color: #c62828;
+    --blockquote-border-color: var(--muted-border-color);
+    --blockquote-footer-color: var(--muted-color);
+    --button-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    --button-hover-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    --form-element-background-color: #11191f;
+    --form-element-border-color: #374956;
+    --form-element-color: var(--color);
+    --form-element-placeholder-color: var(--muted-color);
+    --form-element-active-background-color: var(--form-element-background-color);
+    --form-element-active-border-color: var(--primary);
+    --form-element-focus-color: var(--primary-focus);
+    --form-element-disabled-background-color: hsl(205deg, 25%, 23%);
+    --form-element-disabled-border-color: hsl(205deg, 20%, 32%);
+    --form-element-disabled-opacity: 0.5;
+    --form-element-invalid-border-color: #b71c1c;
+    --form-element-invalid-active-border-color: #c62828;
+    --form-element-invalid-focus-color: rgba(198, 40, 40, 0.25);
+    --form-element-valid-border-color: #2e7d32;
+    --form-element-valid-active-border-color: #388e3c;
+    --form-element-valid-focus-color: rgba(56, 142, 60, 0.25);
+    --switch-background-color: #374956;
+    --switch-color: var(--primary-inverse);
+    --switch-checked-background-color: var(--primary);
+    --range-border-color: #24333e;
+    --range-active-border-color: hsl(205deg, 25%, 23%);
+    --range-thumb-border-color: var(--background-color);
+    --range-thumb-color: var(--secondary);
+    --range-thumb-hover-color: var(--secondary-hover);
+    --range-thumb-active-color: var(--primary);
+    --table-border-color: var(--muted-border-color);
+    --table-row-stripped-background-color: rgba(115, 130, 140, 0.05);
+    --code-background-color: #18232c;
+    --code-color: var(--muted-color);
+    --code-kbd-background-color: var(--contrast);
+    --code-kbd-color: var(--contrast-inverse);
+    --code-tag-color: hsl(330deg, 30%, 50%);
+    --code-property-color: hsl(185deg, 30%, 50%);
+    --code-value-color: hsl(40deg, 10%, 50%);
+    --code-comment-color: #4d606d;
+    --accordion-border-color: var(--muted-border-color);
+    --accordion-active-summary-color: var(--primary);
+    --accordion-close-summary-color: var(--color);
+    --accordion-open-summary-color: var(--muted-color);
+    --card-background-color: #141e26;
+    --card-border-color: var(--card-background-color);
+    --card-box-shadow:
+      0.0145rem 0.029rem 0.174rem rgba(0, 0, 0, 0.01698),
+      0.0335rem 0.067rem 0.402rem rgba(0, 0, 0, 0.024),
+      0.0625rem 0.125rem 0.75rem rgba(0, 0, 0, 0.03),
+      0.1125rem 0.225rem 1.35rem rgba(0, 0, 0, 0.036),
+      0.2085rem 0.417rem 2.502rem rgba(0, 0, 0, 0.04302),
+      0.5rem 1rem 6rem rgba(0, 0, 0, 0.06),
+      0 0 0 0.0625rem rgba(0, 0, 0, 0.015);
+    --card-sectionning-background-color: #18232c;
+    --dropdown-background-color: hsl(205deg, 30%, 15%);
+    --dropdown-border-color: #24333e;
+    --dropdown-box-shadow: var(--card-box-shadow);
+    --dropdown-color: var(--color);
+    --dropdown-hover-background-color: rgba(36, 51, 62, 0.75);
+    --modal-overlay-background-color: rgba(36, 51, 62, 0.8);
+    --progress-background-color: #24333e;
+    --progress-color: var(--primary);
+    --loading-spinner-opacity: 0.5;
+    --tooltip-background-color: var(--contrast);
+    --tooltip-color: var(--contrast-inverse);
+    --icon-checkbox: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
+    --icon-chevron: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(162, 175, 185)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    --icon-chevron-button: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    --icon-chevron-button-inverse: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(0, 0, 0)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    --icon-close: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(115, 130, 140)' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='18' y1='6' x2='6' y2='18'%3E%3C/line%3E%3Cline x1='6' y1='6' x2='18' y2='18'%3E%3C/line%3E%3C/svg%3E");
+    --icon-date: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(162, 175, 185)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='4' width='18' height='18' rx='2' ry='2'%3E%3C/rect%3E%3Cline x1='16' y1='2' x2='16' y2='6'%3E%3C/line%3E%3Cline x1='8' y1='2' x2='8' y2='6'%3E%3C/line%3E%3Cline x1='3' y1='10' x2='21' y2='10'%3E%3C/line%3E%3C/svg%3E");
+    --icon-invalid: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(183, 28, 28)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='8' x2='12' y2='12'%3E%3C/line%3E%3Cline x1='12' y1='16' x2='12.01' y2='16'%3E%3C/line%3E%3C/svg%3E");
+    --icon-minus: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='5' y1='12' x2='19' y2='12'%3E%3C/line%3E%3C/svg%3E");
+    --icon-search: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(162, 175, 185)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E");
+    --icon-time: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(162, 175, 185)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cpolyline points='12 6 12 12 16 14'%3E%3C/polyline%3E%3C/svg%3E");
+    --icon-valid: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(46, 125, 50)' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
+    color-scheme: dark;
+  }
+}
+[data-theme=dark] {
+  --background-color: #11191f;
+  --color: hsl(205deg, 16%, 77%);
+  --h1-color: hsl(205deg, 20%, 94%);
+  --h2-color: #e1e6eb;
+  --h3-color: hsl(205deg, 18%, 86%);
+  --h4-color: #c8d1d8;
+  --h5-color: hsl(205deg, 16%, 77%);
+  --h6-color: #afbbc4;
+  --muted-color: hsl(205deg, 10%, 50%);
+  --muted-border-color: #1f2d38;
+  --primary: hsl(195deg, 85%, 41%);
+  --primary-hover: hsl(195deg, 80%, 50%);
+  --primary-focus: rgba(16, 149, 193, 0.25);
+  --primary-inverse: #fff;
+  --secondary: hsl(205deg, 15%, 41%);
+  --secondary-hover: hsl(205deg, 10%, 50%);
+  --secondary-focus: rgba(115, 130, 140, 0.25);
+  --secondary-inverse: #fff;
+  --contrast: hsl(205deg, 20%, 94%);
+  --contrast-hover: #fff;
+  --contrast-focus: rgba(115, 130, 140, 0.25);
+  --contrast-inverse: #000;
+  --mark-background-color: #d1c284;
+  --mark-color: #11191f;
+  --ins-color: #388e3c;
+  --del-color: #c62828;
+  --blockquote-border-color: var(--muted-border-color);
+  --blockquote-footer-color: var(--muted-color);
+  --button-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  --button-hover-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  --form-element-background-color: #11191f;
+  --form-element-border-color: #374956;
+  --form-element-color: var(--color);
+  --form-element-placeholder-color: var(--muted-color);
+  --form-element-active-background-color: var(--form-element-background-color);
+  --form-element-active-border-color: var(--primary);
+  --form-element-focus-color: var(--primary-focus);
+  --form-element-disabled-background-color: hsl(205deg, 25%, 23%);
+  --form-element-disabled-border-color: hsl(205deg, 20%, 32%);
+  --form-element-disabled-opacity: 0.5;
+  --form-element-invalid-border-color: #b71c1c;
+  --form-element-invalid-active-border-color: #c62828;
+  --form-element-invalid-focus-color: rgba(198, 40, 40, 0.25);
+  --form-element-valid-border-color: #2e7d32;
+  --form-element-valid-active-border-color: #388e3c;
+  --form-element-valid-focus-color: rgba(56, 142, 60, 0.25);
+  --switch-background-color: #374956;
+  --switch-color: var(--primary-inverse);
+  --switch-checked-background-color: var(--primary);
+  --range-border-color: #24333e;
+  --range-active-border-color: hsl(205deg, 25%, 23%);
+  --range-thumb-border-color: var(--background-color);
+  --range-thumb-color: var(--secondary);
+  --range-thumb-hover-color: var(--secondary-hover);
+  --range-thumb-active-color: var(--primary);
+  --table-border-color: var(--muted-border-color);
+  --table-row-stripped-background-color: rgba(115, 130, 140, 0.05);
+  --code-background-color: #18232c;
+  --code-color: var(--muted-color);
+  --code-kbd-background-color: var(--contrast);
+  --code-kbd-color: var(--contrast-inverse);
+  --code-tag-color: hsl(330deg, 30%, 50%);
+  --code-property-color: hsl(185deg, 30%, 50%);
+  --code-value-color: hsl(40deg, 10%, 50%);
+  --code-comment-color: #4d606d;
+  --accordion-border-color: var(--muted-border-color);
+  --accordion-active-summary-color: var(--primary);
+  --accordion-close-summary-color: var(--color);
+  --accordion-open-summary-color: var(--muted-color);
+  --card-background-color: #141e26;
+  --card-border-color: var(--card-background-color);
+  --card-box-shadow:
+    0.0145rem 0.029rem 0.174rem rgba(0, 0, 0, 0.01698),
+    0.0335rem 0.067rem 0.402rem rgba(0, 0, 0, 0.024),
+    0.0625rem 0.125rem 0.75rem rgba(0, 0, 0, 0.03),
+    0.1125rem 0.225rem 1.35rem rgba(0, 0, 0, 0.036),
+    0.2085rem 0.417rem 2.502rem rgba(0, 0, 0, 0.04302),
+    0.5rem 1rem 6rem rgba(0, 0, 0, 0.06),
+    0 0 0 0.0625rem rgba(0, 0, 0, 0.015);
+  --card-sectionning-background-color: #18232c;
+  --dropdown-background-color: hsl(205deg, 30%, 15%);
+  --dropdown-border-color: #24333e;
+  --dropdown-box-shadow: var(--card-box-shadow);
+  --dropdown-color: var(--color);
+  --dropdown-hover-background-color: rgba(36, 51, 62, 0.75);
+  --modal-overlay-background-color: rgba(36, 51, 62, 0.8);
+  --progress-background-color: #24333e;
+  --progress-color: var(--primary);
+  --loading-spinner-opacity: 0.5;
+  --tooltip-background-color: var(--contrast);
+  --tooltip-color: var(--contrast-inverse);
+  --icon-checkbox: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
+  --icon-chevron: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(162, 175, 185)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  --icon-chevron-button: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  --icon-chevron-button-inverse: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(0, 0, 0)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  --icon-close: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(115, 130, 140)' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='18' y1='6' x2='6' y2='18'%3E%3C/line%3E%3Cline x1='6' y1='6' x2='18' y2='18'%3E%3C/line%3E%3C/svg%3E");
+  --icon-date: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(162, 175, 185)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='4' width='18' height='18' rx='2' ry='2'%3E%3C/rect%3E%3Cline x1='16' y1='2' x2='16' y2='6'%3E%3C/line%3E%3Cline x1='8' y1='2' x2='8' y2='6'%3E%3C/line%3E%3Cline x1='3' y1='10' x2='21' y2='10'%3E%3C/line%3E%3C/svg%3E");
+  --icon-invalid: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(183, 28, 28)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='8' x2='12' y2='12'%3E%3C/line%3E%3Cline x1='12' y1='16' x2='12.01' y2='16'%3E%3C/line%3E%3C/svg%3E");
+  --icon-minus: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='5' y1='12' x2='19' y2='12'%3E%3C/line%3E%3C/svg%3E");
+  --icon-search: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(162, 175, 185)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E");
+  --icon-time: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(162, 175, 185)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cpolyline points='12 6 12 12 16 14'%3E%3C/polyline%3E%3C/svg%3E");
+  --icon-valid: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(46, 125, 50)' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
+  color-scheme: dark;
 }
 
-pre {
-  margin: 0;
-  border-radius: var(--border-radius);
+progress,
+[type=checkbox],
+[type=radio],
+[type=range] {
+  accent-color: var(--primary);
 }
 
-sup,
-sub {
-  line-height: normal;
-}
-
-/* Image and multimedia */
-audio,
-img,
-video {
-  border-radius: var(--border-radius);
-  max-width: 100%;
-}
-
-img {
-  height: auto;
-}
-
-/* Tables */
-table {
-  width: fit-content;
-  border: 1px solid var(--background-main);
-  background: var(--background-main);
-  border-radius: var(--border-radius);
-}
-
-table tr:last-child td:first-child {
-  border-bottom-left-radius: 8px;
-}
-
-table tr:last-child td:last-child {
-  border-bottom-right-radius: 8px;
-}
-
-table tr:first-child th:first-child {
-  border-top-left-radius: 8px;
-}
-
-table tr:first-child th:last-child {
-  border-top-right-radius: 8px;
-}
-
-th {
-  background-color: var(--background-main);
-}
-
-td {
-  background: var(--background-body);
-}
-
-td,
-th {
-  text-align: left;
-  padding: 8px;
-}
-
-thead {
-  border-collapse: collapse;
-}
-
-tfoot {
-  border-top: 1px solid black;
-}
-
-table tr:hover td,
-tbody tr:nth-child(even):hover td {
-  background-color: var(--table-highlight);
-}
-
-/* Form elements */
-input,
-button,
-select,
-optgroup,
-textarea {
-  margin: 0;
-}
-
-button,
-select,
-input[type="submit"],
-input[type="button"],
-input[type="checkbox"],
-input[type="range"],
-input[type="radio"] {
-  cursor: pointer;
-}
-
-button {
-  color: var(--text);
-  background-color: var(--background-main);
-  font-family: inherit;
-  font-size: inherit;
-  padding: 6px 15px 6px 15px;
-  border: 1px solid transparent;
-  border-radius: 6px;
-  box-shadow: 0px 1px 1.5px rgba(158, 158, 158, 0.6);
-}
-
-button:active {
-  box-shadow: none;
-  border: 1px solid var(--border);
-}
-
-button:disabled,
-button[disabled] {
-  box-shadow: none;
-  border: 1px solid var(--border);
-  cursor: initial;
-  opacity: 0.55;
-}
-
-label {
-  display: block;
-  max-width: fit-content;
-}
-
-input {
-  font-size: 1em;
-  background-color: var(--background-inputs);
-  border: 1px solid var(--border);
-  color: var(--text);
-  margin: 6px 0px;
-  padding: 11px;
-  border-radius: var(--border-radius);
-  max-width: fit-content;
-  outline: none;
-  display: inline-block;
-  appearance: none;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-  vertical-align: middle;
-  position: relative;
-  margin-right: 0.33em;
-  margin-top: 0.31em;
-}
-
-input[type="checkbox"] {
-  border-radius: 7px;
-}
-
-input[type="radio"] {
-  border-radius: 100%;
-}
-
-input[type="checkbox"]:checked,
-input[type="radio"]:checked {
-  border: 1px solid var(--links);
-  background: var(--links);
-}
-
-input[type="checkbox"]:checked {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3.5' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
-}
-
-input[type="radio"]:checked {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");
-}
-
-input[type="range"] {
-  vertical-align: middle;
-  padding: 0;
-}
-
-textarea {
-  font-family: inherit;
-  font-size: 1em;
-  background-color: var(--background-inputs);
-  border: 1px solid var(--border);
-  padding: 11px;
-  color: var(--text);
-  border-radius: var(--border-radius);
-  outline: none;
-  /* resize: none;  Todo: research if there is a non-js way to style/move grippie */
-  max-width: 100%;
-}
-
-select {
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 1rem;
-  color: var(--text);
-  padding: 0.6em 2em 0.5em 0.8em;
-  margin: 6px 0px;
-  max-width: fit-content;
-  box-sizing: border-box;
-  border: 1px solid var(--border);
-  box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
-  border-radius: 0.5em;
-  appearance: none;
-  background-color: var(--background-inputs);
-  background-image: var(--select-icon-url);
-  background-repeat: no-repeat, repeat;
-  background-position: right 0.7em top 50%, 0 0;
-  background-size: 0.65em auto, 100%;
-}
-
-/* Todo: update styles when using multiple mode */
-select:is([multiple]) {
-  background: none;
-  height: fit-content;
-}
-
-fieldset:focus-within,
-input:focus-within,
-textarea:focus-within,
-select:focus-within {
-  border-color: var(--focus-highlight);
-}
-
-fieldset:hover,
-input:hover,
-textarea:hover,
-select:hover {
-  border-color: var(--focus-highlight);
-}
-
-meter {
-  height: 2.2em;
-  vertical-align: middle;
-}
-
-fieldset {
-  border: 1px var(--border) solid;
-  border-radius: 6px;
-  margin: 0;
-  margin-bottom: 6px;
-  padding: 10px;
-  max-width: fit-content;
-}
-
-/* Interactive elements */
-details {
-  border: 1px solid #aaa;
-  border-radius: 7px;
-  padding: 0.5em 0.5em 0;
-}
-
-summary {
-  font-weight: bold;
-  margin: -0.5em -0.5em 0;
-  padding: 0.5em;
-}
-
-details[open] {
-  padding: 0.5em;
-}
-
-details[open] summary {
-  border-bottom: 1px solid #aaa;
-  margin-bottom: 0.5em;
-}
+/*# sourceMappingURL=default.css.map */
