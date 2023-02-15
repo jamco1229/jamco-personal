@@ -84,7 +84,7 @@ html {
 }
 
 body {
-  font-family: pp_neue_montrealmedium, sans-serif;
+  font-family: "pp_neue_montrealmedium", sans-serif;
   font-size: var(--font-size-body);
   line-height: var(--line-height);
   margin: 0;
@@ -111,15 +111,14 @@ p {
 }
 
 a {
-  color: #0F62FE;
-  background-image: url(assets/splat-underline-2-default.svghttps://www.inkandswitch.com/assets/splat-underline-2-default.svg);
+  background-image: url("assets/splat-underline-2-default.svg");
   background-size: 100% 4px;
   background-position: bottom;
   background-repeat: no-repeat;
   color: #000;
-  padding-bottom: 0.05rem;
+  padding-bottom: .05rem;
   text-decoration: none;
-  -webkit-tap-highlight-color: hsla(1, 76%, 51%, .4);
+  -webkit-tap-highlight-color:hsla(1, 76%, 51%, .4);
 }
 }
 
@@ -139,7 +138,7 @@ body > header a:hover {
 
 b,
 strong {
-  font-weight: var(--font-weight-bold);
+ font-family: "pp_neue_montrealmedium";
 }
 
 code,
