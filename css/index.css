@@ -102,6 +102,12 @@ body {
   flex-direction: column;
   padding: 0 var(--padding-container);
 }
+.profile {
+  width: 88px;
+  height: 88px;
+  border-radius: 100%;
+  border: #E0F2FD solid 1px;
+}
 
 h1,
 h2,
