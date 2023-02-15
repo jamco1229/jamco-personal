@@ -446,6 +446,9 @@ Pagination
   margin-top: 4rem;
   text-align: center;
   max-width: var(--width-textcol);
+  display: flex;
+  justify-content: center;
+  padding: auto;
 }
 
 .pagination-list {
