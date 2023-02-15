@@ -146,9 +146,10 @@ strong {
  font-family: var(--font-family-header);
 }
 em{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Newsreader', serif;
   font-style: italic;
   font-weight: 100;
+  font-size: 1.5em;
 }
 
 code,
