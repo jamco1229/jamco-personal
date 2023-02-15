@@ -285,11 +285,12 @@ Homepage
 }
 
 .home-block {
-  align-items: left;
+  align-items: center;
   display: flex;
   flex-direction: column;
   margin-bottom: 8rem;
   text-align: left;
+  max-width: var(--width-textcol);
 }
 
 .home-block > a {
