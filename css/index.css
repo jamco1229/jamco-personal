@@ -131,6 +131,7 @@ p {
 
 a {
   background-image: url(https://raw.githubusercontent.com/jamco1229/jamco-personal/4cdc510a3ede4bba83b40989b15f2672d0f0bed9/content/media/splat-underline-2-default.svg);
+  background-color: #fff;
   background-size: 100% 4px;
   background-position: bottom;
   background-repeat: no-repeat;
