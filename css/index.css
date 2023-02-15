@@ -168,7 +168,7 @@ body > header a {
 
 body > header a:focus,
 body > header a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 b,
@@ -471,5 +471,5 @@ Pagination
 
 .pagination-item a:focus,
 .pagination-item a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
