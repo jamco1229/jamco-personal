@@ -99,7 +99,7 @@ Base styles
 
 hr {
   border: 1px  #E0F2FD;
-  border-style: dotted;
+  opacity: 30%;
 }
 
 html {
