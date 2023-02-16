@@ -9,25 +9,27 @@ media:
     alt: Poster for Portfolio Starter
 ---
 
+<div class='specs'>
 <div class="row top">
   <div class="column">
-    <h3>Role</h3>
-    <p>UX Design</p>
+    <h3 class="specs">Role</h3>
+    <p class="specs">UX Design</p>
   </div>
   <div class="column">
-    <h3>Completion date</h3>
-    <p>Dec 2022</p>
+    <h3 class="specs">Completion date</h3>
+    <p class="specs">Dec 2022</p>
   </div>
 </div>
 <div class="row bottom">
   <div class="column">
-    <h3>Platform</h3>
+    <h3 class="specs">Platform</h3>
     <p>Mobile</p>
   </div>
   <div class="column">
-    <h3>Read time</h3>
-    <p>5mins</p>
+    <h3 class="specs">Read time</h3>
+    <p class="specs">5mins</p>
   </div>
+</div>
 </div>
 
 # TLDR —
