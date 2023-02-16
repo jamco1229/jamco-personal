@@ -339,6 +339,9 @@ Homepage
 .home-block > a:hover {
   color: #fff;
 }
+.home-block:hover img{
+  box-shadow: rgba(6, 7, 7, 0.2) 0px 12px 32px;
+}
 
 .home-block.sm > a {
   width: var(--width-media-sm);
