@@ -282,10 +282,7 @@ table
 .row {
   display: flex;
   text-align: left;
-  width: var(--width-textcol);
-}
-.row h3 {
-  text-transform: uppercase;
+  width: 100%;
 }
 .top {
   margin-bottom: -2em;
@@ -296,7 +293,7 @@ table
 }
 .specs {
   font-family: "Space Mono", monospace;
-  text-decoration: underline;
+  text-transform: uppercase;
 }
 
 /*
