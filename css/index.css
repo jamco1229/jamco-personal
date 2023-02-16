@@ -280,6 +280,7 @@ Layout / global includes
   margin: 0;
   padding: 0;
   display: flex;
+  gap: 24px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: left;
