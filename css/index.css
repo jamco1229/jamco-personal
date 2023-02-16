@@ -280,7 +280,7 @@ Layout / global includes
 table
 */
 .row h3 p{
-  font-family: 'Space Mono', monospace;
+  font-family: 'Space Mono', monospace !important;
 }
 .row {
   display: flex;
