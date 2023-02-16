@@ -1,44 +1,44 @@
 /* mono*/
 @font-face {
   font-family: 'Space Mono';
-  src: url('fonts/SpaceMono-Regular.ttf') format('truetype');
+  src: url('../fonts/SpaceMono-Regular.ttf') format('truetype');
 }
 /* rest */
 @font-face {
   font-family: 'PP NM Bold';
-  src: url('fonts/ppneuemontreal-bold-webfont.woff2') format('woff2'),
-       url('fonts/ppneuemontreal-bold-webfont.woff') format('woff');
+  src: url('../fonts/ppneuemontreal-bold-webfont.woff2') format('woff2'),
+       url('../fonts/ppneuemontreal-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'PP NM Book';
-  src: url('fonts/ppneuemontreal-book-webfont.woff2') format('woff2'),
-       url('fonts/ppneuemontreal-book-webfont.woff') format('woff');
+  src: url('../fonts/ppneuemontreal-book-webfont.woff2') format('woff2'),
+       url('../fonts/ppneuemontreal-book-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
 }
 @font-face {
   font-family: 'PP NM Italic';
-  src: url('fonts/ppneuemontreal-italic-webfont.woff2') format('woff2'),
-       url('fonts/ppneuemontreal-italic-webfont.woff') format('woff');
+  src: url('../fonts/ppneuemontreal-italic-webfont.woff2') format('woff2'),
+       url('../fonts/ppneuemontreal-italic-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'PP NM Medium';
-  src: url('fonts/ppneuemontreal-medium-webfont.woff2') format('woff2'),
-       url('fonts/ppneuemontreal-medium-webfont.woff') format('woff');
+  src: url('../fonts/ppneuemontreal-medium-webfont.woff2') format('woff2'),
+       url('../fonts/ppneuemontreal-medium-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
 }
 @font-face {
   font-family: 'PP NM Thin';
-  src: url('fonts/ppneuemontreal-thin-webfont.woff2') format('woff2'),
-       url('fonts/ppneuemontreal-thin-webfont.woff') format('woff');
+  src: url('../fonts/ppneuemontreal-thin-webfont.woff2') format('woff2'),
+       url('../fonts/ppneuemontreal-thin-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
