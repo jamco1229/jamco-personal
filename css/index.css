@@ -279,6 +279,9 @@ table
   text-align: left;
   width: var(--width-textcol);
 }
+.row p {
+  opacity: 20%;
+}
 .top {
   margin-bottom: -3em;
 }
