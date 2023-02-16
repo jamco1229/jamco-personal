@@ -279,7 +279,7 @@ Layout / global includes
 /*
 table
 */
-.row h3 p{
+.specs {
   font-family: 'Space Mono', monospace !important;
 }
 .row {
