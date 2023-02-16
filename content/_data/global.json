@@ -1,19 +1,7 @@
 {
   "title": "James Coy's Site",
   "lang": "en-gb",
-  "footer": "<div class="link-container">
-  <ul class="link-list">
-    <li><a href="https://read.cv/jamco">Read.CV</a></li>
-    <li><a href="https://read.cv/jamco">James Coy</a></li>
-    <li><a href="http://www.linkedin.com/in/james-coy-designer">LinkedIn</a></li>
-  </ul>
-  <ul class="link-list">
-    <li><a href="https://layers.to/jamco">Layers</a></li>
-    <li><a href="https://twitter.com/its_james_coy">Twitter</a></li>
-    <li><a href="https://www.are.na/james-coy-designer">Are.na</a></li>
-  </ul>
-</div>
- Built with [Portfolio Starter](https://portfolio-starter.sb-ph.com) (v{{ pkg.version }}) in Norfolk. Get in touch at james.coy.design@gmail.com",
+  "footer": "Built with [Portfolio Starter](https://portfolio-starter.sb-ph.com) (v{{ pkg.version }}) in Norfolk. Get in touch at james.coy.design@gmail.com",
   "url": "https://portfolio-starter.sb-ph.com",
   "author": {
     "name": "James Coy's Site",
