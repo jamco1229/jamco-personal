@@ -98,7 +98,8 @@ Base styles
 */
 
 hr {
-  border: 4px dashed #E0F2FD;
+  border: 1px  #E0F2FD;
+  border-style: dotted;
 }
 
 html {
