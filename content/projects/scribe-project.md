@@ -99,7 +99,7 @@ Scribble Recognition does not attempt to replace your writing, but to help the â
 
 When importing PDFs or other documents, they become new notebooks and you can add a "book sleeve" or cover to them to keep your home screen organised. You can read this in Reading Mode, and then mark them up to take notes.
 
-![Untitled](../media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%204.png)
+![Untitled](../content/media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%204.png)
 
 ### Meet your new Clipboard
 
