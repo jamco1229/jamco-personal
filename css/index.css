@@ -182,9 +182,8 @@ strong {
 }
 em{
   font-family: 'Newsreader', serif;
-  font-style: italic;
-  font-weight: 300;
-  font-size: 1.1em;
+  font-weight: 200;
+  font-size: 1.2em;
 }
 
 code,
