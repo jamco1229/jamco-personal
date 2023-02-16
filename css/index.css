@@ -282,13 +282,9 @@ table
 }
 .row h3 {
   text-transform: uppercase;
-  font-size: 0.8em;
-}
-.row p {
-  text-decoration: none;
 }
 .top {
-  margin-bottom: -3em;
+  margin-bottom: -2em;
 }
 .column {
   flex-basis: 33.33%;
