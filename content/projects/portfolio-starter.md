@@ -9,4 +9,3 @@ media:
     alt: Poster for Portfolio Starter
 ---
 
-A starter kit for By [Piper Haywood](https://piperhaywood.com) and [Sam Baldwin](https://sambaldwin.info). [Get started](https://github.com/sb-ph/portfolio-starter)!

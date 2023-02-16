@@ -86,4 +86,6 @@ The design of this round was completed with **notes putting the screens into con
 
 # What’s Next →
 I aim to validate my solutions with users in some usability testing before moving onto a final prototype that could be sent off to a UI Designer and a Developer to carry this project on.
-I really enjoyed this project and have learnt so much whilst doing it, I’m so happy to have been able to absorb so much information from the team at UXDI and from learning whilst doing. If you have any feedback on the project don’t hesitate to let me know, I love finding new and better ways to work → james.coy.design@gmail.coms
+I really enjoyed this project and have learnt so much whilst doing it, I’m so happy to have been able to absorb so much information from the team at UXDI and from learning whilst doing. If you have any feedback on the project don’t hesitate to let me know, I love finding new and better ways to work → 
+
+<a href="mailto:james.coy.design@gmail.com" class="button">Get in touch</a>

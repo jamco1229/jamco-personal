@@ -268,8 +268,9 @@ Layout / global includes
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: var(--width-media-lg);
   opacity: 50%;
+  justify-content: center;
+  text-align: center;
 }
 
 .site-footer > p {
