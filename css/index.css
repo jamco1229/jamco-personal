@@ -4,11 +4,11 @@ Variables
 
 */
 /* mono*/
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 @font-face {
   font-family: 'Space Mono';
-  src: url(https://fonts.googleapis.com/css2?family=Space+Mono&display=swap);
+  src: url('SpaceMono-Regular.ttf') format('truetype');
 }
+
 @font-face {
   font-family: 'PP NM Bold';
   src: url('ppneuemontreal-bold-webfont.woff2') format('woff2'),
