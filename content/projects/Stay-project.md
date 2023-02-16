@@ -8,34 +8,6 @@ media:
     size: md
     alt: Poster for Portfolio Starter
 ---
-<div class="row">
-  <div class="column">
-    <h3>Role</h3>
-  </div>
-  <div class="column">
-    <h3>Completion date</h3>
-  </div>
-  <div class="column">
-    <h3>Platform</h3>
-  </div>
-  <div class="column">
-    <h3>Read time</h3>
-  </div>
-</div>
-<div class="row">
-  <div class="column">
-    <p>UX Design</p>
-  </div>
-  <div class="column">
-    <p>Dec 2022</p>
-  </div>
-  <div class="column">
-    <p>Mobile</p>
-  </div>
-  <div class="column">
-    <p>5mins</p>
-  </div>
-</div>
 
 <div class="row top">
   <div class="column">

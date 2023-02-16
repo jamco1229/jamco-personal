@@ -277,8 +277,7 @@ table
 .row {
   display: flex;
   text-align: left;
-  width: 150%;
-  margin: auto;
+  width: var(--width-textcol);
 }
 .top {
   margin-bottom: -3em;
