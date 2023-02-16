@@ -272,9 +272,13 @@ Layout / global includes
 .site-footer > p {
   margin-bottom: 0;
 }
+
+
 /*
 table
 */
+
+
 .row {
   display: flex;
   text-align: left;
@@ -284,7 +288,10 @@ table
   font-size: 0.9em;
   opacity: 90%;
 }
-.top {
+.row p {
+  font-size: 1.2em;
+}
+.row {
   margin-bottom: -2em;
 }
 .column {
@@ -296,6 +303,9 @@ table
   font-family: "Space Mono", monospace;
   text-transform: uppercase;
 }
+
+
+
 
 /*
 
