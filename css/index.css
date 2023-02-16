@@ -279,8 +279,14 @@ table
   text-align: left;
   width: var(--width-textcol);
 }
-.row p {
+.row h3 {
   opacity: 70%;
+  text-transform: capitalize;
+  font-size: small;
+}
+.row p {
+  opacity: 100%;
+  
 }
 .top {
   margin-bottom: -3em;
