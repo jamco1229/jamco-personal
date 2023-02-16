@@ -276,11 +276,11 @@ table
 */
 .row {
   display: flex;
+  text-align: left;
+  width: 150%;
 }
-
 .column {
   flex-basis: 33.33%;
-  padding: 10px;
   box-sizing: border-box;
 }
 

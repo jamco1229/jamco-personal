@@ -37,20 +37,15 @@ media:
   </div>
 </div>
 
-
-
 # TLDR —
 Don’t have much time? No worries, here’s a rundown of the important bits.
 ### **For UX Design Institute I analysed friction points in a Hotel booking apps. I then designed a solution to them in the form of a prototype.**
----
 ### Findings
 I identified that many existing hotel-booking apps had hidden or hard to navigate search function as well as results pages that lacked context.
 ### Outcome
-2 prototypes, a lo-fi one and a hi-fi one, the first having deep notes and annotations ready to be handed over. Goals defined earlier are ready to test on with users. (Further testing in progress).
----
+<p>2 prototypes, a lo-fi one and a hi-fi one, the first having deep notes and annotations ready to be handed over. Goals defined earlier are ready to test on with users. (Further testing in progress).</p>
 # Understanding the users
 Competitive benchmarking → Usability Testing → Affinity Diagram → Customer Journey Map.
----
 ![Untitled](Stay%20-%20Hotel%20Booking%20App%20(Concept)%2077e75be5ca694cf8ab65f168815dff7b/Untitled.png)
 Before starting to make any assumptions, I looked at what other apps are doing in this space. One aimed at luxury stays, one an established provider, and one that is a more modern and mobile first take on hotel booking.
 I saw the **value of visual hierarchy** in the design and how colours are for directing users to take certain actions. And equally I saw the chaos of **confusing and inaccessible colour choices.**
