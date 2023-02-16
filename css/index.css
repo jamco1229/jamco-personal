@@ -411,6 +411,9 @@ Homepage
 .home-block-description {
   margin-bottom: 0;
   margin-top: 0;
+  font-family: "Space Mono", monospace;
+  text-transform: uppercase;
+  font-size: small;
 }
 /*
 
