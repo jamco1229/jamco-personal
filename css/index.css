@@ -97,6 +97,10 @@ p, ul {
 Base styles
 */
 
+hr {
+  border: 4px dashed #E0F2FD;
+}
+
 html {
   box-sizing: border-box;
   background-color: #0E6698;
