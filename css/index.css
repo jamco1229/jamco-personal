@@ -409,8 +409,8 @@ Homepage
   max-width: var(--width-textcol);
 }
 .home-block-description {
-  margin-bottom: -2em;
-  margin-top: 0;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
   font-family: "Space Mono", monospace;
   text-transform: uppercase;
   font-size: small;
