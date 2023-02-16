@@ -292,11 +292,11 @@ table
   margin-bottom: -2em;
 }
 .column {
-  flex-basis: 33.33%;
+  flex-basis: 50%;
   box-sizing: border-box;
 }
 .specs {
-  color: #E0F2FD;
+  color: #fff;
   font-family: "Space Mono", monospace;
   text-transform: uppercase;
 }
