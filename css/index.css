@@ -294,9 +294,6 @@ table
 .row p {
   font-size: 1.2em;
 }
-.row {
-  margin-bottom: -2em;
-}
 .column {
   flex-basis: 50%;
   box-sizing: border-box;
