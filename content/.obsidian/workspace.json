@@ -13,7 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/portfolio-starter.md",
+                "file": "projects/stay-project.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "95312453ed68b39a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7024cac5da6942e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "James Coy e8801d29b2a448f386786c9a4c4d0e0d/Work ddc35f215d7145beba5dde7256965c30/Working Messy with Scribe..md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/portfolio-starter.md",
+                "file": "James Coy e8801d29b2a448f386786c9a4c4d0e0d/Work ddc35f215d7145beba5dde7256965c30/Working Messy with Scribe..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/portfolio-starter.md",
+                "file": "James Coy e8801d29b2a448f386786c9a4c4d0e0d/Work ddc35f215d7145beba5dde7256965c30/Working Messy with Scribe..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/portfolio-starter.md"
+                "file": "James Coy e8801d29b2a448f386786c9a4c4d0e0d/Work ddc35f215d7145beba5dde7256965c30/Working Messy with Scribe..md"
               }
             }
           }
@@ -146,10 +164,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1bd0e3d0659fdf94",
+  "active": "7024cac5da6942e9",
   "lastOpenFiles": [
     "projects/stay-project.md",
-    "projects/portfolio-starter.md",
+    "James Coy e8801d29b2a448f386786c9a4c4d0e0d/Work ddc35f215d7145beba5dde7256965c30/Working Messy with Scribe..md",
+    "James Coy e8801d29b2a448f386786c9a4c4d0e0d/Work ddc35f215d7145beba5dde7256965c30/Stay - Hotel Booking App (Concept) 77e75be5ca694cf8ab65f168815dff7b.md",
+    "James Coy e8801d29b2a448f386786c9a4c4d0e0d/Work ddc35f215d7145beba5dde7256965c30/Cinematography Stills f20f961cd7624219b373fe2baad3c5e1.md",
+    "James Coy e8801d29b2a448f386786c9a4c4d0e0d/logo-AKH74EZP.svg",
+    "James Coy e8801d29b2a448f386786c9a4c4d0e0d/nRtT2z6H.png",
+    "projects/buttons-and-switches.md",
     "index.md",
     "posts.md",
     "posts/coming-soon.md"

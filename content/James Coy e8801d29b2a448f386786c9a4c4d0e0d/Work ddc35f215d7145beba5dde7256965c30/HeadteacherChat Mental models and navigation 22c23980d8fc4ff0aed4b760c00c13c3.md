@@ -26,4 +26,4 @@ We re-strategised and found an alternative to the bottom nav that would look goo
 
 Next Case Study →
 
-[Working Messy with Scribe [Concept]](Working%20Messy%20with%20Scribe%20%5BConcept%5D%208c5cf70611c94c579fcd24e95b4cfac7.md)
+[Working Messy with Scribe [Concept]](Working%20Messy%20with%20Scribe..md)
