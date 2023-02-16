@@ -279,10 +279,6 @@ Layout / global includes
 /*
 table
 */
-.specs {
-  font-family: 'Space Mono', monospace !important;
-  color: red;
-}
 .row {
   display: flex;
   text-align: left;
@@ -298,7 +294,9 @@ table
   flex-basis: 33.33%;
   box-sizing: border-box;
 }
-
+.specs {
+  font-family: "Space Mono", monospace;
+}
 
 /*
 
