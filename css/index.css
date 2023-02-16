@@ -98,9 +98,7 @@ Base styles
 */
 
 hr {
- color: #E0F2FD;
- height: 0.5em;
- opacity: 30%;
+ border: 1px solid #E0F2FD;
 }
 
 html {
