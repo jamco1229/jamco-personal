@@ -296,6 +296,7 @@ table
 }
 .specs {
   font-family: "Space Mono", monospace;
+  text-decoration: underline;
 }
 
 /*
