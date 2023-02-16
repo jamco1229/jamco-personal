@@ -34,7 +34,7 @@ media:
 <hr>
 
 ### **For UX Design Institute I analysed friction points in a Hotel booking apps. I then designed a solution to them in the form of a prototype.**
-# TLDR —
+##TLDR —
 Don’t have much time? No worries, here’s a rundown of the important bits.
 ### Findings
 I identified that many existing hotel-booking apps had hidden or hard to navigate search function as well as results pages that lacked context.
@@ -43,7 +43,7 @@ I identified that many existing hotel-booking apps had hidden or hard to navigat
 
 <hr>
 
-# Understanding the users
+## Understanding the users
 *Competitive benchmarking → Usability Testing → Affinity Diagram → Customer Journey Map.*
 Before starting to make any assumptions, I looked at what other apps are doing in this space. One aimed at luxury stays, one an established provider, and one that is a more modern and mobile first take on hotel booking.
 I saw the **value of visual hierarchy** in the design and how colours are for directing users to take certain actions. And equally I saw the chaos of **confusing and inaccessible colour choices.**
@@ -61,7 +61,7 @@ Then sorting by flow as well as mapping the **users journey, inside and outside 
 
 <hr>
 
-# Key Goals.
+## Key Goals.
 ### 1. Search
 > “I was expecting a search bar right away!”
 Being the first touch-point for the user means that small friction points became exemplified. The user *expects* the search bar to be visible right away and access immediately. There was also the more uncommon points that didn’t come up much but when they did it was jarring, like showing hotels in the location search bar results (how are users meant to select a hotel without context) and the app using the results as marketing to present the user with unrelated locations and hotels.
@@ -71,7 +71,7 @@ Ensuring the users have all the data available and transparrent early on, in ord
 
 <hr>
 
-# Designing the solution
+## Designing the solution
 *User flow diagrams → sketches → lo-fi prototype (figma) → hi-fi prototype (create with play).*
 While designing the users flow through the app, I considered the specifics of how the user was interacting with the app and how I wanted the app to respond. It was here that I could visualise the high level problems and work to make the flow as frictionless as possible, I focused mainly on the search bottleneck here.
 I drew out key flows from competitors, notably booking.com (left below), and then tried to highlight and then **eliminate** the points that added friction, and steps that I believed were unnecessary. I designed a flow (right below) that **saves 2 presses and gives accurate results** based on their needs **earlier** on in the flow. 
