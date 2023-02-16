@@ -278,6 +278,7 @@ table
   display: flex;
   text-align: left;
   width: 150%;
+  margin: auto;
 }
 .column {
   flex-basis: 33.33%;
