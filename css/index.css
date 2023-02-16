@@ -280,7 +280,7 @@ table
   width: var(--width-textcol);
 }
 .row p {
-  opacity: 20%;
+  opacity: 50%;
 }
 .top {
   margin-bottom: -3em;
