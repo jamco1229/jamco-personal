@@ -33,9 +33,9 @@ media:
 </div>
 <hr>
 
+### **For UX Design Institute I analysed friction points in a Hotel booking apps. I then designed a solution to them in the form of a prototype.**
 # TLDR —
 Don’t have much time? No worries, here’s a rundown of the important bits.
-### **For UX Design Institute I analysed friction points in a Hotel booking apps. I then designed a solution to them in the form of a prototype.**
 ### Findings
 I identified that many existing hotel-booking apps had hidden or hard to navigate search function as well as results pages that lacked context.
 ### Outcome
@@ -44,7 +44,7 @@ I identified that many existing hotel-booking apps had hidden or hard to navigat
 <hr>
 
 # Understanding the users
-Competitive benchmarking → Usability Testing → Affinity Diagram → Customer Journey Map.
+*Competitive benchmarking → Usability Testing → Affinity Diagram → Customer Journey Map.*
 Before starting to make any assumptions, I looked at what other apps are doing in this space. One aimed at luxury stays, one an established provider, and one that is a more modern and mobile first take on hotel booking.
 I saw the **value of visual hierarchy** in the design and how colours are for directing users to take certain actions. And equally I saw the chaos of **confusing and inaccessible colour choices.**
 For **effective calls to action with a clear direction, it is best to follow Airbnb’s conventions** of using bold colours only for buttons and clear button states with copy that indicates actions.
