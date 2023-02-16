@@ -284,6 +284,10 @@ table
   text-align: left;
   width: 100%;
 }
+.row h3 {
+  font-size: 0.9em;
+  opacity: 90%;
+}
 .top {
   margin-bottom: -2em;
 }
@@ -292,6 +296,7 @@ table
   box-sizing: border-box;
 }
 .specs {
+  color: #E0F2FD;
   font-family: "Space Mono", monospace;
   text-transform: uppercase;
 }
