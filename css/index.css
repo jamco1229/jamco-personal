@@ -280,6 +280,9 @@ table
   width: 150%;
   margin: auto;
 }
+.top {
+  margin-bottom: -3em;
+}
 .column {
   flex-basis: 33.33%;
   box-sizing: border-box;

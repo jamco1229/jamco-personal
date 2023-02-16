@@ -37,7 +37,7 @@ media:
   </div>
 </div>
 
-<div class="row">
+<div class="row top">
   <div class="column">
     <h3>Role</h3>
     <p>UX Design</p>
@@ -46,6 +46,8 @@ media:
     <h3>Completion date</h3>
     <p>Dec 2022</p>
   </div>
+</div>
+<div class="row bottom">
   <div class="column">
     <h3>Platform</h3>
     <p>Mobile</p>
