@@ -3,5 +3,5 @@ layout: post
 title: Coming soon&hellip;
 date: 2020-04-06 15:00:00
 ---
-
-A starter kit for static portfolio sites. Lightweight, customisable, open source. By [Piper Haywood](https://piperhaywood.com) and [Sam Baldwin](https://sambaldwin.info). Coming Spring 2020. [Get in touch](mailto:mail@sb-ph.com) ✉️
+This is a website I'm building using HTML, CSS, and some other stuff. This is my first time doing this, and I'm using the starter kit for static portfolio sites by [Piper Haywood](https://piperhaywood.com) and [Sam Baldwin](https://sambaldwin.info).
+I've then linked this up to my obsidian, so that I can publish here often and easily right from the tools I use everyday!
