@@ -99,6 +99,7 @@ Base styles
 
 hr {
  border: 0.5px solid #e0f2fd93;
+ margin-top: 1em;
 }
 
 html {
