@@ -34,12 +34,14 @@ media:
 <hr>
 
 ### **For UX Design Institute I analysed friction points in a Hotel booking apps. I then designed a solution to them in the form of a prototype.**
+
 # TLDR —
 Don’t have much time? No worries, here’s a rundown of the important bits.
 ### Findings
 I identified that many existing hotel-booking apps had hidden or hard to navigate search function as well as results pages that lacked context.
 ### Outcome
 2 prototypes, a lo-fi one and a hi-fi one, the first having deep notes and annotations ready to be handed over. Goals defined earlier are ready to test on with users. (Further testing in progress).
+
 
 <hr>
 
