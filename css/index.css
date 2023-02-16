@@ -338,10 +338,16 @@ Homepage
 .home-block > a:hover {
   color: #fff;
 }
-.home-block img{
-  transition: border-color 0.3s ease;
-  box-shadow: inset 0px 0px 2px 1px rgba(14, 102, 152, 1);
+
+.home-block img {
+  box-shadow: 2px 2px 4px rgba(14, 102, 152, 0.5);
+  transition: box-shadow 0.3s ease-out;
 }
+
+.home-block img:hover {
+  box-shadow: 4px 4px 8px rgba(14, 102, 152, 0.7);
+}
+
 
 .home-block.sm > a {
   width: var(--width-media-sm);
