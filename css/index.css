@@ -280,13 +280,11 @@ table
   width: var(--width-textcol);
 }
 .row h3 {
-  opacity: 70%;
   text-transform: capitalize;
-  font-size: small;
+  font-size: var(--font-size-small);
 }
 .row p {
-  opacity: 100%;
-  
+  text-decoration: none;
 }
 .top {
   margin-bottom: -3em;
