@@ -404,15 +404,17 @@ Homepage
 }
 
 .home-block-title {
-  margin-bottom: 0;
+  margin-bottom: 8px;
   margin-top: 1rem;
+  max-width: var(--width-textcol);
 }
 .home-block-description {
-  margin-bottom: 0;
+  margin-bottom: -2em;
   margin-top: 0;
   font-family: "Space Mono", monospace;
   text-transform: uppercase;
   font-size: small;
+  max-width: var(--width-textcol);
 }
 /*
 
