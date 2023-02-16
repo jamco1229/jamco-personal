@@ -394,17 +394,16 @@ Homepage
   width: 100%;
 }
 
-.home-block-title {
+.home-block h2 {
   margin-bottom: 8px;
   margin-top: 1rem;
   max-width: var(--width-textcol);
 }
-.home-block-description {
+.home-block p {
   margin-bottom: 0 !important;
   margin-top: 0 !important;
   font-family: "Space Mono", monospace;
   text-transform: uppercase;
-  font-size: small;
   max-width: var(--width-textcol);
 }
 /*
