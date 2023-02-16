@@ -37,7 +37,7 @@ media:
 
 Digital note-taking is torn between the need for flexible and easy-to-use tools, and the requirement for integration into existing workflows and applications. Solutions such as GoodNotes, Freeform, Figjam, Notion, Milanote and Obsidian struggle to find a balance and therefore, in my opinion, don’t reach their full potentials.
 
-![Untitled](.../media/scribe-1.png)
+![Untitled](../media/scribe-1.png)
 
 While tools like Notion offer the ability to easily organise and integrate notes with other work, they can also feel restrictive and disconnected from the traditional experience of note-taking. On the other hand, dedicated note-taking apps like GoodNotes provide a more intuitive writing experience, but can struggle with issues of clutter of the tools available in the app, as well as opportunities for stickers, and downloadable PDF planners being found in every corner of the internet, can make it feel impersonal.
 
@@ -51,7 +51,7 @@ I then started to spatially map out my ideas on Muse which itself has been a big
 
 Then created this, a sketch of what the app could look like along with the flow of using the notebook, and exporting notes.
 
-![Untitled](Working%20Messy%20with%20Scribe%20%5BConcept%5D%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%201.png)
+![Untitled](../media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%201.png)
 
 ### Outcome
 
@@ -69,13 +69,13 @@ Imagine using Scribe to capture your thoughts and ideas in a spontaneous and uns
 
 ### About the Notebooks
 
-![Untitled](Working%20Messy%20with%20Scribe%20%5BConcept%5D%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%202.png)
+![Untitled](media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%202.png)
 
 Notebooks are personal books that you can use to store your ideas, thoughts, and notes in one place.
 
 They are sorted by the most recently opened, and they cannot be grouped or placed in folders
 
-![Untitled](Working%20Messy%20with%20Scribe%20%5BConcept%5D%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%203.png)
+![Untitled](../media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%203.png)
 
 Tabs along the side of your notebooks allow you to quickly flip through different projects or sections of your life.
 
@@ -83,7 +83,7 @@ Tabs along the side of your notebooks allow you to quickly flip through differen
 
 ### Write for you, not your computer
 
-![A peak under the cover.](Working%20Messy%20with%20Scribe%20%5BConcept%5D%208c5cf70611c94c579fcd24e95b4cfac7/Comp_1.gif)
+![A peak under the cover.](../media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Comp_1.gif)
 
 A peak under the cover.
 
@@ -95,15 +95,15 @@ Scribble Recognition does not attempt to replace your writing, but to help the �
 
 ### Read and annotate documents.
 
-![Comp 1.gif](Working%20Messy%20with%20Scribe%20%5BConcept%5D%208c5cf70611c94c579fcd24e95b4cfac7/Comp_1%201.gif)
+![Comp 1.gif](../media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Comp_1%201.gif)
 
 When importing PDFs or other documents, they become new notebooks and you can add a "book sleeve" or cover to them to keep your home screen organised. You can read this in Reading Mode, and then mark them up to take notes.
 
-![Untitled](Working%20Messy%20with%20Scribe%20%5BConcept%5D%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%204.png)
+![Untitled](../media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%204.png)
 
 ### Meet your new Clipboard
 
-![Untitled](Working%20Messy%20with%20Scribe%20%5BConcept%5D%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%205.png)
+![Untitled](../media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%205.png)
 
 You can create clippings, which are copies of text or images from other documents or notebooks that you can paste into your own notebooks. These will be cut out by hand with the pen and have ragged edges and slight paper effect tears on them, they will be stored at the top in the clipboard. This is how you import anything into your note book.
 
@@ -113,4 +113,4 @@ You can create clippings, which are copies of text or images from other document
 
 There is no zooming or panning in the app, as it is meant to mimic the experience of using a physical notebook.
 
-All the UI is scribble friendly. Meaning you don’t ‘title’ the notebooks, you scribble on the covers. And if there were ever a need for settings it would look like this:
+All the UI is scribble friendly. Meaning you don’t ‘title’ the notebooks, you scribble on the covers. 
