@@ -204,6 +204,7 @@ iframe {
   height: auto;
   max-width: 100%;
   vertical-align: middle;
+  box-shadow: rgba(39, 41, 43, 0.2) 0px 8px 24px;
 }
 
 figure {
