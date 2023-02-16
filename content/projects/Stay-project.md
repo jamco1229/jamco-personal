@@ -31,6 +31,7 @@ media:
   </div>
 </div>
 </div>
+<hr>
 
 # TLDR —
 Don’t have much time? No worries, here’s a rundown of the important bits.
@@ -39,6 +40,8 @@ Don’t have much time? No worries, here’s a rundown of the important bits.
 I identified that many existing hotel-booking apps had hidden or hard to navigate search function as well as results pages that lacked context.
 ### Outcome
 2 prototypes, a lo-fi one and a hi-fi one, the first having deep notes and annotations ready to be handed over. Goals defined earlier are ready to test on with users. (Further testing in progress).
+
+<hr>
 
 # Understanding the users
 Competitive benchmarking → Usability Testing → Affinity Diagram → Customer Journey Map.
@@ -72,6 +75,9 @@ I also began to sketch out multiple iterations of a results screen, knowing that
 Iterating further on these ideas, I began to solve for the interactions, both the map search interaction and the search (prototyped on Play for its built in map interactions and more hi-fidelity prototyping tools) and the search overlay and flow (prototyped on Figma for it’s faster iteration process).
 After hearing feedback from the UXDI team and other designers, I began to design the full flow on Figma, working on copy and being aware of potential dark patterns and their influence on the user, ensuring the user is always aware of the cost of their booking, and providing the user with clear information which leads to options that fit their needs.
 The design of this round was completed with **notes putting the screens into context and showing how the app interacts with the user.** 
+
+<hr>
+
 # What’s Next →
 I aim to validate my solutions with users in some usability testing before moving onto a final prototype that could be sent off to a UI Designer and a Developer to carry this project on.
 I really enjoyed this project and have learnt so much whilst doing it, I’m so happy to have been able to absorb so much information from the team at UXDI and from learning whilst doing. If you have any feedback on the project don’t hesitate to let me know, I love finding new and better ways to work → james.coy.design@gmail.coms
