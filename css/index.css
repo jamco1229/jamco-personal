@@ -281,6 +281,7 @@ table
 */
 .specs {
   font-family: 'Space Mono', monospace !important;
+  color: red;
 }
 .row {
   display: flex;
