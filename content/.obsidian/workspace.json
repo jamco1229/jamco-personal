@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts.md",
+                "file": "projects/stay-project.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts.md",
+                "file": "projects/stay-project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts.md",
+                "file": "projects/stay-project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts.md"
+                "file": "projects/stay-project.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "1bd0e3d0659fdf94",
   "lastOpenFiles": [
+    "posts.md",
     "posts/coming-soon.md",
     "projects/portfolio-starter.md"
   ]

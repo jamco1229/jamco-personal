@@ -36,7 +36,7 @@ Don’t have much time? No worries, here’s a rundown of the important bits.
 ### Findings
 I identified that many existing hotel-booking apps had hidden or hard to navigate search function as well as results pages that lacked context.
 ### Outcome
-<p>2 prototypes, a lo-fi one and a hi-fi one, the first having deep notes and annotations ready to be handed over. Goals defined earlier are ready to test on with users. (Further testing in progress).</p>
+2 prototypes, a lo-fi one and a hi-fi one, the first having deep notes and annotations ready to be handed over. Goals defined earlier are ready to test on with users. (Further testing in progress).
 
 # Understanding the users
 Competitive benchmarking → Usability Testing → Affinity Diagram → Customer Journey Map.
