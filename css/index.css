@@ -421,7 +421,8 @@ Post
 
 .post-date {
   display: block;
-  color: #89dfb9;
+  color: #fff;
+  font-family: "Space Mono", monospace;
   text-transform: uppercase;
 }
 
@@ -449,6 +450,9 @@ Project page
 
 .project-details {
   margin: 0;
+  color: #fff;
+  font-family: "Space Mono", monospace;
+  text-transform: uppercase;
 }
 
 .project-text {
@@ -494,7 +498,7 @@ Pagination
   text-align: center;
   width: 100%;
   justify-content: center;
-
+  
 }
 
 .pagination-list {
