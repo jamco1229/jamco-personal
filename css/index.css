@@ -278,7 +278,7 @@ table
   display: flex;
   text-align: left;
   width: var(--width-textcol);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'IBM Plex Mono', monospace;
 }
 .row h3 {
   text-transform: uppercase;
