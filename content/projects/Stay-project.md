@@ -63,7 +63,7 @@ Then sorting by flow as well as mapping the **users journey, inside and outside 
 
 ## Key Goals.
 ### 1. Search
-> “I was expecting a search bar right away!”
+*“I was expecting a search bar right away!”*
 Being the first touch-point for the user means that small friction points became exemplified. The user *expects* the search bar to be visible right away and access immediately. There was also the more uncommon points that didn’t come up much but when they did it was jarring, like showing hotels in the location search bar results (how are users meant to select a hotel without context) and the app using the results as marketing to present the user with unrelated locations and hotels.
 ### 2. Results and context
 On apps that weren’t transparent with hotel details early on in the process, users often felt like they couldn’t be sure of the decision they made and often regretted the choice only to then return to the home and begin the search again.
