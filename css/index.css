@@ -204,10 +204,6 @@ iframe {
   height: auto;
   max-width: 100%;
   vertical-align: middle;
-  box-shadow: rgba(39, 41, 43, 0.2) 0px 8px 24px;
-  border: 2px solid;
-  border-image: linear-gradient(to bottom left, rgba(255, 255, 255, 0.6), #0C4B77) 1;
-  
 }
 
 figure {
@@ -341,6 +337,13 @@ Homepage
 .home-block > a:focus,
 .home-block > a:hover {
   color: #fff;
+}
+.home-block img{
+  box-shadow: rgba(39, 41, 43, 0.2) 0px 8px 24px;
+  border: 2px solid;
+  border-image: linear-gradient(to bottom left, rgba(255, 255, 255, 0.6), #0C4B77) 1;
+  transition: border-color 0.3s ease;
+  border-radius: 12pt;
 }
 .home-block:hover img{
   box-shadow: rgba(6, 7, 7, 0.2) 0px 12px 32px;
