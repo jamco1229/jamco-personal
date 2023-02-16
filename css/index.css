@@ -98,6 +98,7 @@ Base styles
 */
 
 hr {
+  height: 1em;
   background-image: url(https://raw.githubusercontent.com/jamco1229/jamco-personal/4cdc510a3ede4bba83b40989b15f2672d0f0bed9/content/media/splat-underline-2-default.svg);
   background-image: url(https://raw.githubusercontent.com/jamco1229/jamco-personal/eaa6126dd139442aeba3b3c982ab2945f5389e8c/content/media/Vector.svg);
   background-size: 100% 4px;
