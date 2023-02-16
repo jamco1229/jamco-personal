@@ -5,7 +5,7 @@ dateEnd: 2022-12-15 15:49:23
 Tags: Concept, Passion Project, Prototype
 media:
   - type: image
-    filename: cover.png
+    filename: scribe-cover.png
     size: md
     alt: Poster for Portfolio Starter
 ---
