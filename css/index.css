@@ -3,13 +3,18 @@
 Variables
 
 */
+/* mono*/
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@font-face {
+  font-family: 'Space Mono';
+  src: url(https://fonts.googleapis.com/css2?family=Space+Mono&display=swap);
+}
 @font-face {
   font-family: 'PP NM Bold';
   src: url('ppneuemontreal-bold-webfont.woff2') format('woff2'),
        url('ppneuemontreal-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
 @font-face {
   font-family: 'PP NM Book';
@@ -274,11 +279,13 @@ Layout / global includes
 /*
 table
 */
+.row h3 p{
+  font-family: 'Space Mono', monospace;
+}
 .row {
   display: flex;
   text-align: left;
   width: var(--width-textcol);
-  font-family: 'IBM Plex Mono', monospace;
 }
 .row h3 {
   text-transform: uppercase;
