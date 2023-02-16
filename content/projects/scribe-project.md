@@ -37,11 +37,11 @@ media:
 
 Digital note-taking is torn between the need for flexible and easy-to-use tools, and the requirement for integration into existing workflows and applications. Solutions such as GoodNotes, Freeform, Figjam, Notion, Milanote and Obsidian struggle to find a balance and therefore, in my opinion, don’t reach their full potentials.
 
-![Untitled](Working%20Messy%20with%20Scribe%20%5BConcept%5D%208c5cf70611c94c579fcd24e95b4cfac7/Untitled.png)
+![Untitled](.../media/scribe-1.png)
 
 While tools like Notion offer the ability to easily organise and integrate notes with other work, they can also feel restrictive and disconnected from the traditional experience of note-taking. On the other hand, dedicated note-taking apps like GoodNotes provide a more intuitive writing experience, but can struggle with issues of clutter of the tools available in the app, as well as opportunities for stickers, and downloadable PDF planners being found in every corner of the internet, can make it feel impersonal.
 
-I often return to Apple's idea of using ‘concrete metaphors and mak[ing] them plain, so that users have a set of expectations to apply to computer environments’ when designing however, this isn’t reflected in their newer Freeform and strays further into this future of note taking filled by infinite canvases and tools that draw shapes for you, instant collaboration where your work is covered by multicoloured cursors, and this can often encourage ideas to form before they are ready. These tools obviously have a time and a place and I find myself using them more and more often each day.However, it got me thinking of an alternate path to go down, one that works to combine some of the good that digital note taking can bring, but carries the old ways of note-taking into the future. This app (I hope) will feel like a digitisation of that scruffy journal you got for Christmas that you carried around everyday, spilt coffee on and filled with your most personal thoughts.
+I often return to Apple's idea of using ‘concrete metaphors and mak(ing) them plain, so that users have a set of expectations to apply to computer environments’ when designing however, this isn’t reflected in their newer Freeform and strays further into this future of note taking filled by infinite canvases and tools that draw shapes for you, instant collaboration where your work is covered by multicoloured cursors, and this can often encourage ideas to form before they are ready. These tools obviously have a time and a place and I find myself using them more and more often each day.However, it got me thinking of an alternate path to go down, one that works to combine some of the good that digital note taking can bring, but carries the old ways of note-taking into the future. This app (I hope) will feel like a digitisation of that scruffy journal you got for Christmas that you carried around everyday, spilt coffee on and filled with your most personal thoughts.
 
 ### Process
 
@@ -114,9 +114,3 @@ You can create clippings, which are copies of text or images from other document
 There is no zooming or panning in the app, as it is meant to mimic the experience of using a physical notebook.
 
 All the UI is scribble friendly. Meaning you don’t ‘title’ the notebooks, you scribble on the covers. And if there were ever a need for settings it would look like this:
-
----
-
-Next Case Study → 
-
-[HeadteacherChat: Mental models and navigation](HeadteacherChat%20Mental%20models%20and%20navigation%2022c23980d8fc4ff0aed4b760c00c13c3.md)
