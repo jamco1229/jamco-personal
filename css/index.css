@@ -281,7 +281,7 @@ table
 }
 .row h3 {
   text-transform: capitalize;
-  font-size: var(--font-size-small);
+  font-size: 0.8em;
 }
 .row p {
   text-decoration: none;
@@ -399,6 +399,8 @@ Post
 
 .post-date {
   display: block;
+  color: #89dfb9;
+  text-transform: capitalize;
 }
 
 /*
