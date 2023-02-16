@@ -340,10 +340,7 @@ Homepage
 }
 .home-block img{
   transition: border-color 0.3s ease;
-  box-shadow: 0px 4px 20px #000000, inset 0px 0px 2px 1px rgba(0, 0, 0, 0.9);
-}
-.home-block:hover img{
-  box-shadow: rgba(6, 7, 7, 0.2) 0px 12px 32px;
+  box-shadow: inset 0px 0px 2px 1px rgba(14, 102, 152, 1);
 }
 
 .home-block.sm > a {
