@@ -4,6 +4,7 @@ layout: home
 <img class="profile" src="https://github.com/jamco1229/jamco-personal/blob/master/content/media/profile%20pic.png?raw=true" />
 
 <h1 class='name'>James Coy</h1>
+
 — Product Designer — UX Specialist — Invested in building meaningful products.
 
 # About
