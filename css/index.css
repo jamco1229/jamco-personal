@@ -366,11 +366,13 @@ Homepage
     padding: 0;
     position: relative;
     text-decoration: none;
+    background-image: none;
     width: 100%;
 }
 
 .home-block > a {
   max-width: 100%;
+  background-image: none;
 }
 .home-block h3{
   margin: 0;
