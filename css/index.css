@@ -344,7 +344,7 @@ Homepage
 .container {
   display: grid;
   flex: none;
-  gap: 40px;
+  gap: 24px;
   grid-auto-rows: minmax(0,1fr);
   grid-template-columns: repeat(2,minmax(200px,1fr));
   grid-template-rows: repeat(1,minmax(0,1fr));
@@ -361,21 +361,18 @@ Homepage
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    gap: 24px;
-    height: 500px;
     justify-content: flex-start;
     overflow: hidden;
     padding: 0;
     position: relative;
     text-decoration: none;
-    width: 560px;
+    width: 100%;
 }
 
 .home-block > a {
   max-width: 100%;
 }
 .home-block > p {
-  color: #fff;
   opacity: 60%;
 }
 
