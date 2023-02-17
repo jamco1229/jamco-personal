@@ -350,7 +350,7 @@ Homepage
   grid-template-rows: repeat(1,minmax(0,1fr));
   height: min-content;
   justify-content: center;
-  padding: 0;
+  padding: 48px;
   position: relative;
   width: 100%;
 }
@@ -358,18 +358,17 @@ Homepage
 
 .home-block {
   box-sizing: border-box;
-  width: var(--width-media-sm);
-  padding: 16px; /* adjust as needed */
-  align-items: center;
+  width: 100%;
+  align-items: start;
   display: flex;
   flex-direction: column;
-  margin-bottom: 4rem;
 }
 
 .home-block > a {
   max-width: 100%;
   text-decoration: none;
   background-image: none;
+  font-size: small;
 }
 
 .home-block > a:focus,
@@ -378,6 +377,7 @@ Homepage
 }
 
 .home-block img {
+  height: 2em;
   box-shadow: 2px 2px 4px rgba(14, 102, 152, 0.5);
   transition: box-shadow 0.3s ease-out;
 }
