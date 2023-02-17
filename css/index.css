@@ -338,7 +338,8 @@ Homepage
   height: min-content;
   position: relative;
   width: 100%;
-  margin: 25%;
+  margin: auto;
+  padding: 20% 0;
 }
 
 .container > * {
