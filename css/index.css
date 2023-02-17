@@ -132,8 +132,6 @@ body {
   width: 88px;
   height: 88px;
   border-radius: 100%;
-  border: #E0F2FD solid 1px;
-  margin-bottom: -4em;
 }
 
 h1,
@@ -154,7 +152,6 @@ h6 {
   font-family: 'Space Mono', monospace;
   font-size: 6em;
   font-weight: 600;
-  margin-top: 1em;
 }
 p {
   margin-bottom: var(--padding-container);
