@@ -376,8 +376,7 @@ Homepage
 }
 .home-block > p {
   color: #fff;
-  font-family: "Space Mono", monospace;
-  text-transform: uppercase;
+  opacity: 60%;
 }
 
 .home-block > a:focus,
