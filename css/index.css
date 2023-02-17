@@ -359,7 +359,7 @@ Homepage
   box-sizing: border-box;
     align-items: flex-start;
     display: flex;
-    gap: 8px;
+    gap: 12px;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
