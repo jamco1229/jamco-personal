@@ -12,9 +12,9 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
     {% endif %}
     {% if content %}
 
-    <p class='specs'>{{ role | safe}}</p>
+    <p class='specs'>Role: {{ role | safe}}</p>
     <p>{{ description | safe }}</p>
-    
+
       <div class="project-text">
         {{ content | safe }}
       </div>
