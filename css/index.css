@@ -340,7 +340,6 @@ Homepage
   width: 100%;
   margin: auto;
   max-width: var(--width-textcol);
-  padding: 0 2rem;
 }
 
 .container > * {
