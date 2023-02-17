@@ -391,7 +391,7 @@ Homepage
 }
 
 .home-block img {
-  height: 200px;
+  height: 180px;
   box-shadow: 2px 2px 4px rgba(14, 102, 152, 0.5);
   transition: box-shadow 0.3s ease-out;
   object-fit: cover;
