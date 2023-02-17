@@ -373,6 +373,7 @@ Homepage
 
 .home-block > a {
   max-width: 100%;
+  text-decoration: none;
   background-image: none;
 }
 .home-block h3{
@@ -380,6 +381,8 @@ Homepage
 }
 .home-block > p {
   opacity: 60%;
+  text-decoration: none;
+  background-image: none;
 }
 
 .home-block > a:focus,
