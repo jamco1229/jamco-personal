@@ -339,8 +339,8 @@ Homepage
   position: relative;
   width: 100%;
   margin: auto;
-  padding: 0 2rem;
   max-width: var(--width-textcol);
+  padding: 0 2rem;
 }
 
 .container > * {
