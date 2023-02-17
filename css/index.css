@@ -342,17 +342,18 @@ Homepage
 }
 
 .container {
-  display: grid;
-  flex: none;
-  gap: 24px;
-  grid-auto-rows: minmax(0,1fr);
-  grid-template-columns: repeat(2,minmax(200px,1fr));
-  grid-template-rows: repeat(1,minmax(0,1fr));
-  height: min-content;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 24px;
+  height: min-content;
   position: relative;
   width: var(--width-textcol);
   margin: auto;
+}
+
+.container > * {
+  flex: 1 1 calc((var(--width-textcol) - 24px) / 2);
 }
 
 .home-block {
