@@ -6,8 +6,9 @@ permalink: "/"
 <div class="home-intro">
   {{ content | safe }}
 </div>
+<h1>Projects</h1>
 <div class='container'>
-  <h1>Projects</h1>
+  
 {% set entries = collections.all | getPagesByPaths(entries) if entries else collections.projects %}
 
 {# For each of the entries #}
