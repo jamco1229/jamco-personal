@@ -344,8 +344,7 @@ Homepage
 .home-block {
   align-items: center;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   margin-bottom: 4rem;
 }
 
