@@ -352,6 +352,7 @@ Homepage
   justify-content: center;
   position: relative;
   width: var(--width-textcol);
+  margin: auto;
 }
 }
 
