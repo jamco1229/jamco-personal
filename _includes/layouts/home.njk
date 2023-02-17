@@ -6,7 +6,7 @@ permalink: "/"
 <div class="home-intro">
   {{ content | safe }}
 </div>
-
+<div class='container'>
 {% set entries = collections.all | getPagesByPaths(entries) if entries else collections.projects %}
 
 {# For each of the entries #}
@@ -18,7 +18,6 @@ permalink: "/"
   {% set height = false %}
   {% set blockClasses = 'md' %}
 
-<div class='container'>
   {# If the entry has media #}
   {% if entry.data.media %}
     {# Get the first featured image block #}
