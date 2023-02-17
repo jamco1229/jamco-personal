@@ -147,8 +147,9 @@ h6 {
 .name {
   font-family: 'Newsreader';
   font-style: italic;
-  font-size: 6em;
+  font-size: 8em;
   font-weight: 100;
+  margin-top: -2em;
 }
 p {
   margin-bottom: var(--padding-container);
@@ -186,11 +187,13 @@ b,
 strong {
  font-family: var(--font-family-header);
 }
+/* ITALICS SERIF
 em{
   font-family: 'Newsreader', serif;
   font-weight: 500;
   font-size: 1.2em;
 }
+*/
 
 code,
 samp,
