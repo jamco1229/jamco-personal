@@ -363,7 +363,7 @@ Homepage
   flex-direction: column;
 }
 
-.home-block > .specs {
+.home-block > a {
   max-width: 100%;
   color: #fff;
   font-family: "Space Mono", monospace;
@@ -376,6 +376,7 @@ Homepage
 }
 
 .home-block img {
+  height: fit-content;
   box-shadow: 2px 2px 4px rgba(14, 102, 152, 0.5);
   transition: box-shadow 0.3s ease-out;
   object-fit: cover;
