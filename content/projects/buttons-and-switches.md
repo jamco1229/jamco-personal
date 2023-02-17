@@ -1,6 +1,8 @@
 ---
 title: Buttons and Switches
 layout: project
+description: Exploring 3D prototyping in Figma.
+role: UI Designer
 dateEnd: 2023-01-15 09:14:23
 media:
   - type: image
