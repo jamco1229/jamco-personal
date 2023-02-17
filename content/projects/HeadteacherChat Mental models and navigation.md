@@ -1,7 +1,7 @@
 ---
 title: HeadteacherChat &mdash; Mental models and navigation
 layout: project
-description: As part of an ongoing rebrand and restructure of headteachers.org, myself and my brother are redesigning the website from the ground up. In this mini-case study I explore our process, problems, and outcomes of redesigning a new navigation model for mobile users.
+description: A mini-case study where I explore our process, problems, and outcomes of redesigning a new navigation model for mobile users.
 dateEnd: 2023-01-17 13:14:23
 media:
   - type: image
