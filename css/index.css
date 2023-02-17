@@ -286,17 +286,6 @@ Layout / global includes
   justify-content: left;
 }
 
-@media only screen and (max-width: 480px) {
-  
-  .link-list {
-    margin: 20px 0;
-  }
-  
-  .link-list li {
-    margin: 10px;
-  }
-}
-
 
 /*
 table
@@ -349,7 +338,7 @@ Homepage
   height: min-content;
   position: relative;
   width: 100%;
-  margin: auto;
+  margin: 25%;
 }
 
 .container > * {
