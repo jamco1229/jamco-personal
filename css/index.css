@@ -3,6 +3,10 @@
   font-family: 'Space Mono';
   src: url('../fonts/SpaceMono-Regular.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../fonts/SpaceGrotesk[wght].woff2') format('woff2');
+}
 /* rest */
 @font-face {
   font-family: 'PP NM Bold';
@@ -46,8 +50,8 @@
 
 :root {
   /* Typography */
-  --font-family-body: "PP NM Book", sans-serif;
-  --font-family-header: "PP NM Medium", sans-serif;
+  --font-family-body: "Space Grotesk", sans-serif;
+  --font-family-header: "Space Grotesk", sans-serif;
   --font-size-body: 1rem;
   --font-size-small: 0.75rem;
   --font-weight-normal: 400;
@@ -149,6 +153,7 @@ h6 {
   font-family: 'Space Mono', monospace;
   font-size: 6em;
   font-weight: 600;
+  margin-top: 0%;
 }
 p {
   margin-bottom: var(--padding-container);
