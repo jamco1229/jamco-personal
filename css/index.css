@@ -137,6 +137,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: 'Space Mono', monospace;
   font-size: 2em;
   font-weight: inherit;
   margin-bottom: 0.2em;
@@ -145,7 +146,7 @@ h6 {
   font-family: var(--font-family-header)
 }
 .name {
-  font-family: 'Newsreader';
+  font-family: 'Space Mono', monospace;
   font-style: italic;
   font-size: 8em;
   font-weight: 100;
@@ -171,7 +172,6 @@ a {
 
 a.plain {
   background-image: none;
-  /* Shouldn't these have the padding removed, and some other affordance added? */
 }
 
 body > header a {
@@ -198,7 +198,7 @@ em{
 code,
 samp,
 kbd {
-  font-family: 'Space Mono', "Liberation Mono", Menlo, monospace;
+  font-family: 'Space Mono', monospace;
 }
 
 pre {
