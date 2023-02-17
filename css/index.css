@@ -357,10 +357,18 @@ Homepage
 
 .home-block {
   box-sizing: border-box;
-  width: 100%;
-  align-items: start;
-  display: flex;
-  flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 24px;
+    height: 500px;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    text-decoration: none;
+    width: 560px;
 }
 
 .home-block > a {
