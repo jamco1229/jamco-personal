@@ -354,7 +354,6 @@ Homepage
   width: var(--width-textcol);
   margin: auto;
 }
-}
 
 .home-block {
   box-sizing: border-box;
@@ -368,7 +367,6 @@ Homepage
   max-width: 100%;
   text-decoration: none;
   background-image: none;
-  font-size: small;
 }
 
 .home-block > a:focus,
