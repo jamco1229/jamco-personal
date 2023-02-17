@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/stay-project.md",
+                "file": "projects/buttons-and-switches.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0ec2d1813452dea7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/HeadteacherChat Mental models and navigation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "95312453ed68b39a",
@@ -31,7 +44,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/scribe-project.md",
+                "file": "James Coy e8801d29b2a448f386786c9a4c4d0e0d/Work ddc35f215d7145beba5dde7256965c30/HeadteacherChat Mental models and navigation 22c23980d8fc4ff0aed4b760c00c13c3.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/stay-project.md",
+                "file": "projects/HeadteacherChat Mental models and navigation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/stay-project.md",
+                "file": "projects/HeadteacherChat Mental models and navigation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/stay-project.md"
+                "file": "projects/HeadteacherChat Mental models and navigation.md"
               }
             }
           }
@@ -164,17 +177,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1bd0e3d0659fdf94",
+  "active": "0ec2d1813452dea7",
   "lastOpenFiles": [
-    "projects/scribe-project.md",
-    "projects/stay-project.md",
-    "media/scribe-1.png",
+    "James Coy e8801d29b2a448f386786c9a4c4d0e0d/Work ddc35f215d7145beba5dde7256965c30/HeadteacherChat Mental models and navigation 22c23980d8fc4ff0aed4b760c00c13c3.md",
+    "projects/HeadteacherChat Mental models and navigation.md",
     "projects/buttons-and-switches.md",
+    "James Coy e8801d29b2a448f386786c9a4c4d0e0d/Work ddc35f215d7145beba5dde7256965c30/Experimenting with buttons 8dbcef8f9fb24f5f80cafe06d09235f6.md",
+    "projects/stay-project.md",
+    "projects/scribe-project.md",
+    "media/scribe-1.png",
     "media/Working Messy with Scribe [Concept] 8c5cf70611c94c579fcd24e95b4cfac7/Untitled 5.png",
     "media/Working Messy with Scribe [Concept] 8c5cf70611c94c579fcd24e95b4cfac7/Untitled 4.png",
-    "media/Working Messy with Scribe [Concept] 8c5cf70611c94c579fcd24e95b4cfac7/Untitled 3.png",
-    "media/Working Messy with Scribe [Concept] 8c5cf70611c94c579fcd24e95b4cfac7/Untitled 2.png",
-    "media/Working Messy with Scribe [Concept] 8c5cf70611c94c579fcd24e95b4cfac7/Untitled 1.png",
-    "media/Working Messy with Scribe [Concept] 8c5cf70611c94c579fcd24e95b4cfac7/Comp_1 1.gif"
+    "media/Working Messy with Scribe [Concept] 8c5cf70611c94c579fcd24e95b4cfac7/Untitled 3.png"
   ]
 }

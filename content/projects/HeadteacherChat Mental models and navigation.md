@@ -1,9 +1,15 @@
-# HeadteacherChat: Mental models and navigation
+---
+title: HeadteacherChat &mdash; Mental models and navigation
+layout: project
+dateEnd: 2023-01-17 13:14:23
+media:
+  - type: image
+    filename: htchat-cover.png
+    size: md
+    alt: Cover for HeadteacherChat Navigation Post
+---
 
-Created: January 17, 2023 1:08 PM
-Tags: HeadteacherChat, Mini-Case Study, Startup
-
-As part of an ongoing rebrand and restructure of headteachers.org, myself and my brother are redesigning the website from the ground up. In this mini-case study I explore our process, problems, and outcomes of redesigning a new navigation model for mobile users.
+> As part of an ongoing rebrand and restructure of headteachers.org, myself and my brother are redesigning the website from the ground up. In this mini-case study I explore our process, problems, and outcomes of redesigning a new navigation model for mobile users.
 
 ### Goal
 
@@ -22,7 +28,3 @@ We re-strategised and found an alternative to the bottom nav that would look goo
 <aside>
 Hope you enjoyed this miniature case study on a small element of a large project, next up we are working on the card that each resource is going to be formatted in, and from here working on the larger layout for the homepage and polishing the hero section that welcomes users to the new website. I’ll be trying to post about this regularly on here so you can follow design decisions we make on the way, and since this is still a work in progress any feedback or suggestions is very welcomed!
 </aside>
-
-Next Case Study →
-
-[Working Messy with Scribe [Concept]](scribe-project.md)
