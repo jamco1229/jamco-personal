@@ -145,9 +145,10 @@ h6 {
   font-family: var(--font-family-header)
 }
 .name {
-  font-family: 'Space Mono';
-  font-size: 3em;
-  font-weight: 800;
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-size: 6em;
+  font-weight: 100;
 }
 p {
   margin-bottom: var(--padding-container);
