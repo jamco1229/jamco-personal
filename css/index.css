@@ -346,12 +346,12 @@ Homepage
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: 1200px; /* change to whatever maximum width you want */
+  max-width: var(--padding-container); /* change to whatever maximum width you want */
 }
 
 .home-block {
   box-sizing: border-box;
-  width: var(--width);
+  width: var(--width-media-sm);
   padding: 16px; /* adjust as needed */
   align-items: center;
   display: flex;
