@@ -365,8 +365,9 @@ Homepage
 
 .home-block > a {
   max-width: 100%;
-  text-decoration: none;
-  background-image: none;
+  color: #fff;
+  font-family: "Space Mono", monospace;
+  text-transform: uppercase;
 }
 
 .home-block > a:focus,
