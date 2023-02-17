@@ -128,4 +128,4 @@ I really enjoyed this project and have learnt so much whilst doing it, I’m so 
 
 Next Case Study →
 
-[HeadteacherChat: Mental models and navigation](HeadteacherChat%20Mental%20models%20and%20navigation%2022c23980d8fc4ff0aed4b760c00c13c3.md)
+[HeadteacherChat: Mental models and navigation](James%20Coy%20e8801d29b2a448f386786c9a4c4d0e0d/Work%20ddc35f215d7145beba5dde7256965c30/HeadteacherChat%20Mental%20models%20and%20navigation.md)
