@@ -18,6 +18,7 @@ permalink: "/"
   {% set height = false %}
   {% set blockClasses = 'md' %}
 
+<div class='container'>
   {# If the entry has media #}
   {% if entry.data.media %}
     {# Get the first featured image block #}
@@ -49,6 +50,7 @@ permalink: "/"
     </article>
   {% endif %}
 {% endfor %}
+</div>
 
 <div class='home-intro'>
 <h3>Links</h3>
