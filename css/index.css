@@ -372,6 +372,9 @@ Homepage
 .home-block > a {
   max-width: 100%;
 }
+.home-block h3{
+  margin: 0;
+}
 .home-block > p {
   opacity: 60%;
 }
