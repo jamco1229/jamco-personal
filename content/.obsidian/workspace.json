@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/scribe-project.md",
+                "file": "projects/stay-project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/scribe-project.md",
+                "file": "projects/stay-project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/scribe-project.md"
+                "file": "projects/stay-project.md"
               }
             }
           }
@@ -164,10 +164,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7024cac5da6942e9",
+  "active": "1bd0e3d0659fdf94",
   "lastOpenFiles": [
-    "projects/stay-project.md",
     "projects/scribe-project.md",
+    "projects/stay-project.md",
     "media/scribe-1.png",
     "projects/buttons-and-switches.md",
     "media/Working Messy with Scribe [Concept] 8c5cf70611c94c579fcd24e95b4cfac7/Untitled 5.png",
