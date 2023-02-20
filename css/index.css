@@ -471,7 +471,7 @@ Homepage
   flex-direction: column;
   flex-wrap: nowrap;
 }
-.home-block > a {
+.home-block a {
   max-width: 100%;
   text-decoration: none;
   background-image: none;
