@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "pages/stay-page.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "pages/stay-page.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "pages/stay-page.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "pages/stay-page.md"
               }
             }
           }
@@ -178,15 +178,15 @@
   },
   "active": "1bd0e3d0659fdf94",
   "lastOpenFiles": [
-    "projects/buttons-and-switches.md",
-    "projects/scribe-project.md",
     "projects/Stay-project.md",
-    "James Coy e8801d29b2a448f386786c9a4c4d0e0d/Work ddc35f215d7145beba5dde7256965c30/HeadteacherChat Mental models and navigation.md",
+    "pages/stay-page.md",
+    "projects/buttons-and-switches.md",
     "projects/HeadteacherChat Mental models and navigation.md",
+    "index.md",
+    "projects/scribe-project.md",
+    "James Coy e8801d29b2a448f386786c9a4c4d0e0d/Work ddc35f215d7145beba5dde7256965c30/HeadteacherChat Mental models and navigation.md",
     "James Coy e8801d29b2a448f386786c9a4c4d0e0d/Work ddc35f215d7145beba5dde7256965c30/Experimenting with buttons 8dbcef8f9fb24f5f80cafe06d09235f6.md",
     "projects/stay-project.md",
-    "media/scribe-1.png",
-    "media/Working Messy with Scribe [Concept] 8c5cf70611c94c579fcd24e95b4cfac7/Untitled 5.png",
-    "media/Working Messy with Scribe [Concept] 8c5cf70611c94c579fcd24e95b4cfac7/Untitled 4.png"
+    "media/scribe-1.png"
   ]
 }

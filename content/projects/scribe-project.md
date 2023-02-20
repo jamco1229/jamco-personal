@@ -38,7 +38,7 @@ media:
 
 Digital note-taking is torn between the need for flexible and easy-to-use tools, and the requirement for integration into existing workflows and applications. Solutions such as GoodNotes, Freeform, Figjam, Notion, Milanote and Obsidian struggle to find a balance and therefore, in my opinion, donâ€™t reach their full potentials.
 
-![Untitled](../media/scribe-1.png)
+<img src='https://github.com/jamco1229/jamco-personal/blob/master/content/media/scribe-1.png?raw=true' alt=''>
 
 While tools like Notion offer the ability to easily organise and integrate notes with other work, they can also feel restrictive and disconnected from the traditional experience of note-taking. On the other hand, dedicated note-taking apps like GoodNotes provide a more intuitive writing experience, but can struggle with issues of clutter of the tools available in the app, as well as opportunities for stickers, and downloadable PDF planners being found in every corner of the internet, can make it feel impersonal.
 
@@ -52,7 +52,7 @@ I then started to spatially map out my ideas on Muse which itself has been a big
 
 Then created this, a sketch of what the app could look like along with the flow of using the notebook, and exporting notes.
 
-![Untitled](../media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%201.png)
+<img src='https://github.com/jamco1229/jamco-personal/blob/master/content/media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%201.png?raw=true' alt=''>
 
 ### Outcome
 
@@ -70,13 +70,13 @@ Imagine using Scribe to capture your thoughts and ideas in a spontaneous and uns
 
 ### About the Notebooks
 
-![Untitled](media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%202.png)
+<img src='https://github.com/jamco1229/jamco-personal/blob/master/content/media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%202.png?raw=true' alt=''>
 
 Notebooks are personal books that you can use to store your ideas, thoughts, and notes in one place.
 
 They are sorted by the most recently opened, and they cannot be grouped or placed in folders
 
-![Untitled](../media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%203.png)
+<img src='https://github.com/jamco1229/jamco-personal/blob/master/content/media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%203.png?raw=true' alt=''>
 
 Tabs along the side of your notebooks allow you to quickly flip through different projects or sections of your life.
 
@@ -84,7 +84,7 @@ Tabs along the side of your notebooks allow you to quickly flip through differen
 
 ### Write for you, not your computer
 
-![A peak under the cover.](../media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Comp_1.gif)
+<img src='https://github.com/jamco1229/jamco-personal/blob/master/content/media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Comp_1.gif?raw=true' alt=''>
 
 A peak under the cover.
 
@@ -96,15 +96,15 @@ Scribble Recognition does not attempt to replace your writing, but to help the â
 
 ### Read and annotate documents.
 
-![Comp 1.gif](../media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Comp_1%201.gif)
+<img src='https://github.com/jamco1229/jamco-personal/blob/master/content/media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Comp_1%201.gif?raw=true' alt=''>
 
 When importing PDFs or other documents, they become new notebooks and you can add a "book sleeve" or cover to them to keep your home screen organised. You can read this in Reading Mode, and then mark them up to take notes.
 
-![Untitled](../content/media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%204.png)
+<img src='https://github.com/jamco1229/jamco-personal/blob/master/content/media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%204.png?raw=true' alt=''>
 
 ### Meet your new Clipboard
 
-![Untitled](../media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%205.png)
+<img src='https://github.com/jamco1229/jamco-personal/blob/master/content/media/Working%20Messy%20with%20Scribe%20[Concept]%208c5cf70611c94c579fcd24e95b4cfac7/Untitled%205.png?raw=true' alt=''>
 
 You can create clippings, which are copies of text or images from other documents or notebooks that you can paste into your own notebooks. These will be cut out by hand with the pen and have ragged edges and slight paper effect tears on them, they will be stored at the top in the clipboard. This is how you import anything into your note book.
 
