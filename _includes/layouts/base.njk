@@ -10,8 +10,9 @@
   <body>
   
     <header class="site-header">
-        <a class="site-name" href="{{ '/' | url }}">{{ global.title }}</a>
+      
       <nav class="site-nav">
+        <a class="site-name" href="{{ '/' | url }}">{{ global.title }}</a>
         {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
       </nav>
     </header>
