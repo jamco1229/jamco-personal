@@ -236,6 +236,7 @@ h3{
   font-size: 4em;
   font-weight: 600;
   margin-top: 0em;
+  margin-bottom: 0%;
 }
 p {
   margin-bottom: var(--padding-container);
