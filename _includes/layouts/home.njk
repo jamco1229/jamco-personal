@@ -45,8 +45,8 @@ permalink: "/"
           {% if height %}height="{{ height }}"{% endif %}
         >
         <div>
+                  <p class="specs">{{ entry.data.role | safe}}</p>
         <h3 class="home-block-title">{{ entry.data.title | safe }}</h3>
-        <p class="specs">{{ entry.data.role | safe}}</p>
         <p>{{ entry.data.description | safe}}</p>
         <a href="{{ entry.url }}">Read More &mdash;</a>
         </div>
