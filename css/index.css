@@ -457,7 +457,7 @@ Homepage
 }
 .project-description {
   display: flex;
-  gap: 12px;
+  gap: 4px;
   flex-direction: column;
   flex-wrap: nowrap;
 }
