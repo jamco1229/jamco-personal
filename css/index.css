@@ -22,7 +22,69 @@
 
 }
 
+:root {
+  /* Typography */
+  --font-size-body: 1rem;
+  --font-size-small: 0.75rem;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --line-height: 1.35;
 
+  /* Layout */
+  --padding-container: 1rem;
+  --width-container: 100rem;
+  --width-textcol: 37.5rem;
+  --width-media-sm: 30rem;
+  --width-media-md: 50rem;
+  --width-media-lg: var(--width-container);
+  /* typography manual additions */
+  --gutter: clamp(1ch, 2.5vmax, 3ch);
+  --stack: clamp(1.25ex, 2.5vmax, 1.75ex);
+  --line-length: 70ch;
+}
+
+*,
+*::before,
+*::after {
+  font-feature-settings: "kern";
+  font-kerning: normal;
+  -moz-osx-font-smoothing: grayscale !important;
+  -webkit-font-smoothing: antialiased !important;
+  box-sizing: border-box;
+}
+
+hr {
+  border: 0.5px solid #e0f2fd93;
+  margin-top: 1em;
+ }
+ 
+ html {
+   box-sizing: border-box;
+   background-color: #0E6698;
+ }
+ 
+ *,
+ *::after,
+ *::before {
+   box-sizing: inherit;
+ }
+ 
+ body {
+   font-family: var(--font-family-body);
+   font-size: var(--font-size-body);
+   line-height: var(--line-height);
+   font-weight: 400;
+   margin: 0;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   padding: 0 var(--padding-container);
+ }
+ .profile {
+   width: 88px;
+   height: 88px;
+   border-radius: 100%;
+ }
 
 
 @font-face {
