@@ -51,18 +51,6 @@
   padding: 0%;
 }
 
-.site-header {
-  font-size: 1em;
-  line-height: 1.6em;
-  text-decoration: none;
-  list-style: none;
-  opacity: 0.7;
-  font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 2rem;
-  letter-spacing: .01em;
-  color: inherit;
-}
 .site-nav {
 display: flex;
 flex-direction: column;
@@ -90,20 +78,8 @@ background-color: green;
 color: #fff;
 }
 
-.site-nav li.current-page a {
+.site-nav li:active {
 opacity: 1;
-}
-
-.site-nav li.current-page a:hover {
-background-color: transparent;
-}
-
-.site-nav li.current-page {
-opacity: 1;
-}
-
-.site-header a.current-page {
-  opacity: 1;
 }
 
 .site-header a:hover {
@@ -111,9 +87,7 @@ opacity: 1;
   color: var(--focus-highlight);
 }
 
-
-
-  /* Bolt CSS */
+/* Bolt CSS */
 
   *,
   ::after,
