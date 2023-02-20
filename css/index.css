@@ -75,6 +75,7 @@
     background: var(--background-body);
     max-width: var(--textcol-width);
     padding: 16px 44px;
+    width: 100%;
   }
   
   /* Content sectioning */
