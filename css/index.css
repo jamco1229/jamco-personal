@@ -51,6 +51,10 @@
   opacity: 1;
 }
 
+.site-header a:hover {
+  opacity: 1;
+}
+
 
 
   /* Bolt CSS */
