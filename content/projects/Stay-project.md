@@ -56,6 +56,9 @@ For **effective calls to action with a clear direction, it is best to follow Air
 I found the impact of **clear feedback**, like Airbnb and their animations. Especially, the search function which is a full screen modal that expands out of the search bar in a fluid way.
 As well as using FAQs, tags, and user-sourced questions to show transparency of info.
 Then, **I participated in 3 usability tests**, 2 as note taker, and 1 that I moderated.
+
+<img src='https://github.com/jamco1229/jamco-personal/blob/master/content/media/Stay%20-%20Hotel%20Booking%20App%20(Concept)%2077e75be5ca694cf8ab65f168815dff7b/Untitled%201.png?raw=true' alt=''>
+
 These interviews provided a **great depth** to my understanding of **users goals, behaviour and context.**
 Taking intensive notes on the test highlighted some key friction points: existing hotel-booking apps had hard to navigate search function, and results pages that lacked key context. 
 To condense my research, and highlight the key **priorities**, I sorted these notes to analyse where the larger chunks were. Grouping items by found groups like topics, screens, etc gave me an overview of the data, however, this only comments on frequency of topics, not if they are problems or not.
