@@ -1,5 +1,8 @@
 ---
 layout: home
+eleventyNavigation:
+  key: Home
+  order: 1
 ---
 <img class="profile" src="https://github.com/jamco1229/jamco-personal/blob/master/content/media/profile%20pic.png?raw=true" />
 
