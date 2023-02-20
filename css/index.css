@@ -467,7 +467,7 @@ Homepage
   background-image: none;
 }
 .project-img {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .home-block h3{
   margin: 0;
