@@ -53,7 +53,9 @@
 
 .site-nav {
 display: flex;
-flex-direction: column;
+flex-direction: row;
+align-items: end;
+justify-content: end;
 margin: 0;
 padding: 0;
 }
