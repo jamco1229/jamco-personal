@@ -316,7 +316,7 @@ Layout / global includes
 */
 
 .site-header {
-  align-items: baseline;
+  align-items: end;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 4rem;
