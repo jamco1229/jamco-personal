@@ -445,7 +445,7 @@ Homepage
   box-sizing: border-box;
     align-items: flex-start;
     display: flex;
-    gap: 12px;
+    gap: 16px;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
