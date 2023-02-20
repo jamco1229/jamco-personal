@@ -226,7 +226,7 @@ h1, h2 {
 h3{
  font-family: var(--font-family-header);
   font-size: 1em;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.5em;
   margin-top: 2em;
   color: #fff;
   line-height: 100%;
@@ -444,9 +444,9 @@ Homepage
   box-sizing: border-box;
     align-items: flex-start;
     display: flex;
-    gap: 16px;
+    gap: 12px;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: flex-start;
     overflow: hidden;
     padding: 0;
@@ -455,7 +455,12 @@ Homepage
     background-image: none;
     width: 100%;
 }
-
+.project-description {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
 .home-block > a {
   max-width: 100%;
   text-decoration: none;
