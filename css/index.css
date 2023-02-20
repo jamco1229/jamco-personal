@@ -35,6 +35,8 @@
   justify-content: left;
   flex-wrap: wrap;
   height: auto;
+  gap: 4px;
+  padding: 0%;
 }
 
 .site-header a {
