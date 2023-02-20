@@ -128,8 +128,8 @@
   }
 :root {
   /* Typography */
-  --font-family-body: "Satoshi Bold", sans-serif;
-  --font-family-header: "Satoshi Regular", sans-serif;
+  --font-family-body: "Satoshi Bold", 'inter', sans-serif;
+  --font-family-header: "Satoshi Regular", 'inter', sans-serif;
   --font-size-body: 1rem;
   --font-size-small: 0.75rem;
   --font-weight-normal: 400;
@@ -254,7 +254,16 @@ p {
   text-decoration: none;
   color: #fff;
 }
-
+.project > a {
+  background-image: url(https://raw.githubusercontent.com/jamco1229/jamco-personal/4cdc510a3ede4bba83b40989b15f2672d0f0bed9/content/media/splat-underline-2-default.svg);
+  background-image: url(https://raw.githubusercontent.com/jamco1229/jamco-personal/eaa6126dd139442aeba3b3c982ab2945f5389e8c/content/media/Vector.svg);
+  background-size: 100% 4px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: .05rem;
+  text-decoration: none;
+  color: #fff;
+}
 a.plain {
   background-image: none;
 }
