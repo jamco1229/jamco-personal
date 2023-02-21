@@ -80,7 +80,7 @@ body {
 .site-nav a:hover {
   background-color: #444;
 }
-a:current {
+.site-nav a :current {
   font-weight: bold;
 /*.site-nav a:current*/
   color: yellow;
