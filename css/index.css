@@ -177,12 +177,12 @@ body {
   margin: 8px 0;
 }
 
-/* Media query for smaller screens */
+/* Media query for smaller screens 
 @media screen and (max-width: 480px) {
   .site-nav {
     display: none;
   }
-}
+} */
 
 /* Bolt CSS */
 
