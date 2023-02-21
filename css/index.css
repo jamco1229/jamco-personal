@@ -1,124 +1,110 @@
-/* MY STYLES*/
-@font-face {
-  font-family: 'Space Grotesk';
-  src: url('../fonts/SpaceGrotesk[wght].woff2') format('woff2');
-}
-
-:root {
-  font-family: 'Space Grotesk', -system-ui, system-ui, sans-serif;
-  font-size:   1em;
-  line-height: var(--line-height);
-  color:       var(--text);
-  letter-spacing: -0.01em;
-  text-size-adjust: 100%;
-  font-variant-ligatures: contextual common-ligatures;
-  background-color: var(--background-body);
-  padding: 16px 44px;
-  margin: 0px;
-    --highlight-border-radius: 12px;
-    --border-radius: 12px;
-    --textcol-width: 720px;
-    --line-height: 1.65;
-    --links: #fff;
-    --background-body: #0E6698;
-    --background-main: #0E6698;
-    --background-inputs: #1f79ae;
-    --text: #f4f4f4;
-    --border: #f8f8f8;
-    --focus-highlight: #32bd64;
-    --shadow-color: #223146;
-    --table-highlight: #fff;
-    --select-icon-url: url("data:image/svg+xml,%3Csvg width='292' height='292' viewBox='0 0 292 292' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cpath id='Path' fill='%23222222' stroke='none' d='M 287 69 C 283.606537 65.469971 278.895844 63.513214 274 63.600006 L 18.4 63.600006 C 13.4 63.600006 9.1 65.400009 5.5 69 C 1.984143 72.328568 -0.005267 76.958466 -0 81.800003 C -0 86.800003 1.8 91.100006 5.4 94.699997 L 133.399994 222.600006 C 137 226.200012 141.199997 228 146.199997 228 C 151.199997 228 155.399994 226.200012 159 222.600006 L 287 94.600006 C 290.5 91.100006 292.399994 86.800003 292.399994 81.800003 C 292.399994 76.800003 290.5 72.600006 286.899994 69 Z'/%3E%3C/svg%3E");
-  }
-
-  html,
-  body {
-    display: flex;
-    flex-direction: column;
-    padding: auto;
-    height: auto;
-    margin: auto;
-    color: var(--text);
-    width: 100%;
-    max-width: var(--textcol-width);
-    justify-content: center;
-  }
-  body {
-    width: 100%;
-  }
-  html{
-    margin: 0;
-    width: 100%;
-  }
-  
-.profile {
-  width: 72px;
-  height: 72px;
-    max-width: 72px;
-    max-height: 72px;
-}
-
-.site-header{
-  margin: 0%;
-  padding: 0%;
-}
-
-.site-nav {
-  margin: 0;
-  padding: 0;
-}
-
-.site-header ul {
+/* Set up the basic layout */
+body {
   display: flex;
-  flex-direction: row;
-  align-items: end;
-  justify-content: end;
-  margin: 0;
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-  padding-inline-start: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 720px;
+  padding: 16px 0;
+  margin: 0 auto;
 }
 
-.site-nav li {
+/* Style the site header */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f7f7;
+  padding: 16px;
+}
+
+.site-nav ul {
+  display: flex;
+  justify-content: space-between;
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-bottom: 4px;
-  width: auto;
 }
 
-.site-nav li a {
-display: block;
-text-decoration: none;
-color: #333;
-opacity: 0.6;
-transition: all 0.2s ease;
-width: auto;
+.site-nav li {
+  margin: 0 16px;
 }
 
-.site-nav li a:hover {
-background-color: green;
-color: #fff;
-}
-
-.site-nav li:active {
-opacity: 1;
-}
-
-.site-header a:hover {
-  opacity: 1;
-  color: var(--focus-highlight);
-}
-
+/* Style the main content */
 .site-main {
+  margin: 16px;
   width: 100%;
 }
-.home-into {
-  width: 100%;
+
+.home-intro {
+  margin-bottom: 32px;
+}
+
+/* Style the profile image */
+.profile {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+/* Style the about section */
+#about {
+  margin-top: 32px;
+}
+
+/* Style the project container */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Style the project block */
+.home-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px;
+  padding: 16px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.home-block-title {
+  margin: 16px 0 8px;
+}
+
+.project-img {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.project-description {
+  margin-top: 16px;
+}
+
+/* Style the link list */
+.link-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link-list li {
+  margin: 8px 0;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 480px) {
+  body {
+    padding: 16px;
+  }
+  
+  .site-nav {
+    display: none;
+  }
 }
 
 /* Bolt CSS */
