@@ -177,6 +177,11 @@ body {
   margin: 8px 0;
 }
 
+@media  screen and (max-width:480px) {
+  .profile-head {
+    flex-direction: column;
+  }
+}
 /* Media query for smaller screens 
 @media screen and (max-width: 480px) {
   .site-nav {
