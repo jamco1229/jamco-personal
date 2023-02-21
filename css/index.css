@@ -41,17 +41,23 @@ body {
 
 /* Style the site header */
 .site-header {
+    position: fixed;
+    bottom: 44px;
+   /* left: 50%; */
+    transform: translateX(-50%);
+    width: auto;
+    height: auto;
+    z-index: 999;
+    background-color: var(--border-color);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    /*
   display: flex;
   justify-content: space-between;
   align-items: center;
+  */
   padding: 16px;
   margin-bottom: 1em;
-  position: fixed;
-  width: 100%;
-  z-index: 999;
-  background-color: var(--border-color);
-  border: var(--border);
-  border-radius: var(--border-radius);
 }
 .site-nav ul {
   display: flex;
