@@ -208,13 +208,7 @@ body {
     background-color: var(--background-main);
     border-radius: var(--border-radius);
   }
-  
-  
-  em {
-    font-family: "pp_writerregular_italic", serif;
-  }
-  
-  
+
   h1 {
     /*font-size: 2.5rem;*/
     font-weight: 800;
