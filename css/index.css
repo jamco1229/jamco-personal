@@ -75,7 +75,6 @@ body {
   width: 72px;
   height: 72px;
   object-fit: cover;
-  align-self: flex-end;
 }
 .profile-head {
   display: flex;
