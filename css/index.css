@@ -7,10 +7,11 @@
 :root {
   --col-width: 480px;
   --font: 'Space Grotesk', sans-serif;
-  --background-color: #123F58;
-  --color: #f4f4f4;
-  --secondary-color: #98BBCF;
-  --secondary-background-color: #0E6698;
+  --background-color: #F3F6F8;
+  --color: #222;
+  --secondary-color: #666;
+  --secondary-background-color: #fff;
+  --border-color: #f1f3f4;
   --border-radius: 12px;
 }
 
@@ -118,6 +119,7 @@ body {
   gap: 0;
   text-align: left;
   background-color: var(--secondary-background-color);
+  border: 1px solid var(--border-color);
   border-radius: 12px;
 }
 .home-block a {
