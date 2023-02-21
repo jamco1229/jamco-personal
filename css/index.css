@@ -35,8 +35,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 16px;
-  width: 100%;
-  max-width: var(--col-width);
 }
 
 .site-nav ul {
