@@ -1,3 +1,16 @@
+/* Fonts */
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../fonts/SpaceGrotesk[wght].woff2') format('woff2');
+}
+/* Variables */
+:root {
+  --col-width: 720px;
+  --font: 'Space Grotesk', sans-serif;
+  --background-color: #0E6698;
+  --color: #f4f4f4;
+  --secondary-color: #8CBAD5;
+}
 /* Set up the basic layout */
 body {
   display: flex;
@@ -7,6 +20,13 @@ body {
   max-width: 720px;
   padding: 16px 0;
   margin: 0 auto;
+  font-family: var(--font);
+  color: var(--color);
+  line-height: 1.35em;
+  font-size: 1em;
+  margin: 0;
+  background-color: var(--background-color);
+  color: var(--color);
 }
 
 /* Style the site header */
@@ -14,8 +34,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f7f7f7;
   padding: 16px;
+  width: 100%;
+  max-width: var(--col-width);
 }
 
 .site-nav ul {
@@ -28,6 +49,7 @@ body {
 
 .site-nav li {
   margin: 0 16px;
+  color: var(--secondary-color);
 }
 
 /* Style the main content */
@@ -43,16 +65,16 @@ body {
 /* Style the profile image */
 .profile {
   display: block;
-  margin: 0 auto;
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
+  margin: 0;
+  border-radius: 100%;
+  width: 72px;
+  height: 72px;
   object-fit: cover;
 }
 
 /* Style the about section */
 #about {
-  margin-top: 32px;
+  margin-top: 2em;
 }
 
 /* Style the project container */
@@ -65,11 +87,14 @@ body {
 .home-block {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   margin: 16px;
   padding: 16px;
+  gap: 0;
   text-align: center;
-  background-color: #f7f7f7;
+  background-color: var(--secondary-color);
+  opacity: 0.3;
+  border-radius: 12px;
 }
 
 .home-block-title {
