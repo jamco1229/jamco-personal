@@ -47,8 +47,6 @@ body {
   padding: 16px;
   margin-bottom: 1em;
   position: fixed;
-  bottom: -80px;
-  left: 0;
   width: 100%;
   z-index: 9;
   background-color: var(--border-color);
