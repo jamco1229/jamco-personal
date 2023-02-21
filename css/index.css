@@ -11,6 +11,13 @@
   --color: #f4f4f4;
   --secondary-color: #8CBAD5;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
 /* Set up the basic layout */
 body {
   display: flex;
@@ -67,20 +74,25 @@ body {
   width: 72px;
   height: 72px;
   object-fit: cover;
+  align-self: flex-end;
 }
 .profile-head {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
   width: 100%;
 }
 
 .profile-title {
-  width: auto;
-  display: flex;
-  gap: 0;
-  flex-direction: column;
+  width: 100%;
+  display: grid;
+  height: auto;
 }
 .profile-title > a, p, h1 {
   height: auto;
+  font-size: 1em;
+  line-height: 1em;
 }
 /* Style the about section */
 #about {
