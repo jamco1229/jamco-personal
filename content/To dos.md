@@ -1,0 +1,4 @@
+- [ ]  Change home-block > a to have no text dec
+- [ ] Add text dec to body text
+- [ ] Make images bigger
+- [ ] 

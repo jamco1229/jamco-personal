@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Stay-project.md",
+                "file": "posts/Making this website.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/Stay-project.md",
+                "file": "posts/Making this website.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/Stay-project.md",
+                "file": "posts/Making this website.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/Stay-project.md"
+                "file": "posts/Making this website.md"
               }
             }
           }
@@ -168,6 +168,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -178,9 +179,9 @@
   },
   "active": "1bd0e3d0659fdf94",
   "lastOpenFiles": [
+    "projects/Stay-project.md",
     "pages/stay-page.md",
     "projects/scribe-project.md",
-    "projects/Stay-project.md",
     "projects/buttons-and-switches.md",
     "projects/HeadteacherChat Mental models and navigation.md",
     "index.md",

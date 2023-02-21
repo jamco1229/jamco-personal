@@ -80,8 +80,9 @@ body {
 .site-nav a:hover {
   background-color: #444;
 }
-
-.site-nav a:current {
+a.current-page {
+  font-weight: bold;
+/*.site-nav a:current*/
   color: yellow;
 }
 /* Style the main content */
