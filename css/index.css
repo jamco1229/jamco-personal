@@ -79,7 +79,9 @@ body {
   gap: 0;
   flex-direction: column;
 }
-
+.profile-title > a, p, h1 {
+  height: auto;
+}
 /* Style the about section */
 #about {
   margin-top: 2em;
