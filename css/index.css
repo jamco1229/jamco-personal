@@ -43,10 +43,10 @@ body {
 /* Style the site header */
 .site-header {
   position: fixed;
-  bottom: 44px;
+  bottom: 18px;
   margin: auto;
   width: auto;
-  height: auto;
+  height: 100%;
   z-index: 999;
   background-color: var(--border-color);
   display: flex;
@@ -80,7 +80,8 @@ body {
 .site-nav a:hover {
   background-color: #444;
 }
-.site-nav a :active {
+
+.site-nav ul li a.current {
   font-weight: bold;
   color: yellow;
   padding: 100px;
