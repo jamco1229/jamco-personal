@@ -66,10 +66,15 @@ body {
 }
 
 .site-nav li {
+  text-decoration: none;
   color: var(--background-color);
   padding: 4px 16px;
   background-color: var(--color);
   border-radius: 4px;
+}
+
+.site-nav li:hover {
+  background-color: #444;
 }
 
 .site-nav li:current {
