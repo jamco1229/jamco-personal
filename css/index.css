@@ -69,7 +69,7 @@ body {
 
 }
 
-.site-nav li {
+.site-nav a {
   text-decoration: none;
   color: var(--background-color);
   padding: 4px 16px;
@@ -77,11 +77,11 @@ body {
   border-radius: 4px;
 }
 
-.site-nav li:hover {
+.site-nav a:hover {
   background-color: #444;
 }
 
-.site-nav li:current {
+.site-nav a:current {
   color: yellow;
 }
 /* Style the main content */
