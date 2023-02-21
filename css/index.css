@@ -95,7 +95,7 @@ body {
   line-height: 1em;
 }
 /* Style the about section */
-#about {
+.about {
   margin-top: 2em;
 }
 
@@ -113,14 +113,18 @@ body {
   margin: 16px;
   padding: 16px;
   gap: 0;
-  text-align: center;
+  text-align: left;
   background-color: var(--secondary-color);
-  opacity: 0.3;
-  border-radius: 12px;
+  border-radius: 24px;
 }
-
+.home-block a {
+  text-decoration: none;
+}
+img {
+  border-radius: 8px;
+}
 .home-block-title {
-  margin: 16px 0 8px;
+  margin: 8px 0 8px;
 }
 
 .project-img {
