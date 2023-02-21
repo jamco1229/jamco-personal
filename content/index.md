@@ -9,11 +9,9 @@ eleventyNavigation:
 <div class='profile-title'>
 <h1 class='name'>James Coy</h1>
 <p>He/Him <p>
-<p>Multi-desciplinary Creative with a passion for interface design<p>
+<p>Multi-Desciplinary Creative&mdash;Passion for Interface Design&mdash;Background in Film<p>
 </div>
 </div>
-
-— Product Designer — UX Specialist — Invested in building meaningful products.
 
 # About
 With 3 years of experience in the film industry and 1 year at [headteachers.org](http://headteachers.org/), my focus is within creative collaboration, project management, prototyping, interaction design, and user research.
