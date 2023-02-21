@@ -71,6 +71,9 @@ body {
   background-color: var(--color);
 }
 
+.site-nav li:current {
+  color: yellow;
+}
 /* Style the main content */
 .site-main {
   margin: 16px;
