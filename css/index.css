@@ -114,11 +114,11 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 16px;
-  margin: 0 1em;
+  margin: 1em 0;
   gap: 0;
   text-align: left;
   background-color: var(--secondary-background-color);
-  border-radius: 24px;
+  border-radius: 12px;
 }
 .home-block a {
   text-decoration: none;
@@ -131,7 +131,7 @@ body {
 
 .project-img {
   display: block;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .project-description {
