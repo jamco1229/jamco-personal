@@ -49,12 +49,11 @@ body {
   height: auto;
   z-index: 999;
   background-color: var(--border-color);
-  border: var(--border);
-  border-radius: var(--border-radius);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px;
+  padding: 8px;
+  box-shadow: var(--card-shadow);
 }
 .site-nav ul {
   display: flex;
@@ -63,6 +62,9 @@ body {
   margin: 0;
   padding: 0;
   gap: 8px;
+  border: var(--border);
+  border-radius: var(--border-radius);
+
 }
 
 .site-nav li {
