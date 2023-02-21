@@ -59,15 +59,15 @@
 }
 
 .site-nav {
-display: flex;
-flex-direction: row;
-align-items: end;
-justify-content: end;
 margin: 0;
 padding: 0;
 }
 
 .site-header ul {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: end;
   margin: 0;
   display: block;
   list-style-type: disc;
