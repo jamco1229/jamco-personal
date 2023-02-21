@@ -81,10 +81,9 @@ body {
   background-color: #444;
 }
 
-.site-nav ul li a.current {
-  font-weight: bold;
-  color: yellow;
-  padding: 100px;
+.site-nav > ul > li > a.current {
+  background-color: var(--background-color);
+  color: var(--color);
 }
 /* Style the main content */
 .site-main {
