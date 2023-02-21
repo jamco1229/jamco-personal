@@ -81,7 +81,7 @@ body {
   background-color: #444;
 }
 
-.site-nav > ul > li > a:active {
+.site-nav ul li a:active {
   background-color: var(--background-color);
   color: var(--color);
 }
