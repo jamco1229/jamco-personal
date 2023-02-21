@@ -25,14 +25,14 @@ body {
   align-items: center;
   flex-direction: column;
   max-width: 720px;
-  padding: 16px 0;
-  margin: 0 auto;
+  margin: 48px auto;
   font-family: var(--font);
   color: var(--color);
   line-height: 1.35em;
   font-size: 1em;
   background-color: var(--background-color);
   color: var(--color);
+  padding: 16px;
 }
 
 /* Style the site header */
@@ -146,10 +146,6 @@ body {
 
 /* Media query for smaller screens */
 @media screen and (max-width: 480px) {
-  body {
-    padding: 16px;
-  }
-  
   .site-nav {
     display: none;
   }
