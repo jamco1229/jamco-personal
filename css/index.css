@@ -24,7 +24,6 @@ body {
   color: var(--color);
   line-height: 1.35em;
   font-size: 1em;
-  margin: 0;
   background-color: var(--background-color);
   color: var(--color);
 }
