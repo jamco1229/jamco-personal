@@ -1,5 +1,5 @@
 ---
-layout: Post
+layout: post
 title: Making this website
 Date: 2023-02-21
 ---

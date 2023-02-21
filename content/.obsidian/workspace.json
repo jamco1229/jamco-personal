@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Resume.md",
+                "file": "posts/Making this website.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Resume.md",
+                "file": "posts/Making this website.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/Resume.md",
+                "file": "posts/Making this website.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Resume.md"
+                "file": "posts/Making this website.md"
               }
             }
           }
@@ -179,15 +179,15 @@
   },
   "active": "1bd0e3d0659fdf94",
   "lastOpenFiles": [
+    "posts/coming-soon.md",
     "posts/Making this website.md",
-    "projects/Stay-project.md",
+    "pages/Resume.md",
     "pages/stay-page.md",
+    "projects/Stay-project.md",
     "projects/scribe-project.md",
     "projects/buttons-and-switches.md",
     "projects/HeadteacherChat Mental models and navigation.md",
     "index.md",
-    "James Coy e8801d29b2a448f386786c9a4c4d0e0d/Work ddc35f215d7145beba5dde7256965c30/HeadteacherChat Mental models and navigation.md",
-    "James Coy e8801d29b2a448f386786c9a4c4d0e0d/Work ddc35f215d7145beba5dde7256965c30/Experimenting with buttons 8dbcef8f9fb24f5f80cafe06d09235f6.md",
-    "projects/stay-project.md"
+    "James Coy e8801d29b2a448f386786c9a4c4d0e0d/Work ddc35f215d7145beba5dde7256965c30/HeadteacherChat Mental models and navigation.md"
   ]
 }
