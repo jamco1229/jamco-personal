@@ -8,7 +8,7 @@ eleventyNavigation:
 <img class="profile" src="https://github.com/jamco1229/jamco-personal/blob/master/content/media/profile%20pic.png?raw=true" />
 <div class='profile-title'>
 <h1 class='name'>James Coy</h1>
-<p>He/Him<p>
+<p>He/Him <p>
 <p>Multi-desciplinary Creative with a passion for interface design and a background in film<p>
 <a href="mailto:james.coy.design@gmail.com">james.coy.design@gmail.com</a>
 </div>
