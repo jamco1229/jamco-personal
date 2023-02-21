@@ -9,15 +9,14 @@ eleventyNavigation:
 <div class='profile-title'>
 <h1 class='name'>James Coy</h1>
 <p>He/Him <p>
-<p>Multi-desciplinary Creative with a passion for interface design and a background in film<p>
-<a href="mailto:james.coy.design@gmail.com">james.coy.design@gmail.com</a>
+<p>Multi-desciplinary Creative with a passion for interface design<p>
 </div>
 </div>
 
 — Product Designer — UX Specialist — Invested in building meaningful products.
 
 # About
-I am a Product Designer with 3 years of experience in the film industry and 1 year at [headteachers.org](http://headteachers.org/). My focus is within creative collaboration, project management, prototyping, interaction design, and user research.
+With 3 years of experience in the film industry and 1 year at [headteachers.org](http://headteachers.org/), my focus is within creative collaboration, project management, prototyping, interaction design, and user research.
 
 I am a co-lead for a project in my role as a product designer to build the new [headteachers.org](http://headteachers.org/) website that serves an audience of 100k+ every month, helping headteachers find valuable resources for free.
 
