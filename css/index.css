@@ -59,7 +59,7 @@ body {
   margin-bottom: 32px;
 }
 
-/* Style the profile image */
+/* Style the profile header */
 .profile {
   display: block;
   margin: 0;
@@ -67,6 +67,17 @@ body {
   width: 72px;
   height: 72px;
   object-fit: cover;
+}
+.profile-head {
+  display: flex;
+  width: 100%;
+}
+
+.profile-title {
+  width: auto;
+  display: flex;
+  gap: 0;
+  flex-direction: column;
 }
 
 /* Style the about section */
