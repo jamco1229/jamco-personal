@@ -38,6 +38,13 @@
     width: 100%;
     max-width: var(--textcol-width);
   }
+  body {
+    width: 100%;
+  }
+  html{
+    margin: 0;
+    width: 100%;
+  }
   
 .profile {
   width: 72px;
