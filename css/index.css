@@ -11,8 +11,8 @@
   --color: #222;
   --secondary-color: #666;
   --secondary-background-color: #fff;
-  --border-color: rgba(53, 73, 88, 0.5);
-  --card-shadow: rgba(53, 73, 88, 0.3) 0px 8px 24px;
+  --border-color: rgba(53, 73, 88, 0.3);
+  --card-shadow: rgba(53, 73, 88, 0.2) 0px 8px 18px;
   --border-radius: 12px;
 }
 
