@@ -188,7 +188,13 @@ body {
     display: none;
   }
 } */
-
+/* FOR COLUMNS */
+.column {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  gap: 24px;
+}
 /* Bolt CSS */
 
   *,
