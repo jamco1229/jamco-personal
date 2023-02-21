@@ -51,6 +51,9 @@ body {
   left: 0;
   width: 100%;
   z-index: 9;
+  background-color: var(--border-color);
+  border: var(--border);
+  border-radius: var(--border-radius);
 }
 .site-nav ul {
   display: flex;
