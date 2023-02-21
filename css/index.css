@@ -62,13 +62,14 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
- 
+  gap: 8px;
 }
 
 .site-nav li {
   color: var(--background-color);
   padding: 4px 16px;
   background-color: var(--color);
+  border-radius: 4px;
 }
 
 .site-nav li:current {
