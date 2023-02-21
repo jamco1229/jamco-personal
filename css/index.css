@@ -84,6 +84,7 @@ body {
   align-items: center;
   gap: 1em;
   width: 100%;
+  margin-bottom: 2em;
 }
 
 .profile-title {
