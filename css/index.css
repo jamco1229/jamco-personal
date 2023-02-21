@@ -91,6 +91,9 @@ body {
   width: 92px;
   height: 92px;
   object-fit: cover;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  box-shadow: var(--card-shadow);
 }
 .profile-head {
   display: flex;
