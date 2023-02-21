@@ -1,10 +1,10 @@
 {
   "title": "James Coy's Site",
   "lang": "en-gb",
-  "footer": "Built with [Portfolio Starter](https://portfolio-starter.sb-ph.com) (v{{ pkg.version }}) in Norfolk. Get in touch at james.coy.design@gmail.com",
-  "url": "https://portfolio-starter.sb-ph.com",
+  "footer": "Built in Norfolk with CSS and HTMl using the [Portfolio Starter](https://portfolio-starter.sb-ph.com) (v{{ pkg.version }}) as a starting point. Get in touch at james.coy.design@gmail.com",
+  "url": "https://rainbow-unicorn-99d988.netlify.app/",
   "author": {
-    "name": "James Coy's Site",
+    "name": "James Coy",
     "email": "james.coy.design@gmail.com"
   }
 }

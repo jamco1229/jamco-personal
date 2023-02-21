@@ -36,21 +36,21 @@ permalink: "/"
   {# If there is an image we can use #}
   {% if image %}
     <article class="home-block {{ blockClasses }}">
-      <a class="project-img" href="{{ entry.url }}">
-        <img
+      <div class="project-img">
+        <a href="{{ entry.url }}"><img
           loading="lazy"
           src="/media/{{ image }}"
           alt=""
           {% if width %}width="{{ width }}"{% endif %}
           {% if height %}height="{{ height }}"{% endif %}
-        >
+        ></a>
         <div class="project-description">
-                  <p class="specs">{{ entry.data.role | safe}}</p>
-        <h3 class="home-block-title">{{ entry.data.title | safe }}</h3>
+        <p class="specs">{{ entry.data.role | safe}}</p>
+        <a href="{{ entry.url }}"><h3 class="home-block-title">{{ entry.data.title | safe }}</h3></a>
         <p>{{ entry.data.description | safe}}</p>
         <a href="{{ entry.url }}">Read More &mdash;</a>
         </div>
-      </a>
+      </div>
     </article>
   {% endif %}
 {% endfor %}
