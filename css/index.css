@@ -82,8 +82,8 @@ body {
 }
 .site-nav a :current {
   font-weight: bold;
-/*.site-nav a:current*/
   color: yellow;
+  padding: 100px;
 }
 /* Style the main content */
 .site-main {
