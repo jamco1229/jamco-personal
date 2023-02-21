@@ -24,7 +24,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 720px;
+  max-width: var(--col-width);
   margin: 48px auto;
   font-family: var(--font);
   color: var(--color);
