@@ -107,6 +107,13 @@ opacity: 1;
   color: var(--focus-highlight);
 }
 
+.site-main {
+  width: 100%;
+}
+.home-into {
+  width: 100%;
+}
+
 /* Bolt CSS */
 
   *,
