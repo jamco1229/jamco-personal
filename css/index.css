@@ -56,6 +56,7 @@ body {
   box-shadow: var(--card-shadow);
 }
 .site-nav ul {
+  text-decoration: none;
   display: flex;
   justify-content: space-between;
   list-style: none;
