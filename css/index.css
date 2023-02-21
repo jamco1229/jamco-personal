@@ -11,7 +11,8 @@
   --color: #222;
   --secondary-color: #666;
   --secondary-background-color: #fff;
-  --border-color: #f1f3f4;
+  --border-color: #888;
+  --card-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   --border-radius: 12px;
 }
 
@@ -121,6 +122,7 @@ body {
   background-color: var(--secondary-background-color);
   border: 1px solid var(--border-color);
   border-radius: 12px;
+  box-shadow: var(--card-shadow);
 }
 .home-block a {
   text-decoration: none;
