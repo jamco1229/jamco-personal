@@ -52,63 +52,71 @@ body {
   align-items: flex-start;
   padding: 32px;
 }
-
-nav > ul > li {
-  padding: 5px 10px;
-}
-
-nav a {
-  color: #333333;
-  text-decoration: none;
-}
-
-nav ul ul {
+/* NAV CSS */
+nav ul {
+  list-style: none;
   margin: 0;
   padding: 0;
-  border-left: 1px solid #cccccc;
-  margin-left: 10px;
 }
 
-nav ul ul li {
-  margin: 0;
+nav > ul > li {
+  margin: 5px 0;
+  padding: 5px 0;
+  border-top: 1px solid #ccc;
+}
+
+nav > ul > li:first-child {
+  border-top: none;
+}
+
+nav > ul > li > a {
+  display: block;
   padding: 5px 10px;
-  border: none;
-  opacity: 50%;
+  text-decoration: none;
+  color: #222;
 }
 
-nav a .active {
-  font-weight: 800;
-  opacity: 100%;
-}
-
-nav a:hover {
+nav > ul > li.active > a,
+nav > ul > li:hover > a {
+  color: #666;
   text-decoration: underline;
 }
 
-/*
-.site-nav ul {
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: left;
-  gap: 4px;
-  border: var(--border);
-  border-radius: var(--border-radius);
-
+nav > ul > li:before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: #222;
 }
 
-.site-nav a {
-  text-decoration: none;
-  opacity: 60%;
-  padding: 8px 16px;
+nav > ul > li.active:before,
+nav > ul > li:hover:before {
+  background-color: #666;
 }
 
-.site-nav a:hover {
-  background-color: #444;
-  text-decoration: underline;
+nav > ul > li ul {
+  margin: 0;
+  padding: 0;
 }
-*/
+
+nav > ul > li ul > li:before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border: 2px solid #222;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+nav > ul > li ul > li.active:before,
+nav > ul > li ul > li:hover:before {
+  border-color: #666;
+}
+
 
 /* Style the main content */
 
