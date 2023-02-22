@@ -67,12 +67,10 @@ nav > ul > li > ul > li{
   border-left: 1px #666;
 }
 
-nav > ul li.active a,
-nav > ul li:hover a, nav > ul > li > ul li.active a, nav > ul > li > ul li:hover a{
-  color: #222 !important;
-  font-weight: 700;
+nav > ul > li.active > a,
+nav > ul > li:hover > a, nav > ul > li > ul > li.active, nav > ul > li > ul > li:hover{
+  color: #222;
   text-decoration: underline;
-  list-style-type: disc;
 }
 /*
 nav > ul > li.active:before,
