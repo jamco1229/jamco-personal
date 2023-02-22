@@ -57,7 +57,7 @@ nav > ul > li {
   padding: 5px 10px;
 }
 
-nav > ul > li > a {
+nav a {
   color: #333333;
   text-decoration: none;
 }
@@ -76,9 +76,13 @@ nav ul ul li {
   opacity: 50%;
 }
 
-nav a.active {
+nav a .active {
   font-weight: 800;
   opacity: 100%;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 /*
