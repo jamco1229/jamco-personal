@@ -162,9 +162,11 @@ nav li:hover{
   }
   .site-header {
     height: auto;
-    
-  }
 
+  }
+  .site-body {
+    width: 100%;
+  }
 }
 /* Media query for smaller screens 
 @media screen and (max-width: 480px) {
