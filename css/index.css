@@ -44,6 +44,7 @@ body {
   margin: auto;
   padding: 32px;
 }
+
 .site-header {
   position: sticky;
   top: 0;
@@ -54,6 +55,7 @@ body {
   align-items: flex-start;
   padding: 32px;
 }
+
 /* NAV CSS */
 
 nav ul, nav a {
@@ -76,12 +78,6 @@ nav li:hover{
   text-decoration: underline;
   list-style-type: disc;
 }
-/*
-nav > ul > li.active:before,
-nav > ul > li:hover:before {
-  background-color: #222;
-} */
-
 
 /* Style the main content */
 
@@ -164,6 +160,11 @@ nav > ul > li:hover:before {
   nav > ul > li > ul {
     display: none;
   }
+  .site-header {
+    height: auto;
+    
+  }
+
 }
 /* Media query for smaller screens 
 @media screen and (max-width: 480px) {
