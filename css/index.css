@@ -156,15 +156,18 @@ nav li:hover{
   }
   body {
     flex-direction: column;
+    padding: 16px;
   }
   nav > ul > li > ul {
     display: none;
   }
   .site-header {
+    padding: 0%;
     height: auto;
 
   }
   .site-body {
+    padding: 0%;
     width: 100%;
   }
 }
