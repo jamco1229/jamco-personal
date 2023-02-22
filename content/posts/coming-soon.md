@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Coming soon&hellip;
+title: Coming Soon
 date: 2020-04-06 15:00:00
-eleventynavigation:
+eleventyNavigation:
   key: Coming Soon
   order: 2
   parent: Posts
