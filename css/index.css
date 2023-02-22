@@ -76,7 +76,7 @@ nav ul ul li {
   opacity: 50%;
 }
 
-nav ul ul ul li:active {
+nav a:active {
   font-weight: 800;
   opacity: 100%;
 }
