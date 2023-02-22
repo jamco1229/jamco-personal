@@ -55,6 +55,7 @@ body {
 /* NAV CSS */
 
 nav ul, nav a {
+  color: #666;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -63,18 +64,18 @@ nav ul, nav a {
 
 nav > ul > li > ul {
   margin-left: 8px;
-  border-left: 1px #888;
+  border-left: 1px #666;
 }
 
 nav > ul > li.active > a,
 nav > ul > li:hover > a {
-  color: #666;
+  color: #222;
   text-decoration: underline;
 }
 
 nav > ul > li.active:before,
 nav > ul > li:hover:before {
-  background-color: #666;
+  background-color: #222;
 }
 
 
