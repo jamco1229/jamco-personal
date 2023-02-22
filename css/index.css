@@ -26,6 +26,7 @@
 body {
   display: flex;
   flex-direction: row;
+  justify-content: baseline;
   font-family: var(--font);
   color: var(--color);
   line-height: 1.35em;
