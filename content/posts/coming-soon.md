@@ -3,7 +3,7 @@ layout: post
 title: Coming soon&hellip;
 date: 2020-04-06 15:00:00
 eleventynavigation:
-  key: Coming Soon&hellip;
+  key: coming-soon
   order: 2
   parent: News
 ---

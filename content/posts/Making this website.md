@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Making this website
-Date: 2023-02-21
+date: 2023-02-21
 eleventynavigation:
-  key: About making this website.
+  key: about-making-this-website
   parent: News
-    order: 1
+  order: 1
 ---
 
 Hello there!
