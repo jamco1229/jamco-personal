@@ -52,6 +52,68 @@ body {
   align-items: center;
   padding: 16px;
 }
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav > ul > li {
+  margin: 0;
+  padding: 5px 10px;
+  background-color: #e6e6e6;
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+}
+
+nav > ul > li > a {
+  color: #333333;
+  text-decoration: none;
+}
+
+nav ul ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border-left: 1px solid #cccccc;
+  margin-left: 10px;
+}
+
+nav ul ul li {
+  margin: 0;
+  padding: 5px 10px;
+  border: none;
+}
+
+nav ul ul li:before {
+  content: "\2022";
+  color: #cccccc;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+nav ul ul ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border-left: 1px solid #cccccc;
+  margin-left: 10px;
+}
+
+nav ul ul ul li {
+  margin: 0;
+  padding: 5px 10px;
+  border: none;
+}
+
+nav ul ul ul li:before {
+  content: "\25E6";
+  color: #cccccc;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/*
 .site-nav ul {
   text-decoration: none;
   display: flex;
@@ -74,6 +136,7 @@ body {
   background-color: #444;
   text-decoration: underline;
 }
+*/
 
 /* Style the main content */
 
