@@ -53,13 +53,13 @@ body {
   padding: 32px;
 }
 /* NAV CSS */
-/*
-nav ul {
-  list-style: none;
+
+nav ul, nav a {
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
-
+/*
 nav > ul > li {
   margin: 5px 0;
   padding: 5px 0;
