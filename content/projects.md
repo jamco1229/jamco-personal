@@ -1,8 +1,8 @@
 ---
 layout: projects
-title: Work
+title: Projects
 eleventyNavigation:
-  key: Work
+  key: Projects
   order: 4
   parent: null
 ---

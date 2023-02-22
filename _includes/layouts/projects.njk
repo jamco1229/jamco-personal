@@ -3,60 +3,29 @@ layout: base
 pagination:
   data: collections.projects
   size: 10
-  alias: postslist
-permalink: "posts/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}"
+  alias: projectslist
+permalink: "projects/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}"
 ---
----
-layout: base
-permalink: "/"
----  
-{% set entries = collections.all | getPagesByPaths(entries) if entries else collections.projects %}
 
-{# For each of the entries #}
-{% for entry in entries %}
-
-  {# Set the defaults #}
-  {% set image = false %}
-  {% set width = false %}
-  {% set height = false %}
-  {% set blockClasses = 'md' %}
-
-  {# If the entry has media #}
-  {% if entry.data.media %}
-    {# Get the first featured image block #}
-    {% set block = entry.data.media | getFeaturedImage %}
-    {% if block %}
-      {% set blockClasses = block.size if block.size %}
-      {% set image = block.filename | urlencode %}
-      {% set width = block.width if block.width else false %}
-      {% set height = block.height if block.height else false %}
-    {% endif %}
-  {% endif %}
-
-  {# If there is an image we can use #}
-  {% if image %}
-    <a href="{{ entry.url }}"><article class="home-block {{ blockClasses }}">
-      <div class="project-img">
-        <img
-          loading="lazy"
-          src="/media/{{ image }}"
-          alt="{{ entry.data.title | safe }}"
-          {% if width %}width="{{ width }}"{% endif %}
-          {% if height %}height="{{ height }}"{% endif %}
-        >
-        <div class="project-description">
-        <p class="specs">{{ entry.data.role | safe}}</p>
-        <h3 class="home-block-title">{{ entry.data.title | safe }}</h3>
-        <p>{{ entry.data.description | safe}}</p>
-        <a href="{{ entry.url }}">Read More &mdash;</a>
-        </div>
-      </div>
-    </article></a>
-  {% endif %}
-{% endfor %}
+<div class="projects">
+  {% for project in projectslist %}
+    <article class="project">
+      <header class="project-header">
+        <h2 class="project-title">
+          <a href="{{ project.url }}">{{ project.data.title | safe }}</a>
+        </h2>
+        <time class="project-date" datetime="{{ project.date | dateToFormat('yyyy-LL-dd') }}">{{ project.date | dateToFormat('d LLL y') }}</time>
+      </header>
+      {% if project.data.page.excerpt %}
+        {{ project.data.page.excerpt | markdownify | safe }}
+        <p><a href="{{ project.url }}" aria-label="Continue reading “{{ project.data.title }}”">Read more…</a></p>
+      {% else %}
+        {{ project.templateContent | safe }}
+      {% endif %}
+    </article>
+  {% endfor %}
 </div>
-</div>
------
+
 {% if pagination.pages and pagination.pages.length > 1 %}
   <nav class="pagination" aria-labelledby="pagination">
     <ol class="pagination-item pagination-list">
