@@ -5,7 +5,7 @@
 }
 /* Variables */
 :root {
-  --col-width: 480px;
+  --col-width: 640px;
   --font: 'Space Grotesk', sans-serif;
   --background-color: #F3F6F8;
   --color: #222;
@@ -20,16 +20,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style-type: none;
     z-index: 0;
 }
 /* Set up the basic layout */
 body {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  max-width: var(--col-width);
+  flex-direction: row;
+  width: 100vw;
   margin: 48px auto;
   font-family: var(--font);
   color: var(--color);
@@ -39,28 +36,28 @@ body {
   color: var(--color);
   padding: 16px;
 }
-
+.site-body {
+  margin-left: 33.33%;
+  width: 66.67%;
+  padding: 20px;
+}
 /* Style the site header */
 .site-header {
-  position: fixed;
+  position: sticky;
+  top: 0;
+  width: 33.33%;
+  height: 100vh;
   bottom: 18px;
-  margin: auto;
-  width: auto;
-  height: auto;
-  z-index: 999;
-  background-color: var(--border-color);
   display: flex;
-  justify-content: space-between;
+  gap: 8px;
   align-items: center;
-  padding: 4px;
-  box-shadow: var(--card-shadow);
-  border-radius: 4px;
+  padding: 16px;
+  border: 4px solid #222;
 }
 .site-nav ul {
   text-decoration: none;
   display: flex;
   justify-content: space-between;
-  list-style: none;
   margin: 0;
   padding: 0;
   gap: 4px;

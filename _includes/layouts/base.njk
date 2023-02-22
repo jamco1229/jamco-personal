@@ -14,7 +14,7 @@
         {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
       </nav>
     </header>
-
+<div class='site-body'>
     <main class="site-main">
       {{ content | safe }}
     </main>
@@ -24,6 +24,6 @@
         <p>{{ global.footer | markdownifyInline | safe }}</p>
       </footer>
     {% endif %}
-
+</div>
   </body>
 </html>
