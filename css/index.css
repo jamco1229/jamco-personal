@@ -67,8 +67,8 @@ nav > ul > li > ul > li{
   border-left: 1px #666;
 }
 
-nav > ul > li.active > a,
-nav > ul > li:hover > a, nav > ul > li > ul > li.active, nav > ul > li > ul > li:hover {
+nav > ul > li.active,
+nav > ul > li:hover, nav > ul > li > ul > li.active, nav > ul > li > ul > li:hover {
   color: #222;
   text-decoration: underline;
   list-style: circle;
