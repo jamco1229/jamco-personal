@@ -176,6 +176,12 @@ nav > ul > li:hover:before {
     flex-direction: column;
     align-items: baseline;
   }
+  body {
+    flex-direction: column;
+  }
+  nav > ul > li > ul {
+    display: none;
+  }
 }
 /* Media query for smaller screens 
 @media screen and (max-width: 480px) {
