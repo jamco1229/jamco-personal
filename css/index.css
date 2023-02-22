@@ -77,6 +77,10 @@ nav > ul > li > a {
   color: #222;
 }
 */
+nav > ul > li {
+  margin-left: 8px;
+  border-left: 1px #888;
+}
 
 nav > ul > li.active > a,
 nav > ul > li:hover > a {
