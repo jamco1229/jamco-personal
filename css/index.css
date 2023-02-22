@@ -164,8 +164,7 @@ nav li:hover{
   .site-header {
     padding: 16px;
     height: auto;
-    background-color: #22233360;
-    backdrop-filter: blur(44px);
+    background-color: var(--background-color);
     z-index: 999;
   }
   .site-body {
