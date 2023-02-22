@@ -24,6 +24,8 @@
 }
 /* Set up the basic layout */
 body {
+  display: flex;
+  flex-direction: row;
   font-family: var(--font);
   color: var(--color);
   line-height: 1.35em;
@@ -37,7 +39,6 @@ body {
   width: 66.67%;
   padding: 20px;
 }
-/* Style the site header */
 .site-header {
   position: sticky;
   top: 0;
@@ -52,7 +53,8 @@ body {
   text-decoration: none;
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  align-items: start;
+  justify-content: left;
   gap: 4px;
   border: var(--border);
   border-radius: var(--border-radius);
@@ -61,11 +63,13 @@ body {
 
 .site-nav a {
   text-decoration: none;
+  opacity: 60%;
   padding: 8px 16px;
 }
 
 .site-nav a:hover {
   background-color: #444;
+  text-decoration: underline;
 }
 
 /* Style the main content */
