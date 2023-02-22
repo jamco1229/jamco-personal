@@ -68,15 +68,15 @@ nav > ul > li > ul {
 }
 
 nav > ul > li.active > a,
-nav > ul > li:hover > a {
+nav > ul > li:hover > a, nav > ul > li > ul > li.active, nav > ul > li > ul > li:hover {
   color: #222;
   text-decoration: underline;
 }
-
+/*
 nav > ul > li.active:before,
 nav > ul > li:hover:before {
   background-color: #222;
-}
+} */
 
 
 /* Style the main content */
