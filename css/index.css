@@ -7,7 +7,7 @@
 /* Variables */
 :root {
   --col-width: 640px;
-  --font: 'IBM Plex Sans', sans-serif;
+  --font: 'IBM Plex Mono', sans-serif;
   --background-color: #F3F6F8;
   --color: #222;
   --secondary-color: #666;
