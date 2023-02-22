@@ -39,6 +39,8 @@ body {
   margin-left: 33.33%;
   width: 66.67%;
   max-width: var(--col-width);
+  margin: 0;
+  margin-right: auto;
 }
 .site-header {
   position: sticky;
