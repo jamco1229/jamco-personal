@@ -24,10 +24,6 @@
 }
 /* Set up the basic layout */
 body {
-  display: flex;
-  flex-direction: row;
-  width: 100vw;
-  margin: 48px auto;
   font-family: var(--font);
   color: var(--color);
   line-height: 1.35em;
@@ -47,19 +43,16 @@ body {
   top: 0;
   width: 33.33%;
   height: 100vh;
-  bottom: 18px;
   display: flex;
   gap: 8px;
   align-items: center;
   padding: 16px;
-  border: 4px solid #222;
 }
 .site-nav ul {
   text-decoration: none;
   display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
+  flex-direction: column;
+  align-items: baseline;
   gap: 4px;
   border: var(--border);
   border-radius: var(--border-radius);
@@ -68,25 +61,14 @@ body {
 
 .site-nav a {
   text-decoration: none;
-  color: var(--background-color);
   padding: 8px 16px;
-  background-color: var(--color);
-  border-radius: 4px;
 }
 
 .site-nav a:hover {
   background-color: #444;
 }
 
-.site-nav ul li a:active {
-  background-color: var(--background-color);
-  color: var(--color);
-}
 /* Style the main content */
-.site-main {
-  margin: 16px;
-  width: 100%;
-}
 
 .home-intro {
   margin-bottom: 32px;
