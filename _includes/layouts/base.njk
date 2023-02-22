@@ -12,6 +12,60 @@
     <header class="site-header">
       <nav class="site-nav">
         {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+  <ul>
+    {% for item in collections.all | eleventyNavigation %}
+      {% if item.url %}
+        {% if item.data.eleventyNavigation.parent %}
+          {% assign parent = item.data.eleventyNavigation.parent %}
+          {% assign order = item.data.eleventyNavigation.order %}
+          {% assign class = 'sub-menu-item' %}
+        {% else %}
+          {% assign parent = '' %}
+          {% assign order = item.data.eleventyNavigation.order %}
+          {% assign class = 'menu-item' %}
+        {% endif %}
+        {% if parent == '' %}
+          <li class="{{ class }}" style="order: {{ order }}">
+            <a href="{{ item.url }}">{{ item.data.eleventyNavigation.key }}</a>
+          </li>
+        {% else %}
+          {% for topItem in collections.all | eleventyNavigation %}
+            {% if topItem.url and topItem.data.eleventyNavigation.key == parent %}
+              {% if topItem.data.eleventyNavigation.submenu %}
+                {% assign submenu = topItem.data.eleventyNavigation.submenu %}
+              {% else %}
+                {% assign submenu = '' %}
+              {% endif %}
+              {% assign submenuItems = collections.all | eleventyNavigationSubmenu: topItem.data.eleventyNavigation.key %}
+              <li class="{{ class }}" style="order: {{ order }}">
+                <a href="{{ item.url }}">{{ item.data.eleventyNavigation.key }}</a>
+                {% if submenu or submenuItems %}
+                  <ul>
+                    {% if submenu %}
+                      {% for subitem in submenu %}
+                        {% if subitem.url %}
+                          <li>
+                            <a href="{{ subitem.url }}">{{ subitem.data.eleventyNavigation.key }}</a>
+                          </li>
+                        {% endif %}
+                      {% endfor %}
+                    {% endif %}
+                    {% if submenuItems %}
+                      {% for subitem in submenuItems %}
+                        <li>
+                          <a href="{{ subitem.url }}">{{ subitem.data.eleventyNavigation.key }}</a>
+                        </li>
+                      {% endfor %}
+                    {% endif %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </ul>
       </nav>
     </header>
 <div class='site-body'>
