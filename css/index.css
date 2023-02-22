@@ -41,6 +41,7 @@ body {
   max-width: var(--col-width);
   margin: 0;
   margin-right: auto;
+  padding: 32px;
 }
 .site-header {
   position: sticky;
@@ -50,7 +51,7 @@ body {
   display: flex;
   gap: 8px;
   align-items: flex-start;
-  padding: 16px;
+  padding: 32px;
 }
 nav ul {
   margin: 0;
