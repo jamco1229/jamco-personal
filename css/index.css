@@ -70,7 +70,8 @@ nav > ul > li > ul > li{
 }
 
 nav li.active > a,
-nav li:hover > a {
+nav li:hover > a, nav li.active,
+nav li:hover{
   color: #222;
   text-decoration: underline;
   list-style-type: disc;
