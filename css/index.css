@@ -67,12 +67,12 @@ nav > ul > li > ul > li{
   border-left: 1px #666;
 }
 
-nav > ul > li.active,
-nav > ul > li:hover, nav > ul > li > ul > li.active, nav > ul > li > ul > li:hover {
+nav > ul li.active a,
+nav > ul li:hover a, nav > ul > li > ul li.active a, nav > ul > li > ul li:hover a{
   color: #222 !important;
   font-weight: 700;
   text-decoration: underline;
-  list-style: circle;
+  list-style-type: disc;
 }
 /*
 nav > ul > li.active:before,
