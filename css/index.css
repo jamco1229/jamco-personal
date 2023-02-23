@@ -166,7 +166,7 @@ nav li:hover{
     height: auto;
     background-color: var(--background-color);
     z-index: 999;
-    border-bottom: var(--secondary-color);
+    box-shadow: var(--card-shadow);
   }
   .site-body {
     padding: 16px;
