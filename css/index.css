@@ -89,23 +89,9 @@ nav > ul > li > ul > li:hover {
   height: 72px;
   object-fit: cover;
   box-shadow: var(--card-shadow);
-}
-/*
-.profile-head {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 1em;
-  width: 100%;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
-.profile-title {
-  width: 100%;
-  display: grid;
-  height: auto;
-}
-*/
 .profile-head a, .profile-head p{
   color: var(--pop-color);
 }
@@ -113,6 +99,7 @@ nav > ul > li > ul > li:hover {
   font-size: 1em;
   line-height: 100%;
   color: var(--color);
+  margin: 0;
 }
 /* About styles */
 .about {
