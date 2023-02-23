@@ -39,10 +39,10 @@ body {
 
 /* Site layout */
 .site-body {
-  width: 80%;
   max-width: var(--col-width);
-  margin: auto;
-  padding: 32px;
+  margin-top: 74px;
+  margin-bottom: 74px;
+  padding: 0 16px;
 }
 
 .site-header {
