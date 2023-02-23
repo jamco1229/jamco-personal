@@ -87,6 +87,7 @@ body > .site-body {
     position: sticky;
     flex-shrink: 0;
     z-index: 200;
+    margin: ;
 }
 
 
@@ -102,7 +103,7 @@ nav ul {
   display: flex;
   flex-direction: row-reverse;
   gap: 4px;
-  margin: 0;
+  margin: auto 0;
 }
 
 nav > ul > li > ul {
