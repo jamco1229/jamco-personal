@@ -1,0 +1,8 @@
+---
+layout: base
+pagination:
+  data: collections.projects
+  size: 10
+  alias: postslist
+permalink: "projects/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}"
+---
