@@ -18,7 +18,7 @@
   <ul>
     {% for item in collections.all | eleventyNavigation %}
       <li{% if item.url == page.url %} class="active"{% endif %}>
-        <a href="{{ item.url }}">{{ item.icon }} {{ item.title }}</a>
+        <a href="{{ item.url }}">{{ item.title }}</a>
         {% if item.children %}
           <ul>
             {% for child in item.children %}
