@@ -63,6 +63,7 @@ body {
 
 /* Navigation CSS */
 nav {
+  font-family: var(--font-heading);
   margin-top: 2em;
 }
 nav ul, nav a {
