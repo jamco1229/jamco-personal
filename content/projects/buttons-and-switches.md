@@ -9,6 +9,10 @@ media:
     filename: buttons.gif
     size: md
     alt: Poster for Portfolio Starter
+eleventyNavigation:
+  key: Skeuemorphic Button Design
+  order: 4
+  parent: Projects
 ---
 
 

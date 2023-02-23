@@ -8,6 +8,10 @@ media:
     filename: cover.png
     size: md
     alt: Poster for Portfolio Starter
+eleventyNavigation:
+  key: Stay - App Design
+  order: 1
+  parent: Projects
 ---
 
 | Role | Completion date | Platform | Read time |

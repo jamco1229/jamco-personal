@@ -9,6 +9,10 @@ media:
     filename: scribe-cover.png
     size: md
     alt: Poster for Portfolio Starter
+eleventyNavigation:
+  key: Scribe - App Design
+  order: 2
+  parent: Projects
 ---
 
 <div class='specs'>
