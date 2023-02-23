@@ -82,7 +82,8 @@ ul > li > ul > li > a {
 
 ul > li.active > a,
 ul > li:hover > a, nav > ul > li.active > a,
-nav > ul > li:hover > a,
+nav > ul > li:hover > a, nav > ul > li.active,
+nav > ul > li:hover,
 nav > ul > li > ul > li.active,
 nav > ul > li > ul > li:hover {
   color: var(--color);
