@@ -171,7 +171,7 @@ nav > ul > li > ul > li:hover {
 
 @media  screen and (max-width:480px) {
   .profile-head {
-    flex-direction: column;
+    flex-direction: row;
     align-items: baseline;
   }
 }
@@ -219,13 +219,12 @@ nav > ul > li > ul > li:hover {
   }
   
   h2 {
-    font-size: 3.5em;
+    font-size: 2em;
     line-height: 100%;
     font-weight: 600;
   }
   
   h3, h4, h5, h6 {
-    line-height: 135%;
     font-size: 1rem;
     font-weight: 600;
   }
