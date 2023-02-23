@@ -107,7 +107,7 @@ nav > ul > li > ul > li:hover {
   height: auto;
 }
 */
-.profile-head a, p, h1 {
+.profile-head a, .profile-head p, .profile-head h1 {
   font-size: 1em;
   line-height: 1em;
 }
