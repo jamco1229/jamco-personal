@@ -2,11 +2,6 @@
 layout: posts
 title: Blog
 eleventyNavigation:
-  key: Posts
-  order: 3
-  parent: null
+  key: News
+  order: 2
 ---
-Here's some posts
-
-<hr>
-
