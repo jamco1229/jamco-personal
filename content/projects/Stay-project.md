@@ -8,10 +8,6 @@ media:
     filename: cover.png
     size: md
     alt: Poster for Portfolio Starter
-eleventyNavigation:
-  key: Stay Project
-  order: 1
-  parent: Work
 ---
 
 Hello there!
