@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "91abe6df59319d71",
+        "id": "47bc5f2e71d864d0",
         "type": "tabs",
         "children": [
           {
-            "id": "1bd0e3d0659fdf94",
+            "id": "b04aa7190fba4dd8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/Making this website.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0ec2d1813452dea7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "projects/HeadteacherChat Mental models and navigation.md",
+                "file": "posts.md",
                 "mode": "source",
                 "source": false
               }
@@ -34,16 +22,16 @@
         ]
       },
       {
-        "id": "95312453ed68b39a",
+        "id": "cc2f67edca3bf3b2",
         "type": "tabs",
         "children": [
           {
-            "id": "7024cac5da6942e9",
+            "id": "e40ef0c99f2a01a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/stay-page.md",
+                "file": "posts/Making this website.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/Making this website.md",
+                "file": "posts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/Making this website.md",
+                "file": "posts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/Making this website.md"
+                "file": "posts.md"
               }
             }
           }
@@ -177,16 +165,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1bd0e3d0659fdf94",
+  "active": "b04aa7190fba4dd8",
   "lastOpenFiles": [
-    "posts/coming-soon.md",
     "posts/Making this website.md",
-    "pages/Resume.md",
-    "pages/stay-page.md",
+    "posts.md",
+    "posts/coming-soon.md",
     "projects/Stay-project.md",
+    "pages/stay-page.md",
+    "projects/HeadteacherChat Mental models and navigation.md",
+    "pages/Resume.md",
     "projects/scribe-project.md",
     "projects/buttons-and-switches.md",
-    "projects/HeadteacherChat Mental models and navigation.md",
     "index.md",
     "James Coy e8801d29b2a448f386786c9a4c4d0e0d/Work ddc35f215d7145beba5dde7256965c30/HeadteacherChat Mental models and navigation.md"
   ]
