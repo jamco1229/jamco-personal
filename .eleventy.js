@@ -106,13 +106,12 @@ module.exports = function (config) {
   eleventyConfig.addCollection("projects", function (collection) {
     return collection.getFilteredByGlob("./content/projects/*.md");
   });
-    /*
   config.addCollection("projects", (collection) => {
     const projects = collection.getFilteredByGlob("content/projects/*.md");
     return projects.sort(function (a, b) {
       return b.data.dateEnd - a.data.dateEnd;
     }); 
-  }); */
+  }); 
   config.addCollection("posts", function (collection) {
     const posts = collection.getFilteredByGlob("content/posts/*.md");
     return posts.sort(function (a, b) {
