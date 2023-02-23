@@ -76,19 +76,17 @@ body > .site-body {
   top: 0;
   left: 0;
   width: 20%;
+  height: 100vh;
   /* */
   display: flex;
   flex-direction: column;
   gap: 8px;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: left;
   padding: 32px;
-  color: var(--color);
+  border: 1px solid var(--color);
 }
-.divider {
-  border-top: 1px dashed var(--pop-color);
-  margin-bottom: 1em;
-  margin-top: 1em;
-}
+
 
 /* Navigation CSS */
 
@@ -98,13 +96,13 @@ nav {
   transition: color .2s ease-in-out,border-color .2s ease-in-out;
 }
 nav:hover {
-  border: 1px solid var(--color);
+
 }
 nav ul {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin: 0%;
+  margin: 0;
 }
 
 nav > ul > li > ul {
@@ -167,7 +165,7 @@ nav > ul > li > ul > li:hover {
   padding: 16px;
   gap: 0;
   text-align: left;
-  border: 1px solid #e5e5e5;
+  border: 1px solid var(--primaryBorderColor);
   border-radius: 12px;
   box-shadow: inset 0px 0px 7.81132px rgba(124, 119, 113, 0.18);
 }
@@ -207,19 +205,14 @@ nav > ul > li > ul > li:hover {
     align-items: baseline;
   }
 }
-/* Media query for smaller screens 
-@media screen and (max-width: 480px) {
-  .site-nav {
-    display: none;
-  }
-} */
-/* FOR COLUMNS */
-.column {
-  display: flex;
-  flex-direction: row;
-  width: auto;
-  gap: 24px;
+
+
+.divider {
+  border-top: 1px dashed var(--pop-color);
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
+
 /* Bolt CSS */
 
   *,
