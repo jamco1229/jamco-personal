@@ -149,7 +149,7 @@ nav li:hover{
   margin: 8px 0;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:560px) {
   .profile-head {
     flex-direction: column;
     align-items: baseline;
