@@ -15,28 +15,11 @@ eleventyNavigation:
   parent: Work
 ---
 
-<div class='specs'>
-<div class="row top">
-  <div class="column">
-    <h3 class="specs">Role</h3>
-    <p class="specs">Product Design</p>
-  </div>
-  <div class="column">
-    <h3 class="specs">Completion date</h3>
-    <p class="specs">Jan 2023</p>
-  </div>
-</div>
-<div class="row bottom">
-  <div class="column">
-    <h3 class="specs">Platform</h3>
-    <p>iPad</p>
-  </div>
-  <div class="column">
-    <h3 class="specs">Read time</h3>
-    <p class="specs">4mins</p>
-  </div>
-</div>
-</div>
+| Role               | Product Design     |
+|--------------------|---------------|
+| Completion date    | Jan 2023      |
+| Platform           |  iPad       |
+| Read Time          | 5 Mins       |
 
 ### Problem
 

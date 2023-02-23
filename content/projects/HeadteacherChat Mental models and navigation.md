@@ -14,6 +14,12 @@ eleventyNavigation:
   parent: Work
 ---
 
+| Role               | Product Design     |
+|--------------------|---------------|
+| Completion date    | Ongoing     |
+| Platform           |  Mobile       |
+| Read Time          | 2 Mins       |
+
 > As part of an ongoing rebrand and restructure of headteachers.org, myself and my brother are redesigning the website from the ground up. In this mini-case study I explore our process, problems, and outcomes of redesigning a new navigation model for mobile users.
 
 ### Goal

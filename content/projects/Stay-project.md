@@ -14,9 +14,11 @@ eleventyNavigation:
   parent: Work
 ---
 
-| Role | Completion date | Platform | Read time |
-|------|----------------|----------|-----------|
-| UX Design | Dec 2022 | Mobile | 5mins |
+| Role               | UX Design     |
+|--------------------|---------------|
+| Completion date    | Dec 2022      |
+| Platform           |  Mobile       |
+| Read Time          | 5 Mins       |
 
 <hr>
 
