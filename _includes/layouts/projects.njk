@@ -7,14 +7,13 @@ pagination:
 permalink: "projects/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}"
 ---
 
-
 <div class="projects">
   {% for project in projectslist %}
     <article class="project">
       <header class="project-header">
-        <h2 class="project-title">
+        <h3 class="project-title">
           <a href="{{ project.url }}">{{ project.data.title | safe }}</a>
-        </h2>
+        </h3>
         <time class="project-date" datetime="{{ project.date | dateToFormat('yyyy-LL-dd') }}">{{ project.date | dateToFormat('d LLL y') }}</time>
       </header>
       {% if project.data.page.excerpt %}
@@ -24,9 +23,10 @@ permalink: "projects/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber 
         {{ project.templateContent | safe }}
       {% endif %}
     </article>
+  {% endfor %}
 </div>
-
 {% if pagination.pages and pagination.pages.length > 1 %}
+
   <nav class="pagination" aria-labelledby="pagination">
     <ol class="pagination-item pagination-list">
       {%- for pageEntry in pagination.pages %}
@@ -47,4 +47,3 @@ permalink: "projects/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber 
   {% endif %}
   </nav>
 {% endif %}
- 
