@@ -155,6 +155,7 @@ nav > ul > li > ul > li:hover {
   flex-direction: column;
   align-items: flex-start;
   padding: 16px;
+  margin-top: 16px;
   gap: 0;
   text-align: left;
   border: 1px solid var(--primaryBorderColor);
