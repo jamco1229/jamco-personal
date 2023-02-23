@@ -114,24 +114,14 @@ ul .active {
   text-decoration: underline;
 }
 
-
-/* Content styles */
-.home-intro {
-  margin-bottom: 32px;
-}
-
 .profile {
-  border-radius: 100%;
   width: 72px;
   height: 72px;
   object-fit: cover;
-  box-shadow: var(--card-shadow);
-  margin-bottom: 0.5em;
 }
 
 .profile-head a, .profile-head p{
   text-decoration: none;
-  color: var(--color);
 }
 .profile-head h1 {
   text-decoration: none;
