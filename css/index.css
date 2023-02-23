@@ -412,10 +412,7 @@ Pagination
     margin-left: 0;
     padding-bottom: 11px;
   }
-  
-  dl {
-  }
-  
+
   dt {
     font-weight: bold;
   }
@@ -432,11 +429,6 @@ Pagination
   hr {
     border: 2px solid var(--border);
   }
-  
-  ul,
-  ol {
-  }
-  
   li {
     line-height: 1.6em;
   }
