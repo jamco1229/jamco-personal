@@ -155,6 +155,7 @@ nav > ul > li > ul > li:hover {
 .container {
   display: flex;
   flex-wrap: wrap;
+  gap: 32px;
 }
 
 /* Style the project block */
