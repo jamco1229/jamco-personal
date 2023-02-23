@@ -82,8 +82,8 @@ nav > ul > li > ul > li:hover {
 .home-intro {
   margin-bottom: 32px;
 }
-
-/* Profile styles */
+/*
+/* Profile styles
 .profile {
   border-radius: 100%;
   width: 92px;
@@ -113,8 +113,7 @@ h1 {
   height: auto;
   font-size: 1em;
   line-height: 1em;
-}
-
+} */
 /* About styles */
 .about {
   margin-top: 2em;
