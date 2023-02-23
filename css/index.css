@@ -74,6 +74,10 @@ nav ul, nav a {
   text-decoration: none;
 }
 
+nav > ul > li {
+  margin-left: -4px;
+}
+
 nav > ul > li > ul > li {
   padding-left: 16px;
   color: var(--pop-color);
