@@ -86,11 +86,13 @@ nav > ul > li {
 
 nav > ul > li > ul > li {
   padding-left: 16px;
-  color: var(--pop-color);
   border-left: 1px dashed var(--pop-color);
 }
 nav li {
   padding: 4px;
+}
+nav li:hover {
+  background-color: var(--secondary-background-color);
 }
 
 ul > li.active > a,
