@@ -14,7 +14,23 @@
   
     <header class="site-header">
       <nav class="site-nav">
-        {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+  <ul>
+    {% for item in collections.all | eleventyNavigation %}
+      <li{% if item.url == page.url %} class="active"{% endif %}>
+        <a href="{{ item.url }}">{{ item.title }}</a>
+        {% if item.children %}
+          <ul>
+            {% for child in item.children %}
+              <li{% if child.url == page.url %} class="active"{% endif %}>
+                <a href="{{ child.url }}">{{ child.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+</nav>
+
       </nav>
     </header>
 <div class='site-body'>
