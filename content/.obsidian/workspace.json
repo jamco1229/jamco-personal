@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Stay-project.md",
+                "file": "projects.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "posts.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "posts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "posts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "posts.md"
               }
             }
           }
@@ -167,17 +167,17 @@
   },
   "active": "e40ef0c99f2a01a9",
   "lastOpenFiles": [
-    "posts/Making this website.md",
+    "projects.md",
     "projects/Stay-project.md",
+    "posts.md",
+    "index.md",
+    "posts/Making this website.md",
     "projects/scribe-project.md",
     "projects/HeadteacherChat Mental models and navigation.md",
     "projects/buttons-and-switches.md",
-    "projects.md",
-    "posts.md",
     "posts/coming-soon.md",
     "pages/stay-page.md",
     "pages/Resume.md",
-    "index.md",
     "James Coy e8801d29b2a448f386786c9a4c4d0e0d/Work ddc35f215d7145beba5dde7256965c30/HeadteacherChat Mental models and navigation.md"
   ]
 }
