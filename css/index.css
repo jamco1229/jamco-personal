@@ -98,7 +98,7 @@ nav > ul > li > ul > li.active,
 nav > ul > li > ul > li:hover {
   color: var(--color);
   list-style-type: disc;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 ul .active {
