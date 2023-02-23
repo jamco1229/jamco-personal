@@ -75,6 +75,7 @@ nav ul, nav a {
 
 nav > ul > li > ul > li {
   margin-left: 16px;
+  color: var(--pop-color);
 }
 
 ul > li.active > a,

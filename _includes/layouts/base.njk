@@ -33,7 +33,7 @@
           <ul>
             {% for child in item.children %}
               <li{% if child.url == page.url %} class="active"{% endif %}>
-                <em><a href="{{ child.url }}">{{ child.title }}</a></em>
+                <a href="{{ child.url }}">{{ child.title }}</a>
               </li>
             {% endfor %}
           </ul>
