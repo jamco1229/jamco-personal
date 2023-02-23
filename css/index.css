@@ -61,7 +61,6 @@ body > .site-body {
   align-items: flex-start;
   padding: 32px;
   color: var(--color);
-  border: 1px solid var(--secondary-background-color);
 }
 .divider {
   border-top: 1px dashed var(--pop-color);
@@ -72,6 +71,13 @@ body > .site-body {
 /* Navigation CSS */
 nav > ul > li {
   margin-left: -4px;
+}
+
+nav {
+  border-radius: 8px;
+}
+nav:hover {
+  border: 1px solid var(--color);
 }
 
 nav > ul > li > ul > li {
@@ -86,11 +92,6 @@ nav li {
   margin: 0;
   padding: 0;
   text-decoration: none;
-}
-nav li:hover {
-  background-color: #aaa;
-  border-radius: 4px;
-
 }
 
 ul > li.active > a,
