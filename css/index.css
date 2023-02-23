@@ -69,17 +69,6 @@ body > .site-body {
 }
 
 /* Navigation CSS */
-nav {
-  font-family: var(--font-heading);
-  font-weight: 400;
-}
-nav ul, nav a {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
-
 nav > ul > li {
   margin-left: -4px;
 }
@@ -89,7 +78,13 @@ nav > ul > li > ul > li {
   border-left: 1px dashed var(--pop-color);
 }
 nav li {
+  font-family: var(--font-heading);
+  font-weight: 400;
   padding: 4px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 nav li:hover {
   background-color: var(--secondary-background-color);
