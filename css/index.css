@@ -78,6 +78,9 @@ nav > ul > li > ul > li {
   color: var(--pop-color);
   border-left: 1px dashed var(--pop-color);
 }
+nav li {
+  margin: 4px;
+}
 
 ul > li.active > a,
 ul > li:hover > a,
