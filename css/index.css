@@ -8,6 +8,7 @@
   --background-color: rgba(245, 246, 249, 1);
   --color: rgba(40, 45, 77, 1);
   --pop-color: rgba(147, 163, 252, 1);
+  --secondary-pop-color: rgba(191, 197, 235, 1);
   --secondary-color: #666;
   --secondary-background-color: rgba(255, 255, 255, 1);
   --border-color: rgba(3, 7, 30, 0.3);
@@ -65,6 +66,7 @@ body {
 nav {
   font-family: var(--font-heading);
   margin-top: 2em;
+  color: var(--secondary-pop-color);
 }
 nav ul, nav a {
   color: var(--pop-color);
@@ -72,7 +74,6 @@ nav ul, nav a {
   margin: 0;
   padding: 0;
   text-decoration: none;
-  opacity: 80%;
 }
 
 nav > ul > li {
@@ -100,12 +101,12 @@ nav > ul > li:hover > a, nav > ul > li.active,
 nav > ul > li:hover,
 nav > ul > li > ul > li.active,
 nav > ul > li > ul > li:hover {
+  color: var(--pop-color);
   list-style-type: disc;
   font-weight: 400;
 }
 
 ul .active {
-  opacity: 100%;
   text-decoration: underline;
 }
 
