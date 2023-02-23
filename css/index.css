@@ -74,12 +74,12 @@ nav ul, nav a {
 }
 
 nav > ul > li > ul > li {
-  margin-left: 16px;
+  padding-left: 16px;
   color: var(--pop-color);
   border-left: 1px dashed var(--pop-color);
 }
 nav li {
-  margin: 4px;
+  padding: 4px;
 }
 
 ul > li.active > a,
