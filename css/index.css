@@ -105,13 +105,7 @@ nav > ul > li:hover > a, nav > ul > li.active,
 nav > ul > li:hover,
 nav > ul > li > ul > li.active,
 nav > ul > li > ul > li:hover {
-  color: var(--pop-color);
-  list-style-type: disc;
   background-color: rgba(191, 197, 235, 1);
-}
-
-ul .active {
-  text-decoration: underline;
 }
 
 .profile {
