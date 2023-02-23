@@ -61,6 +61,7 @@ body > .site-body {
   align-items: flex-start;
   padding: 32px;
   color: var(--color);
+  border: 1px solid var(--secondary-background-color);
 }
 .divider {
   border-top: 1px dashed var(--pop-color);
@@ -87,7 +88,9 @@ nav li {
   text-decoration: none;
 }
 nav li:hover {
-  background-color: var(--secondary-background-color);
+  background-color: #aaa;
+  border-radius: 4px;
+
 }
 
 ul > li.active > a,
