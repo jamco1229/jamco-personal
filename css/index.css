@@ -78,6 +78,7 @@ ul > li > ul > li > a {
 ul > li.active > a,
 ul > li:hover > a {
   text-decoration: underline;
+  list-style: disc;
 }
 
 ul > li > ul > li > a {
@@ -247,6 +248,7 @@ nav > ul > li > ul > li:hover {
     margin-top: 2rem;
     margin-bottom: 1rem;
     color: var(--pop-color);
+    text-decoration: none;
   }
   
   h1,
