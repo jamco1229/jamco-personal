@@ -76,19 +76,7 @@ ul > li > ul > li > a {
 }
 
 ul > li.active > a,
-ul > li:hover > a {
-  text-decoration: underline;
-  list-style: disc;
-}
-
-ul > li > ul > li > a {
-  display: block;
-  padding-left: 1em;
-  list-style: disc;
-}
-
-/*
-nav > ul > li.active > a,
+ul > li:hover > a, nav > ul > li.active > a,
 nav > ul > li:hover > a,
 nav > ul > li > ul > li.active,
 nav > ul > li > ul > li:hover {
@@ -96,7 +84,7 @@ nav > ul > li > ul > li:hover {
   text-decoration: underline;
   list-style-type: disc;
 }
-*/
+
 
 /* Content styles */
 .home-intro {
