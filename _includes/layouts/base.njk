@@ -17,10 +17,10 @@
     {% for item in collections.all | eleventyNavigation %}
       <li{% if item.url == page.url %} class="active"{% endif %}>
         <a href="{{ item.url }}">
-          {{ item.title }}
-          {% if item.icon %}
+            {% if item.icon %}
             <a href="{{ item.url }}" class="nav-icon">{{ item.icon | safe }}</a>
           {% endif %}
+          <div class='tooltip'>{{ item.title }}</div>
         </a>
         {% if item.children %}
           <ul>
