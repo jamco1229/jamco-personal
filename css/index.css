@@ -140,6 +140,7 @@ nav > ul > li > ul > li:hover {
 /* About styles */
 .about {
   margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 /* Project container styles */
@@ -156,6 +157,7 @@ nav > ul > li > ul > li:hover {
   align-items: flex-start;
   padding: 16px;
   margin-top: 16px;
+  margin-bottom: 16px;
   gap: 0;
   text-align: left;
   border: 1px solid var(--primaryBorderColor);
