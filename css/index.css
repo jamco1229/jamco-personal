@@ -80,6 +80,7 @@ nav > ul > li > ul > li {
 }
 nav li {
   padding: 4px;
+  font-weight: 200;
 }
 
 ul > li.active > a,
@@ -96,6 +97,7 @@ nav > ul > li > ul > li.active,
 nav > ul > li > ul > li:hover {
   color: var(--color);
   list-style-type: disc;
+  font-weight: 600;
 }
 
 ul .active {
