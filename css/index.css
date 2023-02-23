@@ -135,7 +135,7 @@ nav > ul > li > ul > li:hover {
   height: 72px;
   object-fit: cover;
 }
-
+/*
 .profile-head a, .profile-head p{
   text-decoration: none;
 }
@@ -146,6 +146,7 @@ nav > ul > li > ul > li:hover {
   color: var(--pop-color);
   margin: 0;
 }
+*/
 /* About styles */
 .about {
   margin-top: 2em;
