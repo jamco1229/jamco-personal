@@ -35,11 +35,17 @@ body {
 }
 
 /* Site layout */
-.site-body {
-  margin-left: 30%;
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+body > .site-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 74px auto;
   max-width: var(--col-width);
-  margin-top: 74px;
-  margin-bottom: 74px;
   padding: 0 16px;
 }
 
