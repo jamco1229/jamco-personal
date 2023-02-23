@@ -3,7 +3,7 @@ layout: base
 pagination:
   data: collections.projects
   size: 10
-  alias: postslist
+  alias: projectslist
 permalink: "projects/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}"
 ---
 
@@ -25,6 +25,7 @@ permalink: "projects/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber 
     </article>
   {% endfor %}
 </div>
+
 {% if pagination.pages and pagination.pages.length > 1 %}
 
   <nav class="pagination" aria-labelledby="pagination">
