@@ -1,7 +1,7 @@
 ---
 layout: projects
-title: Projects
+title: Work
 eleventyNavigation:
-  key: Projects
-  order: 3
+  key: Work
+  order: 2
 ---
