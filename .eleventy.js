@@ -170,6 +170,7 @@ module.exports = function (config) {
   config.addLayoutAlias("post", "layouts/post.njk");
   config.addLayoutAlias("posts", "layouts/posts.njk");
   config.addLayoutAlias("project", "layouts/project.njk");
+  config.addLayoutAlias("projects", "layouts/projects.njk");
 
   // Base Config
   return {
