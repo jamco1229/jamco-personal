@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts.md",
+                "file": "pages/Resume.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts.md",
+                "file": "pages/Resume.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts.md",
+                "file": "pages/Resume.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts.md"
+                "file": "pages/Resume.md"
               }
             }
           }
@@ -167,9 +167,9 @@
   },
   "active": "e40ef0c99f2a01a9",
   "lastOpenFiles": [
+    "posts.md",
     "projects.md",
     "projects/Stay-project.md",
-    "posts.md",
     "index.md",
     "posts/Making this website.md",
     "projects/scribe-project.md",
