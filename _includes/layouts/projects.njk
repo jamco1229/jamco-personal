@@ -6,3 +6,21 @@ pagination:
   alias: postslist
 permalink: "projects/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}"
 ---
+
+<div class="projects">
+  {% for project in projectslist %}
+    <article class="project">
+      <header class="project-header">
+        <h2 class="project-title">
+          <a href="{{ project.url }}">{{ project.data.title | safe }}</a>
+        </h2>
+        <time class="project-date" datetime="{{ project.date | dateToFormat('yyyy-LL-dd') }}">{{ project.date | dateToFormat('d LLL y') }}</time>
+      </header>
+      {% if project.data.page.excerpt %}
+        {{ project.data.page.excerpt | markdownify | safe }}
+        <p><a href="{{ project.url }}" aria-label="Continue reading “{{ project.data.title }}”">Read more…</a></p>
+      {% else %}
+        {{ project.templateContent | safe }}
+      {% endif %}
+    </article>
+ 
