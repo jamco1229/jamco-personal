@@ -71,7 +71,6 @@ body > .site-body {
 /* Navigation CSS */
 nav {
   font-family: var(--font-heading);
-  margin-top: 2em;
   font-weight: 400;
 }
 nav ul, nav a {
