@@ -17,19 +17,26 @@
         
   <ul>
     {% for item in collections.all | eleventyNavigation %}
-      <li{% if item.url == page.url %} class="active"{% endif %}>
-        <a href="{{ item.url }}">{{ item.title }}</a>
-        {% if item.children %}
-          <ul>
-            {% for child in item.children %}
-              <li{% if child.url == page.url %} class="active"{% endif %}>
-                <a href="{{ child.url }}">{{ child.title }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        {% endif %}
-      </li>
-    {% endfor %}
+  <li{% if item.url == page.url %} class="active"{% endif %}>
+    <a href="{{ item.url }}">
+      {{ item.icon }} <!-- Include the icon here -->
+      {{ item.title }}
+    </a>
+    {% if item.children %}
+      <ul>
+        {% for child in item.children %}
+          <li{% if child.url == page.url %} class="active"{% endif %}>
+            <a href="{{ child.url }}">
+              {{ child.icon }} <!-- Include the icon here -->
+              {{ child.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </li>
+{% endfor %}
+
 </nav>
 
       </nav>
