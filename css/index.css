@@ -82,16 +82,15 @@ nav > ul > li > ul > li:hover {
 .home-intro {
   margin-bottom: 32px;
 }
-/*
-/* Profile styles
+
 .profile {
   border-radius: 100%;
-  width: 92px;
-  height: 92px;
+  width: 72px;
+  height: 72px;
   object-fit: cover;
   box-shadow: var(--card-shadow);
 }
-
+/*
 .profile-head {
   display: flex;
   flex-direction: row;
@@ -106,14 +105,14 @@ nav > ul > li > ul > li:hover {
   display: grid;
   height: auto;
 }
-
-.profile-title > a,
+*/
+.profile-head a,
 p,
 h1 {
   height: auto;
   font-size: 1em;
   line-height: 1em;
-} */
+}
 /* About styles */
 .about {
   margin-top: 2em;
