@@ -109,7 +109,7 @@ nav > ul > li > ul > li:hover {
 */
 .profile-head a, .profile-head p, .profile-head h1 {
   font-size: 1em;
-  line-height: 1em;
+  line-height: 1.35em;
 }
 /* About styles */
 .about {
