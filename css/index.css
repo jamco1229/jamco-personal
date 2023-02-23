@@ -6,6 +6,7 @@
   --font: 'IBM Plex Mono', monospace;
   --background-color: #F3F6F8;
   --color: #222;
+  --pop-color: #93a3fc;
   --secondary-color: #666;
   --secondary-background-color: #fff;
   --border-color: rgba(53, 73, 88, 0.3);
@@ -210,33 +211,23 @@ nav > ul > li:hover:before {
   }
 
   h1 {
-    /*font-size: 2.5rem;*/
-    font-weight: 800;
+    font-size: 2.5rem;
+    font-weight: 600;
   }
   
   h2 {
-    /*font-size: 2rem;*/
-    font-weight: 800;
+    font-size: 2rem;
+    font-weight: 600;
   }
   
   h3 {
-    /*font-size: 1.75rem;*/
-    font-weight: 800;
+    font-size: 1.75rem;
+    font-weight: 600;
   }
   
-  h4 {
-    /*font-size: 1.5rem;*/
-    font-weight: 800;
-  }
-  
-  h5 {
-   /* font-size: 1.25rem;*/
-    font-weight: normal;
-  }
-  
-  h6 {
-   /* font-size: 1rem;*/
-    font-weight: normal;
+  h4, h5, h6 {
+    font-size: 1rem;
+    font-weight: 600;
   }
   
   h1,
@@ -247,7 +238,7 @@ nav > ul > li:hover:before {
   h6 {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    color: var(--secondary-color);
+    color: var(--pop-color);
   }
   
   h1,
