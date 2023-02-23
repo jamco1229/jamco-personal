@@ -81,7 +81,6 @@ nav > ul > li > ul > li {
 }
 nav li {
   padding: 4px;
-  font-weight: 200;
 }
 
 ul > li.active > a,
