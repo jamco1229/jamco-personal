@@ -55,6 +55,10 @@ body {
   align-items: flex-start;
   padding: 32px;
 }
+.divider {
+  border-top: 1px dashed var(--pop-color);
+  margin-bottom: 2em;
+}
 
 /* Navigation CSS */
 nav {
