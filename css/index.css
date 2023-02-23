@@ -72,7 +72,8 @@ body > .site-body {
 
 nav {
   border-radius: 8px;
-  padding: 8px
+  padding: 8px;
+  transition: color .2s ease-in-out,border-color .2s ease-in-out;
 }
 nav:hover {
   border: 1px solid var(--color);
@@ -87,7 +88,7 @@ nav li {
   font-family: var(--font-heading);
   font-weight: 400;
   list-style: none;
-  margin: 0;
+  margin: 0 0 0 4;
   padding: 4px 8px;
   text-decoration: none;
   border-radius: 4px;
