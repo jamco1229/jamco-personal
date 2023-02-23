@@ -10,33 +10,10 @@ media:
     alt: Poster for Portfolio Starter
 ---
 
-Hello there!
+| Role | Completion date | Platform | Read time |
+|------|----------------|----------|-----------|
+| UX Design | Dec 2022 | Mobile | 5mins |
 
-I'm making this website using a base template that allows me to organise Markdown documents and host them on GitHub, which is then deployed via Netlify to make what you're reading now!
-The main benefit for doing this for me was the fact that once I have built the css and html I can close the code editor and use Obsidian to create and edit my posts/projects this is a game changer because it's a tool I already use an
-
-<div class='specs'>
-<div class="row top">
-  <div class="column">
-    <h3 class="specs">Role</h3>
-    <p class="specs">UX Design</p>
-  </div>
-  <div class="column">
-    <h3 class="specs">Completion date</h3>
-    <p class="specs">Dec 2022</p>
-  </div>
-</div>
-<div class="row bottom">
-  <div class="column">
-    <h3 class="specs">Platform</h3>
-    <p>Mobile</p>
-  </div>
-  <div class="column">
-    <h3 class="specs">Read time</h3>
-    <p class="specs">5mins</p>
-  </div>
-</div>
-</div>
 <hr>
 
 ### **For UX Design Institute I analysed friction points in a Hotel booking apps. I then designed a solution to them in the form of a prototype.**
