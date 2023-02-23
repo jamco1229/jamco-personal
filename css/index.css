@@ -94,7 +94,25 @@ nav li:hover{
   border-radius: 100%;
   box-shadow: var(--card-shadow);
 }
+.profile-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+  width: 100%;
+  margin-bottom: 2em;
+}
 
+.profile-title {
+  width: 100%;
+  display: grid;
+  height: auto;
+}
+.profile-title > a, p, h1 {
+  height: auto;
+  font-size: 1em;
+  line-height: 1em;
+}
 /* Style the about section */
 .about {
   margin-top: 2em;
