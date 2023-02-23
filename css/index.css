@@ -166,10 +166,6 @@ nav li:hover{
     height: auto;
     background-color: var(--background-color);
     z-index: 999;
-<<<<<<< HEAD
-=======
-    box-shadow: var(--card-shadow);
->>>>>>> parent of ec3498c (viubv)
   }
   .site-body {
     padding: 16px;
