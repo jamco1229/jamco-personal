@@ -5,6 +5,16 @@ eleventyNavigation:
   order: 1
 ---
 
+      <div class='profile-head'>
+<img class="profile" src="https://github.com/jamco1229/jamco-personal/blob/master/content/media/profile%20pic.png?raw=true" />
+<div class='profile-title'>
+<a href='/'><h1>James Coy</h1></a>
+<p>He/Him</p>
+<p> Multi-Desciplinary Creative&mdash;Passion for Interface Design&mdash;Background in Film<p>
+<a href:'mailto:james.coy.design@gmail.com'></a>
+</div>
+<div class="divider"></div>
+</div>
 # About
 With 3 years of experience in the film industry and 1 year at [headteachers.org](http://headteachers.org/), my focus is within creative collaboration, project management, prototyping, interaction design, and user research.
 

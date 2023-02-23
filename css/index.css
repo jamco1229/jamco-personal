@@ -165,7 +165,7 @@ nav > ul > li > ul > li:hover {
   padding: 16px;
   gap: 0;
   text-align: left;
-  border: 1px solid var(--border-color);
+  border: 1px solid #e5e5e5;
   border-radius: 12px;
   box-shadow: inset 0px 0px 7.81132px rgba(124, 119, 113, 0.18);
 }
