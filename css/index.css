@@ -67,7 +67,7 @@ nav {
   font-family: var(--font-heading);
   margin-top: 2em;
   color: var(--secondary-pop-color);
-  font-weight: 600;
+  font-weight: 400;
 }
 nav ul, nav a {
   color: var(--pop-color);
