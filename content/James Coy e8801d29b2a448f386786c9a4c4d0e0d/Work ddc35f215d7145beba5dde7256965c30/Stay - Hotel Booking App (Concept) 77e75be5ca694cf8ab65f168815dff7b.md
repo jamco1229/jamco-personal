@@ -44,7 +44,7 @@ I identified that many existing hotel-booking apps had hidden or hard to navigat
 Competitive benchmarking → Usability Testing → Affinity Diagram → Customer Journey Map.
 
 ---
-
+<img src='https://github.com/jamco1229/jamco-personal/blob/master/content/media/Stay%20-%20Hotel%20Booking%20App%20(Concept)%2077e75be5ca694cf8ab65f168815dff7b/Untitled.png?raw=true' alt=''>
 ![Untitled](Stay%20-%20Hotel%20Booking%20App%20(Concept)%2077e75be5ca694cf8ab65f168815dff7b/Untitled.png)
 
 Before starting to make any assumptions, I looked at what other apps are doing in this space. One aimed at luxury stays, one an established provider, and one that is a more modern and mobile first take on hotel booking.
