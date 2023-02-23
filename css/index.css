@@ -67,6 +67,7 @@ nav {
   font-family: var(--font-heading);
   margin-top: 2em;
   color: var(--secondary-pop-color);
+  font-weight: 600;
 }
 nav ul, nav a {
   color: var(--pop-color);
@@ -103,7 +104,6 @@ nav > ul > li > ul > li.active,
 nav > ul > li > ul > li:hover {
   color: var(--pop-color);
   list-style-type: disc;
-  font-weight: 400;
 }
 
 ul .active {
