@@ -5,7 +5,7 @@
 :root {
   --col-width: 640px;
   --font: 'IBM Plex Mono', monospace;
-  --background-color: rgba(208, 211, 231, 1);
+  --background-color: rgba(245, 246, 249, 1);
   --color: rgba(3, 7, 30, 1);
   --pop-color: rgba(147, 163, 252, 1);
   --secondary-color: #666;
