@@ -107,7 +107,7 @@ nav > ul > li > ul > li.active,
 nav > ul > li > ul > li:hover {
   color: var(--pop-color);
   list-style-type: disc;
-  background-color: #222;
+  background-color: rgba(191, 197, 235, 1);
 }
 
 ul .active {
