@@ -38,7 +38,7 @@ body {
 
 /* Site layout */
 .site-body {
-  width: 66.67%;
+  width: 80%;
   max-width: var(--col-width);
   margin: auto;
   padding: 32px;
@@ -47,6 +47,7 @@ body {
 .site-header {
   position: sticky;
   top: 0;
+  width: 20%;
   height: 100vh;
   display: flex;
   flex-direction: column;
