@@ -105,8 +105,10 @@ nav ul {
 
 nav > ul > li > ul {
   display: none;
+  /*
   padding-left: 16px;
   border-left: 1px dashed var(--pop-color);
+  */
 }
 nav li {
   font-family: var(--font-heading);
@@ -123,6 +125,7 @@ nav > ul > li:hover > a, nav > ul > li.active,
 nav > ul > li:hover,
 nav > ul > li > ul > li.active,
 nav > ul > li > ul > li:hover {
+  text-decoration: none;
   background-color: rgba(191, 197, 235, 1);
 }
 
