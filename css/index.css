@@ -121,7 +121,7 @@ nav li {
   border-radius: 4px;
 }
 .tooltip {
-  /* display: none; */
+  display: none;
   text-transform: uppercase;
   font-size: 0.5em;
 }
