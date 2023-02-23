@@ -57,6 +57,9 @@ body {
 }
 
 /* Navigation CSS */
+nav {
+  margin-top: 2em;
+}
 nav ul, nav a {
   color: var(--secondary-color);
   list-style: none;
