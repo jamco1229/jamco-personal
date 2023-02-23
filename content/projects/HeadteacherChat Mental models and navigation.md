@@ -11,7 +11,7 @@ media:
 eleventyNavigation:
   key: HeadteacherChat Navigation
   order: 3
-  parent: Projects
+  parent: Work
 ---
 
 > As part of an ongoing rebrand and restructure of headteachers.org, myself and my brother are redesigning the website from the ground up. In this mini-case study I explore our process, problems, and outcomes of redesigning a new navigation model for mobile users.

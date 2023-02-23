@@ -12,7 +12,7 @@ media:
 eleventyNavigation:
   key: Skeuemorphic Button Design
   order: 4
-  parent: Projects
+  parent: Work
 ---
 
 

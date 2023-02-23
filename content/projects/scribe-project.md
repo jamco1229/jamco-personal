@@ -12,7 +12,7 @@ media:
 eleventyNavigation:
   key: Scribe - App Design
   order: 2
-  parent: Projects
+  parent: Work
 ---
 
 <div class='specs'>

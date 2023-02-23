@@ -11,7 +11,7 @@ media:
 eleventyNavigation:
   key: Stay - App Design
   order: 1
-  parent: Projects
+  parent: Work
 ---
 
 | Role | Completion date | Platform | Read time |
