@@ -135,14 +135,6 @@ nav li {
   display: inline-block;
 }
 
-nav li .tooltip {
-  font-size: 1rem;
-  line-height: 1.6em;
-  text-align: center;
-  z-index: 9999;
-  transition: color .2s ease-in-out;
-}
-
 ul > li.active > a, nav > ul > li.active > a, nav > ul > li.active,
 nav > ul > li > ul > li.active {
   color: var(--color);

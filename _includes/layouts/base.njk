@@ -21,22 +21,8 @@
             {% if item.icon %}
             <a href="{{ item.url }}" class="nav-icon">{{ item.icon | safe }}</a>
           {% endif %}
-          <div class='tooltip'>{{ item.title }}</div>
+          <a href="{{ item.url }}"><div class='tooltip'>{{ item.title }}</div></a>
         </a>
-        {% if item.children %}
-          <ul>
-            {% for child in item.children %}
-              <li{% if child.url == page.url %} class="active"{% endif %}>
-                <a href="{{ child.url }}">
-                  {{ child.title }}
-                  {% if child.icon %}
-                    <a href="{{ child.url }}" class="nav-icon">{{ child.icon | safe }}</a>
-                  {% endif %}
-                </a>
-              </li>
-            {% endfor %}
-          </ul>
-        {% endif %}
       </li>
     {% endfor %}
   </ul>
