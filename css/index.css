@@ -311,36 +311,22 @@ nav > ul > li > ul > li:hover {
   ::before {
     box-sizing: border-box;
   }
-  
-  aside {
-    width: 40%;
-    padding: 0.84rem;
-    margin: 0.16rem;
-    color: var(--text);
-    background-color: var(--background-main);
-    border-radius: var(--border-radius);
-  }
 
-  h1 {
-    font-size: 5rem;
-    line-height: 1em;
-  }
-  
-  h2 {
+h1 {
     font-size: 3rem;
     line-height: 1em;
   }
   
-  h3, h4, h5, h6 {
-    font-size: 1.35rem;
+h2 {
+    font-size: 2rem;
+    line-height: 1em;
   }
   
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+h3, h4, h5, h6 {
+    font-size: 1rem;
+  }
+  
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
     margin-top: 2rem;
     margin-bottom: 1rem;
