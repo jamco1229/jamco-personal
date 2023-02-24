@@ -54,10 +54,6 @@ body {
   font-size: 1em;
   background-color: var(--background-color);
   padding: 16px;
-}
-
-/* Site layout */
-body {
   display: flex;
   flex-direction: row;
 }
@@ -67,6 +63,7 @@ body > .site-body {
   flex-direction: column;
   align-items: center;
   margin: 74px auto;
+  width: 100%;
   max-width: var(--col-width);
   padding: 0 16px;
 }
