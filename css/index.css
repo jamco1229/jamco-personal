@@ -1,10 +1,19 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@font-face {
+  font-family: 'PP Montreal Book';
+  src: url('/fonts/ppneuemontreal-book-webfont.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'PP Montreal Medium';
+    src: url('/fonts/ppneuemontreal-medium-webfont.woff2') format('woff2');
+    }
 /* Variables */
 :root {
+  font-size: 16px;
   --col-width: 640px;
-  --font: 'IBM Plex Sans', sans-serif;
-  --font-heading: 'IBM Plex Sans', sans-serif;
+  --font: 'PP Montreal Book', sans-serif;
+  --font-heading: 'PP Montreal Medium', sans-serif;
   --background-color: rgba(245, 246, 249, 1);
   --color: rgba(40, 45, 77, 1);
   --pop-color: rgba(147, 163, 252, 1);
