@@ -208,12 +208,59 @@ nav > ul > li > ul > li:hover {
   margin: 8px 0;
 }
 
-@media  screen and (max-width:480px) {
-  .profile-head {
+/* Site header CSS for displays under 480px */
+
+@media screen and (max-width: 480px) {
+
+  .site-header {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0;
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    flex-shrink: 0;
+    z-index: 200;
+  }
+
+  .site-header ul {
+    display: flex;
     flex-direction: row;
-    align-items: baseline;
+    gap: 4px;
+    margin: 0;
+  }
+
+  .site-header li {
+    padding: 4px;
+    border-radius: 0;
+  }
+
+  .tooltip {
+    display: block;
+    position: static;
+    text-transform: uppercase;
+    font-size: 0.5em;
+    margin-top: 4px;
+    color: black;
+    background-color: transparent;
+  }
+
+  .site-header li:hover .tooltip {
+    display: block;
+    color: black;
+    background-color: transparent;
+  }
+
+  .profile {
+    display: none;
   }
 }
+
 
 
 .divider {
