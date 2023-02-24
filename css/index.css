@@ -338,7 +338,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
     margin-top: 2rem;
     margin-bottom: 1rem;
-    color: var(--pop-color);
+    color: var(--color);
     text-decoration: none;
     z-index: 999;
   }
