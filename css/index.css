@@ -242,7 +242,7 @@ nav > ul > li > ul > li.active {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: auto;
+    height: 72px;
     align-items: center;
     justify-content: center;
     padding: 8px 0;
