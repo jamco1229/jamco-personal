@@ -150,7 +150,8 @@ nav li .tooltip {
 
   /* Position the tooltip */
   position: absolute;
-  z-index: 1;
+  left: 72px;
+  z-index: 1000;
 }
 
 nav li:hover .tooltip {
