@@ -51,7 +51,9 @@
   box-sizing: border-box;
   z-index: 0;
 }
-
+html {
+  width: 100vw;
+}
 html,
 body {
   height: 100%;
@@ -200,6 +202,7 @@ nav > ul > li > ul > li:hover {
 
 /* Project container styles */
 .container {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
@@ -210,14 +213,16 @@ nav > ul > li > ul > li:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 100%;
   padding: 16px;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  gap: 0;
+  margin: 0 16px;
   text-align: left;
   border: 1px solid var(--primaryBorderColor);
-  border-radius: 12px;
+  border-radius: var(--border-radius);
   box-shadow: inset 0px 0px 7.81132px rgba(124, 119, 113, 0.18);
+}
+.home-block img {
+  margin-bottom: 2rem;
 }
 .home-block a {
   text-decoration: none;
@@ -238,7 +243,6 @@ nav > ul > li > ul > li:hover {
   margin: 0;
   padding: 0;
 }
-
 .link-list li {
   margin: 8px 0;
 }
@@ -308,21 +312,11 @@ nav > ul > li > ul > li:hover {
   } */
 }
 
-
-
 .divider {
   border-top: 1px dashed var(--pop-color);
   margin-bottom: 1em;
   margin-top: 1em;
 }
-
-/* Bolt CSS */
-
-  *,
-  ::after,
-  ::before {
-    box-sizing: border-box;
-  }
 
 h1 {
     font-size: 3rem;
@@ -356,6 +350,7 @@ h1, h2, h3, h4, h5, h6 {
   strong,
   th {
     font-family: var(--font-heading);
+    color: black;
   }
 /*
 em {
@@ -375,7 +370,6 @@ em {
 
 .page-title {
   font-family: var(--font-heading);
-
   margin: 0;
 }
 
@@ -510,19 +504,10 @@ Pagination
     border-radius: 6px;
   }
 
-  
-  figcaption {
-    padding-top: 10px;
-    font-size: 0.8rem;
-  }
-  
-  figure {
-    margin: 0;
-  }
-  
   hr {
-    border: 2px solid var(--border);
+    border: 2px solid var(--pop-color);
   }
+
   li {
     line-height: 1.6em;
   }
