@@ -41,11 +41,18 @@
 }
 
 /* Reset styles */
-* {
+
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  z-index: 0;
+  z-index: 1;
+  font-feature-settings: "kern";
+  font-kerning: normal;
+  -moz-osx-font-smoothing: grayscale !important;
+  -webkit-font-smoothing: antialiased !important;
 }
 
 body {
@@ -70,7 +77,6 @@ p {
 /* Navigation CSS */
 
 .site-header {
-  background-color: white;
   position: fixed;
   top: 0;
   left: 0;
