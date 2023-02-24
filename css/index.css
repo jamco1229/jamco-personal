@@ -24,10 +24,10 @@
 /* Variables */
 :root {
   font-size: 16px;
-  line-height: 1.6rem;
+  line-height: 1.6em;
   --col-width: 640px;
   --font: 'PP Montreal Book', sans-serif;
-  --font-heading: 'PP Right Slab Light', sans-serif;
+  --font-heading: 'PP Montreal Book', sans-serif;
   --background-color: rgba(245, 246, 249, 1);
   --color: rgba(40, 45, 77, 1);
   --pop-color: rgba(147, 163, 252, 1);
