@@ -213,9 +213,12 @@ nav > ul > li > ul > li:hover {
 /* Site header CSS for displays under 480px */
 
 @media screen and (max-width: 480px) {
+  .site-body {
+    z-index: 0;
+  }
 
   nav > ul > li > ul {
-    display: none;
+    display: none !important;
   }
   .site-header {
     position: fixed;
@@ -227,10 +230,9 @@ nav > ul > li > ul > li:hover {
     padding: 8px 0;
     border-top: 1px solid black;
     display: flex;
-    flex-direction: column;
-    position: fixed;
-    flex-shrink: 0;
-    z-index: 200;
+    flex-direction: row;
+    z-index: 999;
+    background-color: var(--background-color);
   }
 
   .site-header ul {
