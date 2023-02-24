@@ -26,7 +26,6 @@
   font-size: 16px;
   line-height: 1.6em;
   font-weight: 400;
-  --links: var(--blue);
   --col-width: 640px;
   --font: 'IBM Plex Sans', sans-serif;
   --font-heading: 'IBM PLex Sans', sans-serif;
@@ -55,14 +54,23 @@
 html,
 body {
   height: 100%;
-  margin: 0;
 }
 
 body {
+  margin: 0;
+  padding: 0;
   font-size: 16px;
   line-height: 1.5;
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
+}
+
+p {
+  margin: 0 0 1
+}
+
+/* Set up the basic layout */
+body {
   font-family: var(--font);
   color: var(--color);
   width: 100%;
@@ -72,24 +80,17 @@ body {
   flex-direction: row;
 }
 
-p {
-  margin: 0 0 1
-}
-
 body > .site-body {
   max-width: var(--col-width);
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 74px auto;
   width: 100%; /* Add this line */
   padding: 0 16px;
 }
-.site-main {
-  width: 100%;
-  max-width: var(--col-width);
-}
 
-/* Navigation CSS */
+
 .site-header {
   position: fixed;
   top: 0;
@@ -98,6 +99,7 @@ body > .site-body {
   /* */
   align-items: center;
   justify-content: left;
+  padding: 16px;
   padding-right: 16px;
   border-right: 1px solid black;
     display: flex;
@@ -106,6 +108,9 @@ body > .site-body {
     flex-shrink: 0;
     z-index: 200;
 }
+
+
+/* Navigation CSS */
 
 nav {
   padding: 8px;
@@ -145,11 +150,11 @@ nav li {
 
 nav li .tooltip {
   visibility: hidden;
-  align-self: center;
   font-size: 1rem;
   line-height: 1.6em;
   font-weight: 600;
   width: auto;
+  height: 1.35rem;
   color: var(--background-color);
   background-color: var(--color);
   text-align: center;
@@ -167,13 +172,6 @@ nav li:hover .tooltip {
   visibility: visible;
 }
 
-ul > li.active > a, nav > ul > li.active > a, nav > ul > li.active
-nav > ul > li > ul > li.active {
-  text-decoration: none;
-  background-color: var(--color);
-  color: var(--background-color);
-}
-/*
 ul > li.active > a,
 ul > li:hover > a, nav > ul > li.active > a,
 nav > ul > li:hover > a, nav > ul > li.active,
@@ -184,7 +182,6 @@ nav > ul > li > ul > li:hover {
   background-color: var(--color);
   color: var(--background-color);
 }
-*/
 
 .profile {
   width: 44px;
@@ -223,9 +220,18 @@ nav > ul > li > ul > li:hover {
   text-decoration: none;
 }
 
+.home-block img {
+  box-shadow: 0px 4.6px 18.4px rgba(0, 0, 0, 0.25), 0px 27.6px 36.8px -9.2px rgba(0, 0, 0, 0.25), 0px 18.4px 18.4px -9.2px rgba(0, 0, 0, 0.25), 0px 0px 1.95283px 1.95283px #5B5853, inset 0px 1.95283px 1.95283px #E3E3E3, inset 0px 1.95283px 1.95283px 1.95283px #A1A090, inset 0px 7.81132px 15.6226px rgba(0, 0, 0, 0.1);
+}
+
 .home-block-title {
   margin: 4px 0 8px;
   border-radius: 8px !important;
+}
+
+.project-img {
+  display: block;
+  margin-bottom: 12px;
 }
 
 .project-description {
@@ -246,10 +252,7 @@ nav > ul > li > ul > li:hover {
 /* Site header CSS for displays under 480px */
 
 @media screen and (max-width: 480px) {
- .site-header {
-  visibility: hidden;
- }
- /* .site-body {
+  .site-body {
     z-index: 0;
   }
 
@@ -305,7 +308,7 @@ nav > ul > li > ul > li:hover {
 
   .profile {
     display: none;
-  } */
+  }
 }
 
 
@@ -547,10 +550,8 @@ Pagination
   audio,
   img,
   video {
-    display: block;
-    margin-bottom: 12px;
     border-radius: var(--border-radius);
-    max-width: 80%;
+    max-width: 100%;
+    display: block;
     height: auto;
-    box-shadow: 0px 4.6px 18.4px rgba(0, 0, 0, 0.25), 0px 27.6px 36.8px -9.2px rgba(0, 0, 0, 0.25), 0px 18.4px 18.4px -9.2px rgba(0, 0, 0, 0.25), 0px 0px 1.95283px 1.95283px #5B5853, inset 0px 1.95283px 1.95283px #E3E3E3, inset 0px 1.95283px 1.95283px 1.95283px #A1A090, inset 0px 7.81132px 15.6226px rgba(0, 0, 0, 0.1);
   }
