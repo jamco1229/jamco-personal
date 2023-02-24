@@ -27,9 +27,9 @@
   font-size: 16px;
   line-height: 1.6em;
   --col-width: 640px;
-  --font: 'PP Montreal Book', sans-serif;
+  --font: 'Bespoke Serif', serif;
   --font-heading: 'Bespoke Serif', serif;
-  --font-bold: 'Bespoke Serif', sans-serif;
+  --font-bold: 'Bespoke Serif', serif;
   --background-color: rgba(245, 246, 249, 1);
   --color: rgba(40, 45, 77, 1);
   --pop-color: rgba(147, 163, 252, 1);
@@ -75,6 +75,7 @@ p {
   line-height: 1.6em;
   font-family: var(--font);
   margin: 0 0 1em;
+  font-weight: 400;
 }
 
 
@@ -327,7 +328,7 @@ h3, h4, h5, h6 {
   
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
-  font-weight: 800;
+  font-weight: 600;
   margin-top: 2rem;
   margin-bottom: 1rem;
   color: var(--color);
