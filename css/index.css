@@ -146,7 +146,6 @@ nav li {
 .nav li {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
 }
 
 nav li .tooltip {
@@ -179,8 +178,8 @@ nav > ul > li:hover,
 nav > ul > li > ul > li.active,
 nav > ul > li > ul > li:hover {
   text-decoration: none;
-  background-color: #222;
-  color: white;
+  background-color: var(--color);
+  color: var(--background-color);
 }
 
 .profile {
