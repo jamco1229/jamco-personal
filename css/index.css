@@ -79,22 +79,19 @@ body > .site-body {
   /* */
   align-items: center;
   justify-content: left;
-  padding: 32px;
-  border-right: 1px solid var(--color);
-    box-shadow: 1px 0 0 0 var(--transparentBorder);
+  padding: 16px;
+  border-right: 1px solid black;
     display: flex;
     flex-direction: column;
     position: sticky;
     flex-shrink: 0;
     z-index: 200;
-    margin: ;
 }
 
 
 /* Navigation CSS */
 
 nav {
-  border-radius: 8px;
   padding: 8px;
   transition: color .2s ease-in-out,border-color .2s ease-in-out;
 }
@@ -120,9 +117,14 @@ nav li {
   padding: 4px 8px;
   text-decoration: none;
   border-radius: 4px;
+  transition: color .2s ease-in-out,border-color .2s ease-in-out;
 }
 nav li:hover .tooltip {
-  display: block;
+  display: absolute;
+  left: 32px;
+  align-self: center;
+  color: white;
+  background-color: black;
 }
 .tooltip {
   display: none;
@@ -136,12 +138,13 @@ nav > ul > li:hover,
 nav > ul > li > ul > li.active,
 nav > ul > li > ul > li:hover {
   text-decoration: none;
-  background-color: rgba(191, 197, 235, 1);
+  background-color: #222;
+  color: white;
 }
 
 .profile {
-  width: 72px;
-  height: 72px;
+  width: 44px;
+  height: 44px;
   object-fit: cover;
 }
 
