@@ -89,7 +89,10 @@ body > .site-body {
   width: 100%; /* Add this line */
   padding: 0 16px;
 }
-
+.site-main {
+  width: 100%;
+  max-width: var(--col-width);
+}
 
 .site-header {
   position: fixed;
