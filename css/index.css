@@ -37,24 +37,9 @@
   --border-color: rgba(3, 7, 30, 0.3);
   --card-shadow: rgba(3, 7, 30, 0.2) 0px 8px 18px;
   --border-radius: 12px;
-    --backgroundColor: #fff;
-    --inputBackgroundColor: #f2f2f2;
-    --primaryBorderColor: #e5e5e5;
-    --secondaryBorderColor: #f2f2f2;
-    --backdrop: rgba(0,0,0,.3);
-    --transparentBorder: rgba(0,0,0,.05);
-    --grey1: #111;
-    --grey2: #666;
-    --grey3: #aaa;
     --green: #32bd64;
     --orange: orange;
     --blue: #0788f5;
-    --selectionColor: rgba(109,175,255,.5);
-    --content-padding: 72px;
-    --badge-color: #f04b4b;
-    --sidebar-width: min(330px,calc(100vw - 48px));
-    --compressed-sidebar-width: 60px;
-    --marketingBackground: #fafafa;
 }
 
 /* Reset styles */
@@ -63,6 +48,24 @@
   padding: 0;
   box-sizing: border-box;
   z-index: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+p {
+  margin: 0 0 1
 }
 
 /* Set up the basic layout */
