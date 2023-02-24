@@ -132,16 +132,31 @@ nav li {
   border-radius: 50%;
   transition: color .2s ease-in-out,border-color .2s ease-in-out;
 }
-nav li:hover .tooltip {
-  display: absolute;
-  left: 32px;
-  align-self: center;
-  color: white;
+
+.nav li {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+nav li .tooltip {
+  visibility: hidden;
+  width: 120px;
   background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
 }
-.tooltip {
-  display: none;
+
+nav li:hover .tooltip {
+  visibility: visible;
 }
+
 ul > li.active > a,
 ul > li:hover > a, nav > ul > li.active > a,
 nav > ul > li:hover > a, nav > ul > li.active,
