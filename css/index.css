@@ -84,7 +84,6 @@ p {
   width: auto;
   height: 120vh;
   /* */
-  padding-right: 16px;
   border-right: 1px solid black;
   z-index: 999;
 }
@@ -95,10 +94,13 @@ nav {
 }
 
 nav ul {
+  height: 100%;
   align-self: center;
   display: flex;
   flex-direction: column;
   gap: 4px;
+  justify-content: center;
+  align-items: center;
   margin: auto 0;
 }
 
