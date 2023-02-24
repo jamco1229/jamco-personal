@@ -17,13 +17,18 @@
   src: url('/fonts/PP\ Right\ Slab\ -\ Narrow\ Light.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'PP Writer';
+  src: url('/fonts/ppwriter-regularitalic-webfont.woff2') format('woff2');
+}
+
 /* Variables */
 :root {
   font-size: 16px;
   line-height: 1.6em;
   --col-width: 640px;
   --font: 'PP Montreal Book', sans-serif;
-  --font-heading: 'PP Right Slab', sans-serif;
+  --font-heading: 'PP Writer', sans-serif;
   --font-bold: 'PP Neue Montreal Bold';
   --background-color: rgba(245, 246, 249, 1);
   --color: rgba(40, 45, 77, 1);
