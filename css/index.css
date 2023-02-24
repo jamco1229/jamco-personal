@@ -230,8 +230,6 @@ nav > ul > li > ul > li.active {
     border-top: 1px solid black;
     display: flex;
     flex-direction: row;
-    z-index: 999;
-    background-color: var(--background-color);
   }
 
   .site-header ul {
@@ -249,21 +247,6 @@ nav > ul > li > ul > li.active {
     align-items: center;
     justify-content: center;
     gap: 4px;
-  }
-
-  .tooltip {
-    display: block;
-    position: static;
-    text-transform: uppercase;
-    margin-top: 4px;
-    color: black;
-    background-color: transparent;
-  }
-
-  .site-header li:hover .tooltip {
-    display: block;
-    color: black;
-    background-color: transparent;
   }
 }
 
