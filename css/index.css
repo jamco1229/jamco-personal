@@ -87,19 +87,16 @@ p {
   left: 0;
   width: auto;
   height: 120vh;
-  /* */
   border-right: 1px solid var(--color);
   z-index: 999;
 }
 
 nav {
   padding: 8px;
-  width: auto;
   transition: color .2s ease-in-out, border-color .2s ease-in-out, background-color .4s ease-in-out;
 }
 
 nav ul {
-  width: auto;
   height: 100%;
   align-self: center;
   display: flex;
@@ -122,7 +119,6 @@ nav li {
   align-items: center;
   justify-content: flex-start;
   gap: 4px;
-  width: 44px;
   height: 44px;
   padding: 8px;
   text-decoration: none;
