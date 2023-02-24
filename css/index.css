@@ -315,7 +315,7 @@ strong, th {
 
 em {
   font-family: var(--font-heading);
-  font-weight: 300;
+  font-weight: 200;
   font-style: italic;
 }
 .page {
