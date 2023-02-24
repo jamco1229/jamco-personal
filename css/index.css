@@ -88,7 +88,7 @@ p {
   width: auto;
   height: 120vh;
   /* */
-  border-right: 1px solid black;
+  border-right: 1px solid var(--color);
   z-index: 999;
 }
 
@@ -101,11 +101,12 @@ nav ul {
   height: 100%;
   align-self: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 4px;
   justify-content: center;
   align-items: center;
   margin: auto 0;
+  color: var(--secondary-color);
 }
 
 nav > ul > li > ul {
@@ -115,15 +116,15 @@ nav > ul > li > ul {
 nav li {
   list-style: none;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 4px;
   width: 44px;
   height: 44px;
   padding: 8px;
   text-decoration: none;
-  border-radius: 50%;
+  border-radius: 4px;
   transition: color .2s ease-in-out,border-color .2s ease-in-out;
 }
 
@@ -138,15 +139,11 @@ nav li .tooltip {
   line-height: 1.6em;
   width: auto;
   height: 44px;
-  color: var(--background-color);
   background-color: var(--background-color);
   border: 1px solid var(--color);
   text-align: center;
   border-radius: 2em;
   padding: 4px 16px;
-  /* Position the tooltip */
-  position: absolute;
-  left: 72px;
   z-index: 9999;
   transition: color .2s ease-in-out;
   transition: background-color .2s ease-in-out;
@@ -159,7 +156,6 @@ nav li:hover .tooltip {
 ul > li.active > a, nav > ul > li.active > a, nav > ul > li.active,
 nav > ul > li > ul > li.active {
   text-decoration: none;
-  background-color: var(--color);
   color: var(--background-color);
 }
 
@@ -179,6 +175,7 @@ nav > ul > li > ul > li.active {
 .container {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   gap: 32px;
 }
 
@@ -200,9 +197,11 @@ nav > ul > li > ul > li.active {
   text-decoration: none;
 }
 
+/*
 .home-block img {
   box-shadow: 0px 18.4px 18.4px -9.2px rgba(0, 0, 0, 0.25), 0px 0px 1.95283px 1.95283px #5B5853, inset 0px 1.95283px 1.95283px #E3E3E3, inset 0px 1.95283px 1.95283px 1.95283px #A1A090, inset 0px 7.81132px 15.6226px rgba(0, 0, 0, 0.1);
 }
+*/
 
 .home-block-title {
   margin: 4px 0 8px;
