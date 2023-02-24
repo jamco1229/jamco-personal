@@ -92,7 +92,7 @@ body > .site-body {
 
 nav {
   padding: 8px;
-  transition: color .2s ease-in-out,border-color .2s ease-in-out;
+  transition: color .2s ease-in-out,border-color .2s ease-in-out,background-color .4s ease-in-out;
 }
 
 nav ul {
