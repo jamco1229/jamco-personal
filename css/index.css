@@ -283,7 +283,7 @@ nav > ul > li > ul > li.active {
 }
 h1 {
   font-size: 3rem;
-  line-height: 1em;
+  line-height: 1.1em;
   margin-top: 2rem;
   margin-bottom: 1rem;
   color: var(--color);
