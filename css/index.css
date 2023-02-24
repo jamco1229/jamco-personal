@@ -94,10 +94,12 @@ p {
 
 nav {
   padding: 8px;
+  width: auto;
   transition: color .2s ease-in-out, border-color .2s ease-in-out, background-color .4s ease-in-out;
 }
 
 nav ul {
+  width: auto;
   height: 100%;
   align-self: center;
   display: flex;
