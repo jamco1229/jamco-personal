@@ -51,10 +51,7 @@
   box-sizing: border-box;
   z-index: 0;
 }
-html {
-  width: 100vw;
-  overflow-x: hidden;
-}
+
 html,
 body {
   height: 100%;
@@ -203,7 +200,6 @@ nav > ul > li > ul > li:hover {
 
 /* Project container styles */
 .container {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
