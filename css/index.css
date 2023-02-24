@@ -155,7 +155,7 @@ nav li:hover .tooltip {
 ul > li.active > a, nav > ul > li.active > a, nav > ul > li.active,
 nav > ul > li > ul > li.active {
   text-decoration: none;
-  color: var(--background-color);
+  color: var(--pop-color);
 }
 
 .profile {
