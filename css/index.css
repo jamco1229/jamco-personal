@@ -141,7 +141,7 @@ nav li .tooltip {
   width: auto;
   height: 44px;
   background-color: var(--background-color);
-  border: 1px solid var(--color);
+  /*border: 1px solid var(--color);*/
   text-align: center;
   border-radius: 2em;
   padding: 4px 16px;
