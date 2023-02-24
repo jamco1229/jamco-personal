@@ -206,6 +206,12 @@ nav > ul > li > ul > li.active {
 /* Site header CSS for displays under 480px */
 
 @media screen and (max-width: 480px) {
+  :root {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
   .site-body {
     z-index: 0;
   }
