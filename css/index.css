@@ -98,12 +98,11 @@ nav {
 
 nav ul {
   height: 100%;
-  align-self: center;
   display: flex;
   flex-direction: column;
   gap: 4px;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: left;
   margin: auto 0;
   color: var(--secondary-pop-color);
 }
