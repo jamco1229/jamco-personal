@@ -12,6 +12,14 @@
   font-family: 'PP Neue Montreal Bold';
   src: url(/fonts/ppneuemontreal-bold-webfont.woff2) format('woff2');
 }
+@font-face {
+  font-family: 'PP Right Slab Light';
+  src: url(/fonts/PP\ Right\ Slab\ -\ Light.otf) format(otf);
+}
+@font-face {
+  font-family: 'PP Right Slab Medium';
+  src: url(/fonts/PP\ Right\ Slab\ -\ Medium.otf) format(otf);
+}
 
 /* Variables */
 :root {
@@ -19,7 +27,7 @@
   line-height: 1.6rem;
   --col-width: 640px;
   --font: 'PP Montreal Book', sans-serif;
-  --font-heading: 'PP Neue Montreal Bold', sans-serif;
+  --font-heading: 'PP Right Slab Light', sans-serif;
   --background-color: rgba(245, 246, 249, 1);
   --color: rgba(40, 45, 77, 1);
   --pop-color: rgba(147, 163, 252, 1);
