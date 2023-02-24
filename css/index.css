@@ -17,9 +17,12 @@
   src: url(/fonts/PP\ Right\ Slab\ -\ Light.otf) format(otf);
 }
 @font-face {
-  font-family: 'PP Right Slab Medium';
-  src: url(/fonts/PP\ Right\ Slab\ -\ Medium.otf) format(otf);
+  font-family: 'PP Right Slab';
+  src: url('jamco1229/jamco-personal/fonts/PP Right Slab - Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
 }
+
 
 /* Variables */
 :root {
@@ -27,8 +30,8 @@
   line-height: 1.6em;
   font-weight: 400;
   --col-width: 640px;
-  --font: 'IBM Plex Sans', sans-serif;
-  --font-heading: 'IBM PLex Sans', sans-serif;
+  --font: 'PP Montreal Book', sans-serif;
+  --font-heading: 'PP Right Slab', sans-serif;
   --background-color: rgba(245, 246, 249, 1);
   --color: rgba(40, 45, 77, 1);
   --pop-color: rgba(147, 163, 252, 1);
@@ -52,18 +55,42 @@
 }
 
 body {
+  background-color: var(--background-color);
   width: 100%;
   max-width: var(--col-width);
   padding: 0 16px;
+  z-index: 0;
+  color: var(--color);
 }
 
 
 p {
+  font-size: 1rem;
+  line-height: 1.6em;
+  font-family: var(--font);
   margin: 0 0 1
 }
 
 
 /* Navigation CSS */
+
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 100vh;
+  /* */
+  align-items: center;
+  justify-content: left;
+  padding: 16px;
+  padding-right: 16px;
+  border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    z-index: 999;
+}
 
 nav {
   padding: 8px;
