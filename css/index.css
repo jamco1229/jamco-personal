@@ -142,15 +142,15 @@ nav li .tooltip {
   visibility: hidden;
   width: 120px;
   background-color: black;
-  color: #fff;
+  color: rgba(191, 197, 235, 0.8);
   text-align: center;
-  border-radius: 6px;
+  border-radius: 50%;
   padding: 5px 0;
 
   /* Position the tooltip */
   position: absolute;
   left: 72px;
-  z-index: 1000;
+  z-index: 9999;
 }
 
 nav li:hover .tooltip {
