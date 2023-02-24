@@ -61,12 +61,11 @@
 body {
   font-family: var(--font);
   color: var(--color);
-  width: 100%; /* Change from 100vw to 100% */
+  width: 100%;
   background-color: var(--background-color);
   padding: 0 16px;
   display: flex;
   flex-direction: row;
-  overflow-x: hidden; 
 }
 
 body > .site-body {
@@ -75,7 +74,6 @@ body > .site-body {
   align-items: center;
   margin: 74px auto;
   width: 100%; /* Add this line */
-  max-width: var(--col-width);
   padding: 0 16px;
 }
 
@@ -96,11 +94,6 @@ body > .site-body {
     position: sticky;
     flex-shrink: 0;
     z-index: 200;
-}
-
-.site-body {
-  width: 100%;
-  overflow-x: hidden;
 }
 
 
