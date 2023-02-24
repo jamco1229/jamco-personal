@@ -316,13 +316,11 @@ nav > ul > li > ul > li:hover {
   h1 {
     font-size: 4rem;
     line-height: 1em;
-    font-weight: 600;
   }
   
   h2 {
     font-size: 2rem;
     line-height: 1em;
-    font-weight: 600;
   }
   
   h3, h4, h5, h6 {
@@ -370,7 +368,7 @@ em {
 
 .page-title {
   font-family: var(--font-heading);
-  
+
   margin: 0;
 }
 
@@ -506,15 +504,7 @@ Pagination
     border-left: 7px solid var(--border);
     border-radius: 6px;
   }
-  
-  dd {
-    margin-left: 0;
-    padding-bottom: 11px;
-  }
 
-  dt {
-    font-weight: bold;
-  }
   
   figcaption {
     padding-top: 10px;
@@ -565,7 +555,6 @@ Pagination
   
   samp {
     display: inline-block;
-    font-weight: bold;
     padding: 10px 20px;
     background-color: var(--background-main);
     color: var(--text);
@@ -840,7 +829,6 @@ Pagination
   }
   
   summary {
-    font-weight: bold;
     margin: -0.5em -0.5em 0;
     padding: 0.5em;
   }
