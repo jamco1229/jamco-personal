@@ -51,12 +51,12 @@ body {
   font-family: var(--font);
   color: var(--color);
   line-height: 1.35em;
+  width: 100vw;
   font-size: 1em;
   background-color: var(--background-color);
   padding: 0 16px;
   display: flex;
   flex-direction: row;
-  width: 100vw;
 }
 
 body > .site-body {
