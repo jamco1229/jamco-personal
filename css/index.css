@@ -322,24 +322,17 @@ h3, h4, h5, h6 {
   }
   
 h2, h3, h4, h5, h6 {
-    /*font-weight: 600;*/
-    font-family: var(--font-bold);
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    color: var(--color);
-    text-decoration: none;
-    z-index: 999;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  b,
-  strong,
-  th {
-    font-family: var(--font-bold);
-  }
+  font-family: var(--font-bold);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--color);
+  text-decoration: none;
+  z-index: 999;
+}
+
+strong, th {
+  font-family: var(--font-bold);
+}
 /*
 em {
   font-family: 'IBM Plex Serif', serif;
