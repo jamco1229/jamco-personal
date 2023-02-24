@@ -140,13 +140,13 @@ nav li {
 
 nav li .tooltip {
   visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: rgba(191, 197, 235, 0.8);
+  width: auto;
+  height: 1.35rem;
+  color: black;
+  background-color: rgba(191, 197, 235, 0.8);
   text-align: center;
-  border-radius: 50%;
-  padding: 5px 0;
-
+  border-radius: 1.5rem;
+  padding: 4px 8px;
   /* Position the tooltip */
   position: absolute;
   left: 72px;
