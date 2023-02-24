@@ -148,11 +148,6 @@ nav > ul > li > ul > li.active {
   color: var(--color);
 }
 
-.profile {
-  height: 1rem;
-  width: auto;
-}
-
 /* About styles */
 .about {
   margin-top: 2em;
@@ -272,10 +267,6 @@ nav > ul > li > ul > li.active {
     color: black;
     background-color: transparent;
   }
-
-  .profile {
-    display: none;
-  }
 }
 
 
@@ -294,7 +285,7 @@ nav > ul > li > ul > li.active {
     box-sizing: border-box;
   }
 
-h1 {
+h1, .profile{
     font-size: 3rem;
     line-height: 1em;
     margin-top: 2rem;
