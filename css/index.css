@@ -101,7 +101,7 @@ nav ul {
   height: 100%;
   align-self: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 4px;
   justify-content: center;
   align-items: center;
