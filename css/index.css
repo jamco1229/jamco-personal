@@ -315,6 +315,11 @@ h1 {
     font-size: 3rem;
     line-height: 1em;
     font-family: var(--font-heading);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--color);
+    text-decoration: none;
+    z-index: 999;
   }
   
 h2 {
@@ -326,7 +331,7 @@ h3, h4, h5, h6 {
     font-size: 1rem;
   }
   
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
     /*font-weight: 600;*/
     font-family: var(--font-bold);
     margin-top: 2rem;
