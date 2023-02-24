@@ -285,15 +285,16 @@ nav > ul > li > ul > li.active {
     box-sizing: border-box;
   }
 
-h1, .profile{
-    font-size: 3rem;
-    line-height: 1em;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    color: var(--color);
-    text-decoration: none;
-    z-index: 999;
-  }
+h1, .profile {
+  height: 2.5rem;
+  font-size: 3rem;
+  line-height: 1em;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--color);
+  text-decoration: none;
+  z-index: 999;
+}
   
 h2 {
     font-size: 2rem;
