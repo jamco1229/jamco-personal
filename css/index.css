@@ -279,6 +279,7 @@ nav > ul > li > ul > li.active {
 .profile {
     height: 3.2rem;
     display: inline !important;
+    margin: 0 1em;
 }
 h1 {
   font-size: 3rem;
