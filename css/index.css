@@ -51,7 +51,7 @@ body {
   font-family: var(--font);
   color: var(--color);
   line-height: 1.6em;
-  width: 100vw;
+  width: 100%; /* Change from 100vw to 100% */
   font-size: 1em;
   background-color: var(--background-color);
   padding: 0 16px;
@@ -64,10 +64,11 @@ body > .site-body {
   flex-direction: column;
   align-items: center;
   margin: 74px auto;
-  width: 100%;
+  width: 100%; /* Add this line */
   max-width: var(--col-width);
   padding: 0 16px;
 }
+
 
 .site-header {
   position: fixed;
