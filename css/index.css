@@ -13,10 +13,6 @@
   src: url(/fonts/ppneuemontreal-bold-webfont.woff2) format('woff2');
 }
 @font-face {
-  font-family: 'PP Right Slab Light';
-  src: url(/fonts/PP\ Right\ Slab\ -\ Light.otf) format(otf);
-}
-@font-face {
   font-family: 'PP Right Slab';
   src: url('/fonts/PP Right Slab - Light.otf') format('opentype');
   font-style: normal;
