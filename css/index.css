@@ -101,20 +101,27 @@ nav ul {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  justify-content: start;
+  justify-content: center;
   align-items: left;
   margin: auto 0;
   color: var(--secondary-pop-color);
+  
 }
 
 nav > ul > li > ul {
+  display: none;
 }
 
 nav li {
+  font-size: 1rem;
+  line-height: 1.6em;
+  font-family: var(--font);
+  margin: 0 0 1em;
+  font-weight: 400;
   list-style: none;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: left;
   justify-content: flex-start;
   gap: 4px;
   height: 44px;
@@ -132,7 +139,6 @@ nav li {
 nav li .tooltip {
   font-size: 1rem;
   line-height: 1.6em;
-  /*border: 1px solid var(--color);*/
   text-align: center;
   z-index: 9999;
   transition: color .2s ease-in-out;
