@@ -85,7 +85,7 @@ p, li, ul {
   position: fixed;
   top: 0;
   left: 0;
-  width: 72px;
+  width: 112px;
   height: 120vh;
   border-right: 1px solid var(--color);
   z-index: 999;
