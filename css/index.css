@@ -14,15 +14,13 @@
 }
 @font-face {
   font-family: 'PP Right Slab';
-  src: url('/fonts/PP Right Slab - Light.otf') format('opentype');
-  font-style: normal;
+  src: url('/fonts/PP\ Right\ Slab\ -\ Narrow\ Light.otf') format('opentype');
 }
 
 /* Variables */
 :root {
   font-size: 16px;
   line-height: 1.6em;
-  font-weight: 400;
   --col-width: 640px;
   --font: 'PP Montreal Book', sans-serif;
   --font-heading: 'PP Right Slab', sans-serif;
@@ -161,6 +159,7 @@ nav > ul > li > ul > li.active {
 }
 
 .profile {
+  display: contents;
   width: 44px;
   height: 44px;
   object-fit: cover;
