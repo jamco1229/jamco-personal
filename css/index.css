@@ -262,7 +262,10 @@ nav > ul > li > ul > li:hover {
 /* Site header CSS for displays under 480px */
 
 @media screen and (max-width: 480px) {
-  .site-body {
+ .site-header {
+  visibility: hidden;
+ }
+ /* .site-body {
     z-index: 0;
   }
 
@@ -318,7 +321,7 @@ nav > ul > li > ul > li:hover {
 
   .profile {
     display: none;
-  }
+  } */
 }
 
 
