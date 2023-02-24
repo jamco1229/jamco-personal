@@ -12,7 +12,8 @@
    </head>
   <body>
     <header>
-<nav>
+<nav class='site-header'>
+  <img class="profile" src="https://github.com/jamco1229/jamco-personal/blob/master/content/media/profile%20pic.png?raw=true" />
   <ul>
     {% for item in collections.all | eleventyNavigation %}
       <li{% if item.url == page.url %} class="active"{% endif %}>
