@@ -108,7 +108,7 @@ nav ul {
   justify-content: center;
   align-items: center;
   margin: auto 0;
-  color: var(--secondary-color);
+  color: var(--secondary-pop-color);
 }
 
 nav > ul > li > ul {
@@ -138,26 +138,15 @@ nav li {
 nav li .tooltip {
   font-size: 1rem;
   line-height: 1.6em;
-  width: auto;
-  height: 44px;
-  background-color: var(--background-color);
   /*border: 1px solid var(--color);*/
   text-align: center;
-  border-radius: 2em;
-  padding: 4px 16px;
   z-index: 9999;
   transition: color .2s ease-in-out;
-  transition: background-color .2s ease-in-out;
-}
-
-nav li:hover .tooltip {
-  visibility: visible;
 }
 
 ul > li.active > a, nav > ul > li.active > a, nav > ul > li.active,
 nav > ul > li > ul > li.active {
-  text-decoration: none;
-  color: var(--pop-color);
+  color: var(--color);
 }
 
 .profile {
