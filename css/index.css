@@ -10,7 +10,7 @@
     }
 @font-face {
   font-family: 'PP Neue Montreal Bold';
-  src: url(/fonts/ppneuemontreal-bold-webfont.woff2) format('woff2');
+  src: url('/fonts/ppneuemontreal-bold-webfont.woff2') format('woff2');
 }
 @font-face {
   font-family: 'PP Right Slab';
@@ -26,6 +26,7 @@
   --col-width: 640px;
   --font: 'PP Montreal Book', sans-serif;
   --font-heading: 'PP Right Slab', sans-serif;
+  --font-bold: 'PP Neue Montreal Bold';
   --background-color: rgba(245, 246, 249, 1);
   --color: rgba(40, 45, 77, 1);
   --pop-color: rgba(147, 163, 252, 1);
@@ -313,6 +314,7 @@ nav > ul > li > ul > li:hover {
 h1 {
     font-size: 3rem;
     line-height: 1em;
+    font-family: var(--font-heading);
   }
   
 h2 {
@@ -326,7 +328,7 @@ h3, h4, h5, h6 {
   
 h1, h2, h3, h4, h5, h6 {
     /*font-weight: 600;*/
-    font-family: var(--font-heading);
+    font-family: var(--font-bold);
     margin-top: 2rem;
     margin-bottom: 1rem;
     color: var(--color);
@@ -341,7 +343,7 @@ h1, h2, h3, h4, h5, h6 {
   b,
   strong,
   th {
-    font-family: var(--font-heading);
+    font-family: var(--font-bold);
   }
 /*
 em {
