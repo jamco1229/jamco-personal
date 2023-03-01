@@ -61,6 +61,7 @@ body {
 
 .site-body {
   max-width: var(--col-width);
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
