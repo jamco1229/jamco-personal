@@ -76,6 +76,7 @@ body {
   right: 0;
   height: 72px; /* adjust to your needs */
   width: 100%;
+  border-radius: 32px;
   background-color: var(--background-color); /* adjust to your needs */
   border-bottom: 1px solid var(--color);
   color: var(--color);
@@ -179,6 +180,7 @@ body {
 .home-block-title {
   margin: 4px 0 8px;
   border-radius: 8px !important;
+  border-bottom: 0;
 }
 
 .project-img {
