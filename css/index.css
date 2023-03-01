@@ -509,5 +509,6 @@ Pagination
     max-width: 100%;
     display: block;
     height: auto;
+    position: inherit;
     z-index: 0;
   }
