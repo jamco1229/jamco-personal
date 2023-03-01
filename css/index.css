@@ -45,7 +45,7 @@ body {
 p {
   margin: 0 0 1
 }
-p::first-letter {
+.home-intro p::first-letter {
   initial-letter: 2;
 }
 
