@@ -43,7 +43,8 @@ body {
 }
 
 p {
-  margin: 0 0 1;
+  line-height: 1.65em;
+  margin: 0 0 1em;
   color: var(--color);
 }
 /* Set up the basic layout */
