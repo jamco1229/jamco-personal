@@ -25,7 +25,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  z-index: 0;
+  z-index: 1 !important;
 }
 
 html,
@@ -78,7 +78,7 @@ body {
   background-color: #C5BCAD; /* adjust to your needs */
   border-bottom: 1px solid var(--color);
   color: var(--color);
-  z-index: 999; /* adjust to your needs */
+  z-index: 9999 !important; /* adjust to your needs */
 
   /* flexbox layout */
   display: flex;
@@ -509,5 +509,4 @@ Pagination
     display: block;
     height: auto;
     position: inherit;
-    z-index: 0;
   }
