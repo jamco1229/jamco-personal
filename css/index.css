@@ -136,7 +136,7 @@ body {
   height: auto;
   object-fit: cover;
   display: inline;
-  margin-bottom: 1rem;
+  margin-bottom: -1rem;
   margin-top: 2.5rem;
 }
 
