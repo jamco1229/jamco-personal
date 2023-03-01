@@ -80,6 +80,11 @@ body {
   border-bottom: 1px solid var(--color);
   color: var(--color);
   z-index: 9999 !important; /* adjust to your needs */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 32px;
+  align-items: center;
 }
 .site-header ul {
   display: flex;
@@ -93,7 +98,6 @@ body {
 }
 
 .site-header li {
-  padding: 16px;
   font-size: 1.35rem;
   margin: 0 1rem;
 }
@@ -132,6 +136,7 @@ body {
   height: auto;
   object-fit: cover;
   display: inline;
+  margin-bottom: 1rem;
 }
 
 /* About styles */
