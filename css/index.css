@@ -7,12 +7,10 @@
   --font: 'Bespoke Serif', serif;
   --font-heading: 'Bespoke Serif', serif;
   --font-bold: 'Bespoke Serif', serif;
-  --background-color: rgba(245, 246, 249, 1);
-  --color: rgba(40, 45, 77, 1);
+  --background-color:#B59C7F;
+  --color: #222;
   --pop-color: rgba(147, 163, 252, 1);
-  --secondary-pop-color: rgba(191, 197, 235, 1);
-  --secondary-color: #666;
-  --secondary-background-color: rgba(255, 255, 255, 1);
+  --secondary-color: #53534B;
   --border-color: rgba(3, 7, 30, 0.3);
   --card-shadow: rgba(3, 7, 30, 0.2) 0px 8px 18px;
   --border-radius: 12px;
@@ -41,7 +39,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  background-color: #B59C7F; /* fallback for non-supporting browsers */
+  background: radial-gradient(
+     ellipse at 90.98% 94.32%, /* adjusted for better browser compatibility */
+     #B59C7F 0%,
+     #C5BCAD 100%
+);
 }
 
 p {
@@ -51,7 +54,7 @@ p {
 /* Set up the basic layout */
 body {
   font-family: var(--font);
-  color: var(--color);
+  color: var(--secondary-color);
   width: 100%;
   background-color: var(--background-color);
   padding: 0 16px;
@@ -75,18 +78,21 @@ body > .site-body {
   left: 0;
   right: 0;
   height: 60px; /* adjust to your needs */
-  background-color: #333; /* adjust to your needs */
+  background-color: #222; /* adjust to your needs */
   z-index: 9999; /* adjust to your needs */
 
   /* flexbox layout */
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+  gap: 32px;
   align-items: center;
 }
 
 .site-header nav > ul {
   display: flex;
   flex-direction: row;
+  gap: 32px;
   list-style: none;
   margin: auto 0;
   padding: 0;
@@ -167,8 +173,8 @@ body > .site-body {
   margin: 8px 0;
 }
 
-/* Site header CSS for displays under 480px */
 
+/* Site header CSS for displays under 480px 
 @media screen and (max-width: 480px) {
   .site-body {
     z-index: 0;
@@ -228,7 +234,7 @@ body > .site-body {
     display: none;
   }
 }
-
+*/
 
 
 .divider {
@@ -264,7 +270,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
     margin-top: 2rem;
     margin-bottom: 1rem;
-    color: var(--color);
     text-decoration: none;
     z-index: 999;
   }
@@ -277,6 +282,7 @@ h1, h2, h3, h4, h5, h6 {
   strong,
   th {
     font-family: var(--font-heading);
+    color: var(--secondary-color);
   }
 /*
 em {
