@@ -1,34 +1,12 @@
-/* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-@font-face {
-  font-family: 'PP Montreal Book';
-  src: url('/fonts/ppneuemontreal-book-webfont.woff2') format('woff2');
-  }
-@font-face {
-    font-family: 'PP Montreal Medium';
-    src: url('/fonts/ppneuemontreal-medium-webfont.woff2') format('woff2');
-    }
-@font-face {
-  font-family: 'PP Neue Montreal Bold';
-  src: url(/fonts/ppneuemontreal-bold-webfont.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'PP Right Slab Light';
-  src: url(/fonts/PP\ Right\ Slab\ -\ Light.otf) format(otf);
-}
-@font-face {
-  font-family: 'PP Right Slab Medium';
-  src: url(/fonts/PP\ Right\ Slab\ -\ Medium.otf) format(otf);
-}
 
 /* Variables */
 :root {
   font-size: 16px;
   line-height: 1.6em;
-  font-weight: 400;
   --col-width: 640px;
-  --font: 'IBM Plex Sans', sans-serif;
-  --font-heading: 'IBM PLex Sans', sans-serif;
+  --font: 'Bespoke Serif', serif;
+  --font-heading: 'Bespoke Serif', serif;
+  --font-bold: 'Bespoke Serif', serif;
   --background-color: rgba(245, 246, 249, 1);
   --color: rgba(40, 45, 77, 1);
   --pop-color: rgba(147, 163, 252, 1);
@@ -42,6 +20,7 @@
     --orange: orange;
     --blue: #0788f5;
 }
+
 
 /* Reset styles */
 * {
