@@ -95,6 +95,7 @@ body {
   max-width: var(--textcol);
   margin: 0 auto;
   z-index: 99;
+  background-color: var(--background-color);
 }
 
 .site-header li {
