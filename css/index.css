@@ -76,7 +76,7 @@ body {
   right: 0;
   height: 72px; /* adjust to your needs */
   width: 100%;
-  background-color: #C5BCAD; /* adjust to your needs */
+  background-color: var(--background-color); /* adjust to your needs */
   border-bottom: 1px solid var(--color);
   color: var(--color);
   z-index: 9999 !important; /* adjust to your needs */
