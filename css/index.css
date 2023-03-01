@@ -39,11 +39,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-family: var(--font);
-  background: #C5BCAD;
-  background: -moz-radial-gradient(circle, rgba(181,156,127,1) 0%, rgba(197,188,173,1) 100%);
-  background: -webkit-radial-gradient(circle, rgba(181,156,127,1) 0%, rgba(197,188,173,1) 100%);
-  background: radial-gradient(circle, rgba(181,156,127,1) 0%, rgba(197,188,173,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b59c7f",endColorstr="#c5bcad",GradientType=1);
+  background: var(--background-color);
 }
 
 p {
