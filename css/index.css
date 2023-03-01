@@ -43,7 +43,8 @@ body {
 }
 
 p {
-  margin: 0 0 1
+  margin: 0 0 1;
+  color: var(--color);
 }
 /* Set up the basic layout */
 body {
