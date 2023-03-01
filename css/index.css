@@ -79,7 +79,7 @@ body > .site-body {
   right: 0;
   height: 60px; /* adjust to your needs */
   background-color: #222; /* adjust to your needs */
-  z-index: 9999; /* adjust to your needs */
+  z-index: 99; /* adjust to your needs */
 
   /* flexbox layout */
   display: flex;
