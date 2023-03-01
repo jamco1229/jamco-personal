@@ -45,10 +45,6 @@ body {
 p {
   margin: 0 0 1
 }
-.home-intro p::first-letter {
-  initial-letter: 2;
-}
-
 /* Set up the basic layout */
 body {
   font-family: var(--font);
