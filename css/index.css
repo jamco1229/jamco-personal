@@ -74,18 +74,12 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 60px; /* adjust to your needs */
+  height: 72px; /* adjust to your needs */
+  width: 100%;
   background-color: #C5BCAD; /* adjust to your needs */
   border-bottom: 1px solid var(--color);
   color: var(--color);
   z-index: 9999 !important; /* adjust to your needs */
-
-  /* flexbox layout */
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 32px;
-  align-items: center;
 }
 .site-header ul {
   display: flex;
@@ -96,14 +90,10 @@ body {
   margin: 0;
   max-width: var(--textcol);
   margin: 0 auto;
-  background-color: var(--background-color);
 }
 
 .site-header li {
   font-size: 1.35rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin: 0 1rem;
 }
 
