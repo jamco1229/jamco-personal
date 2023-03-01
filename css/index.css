@@ -100,7 +100,7 @@ body {
 
 .site-header li {
   font-size: 1.35rem;
-  margin: 0 1rem;
+  margin: 0;
 }
 
 .site-header li.active p {
