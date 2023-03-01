@@ -89,7 +89,7 @@ body > .site-body {
   align-items: center;
 }
 
-.site-header nav > ul {
+.site-header ul {
   display: flex;
   flex-direction: row;
   gap: 32px;
@@ -98,12 +98,11 @@ body > .site-body {
   padding: 0;
 }
 
-.site-header nav > ul > li {
-  margin-right: 10px; /* adjust to your needs */
-}
-
-.site-header nav > ul > li:last-child {
-  margin-right: 0;
+.site-header li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
 }
 
 
