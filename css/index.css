@@ -93,6 +93,7 @@ body {
 }
 
 .site-header li {
+  padding: 16px;
   font-size: 1.35rem;
   margin: 0 1rem;
 }
