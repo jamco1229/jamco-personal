@@ -109,17 +109,17 @@ body > .site-body {
 }
 
 .site-header li.active p {
-  color: #B59C7F;
+  color: var(--secondary-color);
 }
 
 .site-header a {
   display: block;
-  color: #333;
+  color: var(--color);
   text-decoration: none;
 }
 
 .site-header a:hover p {
-  color: #B59C7F;
+  color: var(--secondary-color);
 }
 
 .nav-icon svg {
