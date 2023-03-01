@@ -8,7 +8,6 @@ eleventyNavigation:
 <img class="profile" src="https://github.com/jamco1229/jamco-personal/blob/master/content/media/profile%20pic.png?raw=true"/>
 <h1><span class='name'>James Coy</span>&mdash;Multi-Desciplinary creative&mdash;With a focus on Experience Design.</h1>
 
-### About
 With 3 years of experience in the film industry and 1 year at [headteachers.org](http://headteachers.org/), my focus is within creative collaboration, project management, prototyping, interaction design, and user research.
 
 I am a co-lead for a project in my role as a product designer to build the new [headteachers.org](http://headteachers.org/) website that serves an audience of 100k+ every month, helping headteachers find valuable resources for free.
