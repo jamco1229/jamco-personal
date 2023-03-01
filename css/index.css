@@ -479,4 +479,5 @@ Pagination
     max-width: 100%;
     display: block;
     height: auto;
+    z-index: 0;
   }
