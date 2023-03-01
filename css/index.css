@@ -39,12 +39,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-family: Arial, sans-serif;
-  background-color: #B59C7F; /* fallback for non-supporting browsers */
-  background: radial-gradient(
-     ellipse at 90.98% 94.32%, /* adjusted for better browser compatibility */
-     #B59C7F 0%,
-     #C5BCAD 100%
-);
+  background: rgb(181,156,127);
+  background: -moz-radial-gradient(circle, rgba(181,156,127,1) 0%, rgba(197,188,173,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(181,156,127,1) 0%, rgba(197,188,173,1) 100%);
+  background: radial-gradient(circle, rgba(181,156,127,1) 0%, rgba(197,188,173,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b59c7f",endColorstr="#c5bcad",GradientType=1);
 }
 
 p {
