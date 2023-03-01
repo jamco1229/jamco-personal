@@ -70,7 +70,8 @@ body {
 }
 
 .site-header {
-  position: fixed;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
