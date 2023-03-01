@@ -21,7 +21,7 @@
             {% if item.icon %}
             <a href="{{ item.url }}" class="nav-icon">{{ item.icon | safe }}</a>
           {% endif %}
-          <a href="{{ item.url }}"><div class='tooltip'>{{ item.title }}</div></a>
+          <p>{{ item.title }}</p>
         </a>
       </li>
     {% endfor %}
