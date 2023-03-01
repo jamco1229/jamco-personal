@@ -4,32 +4,31 @@
   font-family: 'PP Montreal Book';
   src: url('/fonts/ppneuemontreal-book-webfont.woff2') format('woff2');
   }
-  @font-face {
+@font-face {
     font-family: 'PP Montreal Medium';
     src: url('/fonts/ppneuemontreal-medium-webfont.woff2') format('woff2');
     }
 @font-face {
   font-family: 'PP Neue Montreal Bold';
-  src: url('/fonts/ppneuemontreal-bold-webfont.woff2') format('woff2');
+  src: url(/fonts/ppneuemontreal-bold-webfont.woff2) format('woff2');
 }
 @font-face {
-  font-family: 'PP Right Slab';
-  src: url('/fonts/PP\ Right\ Slab\ -\ Narrow\ Light.otf') format('opentype');
+  font-family: 'PP Right Slab Light';
+  src: url(/fonts/PP\ Right\ Slab\ -\ Light.otf) format(otf);
 }
-
 @font-face {
-  font-family: 'PP Writer';
-  src: url('/fonts/ppwriter-regularitalic-webfont.woff2') format('woff2');
+  font-family: 'PP Right Slab Medium';
+  src: url(/fonts/PP\ Right\ Slab\ -\ Medium.otf) format(otf);
 }
 
 /* Variables */
 :root {
   font-size: 16px;
   line-height: 1.6em;
+  font-weight: 400;
   --col-width: 640px;
-  --font: 'Bespoke Serif', serif;
-  --font-heading: 'Bespoke Serif', serif;
-  --font-bold: 'Bespoke Serif', serif;
+  --font: 'IBM Plex Sans', sans-serif;
+  --font-heading: 'IBM PLex Sans', sans-serif;
   --background-color: rgba(245, 246, 249, 1);
   --color: rgba(40, 45, 77, 1);
   --pop-color: rgba(147, 163, 252, 1);
@@ -45,99 +44,87 @@
 }
 
 /* Reset styles */
-
-*,
-*::before,
-*::after {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  z-index: 1;
-  font-feature-settings: "kern";
-  font-kerning: normal;
-  -moz-osx-font-smoothing: grayscale !important;
-  -webkit-font-smoothing: antialiased !important;
+  z-index: 0;
+}
+
+html,
+body {
+  height: 100%;
 }
 
 body {
-  background-color: var(--background-color);
-  width: 100%;
-  max-width: var(--col-width);
-  padding: 0 16px;
-  z-index: 0;
-  color: var(--color);
-  margin: 72px auto;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
 }
 
+p {
+  margin: 0 0 1
+}
 
-p, li, ul {
-  font-size: 1rem;
-  line-height: 1.6em;
+/* Set up the basic layout */
+body {
   font-family: var(--font);
-  margin: 0 0 1em;
-  font-weight: 400;
+  color: var(--color);
+  width: 100%;
+  background-color: var(--background-color);
+  padding: 0 16px;
+  display: flex;
+  flex-direction: row;
 }
 
-
-/* Navigation CSS */
+body > .site-body {
+  max-width: var(--col-width);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 74px auto;
+  width: 100%; /* Add this line */
+  padding: 0 16px;
+}
 
 .site-header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 112px;
-  height: 120vh;
-  z-index: 999;
-}
+  right: 0;
+  height: 60px; /* adjust to your needs */
+  background-color: #333; /* adjust to your needs */
+  z-index: 9999; /* adjust to your needs */
 
-nav {
-  padding: 8px;
-  transition: color .2s ease-in-out, border-color .2s ease-in-out, background-color .4s ease-in-out;
-}
-
-nav ul {
-  height: 100%;
+  /* flexbox layout */
   display: flex;
-  flex-direction: column;
-  gap: 4px;
-  justify-content: center;
-  align-items: left;
-  margin: auto 0;
-  color: var(--secondary-pop-color);
-  
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav > ul > li > ul {
-  display: none;
-}
-
-nav li {
-  font-size: 1rem;
-  line-height: 1.6em;
-  font-family: var(--font);
-  margin: 0 0 1em;
-  font-weight: 400;
+.site-header nav > ul {
+  display: flex;
   list-style: none;
-  display: flex;
-  flex-direction: row;
-  align-items: left;
-  justify-content: flex-start;
-  gap: 4px;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header nav > ul > li {
+  margin-right: 10px; /* adjust to your needs */
+}
+
+.site-header nav > ul > li:last-child {
+  margin-right: 0;
+}
+
+
+.profile {
+  width: 44px;
   height: 44px;
-  padding: 8px;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: color .2s ease-in-out,border-color .2s ease-in-out;
-}
-
-.nav li {
-  position: relative;
-  display: inline-block;
-}
-
-ul > li.active > a, nav > ul > li.active > a, nav > ul > li.active,
-nav > ul > li > ul > li.active {
-  color: var(--color);
+  object-fit: cover;
 }
 
 /* About styles */
@@ -150,7 +137,6 @@ nav > ul > li > ul > li.active {
 .container {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
   gap: 32px;
 }
 
@@ -172,11 +158,9 @@ nav > ul > li > ul > li.active {
   text-decoration: none;
 }
 
-/*
 .home-block img {
-  box-shadow: 0px 18.4px 18.4px -9.2px rgba(0, 0, 0, 0.25), 0px 0px 1.95283px 1.95283px #5B5853, inset 0px 1.95283px 1.95283px #E3E3E3, inset 0px 1.95283px 1.95283px 1.95283px #A1A090, inset 0px 7.81132px 15.6226px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4.6px 18.4px rgba(0, 0, 0, 0.25), 0px 27.6px 36.8px -9.2px rgba(0, 0, 0, 0.25), 0px 18.4px 18.4px -9.2px rgba(0, 0, 0, 0.25), 0px 0px 1.95283px 1.95283px #5B5853, inset 0px 1.95283px 1.95283px #E3E3E3, inset 0px 1.95283px 1.95283px 1.95283px #A1A090, inset 0px 7.81132px 15.6226px rgba(0, 0, 0, 0.1);
 }
-*/
 
 .home-block-title {
   margin: 4px 0 8px;
@@ -206,12 +190,6 @@ nav > ul > li > ul > li.active {
 /* Site header CSS for displays under 480px */
 
 @media screen and (max-width: 480px) {
-  :root {
-    font-size: 14px;
-  }
-  h1 {
-    font-size: 2rem;
-  }
   .site-body {
     z-index: 0;
   }
@@ -223,13 +201,15 @@ nav > ul > li > ul > li.active {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 72px;
+    height: auto;
     align-items: center;
     justify-content: center;
     padding: 8px 0;
     border-top: 1px solid black;
     display: flex;
     flex-direction: row;
+    z-index: 999;
+    background-color: var(--background-color);
   }
 
   .site-header ul {
@@ -248,6 +228,25 @@ nav > ul > li > ul > li.active {
     justify-content: center;
     gap: 4px;
   }
+
+  .tooltip {
+    display: block;
+    position: static;
+    text-transform: uppercase;
+    margin-top: 4px;
+    color: black;
+    background-color: transparent;
+  }
+
+  .site-header li:hover .tooltip {
+    display: block;
+    color: black;
+    background-color: transparent;
+  }
+
+  .profile {
+    display: none;
+  }
 }
 
 
@@ -265,49 +264,45 @@ nav > ul > li > ul > li.active {
   ::before {
     box-sizing: border-box;
   }
-.profile {
-    height: 3.2rem;
-    display: inline !important;
-    margin: 0 1em;
-}
+
 h1 {
-  font-size: 3rem;
-  line-height: 1.1em;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  color: var(--color);
-  text-decoration: none;
-  z-index: 999;
-}
+    font-size: 3rem;
+    line-height: 1em;
+  }
   
 h2 {
     font-size: 2rem;
-    line-height: 1.1em;
+    line-height: 1em;
   }
   
 h3, h4, h5, h6 {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-heading);
-  font-weight: 600;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  color: var(--color);
-  text-decoration: none;
-  z-index: 999;
-}
-
-strong, th {
-  font-family: var(--font-bold);
-}
-
+    font-weight: 600;
+    font-family: var(--font-heading);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--color);
+    text-decoration: none;
+    z-index: 999;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  b,
+  strong,
+  th {
+    font-family: var(--font-heading);
+  }
+/*
 em {
-  font-family: var(--font-heading);
-  font-weight: 200;
-  font-style: italic;
+  font-family: 'IBM Plex Serif', serif;
 }
+  */
 .page {
   margin-bottom: 8rem;
   margin-left: auto;
