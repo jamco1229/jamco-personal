@@ -202,6 +202,7 @@ body {
   margin: 0;
   margin-bottom: 12px;
   width: 100% !important;
+  transform: none;
 }
 
 .project-description {
