@@ -60,6 +60,11 @@ body {
   flex-direction: row;
 }
 
+.site-main {
+  max-width: var(--col-width);
+  width: 100%;
+}
+
 .site-body {
   position: relative;
   display: flex;
