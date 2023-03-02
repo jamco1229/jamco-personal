@@ -424,11 +424,15 @@ Pagination
   .site-footer {
     border-top: 1px solid var(--color);
     width: 100%;
-    margin-bottom: 1rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    justify-content: center;
   }
 
   .site-footer  > p {
     max-width: var(--col-width);
     width: 100%;
+    margin: auto;
+    text-align: center;
   }
