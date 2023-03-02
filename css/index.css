@@ -163,7 +163,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 16px;
-  width: 80%; /* adjust as needed */
+  width: 80vw; /* adjust as needed */
 }
 
 .container > * {
