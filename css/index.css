@@ -412,7 +412,7 @@ Pagination
   img,
   video {
     border-radius: var(--border-radius);
-    width: 135%;
+    width: 115%;
     margin-left: 50%;
     transform: translateX(-50%);
     height: auto;
