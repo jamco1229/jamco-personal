@@ -13,16 +13,17 @@ eleventyNavigation:
   order: 1
   parent: Work
 ---
+<hr>
 
-| Role               | UX Design     |
-|--------------------|---------------|
-| Completion date    | Dec 2022      |
-| Platform           |  Mobile       |
-| Read Time          | 5 Mins       |
+Role &mdash; UX Design
+Completion date &mdash; Dec 2022
+Platform &mdash; Mobile
+Read Time &mdash; 5 Mins
 
 <hr>
 
 > **For UX Design Institute I analysed friction points in a Hotel booking apps. I then designed a solution to them in the form of a prototype.**
+
 ## TLDR —
 Don’t have much time? No worries, here’s a rundown of the important bits.
 ### Findings
