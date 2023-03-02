@@ -297,23 +297,21 @@ body {
 h1 {
     font-size: 2rem;
     line-height: 1.25em;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
     border-bottom: 1px solid var(--secondary-color);
+    margin-top: 2rem;
     margin-bottom: 1rem;
   }
   
 h2, h3, h4, h5, h6 {
     font-weight: 600;
-    padding-bottom: 1rem;
-    margin-bottom: 1rem;
-    font-size: 1rem;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0 0 1em;
   }
   
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
-    font-family: var(--font-heading);
-    margin-top: 2rem;
-    margin-bottom: 2rem;
     text-decoration: none;
     overflow-wrap: break-word; 
   }
