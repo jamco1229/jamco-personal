@@ -2,7 +2,7 @@
 /* Variables */
 :root {
   font-size: 16px;
-  line-height: 1.6em;
+  line-height: 1.375em;
   --col-width: 640px;
   --font: 'Bespoke Serif', serif;
   --font-heading: 'Bespoke Serif', serif;
@@ -37,13 +37,14 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  line-height: 1.5;
+  font-size: inherit;
+  line-height: inherit;
   font-family: var(--font);
   background: var(--background-color);
 }
 
 p {
-  line-height: 1.65em;
+  line-height: inherit;
   margin: 0 0 1em;
   color: var(--color);
 }
@@ -291,22 +292,17 @@ body {
 }
 
 h1 {
-    font-size: 2.3rem;
-    line-height: 1.1em;
+    font-size: 2rem;
+    line-height: 1.25em;
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--secondary-color);
     margin-bottom: 1rem;
   }
   
-h2 {
-    font-size: 1.65rem;
-    line-height: 1em;
+h2, h3, h4, h5, h6 {
+    font-weight: 600;
     padding-bottom: 1rem;
-    border-bottom: 1px solid var(--secondary-color);
     margin-bottom: 1rem;
-  }
-  
-h3, h4, h5, h6 {
     font-size: 1rem;
   }
   
