@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/Stay-project.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/Stay-project.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/Stay-project.md"
+                "file": "index.md"
               }
             }
           }
@@ -165,8 +165,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b04aa7190fba4dd8",
+  "active": "e40ef0c99f2a01a9",
   "lastOpenFiles": [
+    "projects/Stay-project.md",
     "pages/stay-page.md",
     "pages/Resume.md",
     "index.md",
@@ -175,7 +176,6 @@
     "projects/HeadteacherChat Mental models and navigation.md",
     "projects.md",
     "posts.md",
-    "projects/Stay-project.md",
     "posts/Making this website.md",
     "projects/buttons-and-switches.md",
     "posts/coming-soon.md",
