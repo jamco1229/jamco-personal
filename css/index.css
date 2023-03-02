@@ -163,7 +163,6 @@ body {
   padding: 16px;
   margin-top: 16px;
   margin-bottom: 16px;
-  gap: 0;
   text-align: left;
   border: 1px solid var(--primaryBorderColor);
   background-color: rgba(255, 255, 255, 0.3);
@@ -175,14 +174,13 @@ body {
 }
 
 .home-block img {
+  margin-bottom: 1rem;
   /* box-shadow: 0px 4.6px 18.4px rgba(0, 0, 0, 0.25), 0px 27.6px 36.8px -9.2px rgba(0, 0, 0, 0.25), 0px 18.4px 18.4px -9.2px rgba(0, 0, 0, 0.25), 0px 0px 1.95283px 1.95283px #5B5853, inset 0px 1.95283px 1.95283px #E3E3E3, inset 0px 1.95283px 1.95283px 1.95283px #A1A090, inset 0px 7.81132px 15.6226px rgba(0, 0, 0, 0.1);*/
   
 }
 
 .home-block-title {
-  margin: 4px 0 8px;
-  border-radius: 8px !important;
-  border-bottom: 0;
+  
 }
 
 .project-img {
