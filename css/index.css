@@ -69,7 +69,7 @@ body {
   width: 100%; /* Add this line */
   padding: 0 16px;
 }
-/*
+
 .site-header {
   position: fixed;
   top: 0;
@@ -137,134 +137,6 @@ body {
   height: 2rem;
   object-fit: cover;
   display: inline;
-}
-*/
-
-.site-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 72px; /* adjust to your needs */
-  width: 100%;
-  background-color: var(--background-color); /* adjust to your needs */
-  border-bottom: 1px solid var(--color);
-  color: var(--color);
-  z-index: 9999 !important; /* adjust to your needs */
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 32px;
-  align-items: center;
-  padding: 0 1rem;
-}
-
-.site-header ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  max-width: var(--col-width);
-  margin: 0 auto;
-}
-
-.site-header li {
-  font-size: 1.35rem;
-  margin: 0.75rem 0;
-  display: none;
-}
-
-.site-header li.active p {
-  color: var(--secondary-color);
-}
-
-.site-header a {
-  display: block;
-  color: var(--color);
-  text-decoration: underline;
-}
-
-.site-header a:hover p {
-  color: var(--secondary-color);
-}
-
-.nav-icon svg {
-  width: 24px;
-  height: 24px;
-}
-
-.site-header p {
-  margin: 0;
-  text-align: center;
-}
-
-/* Hamburger icon */
-.hamburger {
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 1rem;
-  width: 24px;
-  height: 24px;
-  cursor: pointer;
-}
-
-.hamburger span {
-  display: block;
-  height: 2px;
-  background: var(--color);
-  margin: 6px 0;
-  border-radius: 4px;
-  transition: transform 0.2s ease-out;
-}
-
-/* Expanding menu */
-.site-header.expand .hamburger span:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
-}
-
-.site-header.expand .hamburger span:nth-child(2) {
-  opacity: 0;
-}
-
-.site-header.expand .hamburger span:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
-}
-
-.site-header.expand li {
-  display: block;
-}
-
-/* Media query for mobile devices */
-@media (max-width: 767px) {
-  .site-header {
-    height: auto;
-  }
-
-  .site-header ul {
-    flex-direction: column;
-    position: absolute;
-    top: 72px;
-    left: 0;
-    width: 100%;
-    background-color: var(--background-color); /* adjust to your needs */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    max-height: 0;
-    transition: max-height 0.3s ease-out;
-  }
-
-  .site-header.expand ul {
-    max-height: 500px; /* adjust to your needs */
-  }
-
-  .hamburger {
-    display: block;
-  }
 }
 
 
