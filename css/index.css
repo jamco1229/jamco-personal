@@ -156,6 +156,8 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 16px;
   margin: 0 auto;
   width: 80vw; /* adjust as needed */
