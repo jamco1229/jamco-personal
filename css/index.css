@@ -146,6 +146,65 @@ body {
   display: inline;
 }
 
+
+/* For screens under 440px */
+@media screen and (max-width: 440px) {
+  .site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+  }
+
+  .site-header ul {
+    display: none;
+    position: fixed;
+    top: 72px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--background-color);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+    z-index: 9998;
+  }
+
+  .site-header ul li {
+    font-size: 1.35rem;
+    margin: 0;
+  }
+
+  .site-header ul li.active p {
+    color: var(--secondary-color);
+  }
+
+  .site-header a {
+    display: block;
+    color: var(--color);
+    text-decoration: none;
+  }
+
+  .site-header a:hover p {
+    color: var(--secondary-color);
+  }
+
+  .menu svg {
+    visibility: visible;
+    display: inline;
+  }
+
+  .nav-icon svg {
+    display: inline;
+  }
+
+  .profile {
+    display: inline;
+  }
+}
+
 /* About styles */
 
 
