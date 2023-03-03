@@ -44,7 +44,7 @@ body {
   min-height: 100vh;
 }
 
-p {
+p li {
   line-height: inherit;
   margin: 0 0 1em;
   color: var(--color);
@@ -108,7 +108,7 @@ body {
 }
 
 .site-header li {
-  font-size: 1.35rem;
+  font-size: 1rem;
   margin: 0 1rem;
 }
 
