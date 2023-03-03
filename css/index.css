@@ -70,6 +70,13 @@ body {
   padding: 0 16px;
 }
 
+.menu svg {
+  max-width: 2rem;
+  max-height: 2rem;
+  visibility: hidden;
+  display: none;
+}
+
 .site-header {
   position: fixed;
   top: 0;
@@ -138,7 +145,6 @@ body {
   object-fit: cover;
   display: inline;
 }
-
 
 /* About styles */
 
