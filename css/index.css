@@ -160,6 +160,7 @@ body > header > nav > ul > li.active, body > header > nav > ul > li:hover {
   min-width: 288px;
   border: 1px solid #E5E0DF;
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  text-decoration: none !important;
 }
 .home-block article {
   display: flex;
@@ -170,11 +171,9 @@ body > header > nav > ul > li.active, body > header > nav > ul > li:hover {
 }
 .home-block p {
   color: var(--text-secondary-color);
-  text-decoration: none !important;
 }
 .home-block h2 {
   color: var(--color);
-  text-decoration: none !important;
 }
 
 .home-block img {
