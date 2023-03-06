@@ -19,7 +19,9 @@ eleventyNavigation:
   parent: Projects
 ---
 
-### For UX Design Institute I analysed friction points in a Hotel booking apps. I then designed a solution to them in the form of a prototype.**
+### For UX Design Institute I analysed friction points in a Hotel booking apps. I then designed a solution to them in the form of a prototype.
+
+why isn't this syncing?
 
 # TLDR —
 Don’t have much time? No worries, here’s a rundown of the important bits.
