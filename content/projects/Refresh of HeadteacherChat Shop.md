@@ -14,7 +14,7 @@ media:
     size: md
     alt: Screenshot of shop.headteachers.org
 eleventyNavigation:
-  key: shop.headteachers.org
+  key: HeadteacherChat Shop
   order: 5
   parent: Projects
 ---
