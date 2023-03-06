@@ -426,7 +426,8 @@ Pagination
     transform: translateX(-50%);
     height: auto;
     position: inherit;
-    margin: 1rem 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   .site-footer {
