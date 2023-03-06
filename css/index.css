@@ -224,36 +224,36 @@ body > header > nav > ul > li.active a, body > header > nav > ul > li:hover a {
 }
 
 h1 {
-    font-size: 2rem;
-    line-height: 1.25em;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid var(--secondary-color);
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+  color: var(--color);
+  font-size: 2rem;
+  line-height: 1.25em;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--secondary-color);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   }
   
 h2, h3, h4, h5, h6 {
-    font-weight: 600;
-    font-size: inherit;
-    line-height: inherit;
+  font-weight: 600;
+  font-size: inherit;
+  line-height: inherit;
   }
   
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 600;
-    text-decoration: none;
-    overflow-wrap: break-word; 
+  font-weight: 600;
+  text-decoration: none;
+  overflow-wrap: break-word; 
   }
   
-  h1,
-  h2,
-  h3,
-  h4,
-  b,
-  strong,
-  th {
-    font-family: var(--font-heading);
-    color: var(--text-secondary-color);
-  }
+h2,
+h3,
+h4,
+b,
+strong,
+th {
+  font-family: var(--font-heading);
+  color: var(--text-secondary-color);
+}
 
 .page {
   margin-bottom: 8rem;
