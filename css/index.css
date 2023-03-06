@@ -368,9 +368,6 @@ Pagination
   margin-bottom: 2rem;
   margin-top: 2rem;
   text-align: center;
-}
-
-.pagination-list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
