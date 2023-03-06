@@ -412,6 +412,7 @@ Pagination
 
 .pagination-item p {
   text-decoration: none;
+  margin: 0;
 }
 
 .pagination-item svg {
