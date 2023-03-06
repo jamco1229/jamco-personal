@@ -11,7 +11,7 @@ permalink: "/"
 {% set entries = collections.all | getPagesByPaths(entries) if entries else collections.projects %}
 
 {# Sort the entries by completionDate in descending order #}
-{% assign sortedEntries = entries | sort: 'data.sort' | reverse %}
+{% set sortedEntries = entries | sort: 'data.sort' | reverse %}
 
 {# For each of the entries #}
 {% for entry in sortedEntries %}
