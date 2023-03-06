@@ -209,7 +209,7 @@ body > header > nav > ul > li.active a, body > header > nav > ul > li:hover a {
 .home-block img {
   display: block;
   margin: 0;
-  margin-bottom: 12px;
+  margin-bottom: 1rem;
   width: 100% !important;
   transform: none;
 }
