@@ -378,8 +378,9 @@ Pagination
 }
 
 .pagination-item {
-  padding: 4px 8px;
+  padding: 16px;
   border-radius: var(--border-radius);
+  border: 1px solid #E5E0DF;
   text-decoration: none;
 }
 
