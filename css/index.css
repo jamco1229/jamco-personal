@@ -141,6 +141,7 @@ body > header > nav > ul > li.active a, body > header > nav > ul > li:hover a {
 .projects-heading {
   max-width: var(--width-container);
   width: 100%;
+  margin: 0 auto;
 }
 .home-intro {
   margin-bottom: 2rem;
