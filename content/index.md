@@ -1,6 +1,8 @@
 ---
 layout: home
-
+eleventyNavigation:
+  key: Home
+  order: 1
 ---
 
 <h1><span class='name'>James Coy</span>&mdash;Multi-Desciplinary creative&mdash;With a focus on Experience Design.</h1>
