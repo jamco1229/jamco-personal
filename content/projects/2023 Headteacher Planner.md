@@ -10,17 +10,14 @@ Read Time: 1 Mins
 
 media:
   - type: image
-    filename: shopify.png
+    filename: planner.png
     size: md
-    alt: Screenshot of shop.headteachers.org
+    alt: Photo of Planner Design
 eleventyNavigation:
-  key: shop.headteachers.org
-  order: 5
+  key: Planner
+  order: 6
   parent: Projects
 ---
-
-Created: March 1, 2023 11:05 AM
-Tags: HeadteacherChat, Print Design, UXDI
 
 The Planners have been a key offering from Headteacherchat since the beginning. It's a way to help teachers with something tangible and physical, and it easily stands out from the crowd as it's tailor-made to your role, by someone who's been in that role before.
 
