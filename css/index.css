@@ -384,6 +384,7 @@ Pagination
   text-decoration: none;
   display: flex;
   position: relative;
+  gap: 8px;
 }
 
 .pagination-item p {
