@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Refresh of HeadteacherChat Shop.md",
+                "file": "projects/buttons-and-switches.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/2023 Headteacher Planner.md",
+                "file": "projects/buttons-and-switches.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/2023 Headteacher Planner.md",
+                "file": "projects/buttons-and-switches.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/2023 Headteacher Planner.md"
+                "file": "projects/buttons-and-switches.md"
               }
             }
           }
@@ -165,14 +165,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b04aa7190fba4dd8",
+  "active": "e40ef0c99f2a01a9",
   "lastOpenFiles": [
-    "projects/buttons-and-switches.md",
-    "projects/HeadteacherChat Mental models and navigation.md",
-    "projects/Refresh of HeadteacherChat Shop.md",
+    "projects/2023 Headteacher Planner.md",
     "projects/scribe-project.md",
     "projects/Stay-project.md",
-    "projects/2023 Headteacher Planner.md",
+    "projects/HeadteacherChat Mental models and navigation.md",
+    "projects/Refresh of HeadteacherChat Shop.md",
+    "projects/buttons-and-switches.md",
     "media/planner.png",
     "index.md",
     "media/Headteacher-Contemporary-Planner-2023-HeadteacherChat-1676483133_8c525786-cc07-45f8-8c9c-99443afdd304.jpg_v=1676483563&width=1100",

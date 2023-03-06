@@ -1,6 +1,7 @@
 ---
 title: Stay
 layout: project
+sort: 7
 dateEnd: 2023-02-15 12:14:23
 description: For UX Design Institute I analysed friction points in a Hotel booking apps and designed a solution to them.
 role: UX Design

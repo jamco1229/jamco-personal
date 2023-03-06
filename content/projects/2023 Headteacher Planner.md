@@ -1,6 +1,7 @@
 ---
 title: 2023 Headteacher Planner
 layout: project
+sort: 6
 dateEnd: 2023-03-01 10:28:23
 description: Cover design of a bespoke planner for headteachers.
 Role: Product Design

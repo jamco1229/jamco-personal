@@ -1,6 +1,7 @@
 ---
 title: Refresh of HeadteacherChat Shop
 layout: project
+sort: 5
 dateEnd: 2023-03-01 10:28:23
 description: Refreshing a Shopify site to increase conversions.
 Role: Product Design
