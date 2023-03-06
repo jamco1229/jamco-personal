@@ -5,7 +5,8 @@ eleventyNavigation:
   order: 1
 ---
 
-<h1><span class='name'>James Coy</span>&mdash;Multi-Desciplinary creative&mdash;With a focus on Experience Design.</h1>
+<h1 class='name'>James Coy</h1>
+<h2>Multi-Desciplinary creative&mdash;With a focus on Experience Design.</h2>
 
 With 3 years of experience in the film industry and 1 year at [headteachers.org](http://headteachers.org/), my focus is within creative collaboration, project management, prototyping, interaction design, and user research.
 
