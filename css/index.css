@@ -104,6 +104,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  transition: all 0.3s ease;
 }
 .site-header ul {
   display: flex;
@@ -124,10 +125,6 @@ body {
   text-decoration: none;
   display: block;
   text-align: center;
-}
-
-.site-header li {
-  transition: all 0.3s ease;
 }
 
 body > header > nav > ul > li.active a, body > header > nav > ul > li:hover a {
