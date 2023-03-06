@@ -11,7 +11,7 @@ media:
 eleventyNavigation:
   key: HeadteacherChat Navigation
   order: 3
-  parent: Work
+  parent: Projects
 ---
 
 | Role               | Product Design     |

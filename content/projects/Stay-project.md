@@ -11,7 +11,7 @@ media:
 eleventyNavigation:
   key: Stay - App Design
   order: 1
-  parent: Work
+  parent: Projects
 ---
 
 Role &mdash; UX Design

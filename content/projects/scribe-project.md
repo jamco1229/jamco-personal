@@ -12,14 +12,13 @@ media:
 eleventyNavigation:
   key: Scribe - App Design
   order: 2
-  parent: Work
+  parent: Projects
 ---
 
-| Role               | Product Design     |
-|--------------------|---------------|
-| Completion date    | Jan 2023      |
-| Platform           |  iPad       |
-| Read Time          | 5 Mins       |
+Role &mdash; &mdash; &mdash; Product Design
+Completion date &mdash; &mdash; Jan 2023
+Platform &mdash; &mdash; &mdash; iPad
+Read Time &mdash; &mdash; &mdash; 5 Mins
 
 ### Problem
 

@@ -11,7 +11,7 @@ media:
 eleventyNavigation:
   key: shop.headteachers.org
   order: 5
-  parent: Work
+  parent: Projects
 ---
 
 <img src='https://github.com/jamco1229/jamco-personal/blob/master/content/media/shopify.png?raw=true' alt=''>
