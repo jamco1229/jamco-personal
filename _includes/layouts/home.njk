@@ -10,7 +10,7 @@ permalink: "/"
 <div class='container'>
 {% set entries = collections.all | getPagesByPaths(entries) if entries else collections.projects %}
 
-{# Sort the entries by completionDate in descending order #}
+{# Sort the entries by the 'sort' field in descending order #}
 {% set sortedEntries = entries | sort: 'data.sort' | reverse %}
 
 {# For each of the entries #}
@@ -36,24 +36,22 @@ permalink: "/"
 
   {# If there is an image we can use #}
   {% if image %}
-<a class="home-block {{ blockClasses }}" href="{{ entry.url }}">
-  <article>
-    <img
-      loading="lazy"
-      src="/media/{{ image }}"
-      alt=""
-      {% if width %}width="{{ width }}"{% endif %}
-      {% if height %}height="{{ height }}"{% endif %}
-    >
-    <h2 class="home-block-title">{{ entry.data.title | safe }}</h2>
-    <p class='home-block-role'>{{ entry.data.role | safe}}</p>
-    <p class='home-block-completion-date'>{{ entry.data.compleationDate | safe}}</p>
-    <p class='home-block-platform'>{{ entry.data.readTime | safe}}</p>
-    <p class='home-block-description'>{{ entry.data.description | safe}}</p>
-  </article>
-</a>
-
-    </article>
+    <a class="home-block {{ blockClasses }}" href="{{ entry.url }}">
+      <article>
+        <img
+          loading="lazy"
+          src="/media/{{ image }}"
+          alt=""
+          {% if width %}width="{{ width }}"{% endif %}
+          {% if height %}height="{{ height }}"{% endif %}
+        >
+        <h2 class="home-block-title">{{ entry.data.title | safe }}</h2>
+        <p class='home-block-role'>{{ entry.data.role | safe}}</p>
+        <p class='home-block-completion-date'>{{ entry.data.completionDate | safe}}</p>
+        <p class='home-block-platform'>{{ entry.data.readTime | safe}}</p>
+        <p class='home-block-description'>{{ entry.data.description | safe}}</p>
+      </article>
+    </a>
   {% endif %}
 {% endfor %}
 </div>
