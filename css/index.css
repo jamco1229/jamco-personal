@@ -387,8 +387,6 @@ Pagination
 }
 
 .pagination-item svg {
-  height: 16px;
-  width: auto;
   color: var(--color);
 }
 
