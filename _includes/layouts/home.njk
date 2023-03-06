@@ -43,8 +43,10 @@ permalink: "/"
       {% if height %}height="{{ height }}"{% endif %}
     >
     <h2 class="home-block-title">{{ entry.data.title | safe }}</h2>
-    <p class='home-block-description'>{{ entry.data.description | safe}}</p>
     <p class='home-block-role'>{{ entry.data.role | safe}}</p>
+    <p class='home-block-completion-date'>{{ entry.data.compleationDate | safe}}</p>
+    <p class='home-block-platform'>{{ entry.data.readTime | safe}}</p>
+    <p class='home-block-description'>{{ entry.data.description | safe}}</p>
   </article>
 </a>
 
