@@ -45,6 +45,23 @@ p li {
   margin: 0 0 1em;
   color: var(--color);
 }
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+a:active,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
 /* Set up the basic layout */
 body {
   font-family: var(--font);
@@ -374,21 +391,6 @@ Pagination
   text-decoration: underline;
 }
   
-  a {
-    color: inherit;
-    text-decoration: underline;
-  }
-  
-  a:focus,
-  a:hover {
-    text-decoration: none;
-  }
-  
-  a:active,
-  a:hover,
-  a:focus {
-    text-decoration: none;
-  }
 
   hr {
     border-bottom: 1px solid var(--secondary-color);
