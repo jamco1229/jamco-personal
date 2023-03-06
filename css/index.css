@@ -377,8 +377,9 @@ Pagination
 }
 
 .pagination-item {
+  margin: 8px 0;
   width: auto;
-  height: 44px;
+  height: auto;
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
   padding: 8px 16px;
   border-radius: var(--border-radius);
