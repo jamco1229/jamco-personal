@@ -4,10 +4,10 @@ layout: project
 sort: 3
 description: A mini-case study where I explore our process, problems, and outcomes of redesigning a new navigation model for mobile users.
 dateEnd: 2023-01-17 13:14:23
-Role: Product Design
-Platfrom: Mobile
-Completion Date: Ongoing
-Read Time: 2 Mins
+role: Product Design
+platfrom: Mobile
+completionDate: Ongoing
+readTime: 2 Mins
 media:
   - type: image
     filename: htchat-cover.png

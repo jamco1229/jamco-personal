@@ -4,8 +4,9 @@ layout: project
 sort: 3
 description: Exploring 3D prototyping in Figma.
 dateEnd: 2023-01-15 09:14:23
-Role: UI Design
-Completion Date: Feb 2023
+role: UI Design
+completionDate: Feb 2023
+readTime: 1 Min
 media:
   - type: image
     filename: buttons.gif

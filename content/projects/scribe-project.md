@@ -5,10 +5,10 @@ sort: 6
 description: A concept app for iPad to join together what I think are the best aspects of digital and physical notetaking.
 dateEnd: 2022-12-15 15:49:23
 Tags: Concept, Passion Project, Prototype
-Role: Product Design
-Completion date: Jan 2023
-Platform: iPad
-Read Time: 5 Mins
+role: Product Design
+completionDate: Jan 2023
+platform: iPad
+readTime: 5 Mins
 
 media:
   - type: image
