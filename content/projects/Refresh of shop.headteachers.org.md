@@ -14,6 +14,11 @@ eleventyNavigation:
   parent: Projects
 ---
 
+Role &mdash; Product Design
+Completion date &mdash; March 2023
+Platform &mdash; Web (Responsive) / Shopify
+Read Time &mdash; 1 Mins
+
 <img src='https://github.com/jamco1229/jamco-personal/blob/master/content/media/shopify.png?raw=true' alt=''>
 
 With the launch of this years planners, which have undergone a big refresh themselves, we found it was time to take on the website and explore how we can increase conversions on the shop (they currently sit at 2.08% and I’ll add the new conversion rate here when I have the data to do so).
