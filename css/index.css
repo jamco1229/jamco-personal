@@ -4,7 +4,7 @@
   font-size: 16px;
   line-height: 1.375em;
   --col-width: 64rem;
-  --reading-col: 40rem;
+  --reading-col: 64rem;
   --width-container: 64rem;
   --font: 'Bespoke Serif', serif;
   --font-heading: 'Bespoke Serif', serif;
@@ -15,10 +15,9 @@
   --border-color: #D8D8E3;
   --card-shadow: rgba(3, 7, 30, 0.2) 0px 8px 18px;
   --border-radius: 4px;
-
-    --green: #32bd64;
-    --orange: orange;
-    --blue: #0788f5;
+  --green: #32bd64;
+  --orange: orange;
+  --blue: #0788f5;
 }
 
 
@@ -68,7 +67,10 @@ body {
   color: var(--color);
   width: 100%;
   background-color: var(--background-color);
-  padding: 16px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 0;
   display: flex;
   flex-direction: row;
 }
@@ -142,6 +144,7 @@ body > header > nav > ul > li.active a, body > header > nav > ul > li:hover a {
   max-width: var(--width-container);
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 2rem;
 }
 .home-intro {
   margin-bottom: 2rem;
@@ -429,7 +432,7 @@ Pagination
     border-top: 1px solid var(--secondary-color);
     width: 100%;
     margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     padding-top: 2rem;
     justify-content: center;
   }

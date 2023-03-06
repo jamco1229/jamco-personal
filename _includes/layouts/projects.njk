@@ -6,24 +6,49 @@ pagination:
   alias: projectslist
 permalink: "projects/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}"
 ---
+<div class='container'>
+{% set entries = collections.all | getPagesByPaths(entries) if entries else collections.projects %}
 
-<div class="projects">
-  {% for project in projectslist %}
-    <article class="project">
-      <header class="project-header">
-        <h3 class="project-title">
-          <a href="{{ project.url }}">{{ project.data.title | safe }}</a>
-        </h3>
-        <time class="project-date" datetime="{{ project.date | dateToFormat('yyyy-LL-dd') }}">{{ project.date | dateToFormat('d LLL y') }}</time>
-      </header>
-      {% if project.data.page.excerpt %}
-        {{ project.data.page.excerpt | markdownify | safe }}
-        <p><a href="{{ project.url }}" aria-label="Continue reading “{{ project.data.title }}”">Read more…</a></p>
-      {% else %}
-        {{ project.templateContent | safe }}
-      {% endif %}
+{# For each of the entries #}
+{% for entry in entries %}
+
+  {# Set the defaults #}
+  {% set image = false %}
+  {% set width = false %}
+  {% set height = false %}
+  {% set blockClasses = 'md' %}
+
+  {# If the entry has media #}
+  {% if entry.data.media %}
+    {# Get the first featured image block #}
+    {% set block = entry.data.media | getFeaturedImage %}
+    {% if block %}
+      {% set blockClasses = block.size if block.size %}
+      {% set image = block.filename | urlencode %}
+      {% set width = block.width if block.width else false %}
+      {% set height = block.height if block.height else false %}
+    {% endif %}
+  {% endif %}
+
+  {# If there is an image we can use #}
+  {% if image %}
+<a class="home-block {{ blockClasses }}" href="{{ entry.url }}">
+  <article>
+    <img
+      loading="lazy"
+      src="/media/{{ image }}"
+      alt=""
+      {% if width %}width="{{ width }}"{% endif %}
+      {% if height %}height="{{ height }}"{% endif %}
+    >
+    <h2 class="home-block-title">{{ entry.data.title | safe }}</h2>
+    <p class='home-block-description'>{{ entry.data.description | safe}}</p>
+    <p class='home-block-role'>{{ entry.data.role | safe}}</p>
+  </article>
+  </a>
     </article>
-  {% endfor %}
+  {% endif %}
+{% endfor %}
 </div>
 
 {% if pagination.pages and pagination.pages.length > 1 %}
