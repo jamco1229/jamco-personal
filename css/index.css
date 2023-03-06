@@ -363,34 +363,30 @@ Pagination
 */
 
 .pagination {
-  margin-bottom: 4rem;
-  margin-top: 4rem;
+  width: 100%;
+  max-width: var(--width-container);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
   text-align: center;
 }
 
 .pagination-list {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   list-style: none;
-  padding-left: 0;
-}
-
-.pagination-list li:not(:last-child) {
-  padding-right: 1em;
 }
 
 .pagination-item {
-  margin-bottom: 0.5rem;
-  margin-top: 0;
-}
-
-.pagination-item a:not([aria-current]) {
+  padding: 4px 8px;
+  border-radius: var(--border-radius);
   text-decoration: none;
 }
 
 .pagination-item a:focus,
 .pagination-item a:hover {
-  text-decoration: underline;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
 }
   
 
