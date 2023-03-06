@@ -42,8 +42,9 @@ body {
 
 p li {
   line-height: inherit;
-  margin: 0 0 1em;
+  margin: 0 0 0 2rem;
   color: var(--color);
+
 }
 
 a {
