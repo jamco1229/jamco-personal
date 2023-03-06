@@ -170,11 +170,11 @@ body > header > nav > ul > li.active, body > header > nav > ul > li:hover {
 }
 .home-block p {
   color: var(--text-secondary-color);
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .home-block h2 {
   color: var(--color);
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .home-block img {
