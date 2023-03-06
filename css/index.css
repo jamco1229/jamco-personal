@@ -101,10 +101,11 @@ body {
   margin: 0 auto;
 }
 
-.site-header li {
+.site-header a{
   font-size: 1rem;
   margin: 0 1rem;
   color: var(--text-secondary-color);
+  text-decoration: none;
 }
 
 .site-header li.active p{
