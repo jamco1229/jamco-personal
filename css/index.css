@@ -62,7 +62,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 74px auto;
-  width: 100%; /* Add this line */a
+  width: 100%; /* Add this line */
 }
 
 .menu svg {

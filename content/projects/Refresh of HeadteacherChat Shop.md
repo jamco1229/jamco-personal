@@ -1,5 +1,5 @@
 ---
-title: Refresh of Shop.Headteachers.org
+title: Refresh of HeadteacherChat Shop
 layout: project
 dateEnd: 2023-03-01 10:28:23
 description: Refreshing a Shopify site to increase conversions.
