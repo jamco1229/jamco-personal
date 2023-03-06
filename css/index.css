@@ -385,6 +385,8 @@ Pagination
   border-radius: var(--border-radius);
   border: 1px solid #E5E0DF;
   text-decoration: none;
+  display: flex;
+  position: relative;
 }
 
 .pagination-item a:focus,
