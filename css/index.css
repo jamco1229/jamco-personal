@@ -3,7 +3,8 @@
 :root {
   font-size: 16px;
   line-height: 1.375em;
-  --col-width: 40rem;
+  --col-width: 64rem;
+  --reading-col: 40rem;
   --width-container: 88rem;
   --font: 'Bespoke Serif', serif;
   --font-heading: 'Bespoke Serif', serif;
