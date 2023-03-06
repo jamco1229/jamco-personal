@@ -125,6 +125,10 @@ body {
   text-align: center;
 }
 
+.site-header li {
+  transition: all 0.3s ease;
+}
+
 body > header > nav > ul > li.active, body > header > nav > ul > li:hover {
   color: var(--color);
   text-decoration: underline;
