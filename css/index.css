@@ -104,35 +104,13 @@ body {
   margin: 0 1rem;
   color: var(--text-secondary-color);
   text-decoration: none;
-}
-
-.site-header li.active p{
-  color: var(--color);
-
-}
-
-.site-header a {
   display: block;
-  color: var(--color);
-}
-
-.site-header a:hover p {
-  color: var(--color);
-  text-decoration: underline;
-}
-
-.site-header p {
-  margin: 0;
   text-align: center;
 }
 
-.profile {
-  width: auto;
-  height: 2rem;
-  object-fit: cover;
-  display: inline;
-  transform: none;
-  margin: 0;
+body > header > nav > ul > li.active, body > header > nav > ul > li:hover {
+  color: var(--color);
+  text-decoration: underline;
 }
 
 .site-main{
