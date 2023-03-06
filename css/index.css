@@ -316,8 +316,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 8rem;
   margin-left: auto;
   margin-right: auto;
-  max-width: var(--col-width);
+  width: 100%;
+  max-width: var(--reading-col);
 }
+
 
 .page-header {
   margin-bottom: 1rem;
@@ -325,7 +327,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .page-title {
   font-family: var(--font-heading);
-
   margin: 0;
 }
 
@@ -337,7 +338,8 @@ Post
   margin-bottom: 8rem;
   margin-left: auto;
   margin-right: auto;
-  max-width: var(--col-width);
+  width: 100%;
+  max-width: var(--reading-col);
 }
 
 .post-header {
@@ -358,13 +360,17 @@ Project page
 
 .project {
   margin-bottom: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: var(--reading-col);
 }
 
 .project-header {
   margin-bottom: 4rem;
   margin-left: auto;
   margin-right: auto;
-  max-width: var(--col-width);
+  max-width: var(--reading-col);
 }
 
 .project-title {
@@ -390,15 +396,15 @@ Project page
 }
 
 .project-block figure.sm {
-  max-width: var(--col-width);
+  max-width: var(--reading-col);
 }
 
 .project-block figure.md {
-  max-width: var(--col-width);
+  max-width: var(--reading-col);
 }
 
 .project-block figure.lg {
-  max-width: var(--col-width);
+  max-width: var(--reading-col);
   margin-left: 16px;
   margin-right: 16px;
 }
