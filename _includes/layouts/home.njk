@@ -10,8 +10,11 @@ permalink: "/"
 <div class='container'>
 {% set entries = collections.all | getPagesByPaths(entries) if entries else collections.projects %}
 
+{# Sort the entries by completionDate in descending order #}
+{% assign sortedEntries = entries | sort: 'data.completionDate' | reverse %}
+
 {# For each of the entries #}
-{% for entry in entries %}
+{% for entry in sortedEntries %}
 
   {# Set the defaults #}
   {% set image = false %}
