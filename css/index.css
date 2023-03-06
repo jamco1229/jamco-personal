@@ -139,10 +139,12 @@ body {
   height: 2rem;
   object-fit: cover;
   display: inline;
+  transform: none;
+  margin: 0;
 }
 
 
-/* For screens under 440px */
+/* For screens under 440px 
 @media screen and (max-width: 440px) {
   .site-header {
     display: flex;
@@ -199,7 +201,7 @@ body {
     display: inline;
   }
 }
-
+*/
 /* About styles */
 
 
