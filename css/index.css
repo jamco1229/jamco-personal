@@ -98,6 +98,7 @@ body {
   width: 100%;
   background-color: var(--background-color);
   border-bottom: 1px solid var(--secondary-color);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
   z-index: 99 !important;
   display: flex;
   flex-direction: row;
@@ -119,7 +120,7 @@ body {
 .site-header a{
   font-size: 1rem;
   margin: 0 1rem;
-  color: var(--secondary-color);
+  color: var(--text-secondary-color);
   text-decoration: none;
   display: block;
   text-align: center;
