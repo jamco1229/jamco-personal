@@ -1,6 +1,18 @@
-Created: March 1, 2023 10:28 AM
-Link: shop.headteachers.org
-Tags: HeadteacherChat, Real Project, Startup
+---
+title: Refresh of Shop.Headteachers.org
+layout: project
+dateEnd: 2023-03-01 10:28:23
+description: Refreshing a Shopify site to increase conversions.
+media:
+  - type: image
+    filename: shopify.png
+    size: md
+    alt: Screenshot of shop.headteachers.org
+eleventyNavigation:
+  key: shop.headteachers.org
+  order: 5
+  parent: Work
+---
 
 <img src='https://github.com/jamco1229/jamco-personal/blob/master/content/media/shopify.png?raw=true' alt=''>
 

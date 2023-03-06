@@ -6,14 +6,13 @@
   --col-width: 640px;
   --font: 'Bespoke Serif', serif;
   --font-heading: 'Bespoke Serif', serif;
-  --font-bold: 'Bespoke Serif', serif;
-  --background-color: #e3e5e7;
-  --color: #44362a;
-  --pop-color: rgba(147, 163, 252, 1);
-  --secondary-color: #828c7d;
-  --border-color: rgba(3, 7, 30, 0.3);
+  --background-color: #F6F6F6;
+  --color: #49494E;
+  --secondary-color: #D8D8E3;
+  --border-color: #D8D8E3;
   --card-shadow: rgba(3, 7, 30, 0.2) 0px 8px 18px;
-  --border-radius: 12px;
+  --border-radius: 4px;
+
     --green: #32bd64;
     --orange: orange;
     --blue: #0788f5;
