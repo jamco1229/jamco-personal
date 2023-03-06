@@ -380,7 +380,7 @@ Pagination
   padding: 8px 16px;
   border-radius: var(--border-radius);
   border: 1px solid #E5E0DF;
-  justify-content: baseline;
+  justify-content: center;
   text-decoration: none;
   display: flex;
   position: relative;
