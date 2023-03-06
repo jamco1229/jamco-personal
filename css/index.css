@@ -389,6 +389,12 @@ Pagination
   position: relative;
 }
 
+.pagination-item svg {
+  height: 16px;
+  width: auto;
+  color: var(--color);
+}
+
 .pagination-item a:focus,
 .pagination-item a:hover {
   background-color: rgba(255, 255, 255, 0.3);
