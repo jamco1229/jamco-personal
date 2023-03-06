@@ -113,11 +113,11 @@ body {
 .site-header a {
   display: block;
   color: var(--color);
-  text-decoration: underline;
 }
 
 .site-header a:hover p {
   color: var(--color);
+  text-decoration: underline;
 }
 
 .site-header p {
