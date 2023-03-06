@@ -138,7 +138,10 @@ body > header > nav > ul > li.active a, body > header > nav > ul > li:hover a {
 
 /* About styles */
 
-
+.projects-heading {
+  max-width: var(--width-container);
+  width: 100%;
+}
 .home-intro {
   margin-bottom: 2rem;
   margin-top: 4rem;
