@@ -3,6 +3,11 @@ title: Refresh of HeadteacherChat Shop
 layout: project
 dateEnd: 2023-03-01 10:28:23
 description: Refreshing a Shopify site to increase conversions.
+Role: Product Design
+Completion date: March 2023
+Platform: Web (Responsive) / Shopify
+Read Time: 1 Mins
+
 media:
   - type: image
     filename: shopify.png
@@ -13,11 +18,6 @@ eleventyNavigation:
   order: 5
   parent: Projects
 ---
-
-Role &mdash; Product Design
-Completion date &mdash; March 2023
-Platform &mdash; Web (Responsive) / Shopify
-Read Time &mdash; 1 Mins
 
 <img src='https://github.com/jamco1229/jamco-personal/blob/master/content/media/shopify.png?raw=true' alt=''>
 

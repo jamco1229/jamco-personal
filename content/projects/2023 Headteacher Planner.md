@@ -1,4 +1,23 @@
-# 2023 Headteacher Planner
+---
+title: 2023 Headteacher Planner
+layout: project
+dateEnd: 2023-03-01 10:28:23
+description: Refreshing a Shopify site to increase conversions.
+Role: Product Design
+Completion date: March 2023
+Platform: Web (Responsive) / Shopify
+Read Time: 1 Mins
+
+media:
+  - type: image
+    filename: shopify.png
+    size: md
+    alt: Screenshot of shop.headteachers.org
+eleventyNavigation:
+  key: shop.headteachers.org
+  order: 5
+  parent: Projects
+---
 
 Created: March 1, 2023 11:05 AM
 Tags: HeadteacherChat, Print Design, UXDI

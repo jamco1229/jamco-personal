@@ -4,6 +4,11 @@ layout: project
 description: A concept app for iPad to join together what I think are the best aspects of digital and physical notetaking.
 dateEnd: 2022-12-15 15:49:23
 Tags: Concept, Passion Project, Prototype
+Role: Product Design
+Completion date: Jan 2023
+Platform: iPad
+Read Time: 5 Mins
+
 media:
   - type: image
     filename: scribe-cover.png
@@ -14,11 +19,6 @@ eleventyNavigation:
   order: 2
   parent: Projects
 ---
-
-Role &mdash; &mdash; &mdash; Product Design
-Completion date &mdash; &mdash; Jan 2023
-Platform &mdash; &mdash; &mdash; iPad
-Read Time &mdash; &mdash; &mdash; 5 Mins
 
 ### Problem
 

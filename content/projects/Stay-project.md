@@ -3,6 +3,11 @@ title: Stay
 layout: project
 dateEnd: 2023-02-15 12:14:23
 description: For UX Design Institute I analysed friction points in a Hotel booking apps and designed a solution to them.
+Role: UX Design
+Completion date: Dec 2022
+Platform: Mobile
+Read Time: 5 Mins
+
 media:
   - type: image
     filename: cover.png
@@ -14,10 +19,6 @@ eleventyNavigation:
   parent: Projects
 ---
 
-Role &mdash; UX Design
-Completion date &mdash; Dec 2022
-Platform &mdash; Mobile
-Read Time &mdash; 5 Mins
 
 > **For UX Design Institute I analysed friction points in a Hotel booking apps. I then designed a solution to them in the form of a prototype.**
 
