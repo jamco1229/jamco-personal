@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Stay-project.md",
+                "file": "pages/Resume.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/Stay-project.md",
+                "file": "pages/Resume.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/Stay-project.md",
+                "file": "pages/Resume.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/Stay-project.md"
+                "file": "pages/Resume.md"
               }
             }
           }
@@ -167,13 +167,13 @@
   },
   "active": "b04aa7190fba4dd8",
   "lastOpenFiles": [
+    "projects/Stay-project.md",
     "projects/scribe-project.md",
     "projects/Refresh of HeadteacherChat Shop.md",
     "projects/HeadteacherChat Mental models and navigation.md",
     "projects/2023 Headteacher Planner.md",
     "projects/buttons-and-switches.md",
     "pages/Resume.md",
-    "projects/Stay-project.md",
     "media/planner.png",
     "index.md",
     "media/Headteacher-Contemporary-Planner-2023-HeadteacherChat-1676483133_8c525786-cc07-45f8-8c9c-99443afdd304.jpg_v=1676483563&width=1100",
