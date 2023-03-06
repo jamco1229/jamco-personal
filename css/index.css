@@ -385,6 +385,10 @@ Pagination
   position: relative;
 }
 
+.pagination-item p {
+  text-decoration: none;
+}
+
 .pagination-item svg {
   color: var(--color);
 }
