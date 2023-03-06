@@ -2,7 +2,8 @@
 /* Variables */
 :root {
   font-size: 16px;
-  line-height: 1.375em;
+  line-height: 1.5em;
+  font-weight: 400;
   --col-width: 64rem;
   --reading-col: 64rem;
   --width-container: 64rem;
@@ -239,7 +240,17 @@ h1 {
   margin-top: 2rem;
   margin-bottom: 1rem;
   }
-  
+
+  h2 {
+  font-size: 1.75rem;
+  line-height: 1.25rem;
+}
+
+h3{ 
+  font-size: 1rem;
+  line-height: 1.37rem;
+}
+
 h2, h3, h4, h5, h6 {
   font-weight: 600;
   font-size: inherit;
