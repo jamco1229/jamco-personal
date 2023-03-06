@@ -3,7 +3,8 @@
 :root {
   font-size: 16px;
   line-height: 1.375em;
-  --col-width: 640px;
+  --col-width: 40rem;
+  --width-container: 88rem;
   --font: 'Bespoke Serif', serif;
   --font-heading: 'Bespoke Serif', serif;
   --background-color: #F6F6F6;
@@ -222,7 +223,8 @@ body {
   justify-content: center;
   gap: 16px;
   margin: 0 auto;
-  width: 80vw; /* adjust as needed */
+  width: 100%; /* adjust as needed */
+  max-width: var(--width-container);
 }
 
 /* .container > * {
@@ -242,7 +244,7 @@ body {
   align-items: flex-start;
   padding: 0px;
   height: auto;
-  width: calc((100% - 16px * 2) / 3);
+  width: calc((100% - 16px * 2) / 2);
   min-width: 288px;
   border: 1px solid #E5E0DF;
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
