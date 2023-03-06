@@ -129,7 +129,7 @@ body {
   transition: all 0.3s ease;
 }
 
-body > header > nav > ul > li.active, body > header > nav > ul > li:hover {
+body > header > nav > ul > li.active a, body > header > nav > ul > li:hover a {
   color: var(--color);
   text-decoration: underline;
 }
