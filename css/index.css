@@ -378,10 +378,10 @@ Pagination
 }
 
 .pagination-item {
-  width: auto;
-  height: auto;
+  width: min-content;
+  height: 44px;
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
-  padding: 16px;
+  padding: 8px 16px;
   border-radius: var(--border-radius);
   border: 1px solid #E5E0DF;
   text-decoration: none;
