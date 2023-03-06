@@ -199,9 +199,11 @@ body > header > nav > ul > li.active a, body > header > nav > ul > li:hover a {
 }
 .home-block p {
   color: var(--text-secondary-color);
+  margin: 0;
 }
 .home-block h2 {
   color: var(--color);
+  margin: 0;
 }
 
 .home-block img {
@@ -242,7 +244,7 @@ h1 {
   margin-bottom: 1rem;
   }
 
-  h2 {
+h2 {
   font-size: 1.75rem;
   line-height: 1.25rem;
 }

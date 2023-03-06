@@ -48,7 +48,8 @@ permalink: "/"
         <h2 class="home-block-title">{{ entry.data.title | safe }}</h2>
         <p class='home-block-role'>{{ entry.data.role | safe}}</p>
         <p class='home-block-completion-date'>{{ entry.data.completionDate | safe}}</p>
-        <p class='home-block-platform'>{{ entry.data.readTime | safe}}</p>
+        <p class='home-block-readtime'>{{ entry.data.readTime | safe}}</p>
+        <p class='home-block-platform'>{{ entry.data.platform | safe}}
         <p class='home-block-description'>{{ entry.data.description | safe}}</p>
       </article>
     </a>
