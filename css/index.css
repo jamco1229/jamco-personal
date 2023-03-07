@@ -404,7 +404,7 @@ Pagination
   list-style: none;
 }
 
-.pagination-item {
+.pagination-item, .button {
   margin: 8px 0;
   width: auto;
   height: auto;
@@ -419,16 +419,16 @@ Pagination
   gap: 8px;
 }
 
-.pagination-item p {
+.pagination-item p, .button p {
   text-decoration: none;
   margin: 0;
 }
 
-.pagination-item svg {
+.pagination-item svg, .button svg {
   color: var(--color);
 }
 
-.pagination-item:focus,
+.pagination-item:focus, .button:hover, .button:focus,
 .pagination-item:hover {
   background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
@@ -455,11 +455,15 @@ Pagination
 
   .site-footer {
     border-top: 1px solid var(--secondary-color);
-    width: 100%;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
     padding-top: 2rem;
     justify-content: center;
+    width: 100%;
+    margin: 4rem 2rem auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style: none;
   }
 
   .site-footer  > p {
