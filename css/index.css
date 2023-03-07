@@ -522,6 +522,7 @@ Pagination
     transform: none;
     width: 100%;
     position: inherit;
+    border: 1px solid var(--secondary-color);
   }
 
   .site-footer {
