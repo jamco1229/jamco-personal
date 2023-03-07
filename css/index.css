@@ -237,11 +237,6 @@ body > header > nav > ul > li.active a, body > header > nav > ul > li:hover a {
   margin: 8px 0;
 }
 
-
-.name{
-  color: var(--color);
-}
-
 h1 {
   color: var(--color);
   font-size: 2rem;
@@ -451,6 +446,9 @@ Pagination
 .pagination-item p, .button p {
   text-decoration: none;
   margin: 0;
+}
+.button .name {
+  border: none;
 }
 
 .pagination-item svg, .button svg {
