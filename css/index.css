@@ -499,7 +499,7 @@ Pagination
     border-top: 1px solid var(--secondary-color);
     padding-top: 2rem;
     width: 100%;
-    margin: 4rem 2rem auto;
+    margin: 2rem auto;
     text-align: center;
     display: flex;
     flex-direction: column;
