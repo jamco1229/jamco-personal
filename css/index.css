@@ -244,7 +244,7 @@ strong,
 th {
   font-family: var(--font-heading);
   font-weight: 600;
-  color: var(--text-secondary-color);
+  color: var(--color);
 }
 
 .page {

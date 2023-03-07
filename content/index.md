@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-# James Coy
+# James Coy &mdash;
 ## Multi-Desciplinary creative&mdash;With a focus on Experience Design.
 With 3 years of experience in the film industry and 1 year at [headteachers.org](http://headteachers.org/), my focus is within creative collaboration, project management, prototyping, interaction design, and user research.
 
