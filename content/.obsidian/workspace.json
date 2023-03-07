@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To dos.md",
+                "file": "projects/2023 Headteacher Planner.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To dos.md",
+                "file": "projects/2023 Headteacher Planner.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To dos.md"
+                "file": "projects/2023 Headteacher Planner.md"
               }
             }
           }
@@ -165,12 +165,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b04aa7190fba4dd8",
+  "active": "e40ef0c99f2a01a9",
   "lastOpenFiles": [
+    "To dos.md",
     "pages/Resume.md",
     "posts.md",
     "index.md",
-    "To dos.md",
     "projects/2023 Headteacher Planner.md",
     "projects/buttons-and-switches.md",
     "projects/HeadteacherChat Mental models and navigation.md",

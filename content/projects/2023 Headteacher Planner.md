@@ -8,7 +8,6 @@ role: Product Design
 completionDate: March 2023
 platform: Web (Responsive) / Shopify
 readTime: 1 Mins
-
 media:
   - type: image
     filename: planner.png
