@@ -227,13 +227,11 @@ h3{
 }
 
 h2, h3, h4, h5, h6 {
-  font-weight: 600;
   font-size: inherit;
   line-height: inherit;
   }
   
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
   text-decoration: none;
   overflow-wrap: break-word; 
   }
@@ -245,7 +243,7 @@ b,
 strong,
 th {
   font-family: var(--font-heading);
-  color: var(--text-secondary-color);
+  font-weight: 500;
 }
 
 .page {
