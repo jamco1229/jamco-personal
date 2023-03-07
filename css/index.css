@@ -210,10 +210,8 @@ h1 {
   color: var(--color);
   font-size: 2rem;
   line-height: 1.25em;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--secondary-color);
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   }
 
 h2 {
