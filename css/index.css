@@ -120,7 +120,7 @@ body {
   padding: 0%;
   width: 100%;
   align-items: baseline;
-  max-width: var(--col-width);
+  max-width: var(--reading-col);
 }
 .site-header ul {
   display: flex;
