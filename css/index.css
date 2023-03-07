@@ -352,6 +352,7 @@ Project page
   width: auto;
   display: flex;
   flex-direction: column;
+  background-color: var(--background-color);
   border: 1px solid #E5E0DF;
   border-radius: var(--border-radius);
   margin: 1rem;
