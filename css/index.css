@@ -459,3 +459,17 @@ Pagination
     margin: auto;
     text-align: center;
   }
+
+  /* Mobile Styles */
+  @media (max-width: 650px) {
+    .home-block {
+      width: 100%;
+      max-width: 100%;
+    }
+    .pagination {
+      flex-direction: column;
+      gap: 12px;
+
+    }
+  }
+  

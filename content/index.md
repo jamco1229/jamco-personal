@@ -1,8 +1,5 @@
 ---
 layout: home
-eleventyNavigation:
-  key: Home
-  order: 1
 ---
 
 <h1 class='name'>James Coy</h1>
