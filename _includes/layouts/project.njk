@@ -9,10 +9,12 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
     {% if dateStart or dateEnd %}
       <p class="project-details">{{ dateStart | yearRange(dateEnd) | safe }}</p>
     {% endif %}
-    <div class='spec'><p>Role &mdash;</p><p class='home-block-role'>{{ entry.data.role | safe}}</p></div>
-    <div class='spec'><p>Completion Date &mdash;</p><p class='home-block-completion-date'>{{ entry.data.completionDate | safe}}</p></div>
-    <div class='spec'><p>Read Time &mdash;</p><p class='home-block-readtime'>{{ entry.data.readTime | safe}}</p></div>
-    <div class='spec'><p>Platform &mdash;</p><p class='home-block-platform'>{{ entry.data.platform | safe}}</p></div>
+    <div class='spec-container'>
+    <div class='spec'><h3>Role &mdash;</h3><p class='home-block-role'>{{ entry.data.role | safe}}</p></div>
+    <div class='spec'><h3>Completion Date &mdash;</h3><p class='home-block-completion-date'>{{ entry.data.completionDate | safe}}</p></div>
+    <div class='spec'><h3>Read Time &mdash;</h3><p class='home-block-readtime'>{{ entry.data.readTime | safe}}</p></div>
+    <div class='spec'><h3>Platform &mdash;</h3><p class='home-block-platform'>{{ entry.data.platform | safe}}</p></div>
+    </div>
     {% if content %}
       <div class="project-text">
         {{ content | safe }}

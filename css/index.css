@@ -340,6 +340,20 @@ Project page
   max-width: var(--reading-col);
 }
 
+.spec-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.specs {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+
 .project-header {
   margin-bottom: 4rem;
   margin-left: auto;
