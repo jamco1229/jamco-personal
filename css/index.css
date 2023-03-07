@@ -393,7 +393,7 @@ Pagination
   visibility: hidden;
 }
 
-.name:hover + p {
+.name:hover p {
   visibility: visible;
 }
 
