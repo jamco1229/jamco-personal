@@ -347,12 +347,13 @@ Project page
   flex-wrap: wrap;
   width: 100%;
   gap: 8px;
+  margin: 1rem 0;
 }
 
 .spec {
-  width: auto;
+  width: calc((100% / 4) - 16px);
   padding: 1rem;
-  max-width: 88px;
+  min-width: 140px;
   height: fit-content;
   display: flex;
   flex-direction: column;
