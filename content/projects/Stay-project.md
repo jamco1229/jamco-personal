@@ -16,7 +16,7 @@ media:
     alt: Poster for Portfolio Starter
 ---
 
-### For UX Design Institute I analysed friction points in a Hotel booking apps. I then designed a solution to them in the form of a prototype.
+> For UX Design Institute I analysed friction points in a Hotel booking apps. I then designed a solution to them in the form of a prototype.
 
 # TLDR —
 Don’t have much time? No worries, here’s a rundown of the important bits.
@@ -28,7 +28,7 @@ I identified that many existing hotel-booking apps had hidden or hard to navigat
 2 prototypes, a lo-fi one and a hi-fi one, the first having deep notes and annotations ready to be handed over. Goals defined earlier are ready to test on with users. (Further testing in progress).
 
 # Understanding the users
-### Competitive benchmarking → Usability Testing → Affinity Diagram → Customer Journey Map.
+> Competitive benchmarking → Usability Testing → Affinity Diagram → Customer Journey Map.
 
 <img src='https://github.com/jamco1229/jamco-personal/blob/master/content/media/Stay%20-%20Hotel%20Booking%20App%20(Concept)%2077e75be5ca694cf8ab65f168815dff7b/Untitled.png?raw=true' alt=''>
 
@@ -57,11 +57,12 @@ Then sorting by flow as well as mapping the **users journey, inside and outside 
 Being the first touch-point for the user means that small friction points became exemplified. The user *expects* the search bar to be visible right away and access immediately. There was also the more uncommon points that didn’t come up much but when they did it was jarring, like showing hotels in the location search bar results (how are users meant to select a hotel without context) and the app using the results as marketing to present the user with unrelated locations and hotels.
 
 ### 2. Results and context
+
 On apps that weren’t transparent with hotel details early on in the process, users often felt like they couldn’t be sure of the decision they made and often regretted the choice only to then return to the home and begin the search again.
 Ensuring the users have all the data available and transparrent early on, in order to provide context to their search and help the user pick the ***right** hotel.
 
 # Designing the solution
-User flow diagrams → sketches → lo-fi prototype (figma) → hi-fi prototype (create with play).
+> User flow diagrams → sketches → lo-fi prototype (figma) → hi-fi prototype (create with play).
 
 While designing the users flow through the app, I considered the specifics of how the user was interacting with the app and how I wanted the app to respond. It was here that I could visualise the high level problems and work to make the flow as frictionless as possible, I focused mainly on the search bottleneck here.
 
