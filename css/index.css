@@ -389,32 +389,14 @@ Pagination
   width: fit-content;
 }
 
-.button p {
+.button p, .button li {
+  list-style: none;
   margin: 0;
 }
 
 .pagination-item p, .button p {
   text-decoration: none;
   margin: 0;
-}
-.name {
-  border: none;
-  width: auto;
-  height: auto;
-  transition: box-shadow 0.3s ease, background-color 0.3s ease;
-  padding: 0.5rem 1rem;
-  border-radius: var(--border-radius);
-  justify-content: center;
-  text-decoration: none;
-  display: flex;
-  position: relative;
-  gap: 8px;
-}
-
-.name:hover {
-  background-color: var(--background-secondary-color);
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
-  text-decoration: none;
 }
 
 .pagination-item svg, .button svg {
