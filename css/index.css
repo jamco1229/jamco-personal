@@ -112,16 +112,21 @@ body {
   align-items: center;
   transition: all 0.3s ease;
 }
+.site-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0%;
+  max-width: var(--col-width);
+}
 .site-header ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
   list-style: none;
   padding: 0;
   margin: 0;
-  width: 100%;
-  max-width: var(--col-width);
-  margin: 0 auto;
 }
 
 .site-header a{
