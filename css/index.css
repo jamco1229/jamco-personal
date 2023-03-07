@@ -132,14 +132,6 @@ body {
   margin: 0;
 }
 
-.site-header a{
-  font-size: 1rem;
-  color: var(--text-secondary-color);
-  text-decoration: none;
-  display: block;
-  text-align: center;
-}
-
 body > header > nav > ul > li.active a, body > header > nav > ul > li:hover a {
   color: var(--color);
   text-decoration: underline;
