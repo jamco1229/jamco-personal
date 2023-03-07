@@ -285,6 +285,9 @@ Project page
   width: 100%;
   gap: 8px;
   margin: 1rem 0;
+  background-color: var(--background-color);
+  border: 1px solid #E5E0DF;
+  border-radius: var(--border-radius);
 }
 
 .spec {
@@ -294,9 +297,6 @@ Project page
   height: auto;
   display: flex;
   flex-direction: column;
-  background-color: var(--background-color);
-  border: 1px solid #E5E0DF;
-  border-radius: var(--border-radius);
   margin: 0;
 }
 .spec > * {
