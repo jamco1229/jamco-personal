@@ -348,7 +348,7 @@ Project page
   width: 100%;
 }
 
-.specs {
+.spec {
   width: auto;
   display: flex;
   flex-direction: column;
@@ -357,7 +357,7 @@ Project page
   border-radius: var(--border-radius);
   margin: 1rem;
 }
-.specs > * {
+.spec > * {
   margin: 0.5rem;
 }
 
