@@ -4,9 +4,9 @@
   font-size: 18px;
   line-height: 1.5em;
   font-weight: 400;
-  --col-width: 64rem;
-  --reading-col: 35rem;
-  --width-container: 64rem;
+  --col-width: 50rem;
+  --reading-col: 50rem;
+  --width-container: 50rem;
   --font: 'General Sans', sans-serif;
   --font-heading: 'General Sans', sans-serif;
   --background-color: #F6F6F6;
@@ -141,7 +141,7 @@ body {
   gap: 16px;
   margin: 0 auto;
   width: 100%; /* adjust as needed */
-  max-width: var(--width-container);
+  max-width: var(--col-width);
 }
 
 /* .container > * {
