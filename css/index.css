@@ -382,6 +382,7 @@ Pagination
   flex-direction: row;
   position: relative;
   gap: 8px;
+  list-style: none;
 }
 
 .button {
