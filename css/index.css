@@ -447,7 +447,7 @@ Pagination
   text-decoration: none;
   margin: 0;
 }
-.button .name {
+body > header > nav > .name {
   border: none;
 }
 
