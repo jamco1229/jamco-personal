@@ -11,8 +11,8 @@
   --font-heading: 'Work Sans', sans-serif;
   --background-color: #F6F6F6;
   --background-secondary-color: #E7E7E9;
-  --color: #49494E;
-  --text-secondary-color: #898993;
+  --color: #898993;
+  --text-secondary-color: #49494E;
   --secondary-color: #D8D8E3;
   --border-color: #D8D8E3;
   --card-shadow: rgba(3, 7, 30, 0.2) 0px 8px 18px;
@@ -208,8 +208,8 @@ body {
 
 h1 {
   font-family: var(--font-heading);
-  color: var(--color);
-  font-size: 2rem;
+  color: var(--text-secondary-color);
+  font-size: 1rem;
   line-height: 1.25em;
   margin-top: 2rem;
   }
@@ -244,6 +244,7 @@ strong,
 th {
   font-family: var(--font-heading);
   font-weight: 600;
+  color: var(--text-secondary-color);
 }
 
 .page {
@@ -562,7 +563,7 @@ Pagination
       max-width: 100%;
     }
     h1 {
-      font-size: 1.75rem;
+      font-size: 1rem;
     }
   }
   
