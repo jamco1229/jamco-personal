@@ -397,7 +397,7 @@ Pagination
   visibility: visible;
 }
 
-.name svg {
+.name {
   margin: 8px 0;
   width: auto;
   height: auto;
