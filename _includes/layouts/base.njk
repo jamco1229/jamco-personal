@@ -12,7 +12,7 @@
   <body>
     <header class='header'>
 <nav class='site-header'>
-  <a class='button name' href="/"><h3>James Coy</h3></a>
+  <a class='name' href="/"><h3>James Coy</h3></a>
   <ul>
     {% for item in collections.all | eleventyNavigation %}
       <li{% if item.url == page.url %} class="active"{% endif %}>

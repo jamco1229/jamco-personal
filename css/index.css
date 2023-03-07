@@ -10,6 +10,7 @@
   --font: 'Author', sans-serif;
   --font-heading: 'Author', sans-serif;
   --background-color: #F6F6F6;
+  --background-secondary-color: #E7E7E9;
   --color: #49494E;
   --text-secondary-color: #898993;
   --secondary-color: #D8D8E3;
@@ -447,8 +448,25 @@ Pagination
   text-decoration: none;
   margin: 0;
 }
-body > header > nav > .name {
+.name {
   border: none;
+  margin: 8px 0;
+  width: auto;
+  height: auto;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  gap: 8px;
+}
+
+.name:hover {
+  background-color: var(--background-secondary-color);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
 }
 
 .pagination-item svg, .button svg {
