@@ -60,7 +60,7 @@ Being the first touch-point for the user means that small friction points became
 ### 2. Results and context
 
 On apps that weren’t transparent with hotel details early on in the process, users often felt like they couldn’t be sure of the decision they made and often regretted the choice only to then return to the home and begin the search again.
-Ensuring the users have all the data available and transparrent early on, in order to provide context to their search and help the user pick the ***right** hotel.
+Ensuring the users have all the data available and transparrent early on, in order to provide context to their search and help the user pick the *right* hotel.
 
 # Designing the solution
 > User flow diagrams → sketches → lo-fi prototype (figma) → hi-fi prototype (create with play).
