@@ -162,7 +162,7 @@ body {
   padding: 0px;
   height: auto;
   width: calc((100% - 16px * 2) / 2);
-  min-width: 288px;
+  min-width: 12rem;
   border: 1px solid #E5E0DF;
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
   text-decoration: none !important;
