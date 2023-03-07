@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-<img src='https://github.com/jamco1229/jamco-personal/blob/master/content/media/me.png?raw=true' alt=''>
+<img class='profile' src='https://github.com/jamco1229/jamco-personal/blob/master/content/media/me.png?raw=true' alt=''>
 
 # James Coy
 ## Multi-Desciplinary creative&mdash;With a focus on Experience Design.
