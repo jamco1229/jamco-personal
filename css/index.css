@@ -53,6 +53,8 @@ blockquote {
   position: relative;
   padding-left: 1.5rem;
   margin: 0;
+  border-left: 2px solid var(--background-secondary-color);
+
 }
 
 blockquote:before {
