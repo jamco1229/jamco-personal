@@ -376,6 +376,7 @@ Project page
 
 .project-title {
   margin: 0;
+  border: none;
 }
 
 .project-details {
