@@ -419,6 +419,10 @@ Pagination
   gap: 8px;
 }
 
+.button {
+  width: fit-content;
+}
+
 .pagination-item p, .button p {
   text-decoration: none;
   margin: 0;
