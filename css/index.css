@@ -94,7 +94,7 @@ body {
   display: none;
 }
 
-header {
+.header {
   padding: 0 1rem;
   position: fixed;
   top: 0;
