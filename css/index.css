@@ -498,7 +498,7 @@ Pagination
   }
 
   .site-footer  > p {
-    max-width: var(--col-width);
+    max-width: var(--reading-col);
     width: 100%;
     margin: auto;
     text-align: center;
