@@ -397,6 +397,26 @@ Pagination
   visibility: visible;
 }
 
+.name {
+  margin: 8px 0;
+  width: auto;
+  height: auto;
+  background-color: var(--background-color);
+  transition: background-color 0.3s ease;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  gap: 8px;
+  list-style: none;
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+}
+
+.name:hover {
+  background-color: var(--background-secondary-color);
+}
 
 .button p, .button li {
   list-style: none;
