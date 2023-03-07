@@ -14,10 +14,7 @@ media:
     filename: shopify.png
     size: md
     alt: Screenshot of shop.headteachers.org
-eleventyNavigation:
-  key: HeadteacherChat Shop
-  order: 5
-  parent: Projects
+
 ---
 
 <img src='https://github.com/jamco1229/jamco-personal/blob/master/content/media/shopify.png?raw=true' alt=''>

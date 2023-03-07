@@ -14,10 +14,6 @@ media:
     filename: cover.png
     size: md
     alt: Poster for Portfolio Starter
-eleventyNavigation:
-  key: Stay - App Design
-  order: 1
-  parent: Projects
 ---
 
 ### For UX Design Institute I analysed friction points in a Hotel booking apps. I then designed a solution to them in the form of a prototype.

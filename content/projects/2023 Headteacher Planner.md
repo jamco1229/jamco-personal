@@ -14,10 +14,6 @@ media:
     filename: planner.png
     size: md
     alt: Photo of Planner Design
-eleventyNavigation:
-  key: Planner
-  order: 6
-  parent: Projects
 ---
 
 The Planners have been a key offering from Headteacherchat since the beginning. It's a way to help teachers with something tangible and physical, and it easily stands out from the crowd as it's tailor-made to your role, by someone who's been in that role before.
