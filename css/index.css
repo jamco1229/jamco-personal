@@ -517,7 +517,7 @@ Pagination
     position: inherit;
   }
 
-  .profile {
+  .profile-header {
     margin: 0;
     transform: none;
     width: 100%;
