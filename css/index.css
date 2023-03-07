@@ -346,6 +346,7 @@ Project page
   justify-content: flex-start;
   flex-wrap: wrap;
   width: 100%;
+  gap: 8px;
 }
 
 .spec {
@@ -356,7 +357,7 @@ Project page
   background-color: var(--background-color);
   border: 1px solid #E5E0DF;
   border-radius: var(--border-radius);
-  margin: 0.1rem;
+  margin: 0;
 }
 .spec > * {
   margin: 0 0.5rem;
