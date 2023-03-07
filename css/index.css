@@ -68,11 +68,11 @@ blockquote:before {
   border-radius: 6px;
 }
 
-em {
+/* em {
   font-family: 'bespoke serif', serif;
   font-style: italic;
   font-weight: 200;
-}
+} */
 
 a {
   color: inherit;
