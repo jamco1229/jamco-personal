@@ -2,6 +2,7 @@
 layout: post
 title: About This Website
 date: 2020-04-06 15:00:00
+excerpt: >- First post about wha it's taking to build this website.
 eleventyNavigation:
   key: About Website
   order: 1
