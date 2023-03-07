@@ -5,7 +5,7 @@
   line-height: 1.5em;
   font-weight: 400;
   --col-width: 64rem;
-  --reading-col: 64rem;
+  --reading-col: 35rem;
   --width-container: 64rem;
   --font: 'Author', sans-serif;
   --font-heading: 'Author', sans-serif;
@@ -351,7 +351,8 @@ Project page
   width: auto;
   display: flex;
   flex-direction: column;
-  
+  border: 1px solid #E5E0DF;
+  border-radius: var(--border-radius);
 }
 
 .project-header {
