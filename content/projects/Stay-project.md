@@ -16,9 +16,7 @@ media:
     alt: Poster for Portfolio Starter
 ---
 
-> Hello there this is a blockquote
-
-> For UX Design Institute I analysed friction points in a Hotel booking apps. I then designed a solution to them in the form of a prototype.
+### For UX Design Institute I analysed friction points in a Hotel booking apps. I then designed a solution to them in the form of a prototype.
 
 # TLDR —
 Don’t have much time? No worries, here’s a rundown of the important bits.
@@ -54,7 +52,8 @@ Then sorting by flow as well as mapping the **users journey, inside and outside 
 # Key Goals.
 
 ### 1. Search
-*“I was expecting a search bar right away!”*
+> “I was expecting a search bar right away!”
+
 Being the first touch-point for the user means that small friction points became exemplified. The user *expects* the search bar to be visible right away and access immediately. There was also the more uncommon points that didn’t come up much but when they did it was jarring, like showing hotels in the location search bar results (how are users meant to select a hotel without context) and the app using the results as marketing to present the user with unrelated locations and hotels.
 
 ### 2. Results and context
