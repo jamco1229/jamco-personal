@@ -1,8 +1,6 @@
 ---
 layout: home
 ---
-<img class='profile-header' src='https://github.com/jamco1229/jamco-personal/blob/master/content/media/me.png?raw=true' alt=''>
-
 # James Coy
 ## Multi-Desciplinary creative&mdash;With a focus on Experience Design.
 With 3 years of experience in the film industry and 1 year at [headteachers.org](http://headteachers.org/), my focus is within creative collaboration, project management, prototyping, interaction design, and user research.
