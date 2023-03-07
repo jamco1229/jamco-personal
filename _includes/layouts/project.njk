@@ -4,6 +4,14 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
 ---
 
 <article class="project">
+      {% if media %}
+    {% for block in media %}
+      <div class="project-block">
+        {% set caption = block.caption %}
+        {% include 'snippets/media.njk' %}
+      </div>
+    {% endfor %}
+  {% endif %}
   <header class="project-header">
     <h1 class="project-title">{{ title | safe }}</h1>
     <div class='spec-container'>
@@ -18,14 +26,6 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
       </div>
     {% endif %}
   </header>
-    {% if media %}
-    {% for block in media %}
-      <div class="project-block">
-        {% set caption = block.caption %}
-        {% include 'snippets/media.njk' %}
-      </div>
-    {% endfor %}
-  {% endif %}
 </article>
 
 {% set next = collections.projects | nextInCollection(page.fileSlug) %}
