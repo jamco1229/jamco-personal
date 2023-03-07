@@ -388,6 +388,10 @@ Pagination
   width: fit-content;
 }
 
+.button p {
+  margin: 0;
+}
+
 .pagination-item p, .button p {
   text-decoration: none;
   margin: 0;
