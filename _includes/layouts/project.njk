@@ -21,6 +21,14 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
       </div>
     {% endif %}
   </header>
+    {% if media %}
+    {% for block in media %}
+      <div class="project-block">
+        {% set caption = block.caption %}
+        {% include 'snippets/media.njk' %}
+      </div>
+    {% endfor %}
+  {% endif %}
 </article>
 
 {% set next = collections.projects | nextInCollection(page.fileSlug) %}
