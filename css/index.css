@@ -322,7 +322,9 @@ Project page
 }
 
 .project-block {
-  margin-bottom: 6rem;
+  margin-bottom: 1rem;
+  height: 88px;
+  width: auto;
   text-align: center;
 }
 
