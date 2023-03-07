@@ -442,6 +442,7 @@ Pagination
 .button p, .site-header li {
   list-style: none;
   margin: 0;
+  line-height: 1rem;
 }
 
 .pagination-item p, .button p {
@@ -517,7 +518,7 @@ Pagination
     position: inherit;
   }
 
-  .profile-header {
+  .profile-header, .project-block img {
     margin: 0;
     margin-bottom: -1rem;
     transform: none;
