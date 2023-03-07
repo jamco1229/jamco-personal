@@ -290,7 +290,7 @@ Project page
 }
 
 .spec {
-  width: calc((100% / 4) - 16px);
+  width: 50%;
   padding: 0.5rem;
   min-width: 140px;
   height: auto;
