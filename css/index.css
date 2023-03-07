@@ -350,7 +350,8 @@ Project page
 }
 
 .spec {
-  width: 178px;
+  width: auto;
+  max-width: 178px;
   height: fit-content;
   display: flex;
   flex-direction: column;
@@ -511,6 +512,10 @@ Pagination
       flex-direction: column;
       gap: 12px;
 
+    }
+    .spec {
+      width: 100%;
+      max-width: 100%;
     }
   }
   
