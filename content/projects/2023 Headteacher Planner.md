@@ -6,7 +6,7 @@ dateEnd: 2023-03-01 10:28:23
 description: Cover design of a bespoke planner for headteachers.
 role: Product Design
 completionDate: March 2023
-platform: Web (Responsive) / Shopify
+platform: Web / Shopify
 readTime: 1 Mins
 media:
   - type: image
