@@ -389,6 +389,15 @@ Pagination
   width: fit-content;
 }
 
+.name p {
+  visibility: hidden;
+}
+
+.name:hover + p {
+  visibility: visible;
+}
+
+
 .button p, .button li {
   list-style: none;
   margin: 0;
