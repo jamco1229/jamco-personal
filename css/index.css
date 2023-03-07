@@ -357,7 +357,7 @@ Pagination
 .pagination, nav {
   width: 100%;
   max-width: var(--reading-col);
-  margin: 2rem auto;
+  margin: 1rem auto;
   text-align: center;
   display: flex;
   flex-direction: row;
