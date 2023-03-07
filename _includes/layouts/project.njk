@@ -7,11 +7,11 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
   <header class="project-header">
     <h1 class="project-title">{{ title | safe }}</h1>
     <div class='spec-container'>
-    <div class='spec'><p>Role</p><h3 class='project-role'>{{ role | safe}}</h3></div>
-    <div class='spec'><p>Completion Date</p><h3 class='project-completion-date'>{{ completionDate | safe}}</h3></div>
-    <div class='spec'><p>Read Time</p><h3 class='project-readtime'>{{ readTime | safe}}</h3></div>
-    <div class='spec'><p>Platform</p><h3 class='project-platform'>{{ platform | safe}}</h3></div>
-    </div>
+    <div class='spec'><h3>Role</h3><p class='project-role'>{{ role | safe}}</p></div>
+    <div class='spec'><h3>Completion Date</h3><p class='project-completion-date'>{{ completionDate | safe}}</p></div>
+    <div class='spec'><h3>Read Time</h3><p class='project-readtime'>{{ readTime | safe}}</p></div>
+    <div class='spec'><h3>Platform</h3><p class='project-platform'>{{ platform | safe}}</p></div>
+   </div>
     {% if content %}
       <div class="project-text">
         {{ content | safe }}
