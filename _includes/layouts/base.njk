@@ -17,7 +17,7 @@
     {% for item in collections.all | eleventyNavigation %}
       <li{% if item.url == page.url %} class="active"{% endif %}>
         <a href="{{ item.url }}" class='button'>
-          {{ item.title | safe}}
+          {{ item.icon | safe}}<p>{{ item.title | safe}}</p>
         </a>
       </li>
     {% endfor %}
