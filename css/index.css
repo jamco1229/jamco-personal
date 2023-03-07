@@ -42,7 +42,7 @@ body {
   
 }
 
-site-body p, site-body li {
+.site-body p, .site-body li {
   line-height: inherit;
   margin: 1rem 0;
   color: var(--color);
