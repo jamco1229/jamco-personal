@@ -88,55 +88,6 @@ body {
   width: 100%; /* Add this line */
 }
 
-.menu svg {
-  max-width: 2rem;
-  max-height: 2rem;
-  visibility: hidden;
-  display: none;
-}
-
-.header {
-  padding: 0 1rem;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 72px; 
-  width: 100%;
-  background-color: var(--background-color);
-  border-bottom: 1px solid var(--secondary-color);
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.04);
-  z-index: 99 !important;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.3s ease;
-}
-.site-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding: 0%;
-  width: 100%;
-  align-items: baseline;
-  max-width: var(--reading-col);
-}
-.site-header ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-body > header > nav > ul > li.active a, body > header > nav > ul > li:hover a {
-  color: var(--color);
-  text-decoration: underline;
-}
-
 .site-main{
   width: 100%;
 }
@@ -406,7 +357,7 @@ Project page
 Pagination
 */
 
-.pagination {
+.pagination, nav {
   width: 100%;
   max-width: var(--reading-col);
   margin: 2rem auto;
@@ -472,7 +423,47 @@ Pagination
   text-decoration: none;
 }
   
+.header {
+  padding: 0 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 72px; 
+  width: 100%;
+  background-color: var(--background-color);
+  border-bottom: 1px solid var(--secondary-color);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.04);
+  z-index: 99 !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
 
+/*
+.site-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0%;
+  width: 100%;
+  align-items: baseline;
+  max-width: var(--reading-col);
+}
+
+.site-header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+*/
   hr {
     border-bottom: 1px solid var(--secondary-color);
     margin: 0 1rem;
