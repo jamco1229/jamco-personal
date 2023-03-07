@@ -421,7 +421,7 @@ Pagination
 
 .pagination {
   width: 100%;
-  max-width: var(--col-width);
+  max-width: var(--reading-col);
   margin: 2rem auto;
   text-align: center;
   display: flex;
