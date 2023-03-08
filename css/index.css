@@ -209,7 +209,7 @@ body {
 h1 {
   font-family: var(--font-heading);
   color: var(--text-secondary-color);
-  font-size: 1rem;
+  font-size: 2rem;
   line-height: 1.25em;
   margin-top: 2rem;
   }
