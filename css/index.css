@@ -73,6 +73,8 @@ blockquote:before {
   margin-left: -1rem;
   width: auto;
   color: var(--color);
+}
+.signature{
     stroke-dasharray: 2000;
     stroke-dashoffset: 2000;
     animation: dash 5s linear forwards;
