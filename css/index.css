@@ -73,8 +73,20 @@ blockquote:before {
   margin-left: -1rem;
   width: auto;
   color: var(--color);
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
 }
-.signature{
+
+@keyframes strokeOffset {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.signature {
+  animation: strokeOffset 1s linear forwards;
+}
+/*.signature{
     stroke-dasharray: 2000;
     stroke-dashoffset: 2000;
     animation: dash 5s linear forwards;
@@ -84,7 +96,7 @@ blockquote:before {
     to {
       stroke-dashoffset: 0;
     }
-  }
+  } */
 /* em {
   font-family: 'bespoke serif', serif;
   font-style: italic;
