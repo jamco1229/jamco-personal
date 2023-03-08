@@ -637,10 +637,12 @@ Pagination
     }
 }
 .st0 {
-  height: 4rem;
+  height: 5rem;
+  width: 100%;
   margin: 0 auto;
   align-self: center;
   width: auto;
+  display: flex;
   color: var(--color);
   stroke-dasharray: 9000;
   stroke-dashoffset: 9000;
@@ -653,6 +655,8 @@ Pagination
 }
 
 .signature {
+  height: 5rem;
+  width: auto;
   margin: 0 auto;
   animation: strokeOffset 2s ease-in forwards;
   color: var(--blue);
