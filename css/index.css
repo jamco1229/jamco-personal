@@ -73,7 +73,7 @@ blockquote:before {
   color: var(--color);
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: write 4s linear forwards;
+    animation: write 4s linear backwards;
   }
   
   @keyframes write {
