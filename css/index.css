@@ -583,25 +583,25 @@ Pagination
   
   /* Animations*/
 .site-header, h1, h2  {
-    animation: fadein 1.5s;
+    animation: fadein 1s;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -o-animation: fadein 2s; /* Opera */
 }
 .home-intro {
-    animation: fadein 2s;
+    animation: fadein 1.5s;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -o-animation: fadein 2s; /* Opera */
 }
 .container {
-  animation: fadein 3s;
+  animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */
   -o-animation: fadein 2s; /* Opera */
 }
 .site-body {
-  animation: fadein 3s;
+  animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */
   -o-animation: fadein 2s; /* Opera */
