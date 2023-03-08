@@ -74,6 +74,13 @@ blockquote:before {
   width: auto;
   color: var(--color);
 }
+
+.written-name svg {
+  height: 2rem;
+  width: auto;
+  color: var(--color);
+  background-color: var(--background-color);
+}
 /* em {
   font-family: 'bespoke serif', serif;
   font-style: italic;

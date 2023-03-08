@@ -2,7 +2,7 @@
 layout: home
 ---
 <div class='written-name'>
-<svg xmlns="http://www.w3.org/2000/svg" direction="ltr" width="299.5837841666844" height="153.69825356474678" viewBox="3802.789547343494 602.3146832692447 299.5837841666844 153.69825356474678" stroke-linecap="round" stroke-linejoin="round" style="background-color: rgb(249, 250, 251);" encoding="UTF-8&quot;"><defs><g>
+<svg xmlns="http://www.w3.org/2000/svg" direction="ltr" width="299.5837841666844" height="153.69825356474678" fill='none' viewBox="3802.789547343494 602.3146832692447 299.5837841666844 153.69825356474678" stroke-linecap="round" stroke-linejoin="round" style="background-color: rgb(249, 250, 251);" encoding="UTF-8&quot;"><defs><g>
 					<pattern id="hash_pattern" width="8" height="8" patternUnits="userSpaceOnUse" strokelinecap="round" stroke="white">
 						<line x1="0.6666666666666666" y1="2" x2="2" y2="0.6666666666666666"/>
 						<line x1="3.333333333333333" y1="4.666666666666666" x2="4.666666666666666" y2="3.333333333333333"/>
