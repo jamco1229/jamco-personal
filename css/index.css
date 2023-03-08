@@ -74,7 +74,7 @@ blockquote:before {
 } */
 
 a {
-  color: inherit;
+  color: var(--blue);
   text-decoration: underline;
 }
 
