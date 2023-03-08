@@ -645,7 +645,7 @@ Pagination
   z-index: -50;
 }
 .st0 {
-  margin: 0 -3rem auto;
+  margin: -7rem auto;
   display: flex;
   color: var(--color);
   stroke-dasharray: 9000;
