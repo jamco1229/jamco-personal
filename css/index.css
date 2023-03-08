@@ -67,15 +67,14 @@ blockquote:before {
 }
 
 .st0 {
-  color: var(--color);
-    stroke-dasharray: 1000;
-    stroke-dashoffset: 1000;
-    animation: write 2s linear backwards;
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+    animation: write 2s linear forwards;
   }
   
   @keyframes write {
     0% {
-      stroke-dashoffset: 1000;
+      stroke-dashoffset: 2000;
     }
     100% {
       stroke-dashoffset: 0;
