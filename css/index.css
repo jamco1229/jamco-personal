@@ -454,7 +454,11 @@ Pagination
 }
 
 .pagination-item svg, .button svg {
-  color: var(--color);
+  color: var(--blue);
+  margin: 0;
+  padding: 0;
+  height: 1rem;
+  width: 1rem;
 }
 
 .pagination-item:focus, .button:hover, .button:focus,
