@@ -21,7 +21,13 @@
   --blue: #0788f5;
 }
 
+background-image: url("BG.jpg");
+        background-repeat: repeat/no-repeat;
+        background-size: 1600px 840px:
 
+span {
+  fill: #0788f5;
+}
 /* Reset styles */
 * {
   margin: 0;
