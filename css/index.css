@@ -21,7 +21,6 @@
   --blue: #0788f5;
 }
 
-
 /* Reset styles */
 * {
   margin: 0;
@@ -37,8 +36,8 @@ body {
   line-height: inherit;
   font-family: var(--font);
   background: var(--background-color);
+  background-color: var(--background-color);
   min-height: 100vh;
-  
 }
 
 .site-body p, .site-body li {
@@ -67,6 +66,23 @@ blockquote:before {
   border-radius: 6px;
 }
 
+.st0 {
+  height: 1rem;
+  margin: 0;
+  margin-bottom: -1rem;
+  margin-left: -1rem;
+  width: auto;
+  color: var(--color);
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+    animation: dash 5s linear forwards;
+  }
+  
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
 /* em {
   font-family: 'bespoke serif', serif;
   font-style: italic;
@@ -396,13 +412,15 @@ Pagination
   padding: 0.5rem 1rem;
   border-radius: var(--border-radius);
   border: 1px solid #E5E0DF;
-  justify-content: center;
-  text-decoration: none;
-  display: flex;
   flex-direction: row;
   position: relative;
   gap: 8px;
   list-style: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
 }
 
 .button {
@@ -418,13 +436,11 @@ Pagination
 }
 
 .name {
-  margin: 0.5rem 0.5rem 0rem -1rem;
+  margin: 8px 0;
   width: auto;
   height: auto;
   background-color: var(--background-color);
   transition: background-color 0.3s ease;
-  justify-content: center;
-  text-decoration: none;
   display: flex;
   flex-direction: row;
   position: relative;
@@ -432,16 +448,20 @@ Pagination
   list-style: none;
   padding: 0.5rem 0.5rem;
   border-radius: var(--border-radius);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
 }
 
 .name:hover {
   background-color: var(--background-secondary-color);
 }
 
-.button p, .site-header li {
+.button p, .site-header li, .name p {
   list-style: none;
   margin: 0;
-  line-height: 1rem;
+  line-height: 0.9rem;
 }
 
 .pagination-item p, .button p {
@@ -449,8 +469,13 @@ Pagination
   margin: 0;
 }
 
-.pagination-item svg, .button svg {
-  color: var(--color);
+.pagination-item svg, .button svg, .name svg {
+  color: var(--blue);
+  margin: 0;
+  padding: 0;
+  height: 1.5rem;
+  width: 1.5rem;
+  align-self: center;
 }
 
 .pagination-item:focus, .button:hover, .button:focus,
@@ -563,7 +588,64 @@ Pagination
       max-width: 100%;
     }
     h1 {
-      font-size: 1rem;
+      font-size: 1.75rem;
     }
   }
   
+  /* Animations*/
+.site-header, h1, h2  {
+    animation: fadein 1s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+.home-intro {
+    animation: fadein 1.5s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+.container {
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+.site-body {
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
