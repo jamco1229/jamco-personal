@@ -66,15 +66,8 @@ blockquote:before {
   border-radius: 6px;
 }
 
-.written-name {
-  height: 4rem;
-  
-  width: auto;
-  color: var(--color);
-}
-
 .signature {
-  height: 5rem;
+  height: 4rem;
   margin: 0;
   margin-left: -1rem;
   width: auto;
