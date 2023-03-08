@@ -655,4 +655,5 @@ Pagination
 
 .signature {
   animation: strokeOffset 2s ease-in forwards;
+  color: var(--blue);
 }
