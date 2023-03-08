@@ -662,7 +662,7 @@ Pagination
 }
 
 .signature {
-  width: 72%;
+  height: 4rem;
   max-width: var(--col-width);
   /* height: 8rem; */
   margin: 0;
