@@ -3,9 +3,10 @@ layout: home
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
 <style type="text/css">
-	.signature{fill:none;stroke:#0D0B0B;stroke-width:18;stroke-miterlimit:10;}
+	.st0{fill:none;stroke:#0D0B0B;stroke-width:18;stroke-miterlimit:10;}
 </style>
 <path class="signature" d="M155.82,399.98c69.14-10.98,228.58-168.78,236.12-216.23c7.54-47.45,93.06,896.02-166.72,822.13
 	S90.17,662.59,243.32,543.38c523.69-407.65,166.44-190.77,242.57-71.71c46.18,72.23,71.99-72.51,78.23-142.44
@@ -19,7 +20,6 @@ layout: home
 	s-232.72-118.6-76.23-196.92s314.74-61.08,104.14-4.15"/>
 </svg>
 
-# James Coy &mdash;
 ## Multi-Desciplinary creative&mdash;With a focus on Experience Design.
 With 3 years of experience in the film industry and 1 year at [headteachers.org](http://headteachers.org/), my focus is within creative collaboration, project management, prototyping, interaction design, and user research.
 
