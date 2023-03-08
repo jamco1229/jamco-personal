@@ -39,6 +39,7 @@ body {
   line-height: inherit;
   font-family: var(--font);
   background: var(--background-color);
+  background-color: var(--background-color);
   min-height: 100vh;
 }
 
