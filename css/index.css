@@ -659,7 +659,7 @@ Pagination
 }
 
 .signature {
-  height: 10rem;
+  height: 8rem;
   margin: 0;
   animation: strokeOffset 2s ease-in forwards;
   color: var(--blue);
