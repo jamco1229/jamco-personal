@@ -645,8 +645,8 @@ Pagination
   z-index: -50;
 }
 .st0 {
-  margin-top: -20rem;
-  margin-bottom: -20rem;
+  margin-top: -15rem;
+  margin-bottom: -15rem;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -662,7 +662,7 @@ Pagination
 }
 
 .signature {
-  width: 100%;
+  width: 72%;
   max-width: var(--col-width);
   /* height: 8rem; */
   margin: 0;
