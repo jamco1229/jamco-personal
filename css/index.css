@@ -66,10 +66,7 @@ blockquote:before {
   border-radius: 6px;
 }
 
-.signature {
-  margin: 0;
-  margin-left: -2rem;
-  width: auto;
+.st0 {
   color: var(--color);
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
