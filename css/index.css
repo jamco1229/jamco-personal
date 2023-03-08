@@ -420,7 +420,7 @@ Pagination
 }
 
 .name {
-  margin: 0.5rem 0.5rem 0rem -1rem;
+  margin: 8px 0;
   width: auto;
   height: auto;
   background-color: var(--background-color);
