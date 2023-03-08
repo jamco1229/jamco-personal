@@ -663,6 +663,7 @@ Pagination
 
 .signature {
   width: 100%;
+  max-width: var(--col-width);
   /* height: 8rem; */
   margin: 0;
   animation: strokeOffset 3s ease-in forwards;
