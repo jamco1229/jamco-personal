@@ -645,7 +645,6 @@ Pagination
   z-index: -50;
 }
 .st0 {
-  height: 7rem;
   margin: 0 -3rem auto;
   display: flex;
   color: var(--color);
@@ -660,6 +659,7 @@ Pagination
 }
 
 .signature {
+  height: 10rem;
   margin: 0;
   animation: strokeOffset 2s ease-in forwards;
   color: var(--blue);
