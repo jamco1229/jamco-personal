@@ -67,9 +67,9 @@ blockquote:before {
 }
 
 .signature {
-  height: 4rem;
+  height: 6rem;
   margin: 0;
-  margin-left: -1rem;
+  margin-left: -2rem;
   width: auto;
   color: var(--color);
   stroke-dasharray: 1000;
