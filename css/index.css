@@ -453,7 +453,7 @@ Pagination
   margin: 0;
 }
 
-.pagination-item svg, .button svg {
+.pagination-item svg, .button svg, .name svg {
   color: var(--blue);
   margin: 0;
   padding: 0;
