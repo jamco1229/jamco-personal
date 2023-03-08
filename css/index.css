@@ -400,8 +400,8 @@ Pagination
   position: relative;
   gap: 8px;
   list-style: none;
-  justify-content: baseline;
-  align-items: baseline;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   text-decoration: none;
   display: flex;
@@ -432,8 +432,8 @@ Pagination
   list-style: none;
   padding: 0.5rem 0.5rem;
   border-radius: var(--border-radius);
-  justify-content: baseline;
-  align-items: baseline;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   text-decoration: none;
 }
@@ -459,6 +459,7 @@ Pagination
   padding: 0;
   height: 1.5rem;
   width: 1.5rem;
+  align-self: center;
 }
 
 .pagination-item:focus, .button:hover, .button:focus,
