@@ -442,10 +442,10 @@ Pagination
   background-color: var(--background-secondary-color);
 }
 
-.button p, .site-header li {
+.button p, .site-header li, .name p {
   list-style: none;
   margin: 0;
-  line-height: 1rem;
+  line-height: 0.9rem;
 }
 
 .pagination-item p, .button p {
