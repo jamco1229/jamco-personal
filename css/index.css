@@ -637,8 +637,6 @@ Pagination
     }
 }
 .signature-container {
-  width: 100%;
-  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -662,7 +660,7 @@ Pagination
 }
 
 .signature {
-  height: 4rem;
+  height: 2rem;
   max-width: var(--col-width);
   /* height: 8rem; */
   margin: 0;
