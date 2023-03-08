@@ -21,9 +21,6 @@
   --blue: #0788f5;
 }
 
-span {
-  fill: #0788f5;
-}
 /* Reset styles */
 * {
   margin: 0;
@@ -70,13 +67,14 @@ blockquote:before {
 }
 
 .written-name {
-  height: 2rem;
+  height: 4rem;
+  
   width: auto;
   color: var(--color);
 }
 
 .written-name svg {
-  height: 2rem;
+  height: 4rem;
   width: auto;
   color: var(--color);
   background-color: var(--background-color);
