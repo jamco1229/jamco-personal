@@ -639,6 +639,7 @@ Pagination
 .st0 {
   height: 6rem;
   margin: 0 auto;
+  align-self: center;
   width: auto;
   color: var(--color);
   stroke-dasharray: 9000;
