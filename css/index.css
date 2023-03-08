@@ -645,8 +645,8 @@ Pagination
   z-index: -50;
 }
 .st0 {
-  margin-top: 25rem;
-  margin-bottom: 15rem;
+  margin-top: -25rem;
+  margin-bottom: -15rem;
   margin-left: auto;
   margin-right: auto;
   display: flex;
