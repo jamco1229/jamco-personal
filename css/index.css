@@ -67,7 +67,10 @@ blockquote:before {
 }
 
 .st0 {
-  height: 2rem;
+  height: 1rem;
+  margin: 0;
+  margin-bottom: -1rem;
+  margin-left: -1rem;
   width: auto;
   color: var(--color);
     stroke-dasharray: 2000;
