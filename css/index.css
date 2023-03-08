@@ -396,13 +396,15 @@ Pagination
   padding: 0.5rem 1rem;
   border-radius: var(--border-radius);
   border: 1px solid #E5E0DF;
-  justify-content: center;
-  text-decoration: none;
-  display: flex;
   flex-direction: row;
   position: relative;
   gap: 8px;
   list-style: none;
+  justify-content: baseline;
+  align-items: baseline;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
 }
 
 .button {
@@ -423,8 +425,6 @@ Pagination
   height: auto;
   background-color: var(--background-color);
   transition: background-color 0.3s ease;
-  justify-content: center;
-  text-decoration: none;
   display: flex;
   flex-direction: row;
   position: relative;
@@ -432,6 +432,10 @@ Pagination
   list-style: none;
   padding: 0.5rem 0.5rem;
   border-radius: var(--border-radius);
+  justify-content: baseline;
+  align-items: baseline;
+  text-align: center;
+  text-decoration: none;
 }
 
 .name:hover {
