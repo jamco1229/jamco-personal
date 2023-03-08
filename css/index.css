@@ -73,7 +73,7 @@ blockquote:before {
   color: var(--color);
 }
 
-.written-name svg {
+.signiture {
   height: 4rem;
   width: auto;
   color: var(--color);
