@@ -66,37 +66,6 @@ blockquote:before {
   border-radius: 6px;
 }
 
-.st0 {
-  height: 6rem;
-  margin: 0;
-  margin-bottom: -1rem;
-  margin-left: -0.5rem;
-  width: auto;
-  color: var(--color);
-  stroke-dasharray: 3000;
-  stroke-dashoffset: 3000;
-}
-
-@keyframes strokeOffset {
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-.signature {
-  animation: strokeOffset 2s ease-in forwards;
-}
-/*.signature{
-    stroke-dasharray: 2000;
-    stroke-dashoffset: 2000;
-    animation: dash 5s linear forwards;
-  }
-  
-  @keyframes dash {
-    to {
-      stroke-dashoffset: 0;
-    }
-  } */
 /* em {
   font-family: 'bespoke serif', serif;
   font-style: italic;
@@ -608,24 +577,28 @@ Pagination
   
   /* Animations*/
 .site-header, h1, h2  {
+  animation-delay: 0.5s;
     animation: fadein 1s;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -o-animation: fadein 2s; /* Opera */
 }
 .home-intro {
+  animation-delay: 0.5s;
     animation: fadein 1.5s;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -o-animation: fadein 2s; /* Opera */
 }
 .container {
+  animation-delay: 1s;
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */
   -o-animation: fadein 2s; /* Opera */
 }
 .site-body {
+  animation-delay: 0.5s;
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */
@@ -662,4 +635,24 @@ Pagination
     to {
         opacity: 1;
     }
+}
+.st0 {
+  height: 6rem;
+  margin: 0;
+  margin-bottom: -1rem;
+  margin-left: -0.5rem;
+  width: auto;
+  color: var(--color);
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+}
+
+@keyframes strokeOffset {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.signature {
+  animation: strokeOffset 2s ease-in forwards;
 }
