@@ -643,8 +643,8 @@ Pagination
   margin-left: -0.5rem;
   width: auto;
   color: var(--color);
-  stroke-dasharray: 5000;
-  stroke-dashoffset: 5000;
+  stroke-dasharray: 9000;
+  stroke-dashoffset: 9000;
 }
 
 @keyframes strokeOffset {
