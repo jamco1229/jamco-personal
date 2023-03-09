@@ -469,9 +469,9 @@ Pagination
 .pagination-item:focus, .button:hover, .button:focus,
 .pagination-item:hover {
   background-color: rgba(255, 255, 255, 0.3);
-  box-shadow: 0px 8px 16px hsla(214, 100%, 38%, 0.16);
+  box-shadow: 0px 8px 16px hsla(214, 50%, 38%, 0.08);
   text-decoration: none;
-  transform: translatey(0.5rem);
+  transform: translatey(-0.1rem);
 }
   
 .header {
