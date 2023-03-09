@@ -43,6 +43,7 @@ body {
   background-size: 8px 8px;
   background-repeat: repeat;
   background-position: 0px 0px;
+  background-blend-mode: soft-light;
   /* background-color: var(--background-color);
   background-image:  linear-gradient(hsla(240, 4%, 91%, 0.2) 1.8px, transparent 1.8px), linear-gradient(90deg, hsla(240, 4%, 91%, 0.2) 1.8px, transparent 1.8px), linear-gradient(hsla(240, 4%, 91%, 0.2) 0.9px, transparent 0.9px), linear-gradient(90deg, hsla(240, 4%, 91%, 0.2) 0.9px, #f6f6f6 0.9px);
  */
