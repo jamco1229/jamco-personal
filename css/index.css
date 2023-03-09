@@ -40,8 +40,7 @@ body {
   background-color: var(--background-color);
   min-height: 100vh;
   background-color: var(--background-color);
-  opacity: 0.2;
-  background-image:  linear-gradient(#E7E7E9 1.8px, transparent 1.8px), linear-gradient(90deg, #E7E7E9 1.8px, transparent 1.8px), linear-gradient(#E7E7E9 0.9px, transparent 0.9px), linear-gradient(90deg, #E7E7E9 0.9px, #f6f6f6 0.9px);
+  background-image:  linear-gradient(hsla(240, 4%, 91%, 0.3) 1.8px, transparent 1.8px), linear-gradient(90deg, hsla(240, 4%, 91%, 0.3) 1.8px, transparent 1.8px), linear-gradient(hsla(240, 4%, 91%, 0.3) 0.9px, transparent 0.9px), linear-gradient(90deg, hsla(240, 4%, 91%, 0.3) 0.9px, #f6f6f6 0.9px);
   background-size: 45px 45px, 45px 45px, 9px 9px, 9px 9px;
   background-position: -1.8px -1.8px, -1.8px -1.8px, -0.9px -0.9px, -0.9px -0.9px;
 }
