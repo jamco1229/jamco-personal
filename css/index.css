@@ -469,7 +469,7 @@ Pagination
 .pagination-item:focus, .button:hover, .button:focus,
 .pagination-item:hover {
   background-color: rgba(255, 255, 255, 0.3);
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 8px 16px hsla(214, 100%, 38%, 0.16);
   text-decoration: none;
   transform: translatex(2rem);
 }
