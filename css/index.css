@@ -446,8 +446,7 @@ Pagination
 }
 
 .name:hover {
-  /* background-color: var(--background-secondary-color); */
-  background-color: rgba(255, 255, 255, 0.3);
+   background-color: var(--background-secondary-color); 
 }
 
 .button p, .site-header li, .name p {
