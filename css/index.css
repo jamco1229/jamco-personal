@@ -12,6 +12,55 @@
   font-weight: normal;
   font-style: italic;
 }
+/* iA Writer Duospace Bold */
+@font-face {
+  font-family: 'iAWriterDuospace-Bold';
+  src: url('/Users/jam/Documents/GitHub/jamco-personal/fonts/iAWriterDuospace-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* iA Writer Duospace Bold Italic */
+@font-face {
+  font-family: 'iAWriterDuospace-BoldItalic';
+  src: url('/Users/jam/Documents/GitHub/jamco-personal/fonts/iAWriterDuospace-BoldItalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* iA Writer Duospace Italic */
+@font-face {
+  font-family: 'iAWriterDuospace-Italic';
+  src: url('/Users/jam/Documents/GitHub/jamco-personal/fonts/iAWriterDuospace-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* iA Writer Duospace Regular */
+@font-face {
+  font-family: 'iAWriterDuospace-Regular';
+  src: url('/Users/jam/Documents/GitHub/jamco-personal/fonts/iAWriterDuospace-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Apply the fonts to your document */
+body {
+  font-family: 'iAWriterDuospace-Regular', sans-serif;
+}
+
+h1 {
+  font-family: 'iAWriterDuospace-Bold', sans-serif;
+}
+
+em {
+  font-family: 'iAWriterDuospace-Italic', sans-serif !important;
+}
+
+strong {
+  font-family: 'iAWriterDuospace-BoldItalic', sans-serif !important;
+}
+
 :root {
   font-size: 18px;
   line-height: 1.5em;
@@ -19,8 +68,8 @@
   --col-width: 32rem;
   --reading-col: 32rem;
   --width-container: 64rem;
-  --font: 'iAWriterQuattroV', sans-serif;
-  --font-heading: 'iAWriterQuattroV', sans-serif;
+  --font: 'iAWriterDuospace-Regular', sans-serif;
+  --font-heading: 'iAWriterDuospace-Bold', sans-serif;
   --background-color: #F6F6F6;
   --background-secondary-color: #E7E7E9;
   --color: #898993;
