@@ -1,4 +1,17 @@
 /* Variables */
+@font-face {
+  font-family: 'iAWriterQuattroV';
+  src: url('/Users/jam/Documents/GitHub/jamco-personal/fonts/iAWriterQuattroV.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'iAWriterQuattroVitallic';
+  src: url('/Users/jam/Documents/GitHub/jamco-personal/fonts/iAWriterQuattroV-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
 :root {
   font-size: 18px;
   line-height: 1.5em;
@@ -6,8 +19,8 @@
   --col-width: 32rem;
   --reading-col: 32rem;
   --width-container: 64rem;
-  --font: 'Satoshi', sans-serif;
-  --font-heading: 'Satoshi', sans-serif;
+  --font: 'iAWriterQuattroV', sans-serif;
+  --font-heading: 'iAWriterQuattroV', sans-serif;
   --background-color: #F6F6F6;
   --background-secondary-color: #E7E7E9;
   --color: #898993;
