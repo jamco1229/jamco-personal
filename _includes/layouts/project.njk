@@ -4,9 +4,7 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
 ---
 
 <article class="project">
-  <div class='column-1'>
-  <h1 class="project-title">{{ title | safe }}</h1>
-      {% if media %}
+        {% if media %}
     {% for block in media %}
       <div class="project-block">
         {% set caption = block.caption %}
@@ -14,6 +12,9 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
       </div>
     {% endfor %}
   {% endif %}
+  <div class='column-container'>
+  <div class='column-1'>
+  <h1 class="project-title">{{ title | safe }}</h1>
   <header class="project-header">
     <div class='spec-container'>
     <div class='spec'><h3>Role</h3><p class='project-role'>{{ role | safe}}</p></div>
@@ -28,6 +29,7 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
         {{ content | safe }}
       </div>
     {% endif %}
+    </div>
     </div>
   </header>
 </article>

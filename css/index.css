@@ -297,8 +297,28 @@ body > div > main > div.container > a, body > div > main > div.container > a > a
     }
   }
 
-  /* SPECS */
+  /* project page */
 
+  .project-block {
+    width: 150%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .column-container {
+    width: 150%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+  }
+
+  .column-1 {
+    width: 20%;
+  }
+  .column-2 { 
+    width: 80%;
+  }
   .spec-container {
     display: flex;
     flex-direction: row;
