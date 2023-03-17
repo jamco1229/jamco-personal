@@ -70,10 +70,10 @@ strong {
   --width-container: 64rem;
   --font: 'iAWriterDuospace-Regular', sans-serif;
   --font-heading: 'iAWriterDuospace-Bold', sans-serif;
-  --background-color: #F6F6F6;
-  --background-secondary-color: #E7E7E9;
-  --color: #898993;
-  --text-secondary-color: #49494E;
+  --background-color: #F6F6F6; /*161616*/
+  --background-secondary-color: #E7E7E9; /* rgb(245, 245, 245)*/
+  --color: #898993;  /*rgba(0, 0, 0, 0.75)*/
+  --text-secondary-color: #49494E; /* #646464 */
   --secondary-color: #D8D8E3;
   --border-color: #D8D8E3;
   --card-shadow: rgba(3, 7, 30, 0.2) 0px 8px 18px;

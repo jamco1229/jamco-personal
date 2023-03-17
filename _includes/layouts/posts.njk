@@ -5,6 +5,9 @@ pagination:
   size: 10
   alias: postslist
 permalink: "posts/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}"
+eleventyNavigation: 
+  key: blog
+  order: 2
 ---
 
 <div class="posts">
