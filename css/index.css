@@ -15,7 +15,7 @@
 
 /* Variables */
   :root {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5em;
   font-weight: 400;
   --col-width: 32rem;
@@ -35,6 +35,9 @@
   }
   
   body {
+    -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+
 overflow-x: hidden;
 margin: 0;
 padding: 0;
@@ -92,7 +95,7 @@ position: relative;
 font-family: 'iAWriterQuattroV', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 160%;
   letter-spacing: -0.03em;
   color: var(--bold-color);
@@ -187,7 +190,6 @@ flex: none;
 order: 2;
 flex-grow: 0;
 z-index: 2;
-border-top: var(--border);
   }
 
   .site-header li {
@@ -232,3 +234,5 @@ border-top: var(--border);
     animation: strokeOffset 3s ease-in forwards;
     color: var(--blue);
   }
+
+/* Cards */
