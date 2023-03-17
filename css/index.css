@@ -109,7 +109,7 @@ font-family: 'iAWriterQuattroV', sans-serif;
   
   strong {
     font-family: 'iAWriterQuattroV', sans-serif !important;
-    font-weight: 600;
+    font-weight: 400;
     color: var(--bold-color);
   }
    blockquote {
