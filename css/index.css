@@ -285,7 +285,7 @@ flex-grow: 1;
 .home-block img {
   margin-bottom: 1rem;
 }
-.home-block a {
+.home-block p, .home-block h2 {
   text-decoration: none !important;
 }
 .home-block h2 { 
