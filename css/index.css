@@ -213,15 +213,7 @@ border-top: var(--border);
 
 
   /* Signature animations */
-  .signature-container {
-    width: 100%;
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: -50;
-  
-  }
+
   .st0 {
     height: 6rem;
     display: flex;
