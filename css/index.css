@@ -332,9 +332,12 @@ body > div > main > div.container > a, body > div > main > div.container > a > a
 margin: 0;
 }
 
-.pagination-item {
+.pagination-item p {
   color: var(--bold-color);
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  
+  margin: 1rem;
+}
+
+.pagination-item {
+  border: 1px solid var(--bold-color);
+  border-radius: var(--border-radius);
 }
