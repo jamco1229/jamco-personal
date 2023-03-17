@@ -269,9 +269,6 @@ background: linear-gradient(144.31deg, rgba(255, 255, 255, 0.1) 7.67%, rgba(145,
 border: 0.5px solid #5C5C5C;
 border-radius: 8px;
 transition: box-shadow 0.2s ease, background 0.2s ease;
-
-/* Inside auto layout */
-
 flex: none;
 order: 0;
 flex-grow: 1;
@@ -289,9 +286,10 @@ flex-grow: 1;
 }
 .home-block h2 { 
   margin: 0;
+  margin-bottom: -1rem;
 }
   /* Media query for screens larger than 768px */
-  @media (min-width: 768px) {
+  @media (min-width: 640px) {
     .home-block {
        width: 100%;
     }
