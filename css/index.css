@@ -282,12 +282,11 @@ flex-grow: 1;
 .home-block img {
   margin-bottom: 1rem;
 }
-.home-block p, .home-block h2 {
-  text-decoration: none !important;
-}
-.home-block h2 { 
+
+body > div > main > div.container > a > article > h2, body > div > main > div.container > a > article > h2 { 
   margin: 0;
   margin-bottom: -1rem;
+  text-decoration: none;
 }
   /* Media query for screens larger than 768px */
   @media (min-width: 640px) {
