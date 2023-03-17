@@ -1,16 +1,17 @@
 @font-face {
   font-family: 'iAWriterQuattroV';
-  src: url('/Users/jam/Documents/GitHub/jamco-personal/fonts/iAWriterQuattroV.ttf') format('truetype');
+  src: url('/fonts/iAWriterQuattroV.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
   
 @font-face {
   font-family: 'iAWriterQuattroVitallic';
-  src: url('/Users/jam/Documents/GitHub/jamco-personal/fonts/iAWriterQuattroV-Italic.ttf') format('truetype');
+  src: url('/fonts/iAWriterQuattroV-Italic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
+
 
 /* Variables */
   :root {
