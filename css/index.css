@@ -268,14 +268,21 @@ max-width: 312px;
 height: auto;
 margin: 8px;
 background: linear-gradient(144.31deg, rgba(255, 255, 255, 0.1) 7.67%, rgba(145, 145, 145, 0.0567708) 35.34%, rgba(71, 71, 71, 0.0279276) 66.26%, rgba(0, 0, 0, 0) 85.78%), #2A2A2B;
+box-shadow: 0px 0px 0px rgba(5, 18, 36, 0);
 border: 0.5px solid #5C5C5C;
 border-radius: 8px;
+transition: box-shadow 0.3s ease-in, background 0.3s ease-in;
 
 /* Inside auto layout */
 
 flex: none;
 order: 0;
 flex-grow: 1;
+}
+
+.home-block:hover {
+  background: linear-gradient(144.31deg, rgba(255, 255, 255, 0.1) 7.67%, rgba(145, 145, 145, 0.0567708) 35.34%, rgba(71, 71, 71, 0.0279276) 66.26%, rgba(0, 0, 0, 0) 85.78%), #343435;
+  box-shadow: 0px 4px 20px rgba(5, 18, 36, 0.4);
 }
 .home-block img {
   margin-bottom: 1rem;
