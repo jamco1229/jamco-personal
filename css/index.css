@@ -80,6 +80,13 @@ position: relative;
   letter-spacing: -0.03em;
   color: var(--color);
   }
+
+  .site-body p, .site-body li {
+    line-height: inherit;
+    margin: 1rem 0;
+    color: var(--color);
+    overflow-wrap: normal;
+  }
   
   h1, h2, h3, h4, h5, h6 {
 font-family: 'iAWriterQuattroV', sans-serif;
@@ -89,6 +96,10 @@ font-family: 'iAWriterQuattroV', sans-serif;
   line-height: 160%;
   letter-spacing: -0.03em;
   color: var(--bold-color);
+  text-decoration: none;
+    overflow-wrap: break-word; 
+        line-height: 1.25em;
+    margin-top: 2rem;
   }
   
   em {
@@ -120,56 +131,10 @@ font-family: 'iAWriterQuattroV', sans-serif;
     border-radius: 6px;
   }
 
-  h1 {
-    color: var(--text-secondary-color);
-    font-size: 2rem;
-    line-height: 1.25em;
-    margin-top: 2rem;
-    }
-  
-  h2 {
-  
-    font-size: 1.75rem;
-    line-height: 1.25rem;
-  }
-  
-  h3{ 
-    font-size: 1rem;
-    line-height: 1.37rem;
-  }
-  
-  h2, h3, h4, h5, h6 {
-    font-size: inherit;
-    line-height: inherit;
-    }
-    
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: 600;
-    text-decoration: none;
-    overflow-wrap: break-word; 
-    }
-    
-  h2,
-  h3,
-  h4,
-  b,
-  strong,
-  th {
-    font-family: var(--font-heading);
-    font-weight: 600;
-    color: var(--color);
-  }
-  
 
-  .site-body p, .site-body li {
-    line-height: inherit;
-    margin: 1rem 0;
-    color: var(--color);
-    overflow-wrap: normal;
-  }
 
   a {
-    color: var(--blue);
+    color: var(--bold-color);
     text-decoration: underline;
   }
   
