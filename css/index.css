@@ -194,6 +194,10 @@ z-index: 2;
     justify-content: flex-start;
     align-items: center;
     text-decoration: none;
+    color: var(--color);
+  }
+  .site-header .active {
+    color: var(--bold-color);
   }
   .site-header li svg {
     width: 8px;
