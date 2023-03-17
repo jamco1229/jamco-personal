@@ -206,10 +206,14 @@ z-index: 2;
     text-decoration: none;
     color: var(--color);
   }
+
+  li p {
+    color: var(--color);
+  }
   body > header > nav > ul > li > a {
     text-decoration: none !important;
   }
-  .site-header li.active {
+  .site-header li.active, li.active p {
     color: var(--bold-color);
   }
   .site-header li.active svg {
