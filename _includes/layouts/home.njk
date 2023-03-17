@@ -45,8 +45,10 @@ permalink: "/"
           {% if width %}width="{{ width }}"{% endif %}
           {% if height %}height="{{ height }}"{% endif %}
         >
+        <div class='home-block-text'>
         <h2 class="home-block-title">{{ entry.data.title | safe }}</h2>
         <p class='home-block-description'>{{ entry.data.description | safe}}</p>
+        </div>
       </article>
     </a>
   {% endif %}
