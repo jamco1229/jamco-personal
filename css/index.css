@@ -300,9 +300,9 @@ body > div > main > div.container > a, body > div > main > div.container > a > a
   /* project page */
 
   .project-block {
-    width: 150%;
+    width: 180%;
     margin-left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-70%);
   }
 
   .column-container {
