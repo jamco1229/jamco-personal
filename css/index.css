@@ -148,6 +148,10 @@ font-family: 'iAWriterQuattroV', sans-serif;
   a:focus {
     text-decoration: none;
   }
+  .site-nav p {
+    text-decoration: none;
+    color: var(--bold-color);
+  }
   
 /* Images */
  audio,
