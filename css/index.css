@@ -161,3 +161,10 @@ font-family: 'iAWriterQuattroV', sans-serif;
       height: auto;
       position: inherit;
     }
+svg {
+  width: 180.95px;
+  height: 97px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
