@@ -13,19 +13,37 @@
   --border-radius: 4px;
 }
 @font-face {
-    font-family: 'iAWriterQuattroV';
-    src: url('/Users/jam/Documents/GitHub/jamco-personal/fonts/iAWriterQuattroV.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'iAWriterQuattroV';
+  src: url('/Users/jam/Documents/GitHub/jamco-personal/fonts/iAWriterQuattroV.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: 'iAWriterQuattroVitallic';
+  src: url('/Users/jam/Documents/GitHub/jamco-personal/fonts/iAWriterQuattroV-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* BASE */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
   
-  @font-face {
-    font-family: 'iAWriterQuattroVitallic';
-    src: url('/Users/jam/Documents/GitHub/jamco-personal/fonts/iAWriterQuattroV-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
+  body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: var(--font);
+    background: var(--background-color);
+    min-height: 100vh;
   }
-
 
 /* TYPE */
   body {
