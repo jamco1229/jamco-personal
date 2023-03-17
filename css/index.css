@@ -323,3 +323,11 @@ body > div > main > div.container > a, body > div > main > div.container > a > a
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 0.5rem;
 }
+
+.spec {
+  text-align: center;
+  margin: 0;
+}
+.spec h2{
+margin: 0;
+}
