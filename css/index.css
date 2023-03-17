@@ -196,10 +196,13 @@ z-index: 2;
     text-decoration: none;
     color: var(--color);
   }
-  .site-header .active {
+  body > header > nav > ul > li > a > p {
+    text-decoration: none !important;
+  }
+  .site-header li.active {
     color: var(--bold-color);
   }
-  .site-header li svg {
+  .site-header li.active svg {
     width: 8px;
     height: 8px; 
   }
