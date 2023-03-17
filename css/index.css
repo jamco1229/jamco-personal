@@ -145,7 +145,6 @@ font-family: 'iAWriterQuattroV', sans-serif;
   }
   .site-nav p {
     text-decoration: none;
-    color: var(--bold-color);
   }
   
 /* Images */
@@ -213,7 +212,7 @@ z-index: 2;
   body > header > nav > ul > li > a {
     text-decoration: none !important;
   }
-  .site-header li.active, li.active p {
+  .site-header li.active, li.active p, li:hover p {
     color: var(--bold-color);
   }
   .site-header li.active svg {
