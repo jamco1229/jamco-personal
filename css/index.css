@@ -186,7 +186,7 @@ font-family: 'iAWriterQuattroV', sans-serif;
 /* Images */
  audio,
     img,
-    video {
+    video, svg {
       border-radius: var(--border-radius);
       width: 115%;
       margin-left: 50%;
