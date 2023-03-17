@@ -309,16 +309,12 @@ body > div > main > div.container > a, body > div > main > div.container > a > a
     width: 150%;
     margin-left: 50%;
     transform: translateX(-50%);
-    display: flex;
-    flex-direction: row;
-  }
+    display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 10px;
+}
 
-  .column-1 {
-    width: 20%;
-  }
-  .column-2 { 
-    width: 80%;
-  }
+
   .spec-container {
     display: flex;
     flex-direction: row;
