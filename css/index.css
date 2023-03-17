@@ -261,7 +261,6 @@ align-items: flex-start;
   flex: 0 0 100%;
   margin-bottom: 1rem;
 padding: 16px;
-padding-bottom: 32px;
 gap: 0;
 width: 46%;
 min-width: 240px;
@@ -288,6 +287,7 @@ body > div > main > div.container > a > article > h2, body > div > main > div.co
   margin: 0;
   margin-bottom: -1rem;
   text-decoration: none;
+  color: blue;
 }
   /* Media query for screens larger than 768px */
   @media (max-width: 640px) {
