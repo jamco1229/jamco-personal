@@ -224,9 +224,6 @@ border-top: var(--border);
   }
   .st0 {
     height: 6rem;
-    margin-bottom: 1rem;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     color: var(--color);
     stroke-dasharray: 9000;
@@ -240,10 +237,6 @@ border-top: var(--border);
   }
   
   .signature {
-    width: 100%;
-    max-width: var(--col-width);
-    /* height: 8rem; */
-    margin: 0;
     animation: strokeOffset 3s ease-in forwards;
     color: var(--blue);
   }
