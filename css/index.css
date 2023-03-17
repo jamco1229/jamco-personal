@@ -306,12 +306,12 @@ body > div > main > div.container > a, body > div > main > div.container > a > a
   }
 
   .column-container {
-    width: 150%;
+    width: 160%;
     margin-left: 50%;
     transform: translateX(-50%);
     display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-gap: 10px;
+  grid-gap: 16px;
 }
 
 
