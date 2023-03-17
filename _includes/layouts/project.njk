@@ -12,9 +12,9 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
       </div>
     {% endfor %}
   {% endif %}
+  <h1 class="project-title">{{ title | safe }}</h1>
   <div class='column-container'>
   <div class='column-1'>
-  <h1 class="project-title">{{ title | safe }}</h1>
   <header class="project-header">
     <div class='spec-container'>
     <div class='spec'><h3>Role</h3><p class='project-role'>{{ role | safe}}</p></div>
