@@ -283,6 +283,9 @@ flex-grow: 1;
 .home-block a {
   text-decoration: none !important;
 }
+.home-block h2 { 
+  margin: 0;
+}
 @media (max-width: 650px) {
   .home-block {
     width: 100%;
