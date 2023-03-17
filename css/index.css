@@ -338,6 +338,7 @@ margin: 0;
 }
 
 .pagination-item {
+  padding: 16px 8px;
   border: 1px solid var(--bold-color);
   border-radius: var(--border-radius);
 }
