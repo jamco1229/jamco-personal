@@ -262,6 +262,7 @@ flex-grow: 0;
 flex-direction: column;
 align-items: flex-start;
 padding: 16px;
+gap: 0;
 width: 50%;
 max-width: 312px;
 height: auto;
@@ -276,10 +277,14 @@ flex: none;
 order: 0;
 flex-grow: 1;
 }
-
+.home-block img {
+  margin-bottom: 1rem;
+}
+.home-block a {
+  text-decoration: none !important;
+}
 @media (max-width: 650px) {
   .home-block {
     width: 100%;
     max-width: 100%;
   } }
-  
