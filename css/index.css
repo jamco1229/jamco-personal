@@ -245,11 +245,10 @@ z-index: 2;
 /* Cards */
 
 .container {
-  display: flex;
-flex-direction: row;
-align-items: flex-start;
-flex-wrap: wrap;
-padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+  padding: 0px;
 width: 100%;
 /* Inside auto layout */
 flex: none;
@@ -293,8 +292,9 @@ flex-grow: 1;
 .home-block h2 { 
   margin: 0;
 }
-@media (max-width: 650px) {
-  .home-block {
-    width: 100%;
-    max-width: 100%;
-  } }
+  /* Media query for screens larger than 768px */
+  @media (min-width: 768px) {
+    .container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
