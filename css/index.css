@@ -189,4 +189,12 @@ z-index: 2;
   .site-header li {
     height: 100%;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .site-header li svg {
+    width: 8px;
+    height: 8px; 
   }
