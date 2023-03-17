@@ -178,7 +178,7 @@ align-items: flex-start;
 padding: 16px;
 gap: 16px;
 height: 80px;
-background: linear-gradient(347.67deg, #2A2A2B 8.59%, #2A2A2B 36.37%, rgba(42, 42, 43, 0.755906) 60.31%, rgba(42, 42, 43, 0) 90.66%);
+background: linear-gradient(0deg, #2A2A2B 0%, #2A2A2B 36%, #2A2A2B 60%, rgba(42, 42, 43, 0) 100%);
  backdrop-filter: blur(10px)
 flex: none;
 order: 2;
