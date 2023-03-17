@@ -263,7 +263,7 @@ align-items: flex-start;
 padding: 16px;
 padding-bottom: 32px;
 gap: 0;
-width: 50%;
+width: 46%;
 min-width: 240px;
 height: auto;
 margin: 8px;
@@ -290,7 +290,7 @@ body > div > main > div.container > a > article > h2, body > div > main > div.co
   text-decoration: none;
 }
   /* Media query for screens larger than 768px */
-  @media (min-width: 640px) {
+  @media (max-width: 640px) {
     .home-block {
        width: 100%;
     }
