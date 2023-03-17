@@ -176,7 +176,7 @@ flex-direction: row;
 justify-content: center;
 align-items: flex-start;
 padding: 16px;
-gap: 16px;
+gap: 32px;
 height: 80px;
 background: rgb(42,42,43);
 background: -moz-linear-gradient(0deg, rgba(42,42,43,1) 33%, rgba(42,42,43,0.7819502801120448) 67%, rgba(42,42,43,0) 96%);
