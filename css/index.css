@@ -269,7 +269,7 @@ margin: 8px;
 background-color: linear-gradient(144.31deg, rgba(255, 255, 255, 0.1) 7.67%, rgba(145, 145, 145, 0.0567708) 35.34%, rgba(71, 71, 71, 0.0279276) 66.26%, rgba(0, 0, 0, 0) 85.78%), #2A2A2B;
 border: 0.5px solid #5C5C5C;
 border-radius: 8px;
-transition: box-shadow 0.3s ease-in, background-color 0.3s ease-in;
+transition: box-shadow 0.2s ease, background-color 0.2s ease;
 
 /* Inside auto layout */
 
