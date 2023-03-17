@@ -254,11 +254,11 @@ align-self: stretch;
 flex-grow: 0;
 }
 .home-block {
-  display: flex;
+display: flex;
 flex-direction: column;
 align-items: flex-start;
-  flex: 0 0 100%;
-  margin-bottom: 1rem;
+flex: 0 0 100%;
+margin: 1rem;
 padding: 16px;
 gap: 0;
 width: 46%;
@@ -283,7 +283,6 @@ flex-grow: 1;
 
 body > div > main > div.container > a > article > h2, body > div > main > div.container > a > article > p { 
   margin: 0;
-  margin-bottom: -1rem;
   text-decoration: none !important;
 }
   /* Media query for screens larger than 768px */
