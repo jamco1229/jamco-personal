@@ -315,5 +315,9 @@ body > div > main > div.container > a, body > div > main > div.container > a > a
     transform: translateX(-50%);
   }
 
-
-  
+.spec-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.5rem;
+}
