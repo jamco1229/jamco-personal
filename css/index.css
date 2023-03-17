@@ -154,9 +154,10 @@ font-family: 'iAWriterQuattroV', sans-serif;
     img,
     video, svg {
       border-radius: var(--border-radius);
-      width: 115%;
+      width: 100%;
+      /* width: 115%;
       margin-left: 50%;
-      transform: translateX(-50%);
+      transform: translateX(-50%); */
       height: auto;
       position: inherit;
     }
