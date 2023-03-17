@@ -3,5 +3,5 @@ layout: posts
 title: Blog
 eleventyNavigation:
   key: Blog
-  order: 3
+  order: 2
 ---
