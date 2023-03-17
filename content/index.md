@@ -9,7 +9,7 @@ eleventyNavigation:
 
 Multi-Desciplinary creative&mdash;With a focus on Experience Design.
 
-(Get in touch ↗)[mailto:james.coy.design@gmail.com]
+[Get in touch ↗](mailto:james.coy.design@gmail.com)
 
 # About
 With 3 years of experience in the film industry at [Lambda Films](https://www.lambdafilms.co.uk) and 1 year at HeadteacherChat, my focus is within creative collaboration, project management, prototyping, interaction design, and user research.
