@@ -331,3 +331,10 @@ body > div > main > div.container > a, body > div > main > div.container > a > a
 .spec h2{
 margin: 0;
 }
+
+.pagination-item {
+  color: var(--bold-color);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  
+}
