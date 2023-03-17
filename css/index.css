@@ -293,7 +293,7 @@ flex-grow: 1;
 }
   /* Media query for screens larger than 768px */
   @media (min-width: 768px) {
-    .container {
-      grid-template-columns: repeat(2, 1fr);
+    .home-block {
+       width: 100%;
     }
   }
