@@ -160,3 +160,32 @@ svg {
   order: 0;
   flex-grow: 0;
   }
+
+
+  /* Site Header */
+
+  .site-header {
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+gap: 16px;
+
+position: absolute;
+width: 100vw;
+height: 80px;
+left: calc(50% - 1434px/2);
+bottom: 0px;
+
+background: linear-gradient(347.67deg, #2A2A2B 8.59%, #2A2A2B 8.59%, rgba(42, 42, 43, 0.901132) 51.76%, rgba(42, 42, 43, 0.548863) 66.3%, rgba(42, 42, 43, 0.316882) 80.83%, rgba(42, 42, 43, 0) 90.66%);
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+  }
