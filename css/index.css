@@ -188,7 +188,6 @@ background: rgb(42,42,43);
 background: -moz-linear-gradient(0deg, rgba(42,42,43,1) 33%, rgba(42,42,43,0.7819502801120448) 67%, rgba(42,42,43,0) 96%);
 background: -webkit-linear-gradient(0deg, rgba(42,42,43,1) 33%, rgba(42,42,43,0.7819502801120448) 67%, rgba(42,42,43,0) 96%);
 background: linear-gradient(0deg, rgba(42,42,43,1) 33%, rgba(42,42,43,0.7819502801120448) 67%, rgba(42,42,43,0) 96%);
-backdrop-filter: blur(10px);
 flex: none;
 order: 2;
 flex-grow: 0;
