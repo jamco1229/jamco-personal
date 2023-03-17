@@ -292,3 +292,28 @@ body > div > main > div.container > a, body > div > main > div.container > a > a
        width: 100%;
     }
   }
+
+  /* SPECS */
+
+  .spec-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 1rem 0;
+    background-color: var(--background-color);
+    border: 1px dashed #E5E0DF;
+    border-radius: var(--border-radius);
+  }
+  
+  .spec {
+    width: 50%;
+    padding: 1rem;
+    min-width: 140px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  
