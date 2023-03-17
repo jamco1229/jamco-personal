@@ -295,6 +295,9 @@ body > div > main > div.container > a, body > div > main > div.container > a > a
        transform: none;
        margin-left: 0;
     }
+    .column-container {
+      grid-template-columns: 1fr;
+    }
   }
 
   /* project page */
@@ -327,5 +330,6 @@ body > div > main > div.container > a, body > div > main > div.container > a > a
   
   .spec {
     margin-bottom: 1rem;
+    width: 100%;
   }
   
