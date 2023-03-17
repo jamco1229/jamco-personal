@@ -97,9 +97,9 @@ font-family: 'iAWriterQuattroV', sans-serif;
   letter-spacing: -0.03em;
   color: var(--bold-color);
   text-decoration: none;
-    overflow-wrap: break-word; 
-        line-height: 1.25em;
-    margin-top: 2rem;
+  overflow-wrap: break-word; 
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   }
   
   em {
