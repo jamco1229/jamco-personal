@@ -12,11 +12,25 @@
   </head>
   <body>
 
-    <header class="site-header">
-      <nav class="site-nav">
-        {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
-      </nav>
-    </header>
+<header class="site-header">
+  <nav class="site-nav">
+    <ul>
+      {% for item in collections.all | eleventyNavigation %}
+        <li{% if item.url == page.url %} class="active"{% endif %}>
+          <a href="{{ item.url }}" class='button'>
+            {% if item.url == page.url %}
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="12" fill="currentColor"></circle>
+              </svg>
+            {% endif %}
+            <p>{{ item.title | safe }}</p>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
+
 
 <div class='site-body'>
     <main class="site-main">
