@@ -164,7 +164,7 @@ svg {
 
   /* Site Header */
 
-  .site-header {
+  .site-header ul {
 /* Auto layout */
 
 display: flex;
