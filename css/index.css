@@ -281,7 +281,7 @@ flex-grow: 1;
   margin-bottom: 1rem;
 }
 
-body > div > main > div.container > a > article > h2, body > div > main > div.container > a > article > p { 
+body > div > main > div.container > a, body > div > main > div.container > a > article > p { 
   margin: 0;
   text-decoration: none !important;
 }
