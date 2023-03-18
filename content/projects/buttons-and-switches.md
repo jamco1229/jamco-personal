@@ -9,6 +9,7 @@ dateEnd: 2023-02-15 12:00:01
 role: UI Design
 completionDate: Feb 2023
 readTime: 1 Min
+image: buttons.gif
 
 media:
   - type: image
