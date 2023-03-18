@@ -363,3 +363,10 @@ margin: 0;
   border: 1px solid var(--bold-color);
   border-radius: var(--border-radius);
 }
+
+
+/* FOOTER */
+
+.site-footer > a > p {
+  color: var(--link-color);
+}
