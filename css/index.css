@@ -219,7 +219,13 @@ z-index: 2;
     height: 8px; 
   }
 
+li h2 {
+  margin: 0;
+}
 
+li {
+  margin: 1rem 0 ;
+}
   /* Signature animations */
 
   .st0 {
