@@ -229,6 +229,7 @@ color: var(--bold-color);
   padding: 1rem;
   border: var(--border);
   border-radius: 1rem;
+  transition: background 0.3s ease-in, box-shadow 0.3s ease-in;
 }
 
 .concepts a:hover {
