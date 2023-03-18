@@ -104,12 +104,11 @@ module.exports = function (config) {
 
   // Collections
 
-  eleventyConfig.addCollection("writingProjects", function (collectionApi) {
-    return collectionApi.getFilteredByGlob("content/projects/*.md").filter(function (item) {
-      return item.data.tags.includes("writing");
-    });
+
+  config.addCollection("writingProjects", (collection) => {
+    const projects = collection.getFilteredByGlob("content/projects/*.md");
+    return item.data.tags.includes("writing");
   });
-  
   
   config.addCollection("projects", (collection) => {
     const projects = collection.getFilteredByGlob("content/projects/*.md");
