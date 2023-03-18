@@ -375,6 +375,7 @@ li > a > h3 {
 .spec h2{
 margin: 0;
 text-align: left;
+color: var(--color);
 }
 
 .spec p {
