@@ -345,8 +345,9 @@ li > a > h3 {
   /* project page */
 
 
-.project-header {
+.project-specs {
   position: fixed;
+  width: 240px;
   left: 32px;
   top: 44px;
 }
