@@ -9,6 +9,7 @@ platfrom: Mobile
 completionDate: Ongoing
 readTime: 2 Mins
 tags: caseStudies
+icon: icon-htchat.png
 
 media:
   - type: image
