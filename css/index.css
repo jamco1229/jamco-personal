@@ -237,6 +237,10 @@ color: var(--bold-color);
   margin: 8px;
 }
 
+.concepts h3, .concepts p {
+  margin: 0;
+}
+
 
 li a {
   margin: 0;
