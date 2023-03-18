@@ -6,20 +6,6 @@ permalink: "/"
 <div class="home-intro">
   {{ content | safe }}
 </div>
-<h1 class='projects-heading'>Writing</h1>
-{% set writingProjects = collections.writing %}
-<ul>
-  {% for project in writingProjects %}
-    {% if project.inputPath.includes('/projects/') %}
-      <li>
-            <a href="{{ project.data.url }}">
-        <h3>{{ project.data.title | safe }}</h3>
-        <p>{{ project.data.description | safe }}</p>
-    </a>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
 <h1 class='projects-heading'>Case Studies</h1>
 {% set caseStudies = collections.caseStudies %}
 <ul>
@@ -30,6 +16,20 @@ permalink: "/"
         <h3>{{ project.data.title | safe }}</h3>
         <p>{{ project.data.description | safe }}</p>
         </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+<h1 class='projects-heading'>Concepts</h1>
+{% set conceptProjects = collections.concepts %}
+<ul>
+  {% for project in conceptProjects %}
+    {% if project.inputPath.includes('/projects/') %}
+      <li>
+            <a href="{{ project.data.url }}">
+        <h3>{{ project.data.title | safe }}</h3>
+        <p>{{ project.data.description | safe }}</p>
+    </a>
       </li>
     {% endif %}
   {% endfor %}
