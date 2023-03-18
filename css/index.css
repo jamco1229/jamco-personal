@@ -241,7 +241,7 @@ color: var(--bold-color);
   height: 52px;
   width: 52px;
   margin: 8px;
-  border-radius: 1rem;
+  border-radius: 8px;
 }
 
 @media screen and (max-width: 479px) {
