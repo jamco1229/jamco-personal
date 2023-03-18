@@ -7,6 +7,11 @@ permalink: "/"
   {{ content | safe }}
 </div>
 <h1 class='projects-heading'>Work</h1>
+<ul>
+{%- for 'Case Studies' in collections.projects -%}
+  <li>{{ post.data.title }}</li>
+{%- endfor -%}
+</ul>
 <div class='container'>
 {% set entries = collections.all | getPagesByPaths(entries) if entries else collections.projects %}
 

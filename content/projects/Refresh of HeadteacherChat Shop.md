@@ -8,6 +8,7 @@ role: Product Design
 completionDate: March 2023
 platform: Web (Responsive) / Shopify
 readTime: 1 Mins
+tag: Case Studies
 
 media:
   - type: image
