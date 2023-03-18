@@ -232,8 +232,8 @@ color: var(--bold-color);
 }
 
 .concepts a:hover {
-  background: rgba(255, 255, 255, 0.3);
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .concepts-icon {
