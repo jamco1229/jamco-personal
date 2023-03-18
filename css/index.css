@@ -252,7 +252,9 @@ li {
 
 .explorations {
   list-style: none;
-  
+}
+.exploration-img {
+  margin: 0;
 }
 .container {
   width: 115%;
