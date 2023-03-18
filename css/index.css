@@ -334,6 +334,8 @@ li > a > h3 {
   padding: 16px;
   text-decoration: none;
   color: var(--bold-color);
+  width: 100%;
+  height: auto;
 }
 .exploration-img {
   margin: 0;
