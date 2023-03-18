@@ -337,6 +337,10 @@ li > a > h3 {
   text-decoration: none;
   color: var(--bold-color);
   width: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  gap: 0;
 }
 .exploration-img {
   margin: 0;
