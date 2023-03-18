@@ -370,6 +370,7 @@ li > a > h3 {
   flex-wrap: wrap;
   align-items: baseline;
   text-align: left;
+  height: auto;
   margin: 0;
 }
 .spec h2{
