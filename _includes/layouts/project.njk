@@ -4,8 +4,9 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
 ---
 
 <article class="project">
-  <h2 class='project-subtitle'>{{ tags | safe }}</h2>
+
   <h1 class="project-title">{{ title | safe }}</h1>
+    <h2 class='project-subtitle'>{{ tags | safe }}</h2>
              {% if media %}
     {% for block in media %}
       <div class="project-block">
