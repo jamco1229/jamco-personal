@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "projects/HeadteacherChat (Work in Progress).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "projects/HeadteacherChat (Work in Progress).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "projects/HeadteacherChat (Work in Progress).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "projects/HeadteacherChat (Work in Progress).md"
               }
             }
           }
@@ -149,9 +149,10 @@
   },
   "active": "b04aa7190fba4dd8",
   "lastOpenFiles": [
+    "projects/Stay-project.md",
+    "index.md",
     "projects/HeadteacherChat (Work in Progress).md",
     "projects/Refresh of HeadteacherChat Shop.md",
-    "projects/Stay-project.md",
     "media/icon-htchat.png",
     "media/icon-htchat.png.png",
     "projects/scribe-project.md",
@@ -161,7 +162,6 @@
     "posts/coming-soon.md",
     "media/joao-vitor-duarte-k4Lt0CjUnb0-unsplash 2.jpeg",
     "Untitled.md",
-    "index.md",
     "posts/Making this website.md",
     "media/Working Messy with Scribe [Concept] 8c5cf70611c94c579fcd24e95b4cfac7/me.png",
     "media/me.png",
