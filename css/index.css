@@ -291,6 +291,12 @@ li > a > h3 {
   color: var(--link-color);
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
 .explorations {
   list-style: none;
 }
