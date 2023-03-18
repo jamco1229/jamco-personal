@@ -320,9 +320,10 @@ li > a > h3 {
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .explorations {
@@ -331,11 +332,11 @@ li > a > h3 {
 
 .explorations a {
   border: var(--border);
+  margin: 8px;
   padding: 16px;
   text-decoration: none;
   color: var(--bold-color);
-  width: 100%;
-  height: auto;
+  width: 47%;
 }
 .exploration-img {
   margin: 0;
