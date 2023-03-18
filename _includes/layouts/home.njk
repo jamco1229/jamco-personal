@@ -13,21 +13,22 @@ permalink: "/"
     {% if project.inputPath.includes('/projects/') %}
       <li>
         <a href="{{ project.url }}">
-        <h3>{{ project.data.title | safe }}</h3>
+        <h3>{{ project.data.title | safe }}↗</h3>
         <p>{{ project.data.description | safe }}</p>
         </a>
       </li>
     {% endif %}
   {% endfor %}
 </ul>
-<h1 class='projects-heading'>Concept</h1>
+<h1 class='projects-heading'>Concepts</h1>
+<p>Sometimes, I make up concepts for apps based on gaps in the market, read one of these to find out more about my process, the kinds of projects I'd love to work on, and hopefuly something that might spark something in you too!<p>
 {% set conceptProjects = collections.concept %}
 <ul>
   {% for project in conceptProjects %}
     {% if project.inputPath.includes('/projects/') %}
       <li>
             <a href="{{ project.url }}">
-        <h3>{{ project.data.title | safe }}</h3>
+        <h3>{{ project.data.title | safe }}↗</h3>
         <p>{{ project.data.description | safe }}</p>
     </a>
       </li>
@@ -49,7 +50,7 @@ permalink: "/"
             class='explorations-img'
           >
           {% endif %}
-          <h3>{{ project.data.title | safe }}</h3>
+          <h3>{{ project.data.title | safe }}↗</h3>
         </a>
       </li>
     {% endif %}

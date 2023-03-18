@@ -204,7 +204,7 @@ z-index: 2;
     color: var(--color);
   }
 
-  .home-block h2 {
+  .home-block h3 {
     margin: 0;
     color: var(--color);
   }
@@ -218,10 +218,6 @@ z-index: 2;
     width: 8px;
     height: 8px; 
   }
-
-li h2 {
-  margin: 0;
-}
 
 li a {
   text-decoration: none;
