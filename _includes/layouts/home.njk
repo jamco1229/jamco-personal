@@ -6,7 +6,7 @@ permalink: "/"
 <div class="home-intro">
   {{ content | safe }}
 </div>
-<h1 class='projects-heading'>Case Studies</h1>
+<h2 class='projects-heading'>Case Studies</h1>
 <p>Deep dives into my projects, read on to find out about how I approach UX Design in a project and all about my process.<p>
 {% set caseStudies = collections.caseStudies %}
 <ul class='case-studies'>
@@ -31,7 +31,7 @@ permalink: "/"
     {% endif %}
   {% endfor %}
 </ul>
-<h1 class='projects-heading'>Concepts</h1>
+<h2 class='projects-heading'>Concepts</h1>
 <p>Sometimes, I make up concepts for apps based on gaps in the market, read one of these to find out more about my process, the kinds of projects I'd love to work on, and hopefuly something that might spark something in you too!<p>
 {% set conceptProjects = collections.concept %}
 <ul class='concepts'>
@@ -56,7 +56,7 @@ permalink: "/"
     {% endif %}
   {% endfor %}
 </ul>
-<h1 class='projects-heading'>Explorations</h1>
+<h2 class='projects-heading'>Explorations</h1>
 {% set explorationsProjects = collections.exploration %}
 <ul class='grid'>
   {% for project in explorationsProjects %}
