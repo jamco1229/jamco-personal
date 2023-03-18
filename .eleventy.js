@@ -106,7 +106,7 @@ module.exports = function (config) {
 
 
   module.exports = function (eleventyConfig) {
-    eleventyConfig.addCollection("concepts", function (collection) {
+    eleventyConfig.addCollection("concept", function (collection) {
       return collection.getFilteredByTag("concept");
     });
   };
