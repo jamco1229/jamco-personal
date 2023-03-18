@@ -8,14 +8,24 @@ permalink: "/"
 </div>
 <h1 class='projects-heading'>Case Studies</h1>
 {% set caseStudies = collections.caseStudies %}
-<ul>
+<ul class='case-studies'>
   {% for project in caseStudies %}
     {% if project.inputPath.includes('/projects/') %}
       <li>
         <a href="{{ project.url }}">
+                 {% if project.data.icon %}
+          <img
+            loading="lazy"
+            src="/media/{{ project.data.icon }}"
+            alt=""
+            class='case-studies-icon'
+          >
+          {% endif %}
+<div class='case-studies-text'>
         <h3>{{ project.data.title | safe }}  ↗</h3>
-        </a>
         <p>{{ project.data.description | safe }}</p>
+        </div>
+        </a>
       </li>
     {% endif %}
   {% endfor %}
