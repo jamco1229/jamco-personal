@@ -224,6 +224,10 @@ color: var(--bold-color);
   display: flex;
   flex-direction: row;
   width: 100%;
+  margin: 0 -1rem;
+  padding: 1rem;
+  border: var(--border);
+  border-radius: 1rem;
 }
 
 .concepts-icon {
