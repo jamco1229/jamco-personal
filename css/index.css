@@ -216,7 +216,9 @@ color: var(--bold-color);
     width: 8px;
     height: 8px; 
   }
-
+.concepts {
+  list-style: none;
+}
 .concepts a {
   display: flex;
   flex-direction: row;
