@@ -8,7 +8,7 @@ role: Product Design
 completionDate: March 2023
 platform: Web (Responsive) / Shopify
 readTime: 1 Mins
-tag: writing
+tags: writing
 
 media:
   - type: image
