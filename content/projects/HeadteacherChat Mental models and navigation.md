@@ -8,6 +8,8 @@ role: Product Design
 platfrom: Mobile
 completionDate: Ongoing
 readTime: 2 Mins
+tags: case studies
+
 media:
   - type: image
     filename: htchat-cover.png

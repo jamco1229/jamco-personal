@@ -6,8 +6,7 @@ permalink: "/"
 <div class="home-intro">
   {{ content | safe }}
 </div>
-<h1 class='projects-heading'>Work</h1>
-
+<h1 class='projects-heading'>Writing</h1>
 {% set writingProjects = collections.writing %}
 <ul>
   {% for project in writingProjects %}
@@ -19,7 +18,19 @@ permalink: "/"
     {% endif %}
   {% endfor %}
 </ul>
-
+<h1 class='projects-heading'>Case Studies</h1>
+{% set caseStudies = collections.caseStudies %}
+<ul>
+  {% for project in caseStudies %}
+    {% if project.inputPath.includes('/projects/') %}
+      <li>
+        <h3>{{ project.data.title }}</h3>
+        <p>{{ project.data.description }}</p>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+<h1 class='projects-heading'>Explorations</h1>
 <div class='container'>
 {% set entries = collections.all | getPagesByPaths(entries) if entries else collections.projects %}
 
@@ -60,7 +71,6 @@ permalink: "/"
         >
         <div class='home-block-text'>
         <h2 class="home-block-title">{{ entry.data.title | safe }}</h2>
-        <p class='home-block-description'>{{ entry.data.description | safe}}</p>
         </div>
       </article>
     </a>
