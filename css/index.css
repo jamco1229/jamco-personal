@@ -345,19 +345,22 @@ li > a > h3 {
   /* project page */
 
 
-.project-specs {
-  position: fixed;
-  width: 240px;
-  left: 32px;
-  top: 44px;
-}
-
 .spec {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: left;
   margin: 0;
 }
 .spec h2{
 margin: 0;
+text-align: left;
+}
+
+.spec p {
+  text-align: right;
+  margin: 0;
 }
 
 .pagination-item p {
