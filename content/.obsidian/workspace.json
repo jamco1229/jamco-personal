@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/coming-soon.md",
+                "file": "projects/HeadteacherChat (Work in Progress).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/coming-soon.md",
+                "file": "projects/HeadteacherChat (Work in Progress).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/coming-soon.md",
+                "file": "projects/HeadteacherChat (Work in Progress).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/coming-soon.md"
+                "file": "projects/HeadteacherChat (Work in Progress).md"
               }
             }
           }
@@ -147,21 +147,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3cedc74c45ab40e1",
+  "active": "b04aa7190fba4dd8",
   "lastOpenFiles": [
+    "projects/2023 Headteacher Planner.md",
+    "projects/HeadteacherChat (Work in Progress).md",
+    "projects/Stay-project.md",
+    "posts/coming-soon.md",
     "media/joao-vitor-duarte-k4Lt0CjUnb0-unsplash 2.jpeg",
     "Untitled.md",
     "index.md",
     "posts/Making this website.md",
-    "posts/coming-soon.md",
     "projects/Refresh of HeadteacherChat Shop.md",
     "media/Working Messy with Scribe [Concept] 8c5cf70611c94c579fcd24e95b4cfac7/me.png",
-    "projects/Stay-project.md",
     "media/me.png",
     "projects/scribe-project.md",
-    "projects/HeadteacherChat Mental models and navigation.md",
     "projects/buttons-and-switches.md",
-    "projects/2023 Headteacher Planner.md",
     "To dos.md",
     "posts.md",
     "pages/Resume.md",
