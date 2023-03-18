@@ -11,6 +11,8 @@ platform: iPad
 readTime: 5 Mins
 tags: concept
 
+icon: icon-scribe.png
+
 media:
   - type: image
     filename: scribe-cover.png
