@@ -7,6 +7,7 @@ dateEnd: 2023-02-15 12:00:01
 role: UI Design
 completionDate: Feb 2023
 readTime: 1 Min
+tags: exploration
 media:
   - type: image
     filename: buttons.gif

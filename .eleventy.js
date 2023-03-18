@@ -115,6 +115,11 @@ module.exports = function (config) {
       return collection.getFilteredByTag("caseStudies");
     });
   };
+  module.exports = function (eleventyConfig) {
+    eleventyConfig.addCollection("explorations", function (collection) {
+      return collection.getFilteredByTag("exploration");
+    });
+  };
   
   config.addCollection("projects", (collection) => {
     const projects = collection.getFilteredByGlob("content/projects/*.md");

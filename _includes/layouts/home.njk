@@ -35,15 +35,30 @@ permalink: "/"
   {% endfor %}
 </ul>
 <h1 class='projects-heading'>Explorations</h1>
+{% set explorationsProjects = collections.explorations %}
+<ul>
+  {% for project in explorationsProjects %}
+    {% if project.inputPath.includes('/projects/') %}
+      <li>
+        <img
+          loading="lazy"
+          src="/media/{{ image }}"
+          alt=""
+          class='explorations-img'
+        >
+        <h3 {{ project.data.title | safe }}</h3>
+    </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+<h1 class='projects-heading'>Explorations</h1>
 <div class='container'>
-{% set entries = collections.all | getPagesByPaths(entries) if entries else collections.projects %}
-
-{# Sort the entries by the 'sort' field in descending order #}
-{% set sortedEntries = entries | sort('entry.data.sort') %}
+{% set explorationsProjects = collections.explorations %}
+<ul>
+  {% for project in explorationsProjects %}
 
 {# For each of the entries #}
-{% for entry in sortedEntries %}
-
   {# Set the defaults #}
   {% set image = false %}
   {% set width = false %}
