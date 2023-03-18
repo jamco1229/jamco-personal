@@ -107,8 +107,6 @@ position: relative;
   color: var(--bold-color);
   text-decoration: none;
   overflow-wrap: break-word; 
-  margin-top: 1rem;
-  margin-bottom: 4rem;
   }
   
   h2, h3, h4, h5, h6 {
@@ -358,7 +356,9 @@ li > a > h3 {
   }
 
   /* project page */
-
+.spec-container {
+    margin: 1rem 2rem 0 0;
+}
 
 .spec {
   display: flex;
@@ -368,7 +368,8 @@ li > a > h3 {
   align-items: baseline;
   text-align: left;
   height: auto;
-  margin: 0;
+  margin: 1rem 0;
+  border-bottom: var(--border);
 }
 .spec h3{
 margin: 0;
