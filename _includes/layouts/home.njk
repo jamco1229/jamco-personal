@@ -7,11 +7,19 @@ permalink: "/"
   {{ content | safe }}
 </div>
 <h1 class='projects-heading'>Work</h1>
+
+{% set writingProjects = collections.writing %}
 <ul>
-{%- for 'writing' in collections.writing -%}
-  <li>{{ writing.data.title }}</li>
-{%- endfor -%}
+  {% for project in writingProjects %}
+    {% if project.inputPath.includes('/projects/') %}
+      <li>
+        <h3>{{ project.data.title }}</h3>
+        <p>{{ project.data.description }}</p>
+      </li>
+    {% endif %}
+  {% endfor %}
 </ul>
+
 <div class='container'>
 {% set entries = collections.all | getPagesByPaths(entries) if entries else collections.projects %}
 
