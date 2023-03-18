@@ -103,12 +103,13 @@ module.exports = function (config) {
   });
 
   // Collections
-  
-  module.exports = function (eleventyConfig) {
-    eleventyConfig.addCollection("writing", function (collection) {
-      return collection.getFilteredByTag("writing");
+
+  eleventyConfig.addCollection("writingProjects", function (collectionApi) {
+    return collectionApi.getFilteredByGlob("content/projects/*.md").filter(function (item) {
+      return item.data.tags.includes("writing");
     });
-  };
+  });
+  
   
   config.addCollection("projects", (collection) => {
     const projects = collection.getFilteredByGlob("content/projects/*.md");
