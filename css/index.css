@@ -368,6 +368,8 @@ li > a > h3 {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: baseline;
+  height: 2rem;
   text-align: left;
   margin: 0;
 }
