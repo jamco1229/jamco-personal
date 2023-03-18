@@ -40,14 +40,17 @@ permalink: "/"
   {% for project in explorationsProjects %}
     {% if project.inputPath.includes('/projects/') %}
       <li>
-        <img
-          loading="lazy"
-          src="/media/{{ image }}"
-          alt=""
-          class='explorations-img'
-        >
-        <h3 {{ project.data.title | safe }}</h3>
-    </a>
+        <a href="{{ project.url }}">
+          {% if project.data.image %}
+          <img
+            loading="lazy"
+            src="/media/{{ project.data.image }}"
+            alt=""
+            class='explorations-img'
+          >
+          {% endif %}
+          <h3>{{ project.data.title | safe }}</h3>
+        </a>
       </li>
     {% endif %}
   {% endfor %}
