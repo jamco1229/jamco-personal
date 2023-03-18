@@ -8,9 +8,9 @@ permalink: "/"
 </div>
 <h2 class='projects-heading'>Case Studies</h1>
 <p>Deep dives into my projects, read on to find out about how I approach UX Design in a project and all about my process.<p>
-{% set caseStudiesProjects = collections.caseStudies %}
+{% set caseStudies = collections.caseStudies %}
 <ul class='case-studies'>
-{% for project in caseStudiesProjects %}
+{% for project in caseStudies %}
     {% if project.inputPath.includes('/projects/') %}
       <li>
         <a href="{{ project.url }}">
@@ -22,7 +22,7 @@ permalink: "/"
             class='case-studies-icon'
           >
           {% endif %}
-<div class='case-studies-text'>
+        <div class='case-studies-text'>
         <h3>{{ project.data.title | safe }}  ↗</h3>
         <p>{{ project.data.description | safe }}</p>
         </div>
