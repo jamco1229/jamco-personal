@@ -293,7 +293,7 @@ li {
   
   .signature {
     animation: strokeOffset 3s ease-in forwards;
-    color: var(--blue);
+    color: var(--bold-color);
   }
 
 /* Cards */
