@@ -112,7 +112,7 @@ module.exports = function (config) {
   };
   module.exports = function (eleventyConfig) {
     eleventyConfig.addCollection("caseStudies", function (collection) {
-      return collection.getFilteredByTag("case-studies");
+      return collection.getFilteredByTag("caseStudies");
     });
   };  
   module.exports = function (eleventyConfig) {
