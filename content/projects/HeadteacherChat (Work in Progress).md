@@ -8,7 +8,7 @@ role: Product Design
 platfrom: Mobile
 completionDate: Ongoing
 readTime: 2 Mins
-tags: Case-Study
+tags: case-studies
 icon: icon-htchat.png
 
 media:

@@ -8,7 +8,7 @@ role: UX Design
 completionDate: Dec 2022
 platform: Mobile
 readTime: 5 Mins
-tags: Case-Study
+tags: case-studies
 icon: icon-stay.png
 
 media:
