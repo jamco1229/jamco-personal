@@ -4,6 +4,8 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
 ---
 
 <article class="project">
+  <h2> class='project-subtitle'>{{ tags | safe }}
+  <h1 class="project-title">{{ title | safe }}</h1>
              {% if media %}
     {% for block in media %}
       <div class="project-block">
@@ -14,7 +16,6 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
   {% endif %}
     <header class="project-header">
       <div class='project-specs'>
-    <h1 class="project-title">{{ title | safe }}</h1>
     <div class='spec-container'>
     <div class='spec'><h3>Role</h3><p class='project-role'>{{ role | safe}}</p></div>
     <div class='spec'><h3>Completion Date</h3><p class='project-completion-date'>{{ completionDate | safe}}</p></div>
