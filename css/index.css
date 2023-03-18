@@ -131,6 +131,12 @@ font-family: 'iAWriterQuattroV', sans-serif;
   a {
     color: var(--link-color);
     text-decoration: underline;
+    background-image: url(.../content/media/splat-underline-2-default.svg);
+    background-size: 100% 4px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 0.05rem;
+    text-decoration: none;
   }
   
   a:focus,
