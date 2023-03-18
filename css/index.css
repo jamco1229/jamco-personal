@@ -350,13 +350,10 @@ li > a > h3 {
     transform: translateX(-50%);
   }
 
-.spec-container {
-  width: 150%;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 0.5rem;
+.project-header {
+  position: fixed;
+  left: 32px;
+  top: 44px;
 }
 
 .spec {
