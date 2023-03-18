@@ -244,6 +244,13 @@ color: var(--bold-color);
   border-radius: 1rem;
 }
 
+@media screen and (max-width: 479px) {
+  .concepts-icon, .case-studies-icon{
+    height: 44px;
+    width: 44px;
+  }
+}
+
 .concepts-text, .case-studies-text{
   width: 100%;
   margin: 8px;
