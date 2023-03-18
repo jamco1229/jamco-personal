@@ -210,6 +210,7 @@ z-index: 2;
   }
   .site-header li.active, li.active p, li:hover p {
  text-decoration: underline;
+ text-decoration-thickness: o.5px ;
   }
   .site-header li.active svg {
     width: 8px;
