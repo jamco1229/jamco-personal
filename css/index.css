@@ -223,6 +223,10 @@ li h2 {
   margin: 0;
 }
 
+li a {
+  text-decoration: none;
+}
+
 li {
   margin: 1rem 0 ;
 }
