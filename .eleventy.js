@@ -116,10 +116,11 @@ module.exports = function (config) {
     });
   };
   module.exports = function (eleventyConfig) {
-    eleventyConfig.addCollection("explorations", function (collection) {
+    eleventyConfig.addCollection("exploration", function (collection) {
       return collection.getFilteredByTag("exploration");
     });
   };
+  
   
   config.addCollection("projects", (collection) => {
     const projects = collection.getFilteredByGlob("content/projects/*.md");
