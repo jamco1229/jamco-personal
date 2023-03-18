@@ -3,7 +3,7 @@ title: Working Messy with Scribe.
 layout: project
 sort: 6
 description: A concept app for iPad to join together what I think are the best aspects of digital and physical notetaking.
-dateEnd: 2022-12-15 15:49:23
+dateEnd: 2023-02-15 12:00:09
 Tags: Concept, Passion Project, Prototype
 role: Product Design
 completionDate: Jan 2023

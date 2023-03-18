@@ -3,7 +3,7 @@ title: HeadteacherChat &mdash; Mental models and navigation
 layout: project
 sort: 3
 description: A mini-case study where I explore our process, problems, and outcomes of redesigning a new navigation model for mobile users.
-dateEnd: 2023-01-17 13:14:23
+dateEnd: 2023-02-15 12:00:07
 role: Product Design
 platfrom: Mobile
 completionDate: Ongoing
