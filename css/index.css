@@ -251,6 +251,16 @@ li {
 ul {
   margin: 1rem 0;
 }
+
+li {
+  margin: -1rem;
+  padding: -1rem;
+}
+
+li:hover {
+  border: var(--border);
+}
+
 li > a > h3 {
   margin: 0 0 0 0;
   color: var(--link-color);
