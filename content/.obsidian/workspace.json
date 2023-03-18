@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Stay-project.md",
+                "file": "projects/HeadteacherChat (Work in Progress).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/Stay-project.md",
+                "file": "projects/HeadteacherChat (Work in Progress).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/Stay-project.md",
+                "file": "projects/HeadteacherChat (Work in Progress).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/Stay-project.md"
+                "file": "projects/HeadteacherChat (Work in Progress).md"
               }
             }
           }
@@ -149,8 +149,8 @@
   },
   "active": "b04aa7190fba4dd8",
   "lastOpenFiles": [
-    "projects/HeadteacherChat (Work in Progress).md",
     "projects/Stay-project.md",
+    "projects/HeadteacherChat (Work in Progress).md",
     "index.md",
     "projects/Refresh of HeadteacherChat Shop.md",
     "media/icon-htchat.png",

@@ -15,7 +15,7 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
     <header class="project-header">
       <div class='project-specs'>
         <h1 class="project-title">{{ title | safe }}</h1>
-    <h2 class='project-subtitle'>{{ tags | safe }}</h2>
+    <h2 class='project-subtitle'>{{ viewedTags | safe }}</h2>
     <div class='spec-container'>
     <div class='spec'><h3>Role</h3><p class='project-role'>{{ role | safe}}</p></div>
     <div class='spec'><h3>Completion Date</h3><p class='project-completion-date'>{{ completionDate | safe}}</p></div>

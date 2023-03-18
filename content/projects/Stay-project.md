@@ -9,6 +9,7 @@ completionDate: Dec 2022
 platform: Mobile
 readTime: 5 Mins
 tags: caseStudies
+viewedTags: Case Study
 icon: icon-stay.png
 
 media:
