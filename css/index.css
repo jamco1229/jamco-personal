@@ -373,7 +373,7 @@ li > a > h3 {
   height: auto;
   margin: 0;
 }
-.spec h2{
+.spec h3{
 margin: 0;
 text-align: left;
 color: var(--color);
