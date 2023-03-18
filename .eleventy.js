@@ -105,10 +105,11 @@ module.exports = function (config) {
   // Collections
 
 
-  config.addCollection("writingProjects", (collection) => {
-    const projects = collection.getFilteredByGlob("content/projects/*.md");
-    return item.data.tags.includes("writing");
-  });
+  module.exports = function (eleventyConfig) {
+    eleventyConfig.addCollection("writing", function (collection) {
+      return collection.getFilteredByTag("writing");
+    });
+  };
   
   config.addCollection("projects", (collection) => {
     const projects = collection.getFilteredByGlob("content/projects/*.md");
