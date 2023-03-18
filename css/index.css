@@ -344,11 +344,6 @@ li > a > h3 {
 
   /* project page */
 
-  .project-block {
-    width: 150%;
-    margin-left: 50%;
-    transform: translateX(-50%);
-  }
 
 .project-header {
   position: fixed;
