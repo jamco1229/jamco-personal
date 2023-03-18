@@ -204,7 +204,8 @@ z-index: 2;
     color: var(--color);
   }
 
-  li p {
+  .home-block h2 {
+    margin: 0;
     color: var(--color);
   }
   body > header > nav > ul > li > a {
