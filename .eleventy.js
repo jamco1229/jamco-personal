@@ -114,7 +114,7 @@ module.exports = function (config) {
     eleventyConfig.addCollection("caseStudies", function (collection) {
       return collection.getFilteredByTag("case-studies");
     });
-  };
+  };  
   module.exports = function (eleventyConfig) {
     eleventyConfig.addCollection("exploration", function (collection) {
       return collection.getFilteredByTag("exploration");
