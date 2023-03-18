@@ -12,7 +12,6 @@ permalink: "/"
 {% set caseStudies = collections.caseStudies %}
 <ul class='case-studies'>
 {% for project in caseStudies %}
-    {% if project.inputPath.includes('/projects/') %}
       <li>
         <a href="{{ project.url }}">
                  {% if project.data.icon %}
@@ -29,7 +28,6 @@ permalink: "/"
         </div>
         </a>
       </li>
-    {% endif %}
   {% endfor %}
 </ul>
 <h2 class='projects-heading'>Concepts</h1>
