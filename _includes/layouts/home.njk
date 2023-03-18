@@ -12,8 +12,8 @@ permalink: "/"
   {% for project in writingProjects %}
     {% if project.inputPath.includes('/projects/') %}
       <li>
-        <h3>{{ project.data.title }}</h3>
-        <p>{{ project.data.description }}</p>
+        <h3>{{ project.data.title | safe }}</h3>
+        <p>{{ project.data.description | safe }}</p>
       </li>
     {% endif %}
   {% endfor %}
@@ -24,8 +24,8 @@ permalink: "/"
   {% for project in caseStudies %}
     {% if project.inputPath.includes('/projects/') %}
       <li>
-        <h3>{{ project.data.title }}</h3>
-        <p>{{ project.data.description }}</p>
+        <h3>{{ project.data.title | safe }}</h3>
+        <p>{{ project.data.description | safe }}</p>
       </li>
     {% endif %}
   {% endfor %}
