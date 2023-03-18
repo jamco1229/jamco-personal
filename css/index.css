@@ -251,6 +251,7 @@ li {
 
 li > a > h3 {
   margin: 0 0 0 0;
+  color: var(--link-color);
 }
 
 .explorations {
@@ -260,11 +261,6 @@ li > a > h3 {
   margin: 0;
 }
 
-
-body > div > main > div.container > a, body > div > main > div.container > a > article > p { 
-  margin: 0;
-  text-decoration: none !important;
-}
   /* Media query for screens larger than 768px */
   @media (max-width: 640px) {
     .container {
