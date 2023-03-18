@@ -337,6 +337,7 @@ li > a > h3 {
   text-decoration: none;
   color: var(--bold-color);
   width: 47%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: baseline;
