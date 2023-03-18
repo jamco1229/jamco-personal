@@ -10,13 +10,12 @@ eleventyNavigation:
 
 *Multi-Desciplinary creative&mdash;With a focus on Experience Design.*
 
-[Get in touch ↗](mailto:james.coy.design@gmail.com)
-
 ## About
-With 3 years of experience in the film industry at [Lambda Films](https://www.lambdafilms.co.uk) and 1 year at HeadteacherChat, my focus is within creative collaboration, project management, prototyping, interaction design, and user research.
 
-I am a co-lead for a project in my role as a product designer to build the new [headteachers.org](http://headteachers.org/) website that serves an audience of 100k+ every month, helping headteachers find valuable resources for free.
+**Hi! I'm a Norwich-based creative** with experience in user experience design, creative collaboration, storytelling, and a strong drive towards keeping curious, discovering new ways of working, and generating new ideas.
 
-I have also learnt *good practices* and the *fundamentals* of UX Design from a diploma at the UX Design Institute that I completed in December 2022.
+As a product designer, I'm proud to have helped create the new headteachers.org website (coming soon), helping over 100k headteachers every month with free resources they can rely on. I've also got a diploma from the UX Design Institute (as of December 2022) that solidified my UX fundamentals and good practices.
 
-I am seeking a challenging and innovative project, collaborating with a great team to create products that have an impact. I am confident that my knowledge of UX Design, experience in working at small companies, and drive can add great value to any company.
+I'm all about accassibility, teamwork and making an impact. When I'm not working on projects, I'm probably reading something epic fantasy, or sitting in a local coffee shop.
+
+If you have a project in mind don't hesitate to [Get in touch ↗](mailto:james.coy.design@gmail.com)
