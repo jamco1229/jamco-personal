@@ -37,10 +37,10 @@ permalink: "/"
 </ul>
 <h1 class='projects-heading'>Explorations</h1>
 {% set explorationsProjects = collections.exploration %}
-<ul>
+<ul class='grid'>
   {% for project in explorationsProjects %}
     {% if project.inputPath.includes('/projects/') %}
-      <li>
+      <li class='explorations'>
         <a href="{{ project.url }}">
           {% if project.data.image %}
           <img

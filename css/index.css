@@ -250,7 +250,10 @@ li {
 
 /* Cards */
 
-
+.explorations {
+  list-style: none;
+  
+}
 .container {
   width: 115%;
   margin-left: 50%;
