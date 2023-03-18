@@ -358,6 +358,10 @@ li > a > h3 {
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
 }
 
+.explorations h3 {
+  color: var(--bold-color);
+}
+
   /* Media query for screens larger than 768px */
   @media (max-width: 640px) {
     .container {
