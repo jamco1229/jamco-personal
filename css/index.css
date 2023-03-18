@@ -103,15 +103,15 @@ position: relative;
   h1 {
     font-family: 'iAWriterQuattroV', sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 32px;
   line-height: 100%;
   letter-spacing: -0.03em;
   color: var(--bold-color);
   text-decoration: none;
   overflow-wrap: break-word; 
-  margin-top: 4rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
   }
   
   h2, h3, h4, h5, h6 {
