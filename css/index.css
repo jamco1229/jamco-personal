@@ -342,6 +342,12 @@ li > a > h3 {
   flex-direction: column;
   justify-content: baseline;
   gap: 0;
+  transition: background 0.3s ease-in, box-shadow 0.3s ease-in;
+}
+
+.explorations a:hover {
+  background: linear-gradient(144.31deg, rgba(255, 255, 255, 0.1) 7.67%, rgba(145, 145, 145, 0.0567708) 35.34%, rgba(71, 71, 71, 0.0279276) 66.26%, rgba(0, 0, 0, 0) 85.78%), #343435;
+  box-shadow: 0px 4px 20px rgba(5, 18, 36, 0.4);
 }
 .exploration-img {
   margin: 0;
