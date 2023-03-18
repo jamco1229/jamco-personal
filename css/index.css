@@ -225,6 +225,7 @@ li h2 {
 
 li a {
   text-decoration: none;
+  margin: 0;
 }
 
 li {
