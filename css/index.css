@@ -96,7 +96,25 @@ position: relative;
     overflow-wrap: normal;
   }
   
-  h1, h2, h3, h4, h5, h6 {
+  .hidden {
+    display: none;
+  }
+
+  h1 {
+    font-family: 'iAWriterQuattroV', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 160%;
+  letter-spacing: -0.03em;
+  color: var(--bold-color);
+  text-decoration: none;
+  overflow-wrap: break-word; 
+  margin-top: 4rem;
+  margin-bottom: 0.5rem;
+  }
+  
+  h2, h3, h4, h5, h6 {
 font-family: 'iAWriterQuattroV', sans-serif;
   font-style: normal;
   font-weight: 400;
