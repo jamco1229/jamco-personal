@@ -8,7 +8,7 @@ role: Product Design
 platfrom: Mobile
 completionDate: Ongoing
 readTime: 2 Mins
-tags: case studies
+tags: caseStudies
 
 media:
   - type: image
