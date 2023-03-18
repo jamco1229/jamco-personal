@@ -328,6 +328,13 @@ li > a > h3 {
 .explorations {
   list-style: none;
 }
+
+.explorations a {
+  border: var(--border);
+  padding: 16px;
+  text-decoration: none;
+  color: var(--bold-color);
+}
 .exploration-img {
   margin: 0;
 }
