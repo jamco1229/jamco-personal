@@ -209,7 +209,7 @@ z-index: 2;
     text-decoration: none !important;
   }
   .site-header li.active, li.active p, li:hover p {
-    color: var(--bold-color);
+ text-decoration: underline;
   }
   .site-header li.active svg {
     width: 8px;
