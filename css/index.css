@@ -79,17 +79,14 @@ position: relative;
   }
 
 /* TYPE */
-  p {
+  p, li {
     font-family: 'iAWriterQuattroV', sans-serif;
   font-style: normal;
   font-size: 18px;
   font-weight: 400;
   line-height: 160%;
-  letter-spacing: -0.03em;
+  letter-spacing: 0;
   color: var(--color);
-  }
-
-  .site-body p, .site-body li {
     line-height: inherit;
     margin: 1rem 0;
     color: var(--color);
