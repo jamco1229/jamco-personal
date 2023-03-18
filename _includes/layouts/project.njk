@@ -13,13 +13,14 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
     {% endfor %}
   {% endif %}
     <header class="project-header">
+      <div class='project-specs'>
     <h1 class="project-title">{{ title | safe }}</h1>
     <div class='spec-container'>
     <div class='spec'><h3>Role</h3><p class='project-role'>{{ role | safe}}</p></div>
     <div class='spec'><h3>Completion Date</h3><p class='project-completion-date'>{{ completionDate | safe}}</p></div>
     <div class='spec'><h3>Read Time</h3><p class='project-readtime'>{{ readTime | safe}}</p></div>
     <div class='spec'><h3>Platform</h3><p class='project-platform'>{{ platform | safe}}</p></div>
-   </div>
+    </div>
     {% if content %}
       <div class="project-text">
         {{ content | safe }}
