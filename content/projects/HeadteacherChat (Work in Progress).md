@@ -1,8 +1,8 @@
 ---
-title: HeadteacherChat &mdash; Mental models and navigation
+title: HeadteacherChat (Work in Progress)
 layout: project
 sort: 3
-description: A mini-case study where I explore our process, problems, and outcomes of redesigning a new navigation model for mobile users.
+description: A long project we are under going to give headteachers.org a big refresh, with the key goal of &mdash; getting free resources to teachers as easily as possible.
 dateEnd: 2023-02-15 12:00:07
 role: Product Design
 platfrom: Mobile
