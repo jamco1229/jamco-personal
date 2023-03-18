@@ -8,8 +8,8 @@ permalink: "/"
 </div>
 <h1 class='projects-heading'>Work</h1>
 <ul>
-{%- for 'writing' in collections.projects -%}
-  <li>{{ project.data.title }}</li>
+{%- for 'writing' in collections.writing -%}
+  <li>{{ writing.data.title }}</li>
 {%- endfor -%}
 </ul>
 <div class='container'>
