@@ -174,7 +174,7 @@ svg {
   .site-header ul {
 /* Auto layout */
 position: fixed;
-  bottom: 0;
+  bottom: -32px;
   left: 0;
   width: 100%;
   z-index: 1000; /* Ensure the nav stays on top of other content */
@@ -184,7 +184,7 @@ justify-content: center;
 align-items: flex-start;
 padding: 16px;
 gap: 32px;
-height: 80px;
+height: 144px;
 background: rgb(42,42,43);
 background: -moz-linear-gradient(0deg, rgba(42,42,43,1) 33%, rgba(42,42,43,0.7819502801120448) 67%, rgba(42,42,43,0) 96%);
 background: -webkit-linear-gradient(0deg, rgba(42,42,43,1) 33%, rgba(42,42,43,0.7819502801120448) 67%, rgba(42,42,43,0) 96%);
