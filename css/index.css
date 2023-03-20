@@ -457,7 +457,7 @@ color: var(--color);
   display: flex;
   width: auto;
   text-decoration: none;
-  padding: 1rem 8px;
+  padding: 4px 1rem;
   color: var(--bold-color);
   border: var(--border);
   border-radius: var(--border-radius);
