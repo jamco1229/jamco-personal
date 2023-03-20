@@ -14,9 +14,9 @@ eleventyNavigation:
 
 **If you have a project in mind don't hesitate to [Get in touch ↗](mailto:james.coy.design@gmail.com)**
 
-<p>
   <h3>Tools:</h3>
-  Figma — Framer — Adobe Suite — Notion — Miro — Blender — DaVinci Resolve —
+  <p>'sk
+  Figma — Framer — Adobe Suite — Notion — Miro — Blender — DaVinci Resolve</p>
   <h3>Skills:</h3>
-  Wire-framing — Prototyping — UI Design — Research — HTML / CSS — Video Editing — Communicating with team in high stress environments — Interaction Design — Motion Design — Cinematography — Operating high-end equipment — Learning new tools — Stakeholder management — Balancing creative ideas with feasibility. I'm also a qualified Mental Health First Aider!
+  <p> Wire-framing — Prototyping — UI Design — Research — HTML / CSS — Video Editing — Communicating with team in high stress environments — Interaction Design — Motion Design — Cinematography — Operating high-end equipment — Learning new tools — Stakeholder management — Balancing creative ideas with feasibility. I'm also a qualified Mental Health First Aider!
 </p>
