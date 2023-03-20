@@ -12,7 +12,7 @@ eleventyNavigation:
 
 **I'm all about accassibility, teamwork and making an impact.** When I'm not working on projects, I'm probably reading something fantasy, or sitting in a local coffee shop.
 
-**If you have a project in mind don't hesitate to [Get in touch ↗](mailto:james.coy.design@gmail.com)**
+**If you have a project in mind don't hesitate to [Get in touch →](mailto:james.coy.design@gmail.com)**
 
 ### Tools:
 Figma — Framer — Adobe Suite — Notion — Miro — Blender — DaVinci Resolve
