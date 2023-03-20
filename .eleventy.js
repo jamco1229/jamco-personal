@@ -105,10 +105,10 @@ module.exports = function (config) {
   // Collections
   module.exports = function(eleventyConfig) {
     eleventyConfig.addCollection("cinematography", function(collection) {
-      return collection.getFilteredByGlob("./contents/cinematography.json");
+      return collection.getFilteredByGlob("./content/cinematography.json");
     });
   };
-  
+
   module.exports = function (eleventyConfig) {
     eleventyConfig.addCollection("concept", function (collection) {
       return collection.getFilteredByTag("concept");
