@@ -233,19 +233,40 @@ color: var(--bold-color);
   list-style: none;
 }
 
-.concepts a, .case-studies a, .project-header a{
+.concepts a, .case-studies a{
   text-decoration: none;
   display: flex;
   flex-direction: row;
   width: 100%;
-
   padding: 1rem;
   border: var(--border);
   border-radius: 1rem;
   transition: background 0.3s ease-in, box-shadow 0.3s ease-in;
 }
 
-.concepts a:hover, .case-studies a:hover{
+.project-header {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+  border: var(--border);
+  border-radius: 1rem;
+  transition: background 0.3s ease-in, box-shadow 0.3s ease-in;
+}
+
+.project-header-img {
+  width: 100%;
+}
+
+.project-header-text {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.concepts a:hover, .case-studies a:hover, .project-header:hover{
   background: linear-gradient(144.31deg, rgba(255, 255, 255, 0.1) 7.67%, rgba(145, 145, 145, 0.0567708) 35.34%, rgba(71, 71, 71, 0.0279276) 66.26%, rgba(0, 0, 0, 0) 85.78%), #343435;
   box-shadow: 0px 4px 20px rgba(5, 18, 36, 0.4);
 }
