@@ -6,6 +6,15 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
 <ul class='project-header'>
       <li>
     <a href="{{ project.url }}">
+       {% if media %}
+    {% for block in media %}
+      <div class="project-header-img">
+        {% set caption = block.caption %}
+        {% include 'snippets/media.njk' %}
+      </div>
+    {% endfor %}
+  {% endif %}
+  <div class='project-header-title'>
           <img
             loading="lazy"
             src="/media/{{ icon }}"
@@ -16,19 +25,12 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
         <h3>{{ title | safe }}  ↗</h3>
     <p>{{ description | safe }}</p>
     </div>
+    </div>
     </a>
       </li>
 </ul>
 
 <article class="project">
-             {% if media %}
-    {% for block in media %}
-      <div class="project-block">
-        {% set caption = block.caption %}
-        {% include 'snippets/media.njk' %}
-      </div>
-    {% endfor %}
-  {% endif %}
     <header>
       <div class='project-specs'>
         <h1 class="project-title">{{ title | safe }}</h1>
