@@ -447,6 +447,13 @@ color: var(--color);
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 640px) {
+  .pagination{
+  flex-direction: column;
+  justify-content: baseline;
+  }
+}
 .pagination-item {
   width: auto;
   padding: 16px 8px;
