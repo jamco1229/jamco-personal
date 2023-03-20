@@ -455,6 +455,7 @@ color: var(--color);
 .pagination-item {
   display: flex;
   width: auto;
+  text-decoration: none;
   padding: 8px 1rem;
   border: 1px solid var(--bold-color);
   border-radius: var(--border-radius);
