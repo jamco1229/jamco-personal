@@ -103,11 +103,11 @@ module.exports = function (config) {
   });
 
   // Collections
-  module.exports = function (eleventyConfig) {
-  eleventyConfig.addCollection("cinematography", function(collection) {
-    return collection.getFilteredByGlob("./content/cinematography.json");
-  });
-};
+
+Config.addCollection("cinematography", (collection) =>{
+  const cinematography = collection.getFilteredByGlob("content/cinematography.json")
+    });
+  };
   
   
 
