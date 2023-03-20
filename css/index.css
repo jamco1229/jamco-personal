@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'iAWriterQuattroV';
-  src: url('/fonts/iAWriterQuattroV.ttf') format('truetype');
+  font-family: 'IBM Plex Sans';
+  src: url('/fonts/IBM Plex Sans.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
   
 @font-face {
-  font-family: 'iAWriterQuattroVitallic';
-  src: url('/fonts/iAWriterQuattroV-Italic.ttf') format('truetype');
+  font-family: 'IBM Plex Sansitallic';
+  src: url('/fonts/IBM Plex Sans-Italic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }

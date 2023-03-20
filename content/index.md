@@ -12,4 +12,9 @@ eleventyNavigation:
 
 **I'm all about accassibility, teamwork and making an impact.** When I'm not working on projects, I'm probably reading something fantasy, or sitting in a local coffee shop.
 
-**If you have a project in mind don't hesitate to [Get in touch ↗](mailto:james.coy.design@gmail.com)**
+**If you have a project in mind don't hesitate to [Get in touch →](mailto:james.coy.design@gmail.com)**
+
+### Tools:
+Figma — Framer — Adobe Suite — Notion — Miro — Blender — DaVinci Resolve
+### Skills:
+Wire-framing — Prototyping — UI Design — Research — HTML / CSS — Video Editing — Communicating with team in high stress environments — Interaction Design — Motion Design — Cinematography — Operating high-end equipment — Learning new tools — Stakeholder management — Balancing creative ideas with feasibility. **I'm also a qualified Mental Health First Aider!**
