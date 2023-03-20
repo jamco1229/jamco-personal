@@ -105,7 +105,7 @@ module.exports = function (config) {
   // Collections
   module.exports = function(eleventyConfig) {
     eleventyConfig.addCollection("cinematography", function(collectionApi) {
-      return collectionApi.getFilteredByGlob("/content/cinematography.json");
+      return collectionApi.getFilteredByGlob("/content/_data/cinematography.json");
     });
   };
 
