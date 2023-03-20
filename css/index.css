@@ -229,7 +229,7 @@ color: var(--bold-color);
     width: 8px;
     height: 8px; 
   }
-.concepts, .case-studies, .project-header{
+.concepts, .case-studies, .project-header-container{
   list-style: none;
 }
 
