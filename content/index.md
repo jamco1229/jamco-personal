@@ -10,8 +10,6 @@ eleventyNavigation:
 
 **Hi! I'm a Norwich-based creative** with experience in user experience design, creative collaboration, storytelling, and a strong drive towards keeping curious, discovering new ways of working, and generating new ideas.
 
-As a product designer, I'm proud to have helped create the new HeadteacherChat website (coming soon), helping over 100k headteachers every month with free resources they can rely on. I've also got a diploma from the UX Design Institute (as of December 2022) that solidified my UX fundamentals and good practices.
-
 **I'm all about accassibility, teamwork and making an impact.** When I'm not working on projects, I'm probably reading something fantasy, or sitting in a local coffee shop.
 
 **If you have a project in mind don't hesitate to [Get in touch ↗](mailto:james.coy.design@gmail.com)**
