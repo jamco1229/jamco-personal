@@ -18,6 +18,36 @@ media:
     size: md
     alt: Cover for HeadteacherChat Navigation Post
 ---
+HeadteacherChat has come a long way since its humble beginnings as a weekly Twitter thread. What started as a casual conversation among teachers has grown into a valuable resource hub and a network of trusted companies for senior leaders in education. This is the story of how a small family endeavor transformed into a vital online platform.
+
+## The Background
+
+HeadteacherChat's founders, my parents, recognized a significant gap in support for teachers through their Twitter discussions. They discovered that many educators felt isolated and lacked proper resources. When my dad was made redundant, he saw an opportunity to help address these issues. He started HeadteacherChat as a resource and company finder for senior leaders in education.
+
+The platform quickly gained momentum as my mum joined the team, contributing blogs and PDF downloads. It wasn't long before they approached me, a young designer eager to gain experience, to help create custom teacher planners. This was the first step in offering specialized stationery tailored to the needs of senior leaders.
+
+## The Website and the Team
+
+My brother Tim initially built the HeadteacherChat website on Wix before transitioning to Webflow. As the platform grew, our friend Meg Maskell took over the design of the planners and branding. Throughout the journey, I remained involved with the company in various capacities.
+
+When I decided to pursue design professionally, it was only natural that I'd use my newfound skills from UXDI to contribute to the HeadteacherChat project. As the platform continued to grow, it became clear that the workload was becoming too much for our small team.
+
+## The Present and the Future
+
+With a big vision for what HeadteacherChat could become and a tiny team of two, we found ourselves with a website that many educators have come to rely on. Although we may be a little naive about our ability to handle the workload, we're excited to take on this challenge and continue to support the teaching community.
+
+As HeadteacherChat evolves, we remain committed to our initial goals: providing valuable resources and fostering a network of trusted companies for senior leaders in education. Our journey has been one of growth, collaboration, and learning, and we can't wait to see where the future takes us.
+
+## Roadmap
+- [x] Prelim User Research
+- [x] Design System
+- [ ] Sitemap
+- [ ] Hi-Fi Prototype
+- [ ] User Testing (Deadline: This Thursday)
+- [ ] Webflow Build
+- [ ] User Tests
+- [ ] Launch
+
 
 ## Planners
 
