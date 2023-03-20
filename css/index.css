@@ -259,10 +259,13 @@ color: var(--bold-color);
   width: 100%;
 }
 
-.project-header-text {
+.project-header-title {
   text-decoration: none;
   display: flex;
   flex-direction: row;
+  width: 100%;
+}
+.project-header-text {
   width: 100%;
 }
 
