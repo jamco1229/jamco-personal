@@ -59,7 +59,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 padding: 32px 24px;
-gap: 72px;
+gap: 24px;
 isolation: isolate;
 position: relative;
 }
