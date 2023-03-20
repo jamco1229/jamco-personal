@@ -104,13 +104,11 @@ module.exports = function (config) {
 
   // Collections
 
-Config.addCollection("cinematography", (collection) =>{
-  const cinematography = collection.getFilteredByGlob("content/cinematography.json")
-    });
-  };
+  Config.addCollection("cinematography", (collection) =>{
+    const cinematography = collection.getFilteredByGlob("content/cinematography.json")
+      });
+    };
   
-  
-
   module.exports = function (eleventyConfig) {
     eleventyConfig.addCollection("concept", function (collection) {
       return collection.getFilteredByTag("concept");
