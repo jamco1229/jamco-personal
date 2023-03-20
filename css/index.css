@@ -18,7 +18,7 @@
   font-size: 16px;
   line-height: 1.5em;
   font-weight: 400;
-  --col-width: 32rem;
+  --col-width: 44rem;
   --background-color: #2A2A2B; 
   --card-background: linear-gradient(144.31deg, rgba(255, 255, 255, 0.1) 7.67%, rgba(145, 145, 145, 0.0567708) 35.34%, rgba(71, 71, 71, 0.0279276) 66.26%, rgba(0, 0, 0, 0) 85.78%), #2A2A2B;
   --color: #898993; 
@@ -58,7 +58,7 @@ padding-bottom: 0;
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 44px 24px;
+padding: 32px 24px;
 gap: 72px;
 isolation: isolate;
 position: relative;
@@ -102,8 +102,7 @@ position: relative;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  line-height: 50px;
-  letter-spacing: -0.03em;
+  line-height: 50px ;
   color: var(--bold-color);
   text-decoration: none;
   overflow-wrap: break-word; 
@@ -115,7 +114,6 @@ font-family: 'iAWriterQuattroV', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  letter-spacing: -0.03em;
   color: var(--bold-color);
   text-decoration: none;
   overflow-wrap: break-word; 
@@ -195,9 +193,9 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: flex-start;
-padding: 16px;
+padding: 16px 16px 16px 32px;
 gap: 32px;
-height: 144px;
+height: 152px;
 background: rgb(42,42,43);
 background: -moz-linear-gradient(0deg, rgba(42,42,43,1) 33%, rgba(42,42,43,0.7819502801120448) 67%, rgba(42,42,43,0) 96%);
 background: -webkit-linear-gradient(0deg, rgba(42,42,43,1) 33%, rgba(42,42,43,0.7819502801120448) 67%, rgba(42,42,43,0) 96%);
@@ -229,28 +227,53 @@ color: var(--bold-color);
     width: 8px;
     height: 8px; 
   }
-.concepts, .case-studies{
+.concepts, .case-studies, .project-header-container{
   list-style: none;
 }
 
-.concepts a, .case-studies a {
+.concepts a, .case-studies a{
   text-decoration: none;
   display: flex;
   flex-direction: row;
   width: 100%;
-
   padding: 1rem;
   border: var(--border);
   border-radius: 1rem;
   transition: background 0.3s ease-in, box-shadow 0.3s ease-in;
 }
 
-.concepts a:hover, .case-studies a:hover{
+.project-header {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+  border: var(--border);
+  border-radius: 1rem;
+  transition: background 0.3s ease-in, box-shadow 0.3s ease-in;
+}
+
+.project-header-img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.project-header-title {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.project-header-text {
+  width: 100%;
+}
+
+.concepts a:hover, .case-studies a:hover, .project-header:hover{
   background: linear-gradient(144.31deg, rgba(255, 255, 255, 0.1) 7.67%, rgba(145, 145, 145, 0.0567708) 35.34%, rgba(71, 71, 71, 0.0279276) 66.26%, rgba(0, 0, 0, 0) 85.78%), #343435;
   box-shadow: 0px 4px 20px rgba(5, 18, 36, 0.4);
 }
 
-.concepts-icon, .case-studies-icon{
+.concepts-icon, .case-studies-icon, .project-header-icon{
   height: 52px;
   width: 52px;
   margin: 8px;
@@ -259,11 +282,11 @@ color: var(--bold-color);
 
 @media screen and (max-width: 479px) {
 
-  .concepts-icon, .case-studies-icon{
+  .concepts-icon, .case-studies-icon, .project-header-icon{
     height: 44px;
     width: 44px;
   }
-  .concepts a, .case-studies a {
+  .concepts a, .case-studies a, .project-header a{
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -271,12 +294,12 @@ color: var(--bold-color);
   }
 }
 
-.concepts-text, .case-studies-text{
+.concepts-text, .case-studies-text, .project-header-text{
   width: 100%;
   margin: 8px;
 }
 
-.concepts h3, .concepts p , .case-studies h3, .case-studies p{
+.concepts h3, .concepts p , .case-studies h3, .case-studies p, .project-header h3, .project-header p{
   margin: 0;
 }
 
@@ -320,13 +343,35 @@ li > a > h3 {
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .explorations {
   list-style: none;
+}
+
+.explorations a {
+  border: var(--border);
+  border-radius: 1rem;
+  margin: 8px;
+  padding: 16px;
+  text-decoration: none;
+  color: var(--bold-color);
+  width: 47%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  gap: 0;
+  transition: background 0.3s ease-in, box-shadow 0.3s ease-in;
+}
+
+.explorations a:hover {
+  background: linear-gradient(144.31deg, rgba(255, 255, 255, 0.1) 7.67%, rgba(145, 145, 145, 0.0567708) 35.34%, rgba(71, 71, 71, 0.0279276) 66.26%, rgba(0, 0, 0, 0) 85.78%), #343435;
+  box-shadow: 0px 4px 20px rgba(5, 18, 36, 0.4);
 }
 .exploration-img {
   margin: 0;
@@ -335,6 +380,10 @@ li > a > h3 {
 .exploration-img {
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
   margin-bottom: 1rem;
+}
+
+.explorations h3 {
+  color: var(--bold-color);
 }
 
   /* Media query for screens larger than 768px */
@@ -357,7 +406,12 @@ li > a > h3 {
   }
 
   /* project page */
-.spec-container {
+.project-text img {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+  .spec-container {
     margin: 1rem 0 2rem  0;
 }
 
@@ -369,7 +423,7 @@ li > a > h3 {
   align-items: baseline;
   text-align: left;
   height: auto;
-  margin: 1rem 0;
+  margin: 2rem 0;
   border-bottom: var(--border);
 }
 .spec h3{
@@ -381,17 +435,37 @@ color: var(--color);
 .spec p {
   text-align: right;
   margin: 0;
-}
-
-.pagination-item p {
   color: var(--bold-color);
-  margin: 1rem;
 }
 
+
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+@media (max-width: 640px) {
+  .pagination{
+  flex-direction: column;
+  justify-content: baseline;
+  }
+}
 .pagination-item {
-  padding: 16px 8px;
-  border: 1px solid var(--bold-color);
+  display: flex;
+  width: auto;
+  text-decoration: none;
+  padding: 4px 16px;
+  color: var(--bold-color);
+  border: var(--border);
   border-radius: var(--border-radius);
+  transition: background 0.3s ease-in, box-shadow 0.3s ease-in;
+}
+
+.pagination-item:hover {
+  background: linear-gradient(144.31deg, rgba(199, 51, 51, 0.1) 7.67%, rgba(74, 121, 133, 0.057) 35.34%, rgba(71, 71, 71, 0.0279276) 66.26%, rgba(194, 90, 90, 0) 85.78%), #343435;
+  box-shadow: 0px 4px 20px rgba(5, 18, 36, 0.4);
 }
 
 

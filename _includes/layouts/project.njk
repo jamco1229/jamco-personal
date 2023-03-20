@@ -3,19 +3,36 @@ layout: base
 permalink: "/projects/{{ page.fileSlug }}/index.html"
 ---
 
-<article class="project">
-             {% if media %}
+<ul class='project-header-container'>
+      <li>
+    <div class='project-header' href="{{ project.url }}">
+       {% if media %}
     {% for block in media %}
-      <div class="project-block">
+      <div class="project-header-img">
         {% set caption = block.caption %}
         {% include 'snippets/media.njk' %}
       </div>
     {% endfor %}
   {% endif %}
-    <header class="project-header">
-      <div class='project-specs'>
-        <h1 class="project-title">{{ title | safe }}</h1>
-    <p class='project-subtitle'>{{ viewedTags | safe }}</p>
+  <div class='project-header-title'>
+          <img
+            loading="lazy"
+            src="/media/{{ icon }}"
+            alt=""
+            class='project-header-icon'
+          >
+<div class='project-header-text'>
+        <h3>{{ title | safe }}  ↗</h3>
+    <p>{{ description | safe }}</p>
+    </div>
+    </div>
+ </div>
+      </li>
+</ul>
+
+<article class="project">
+    <header>
+    <div class='project-specs'>
     <div class='spec-container'>
     <div class='spec'><h3>Role</h3><p class='project-role'>{{ role | safe}}</p></div>
     <div class='spec'><h3>Completion Date</h3><p class='project-completion-date'>{{ completionDate | safe}}</p></div>
@@ -38,14 +55,14 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
     <div>
     {% if previous %}
       <a class="pagination-item pagination-item-prev" href="{{ previous.url }}">
-      <p>←</p>
+      <p>← Previous Project</p>
       </a>
     {% endif %}
     </div>
     <div>
     {% if next %}
       <a class="pagination-item pagination-item-next" href="{{ next.url }}">
-        <p>→</p>
+        <p>Next Project  →</p>
       </a>
     {% endif %}
     </div>
