@@ -80,10 +80,10 @@ permalink: "/"
 <h2>Cinematography Stills</h2>
 <p>I spent many years working in the film industry as a cinematographer, here are some stills from my favourite projects.</p>
 <div class="image-grid">
-  {% for image in cinematography %}
+  {% for item in cinematographyItems %}
     <div class="image-item">
-      <img src="{{ image.src }}" alt="{{ image.alt }}" />
-      <h3>{{ image.title }}</h3>
+      <img src="{{ item.src }}" alt="{{ item.alt }}" />
+      <h3>{{ item.title }}</h3>
     </div>
   {% endfor %}
 </div>
