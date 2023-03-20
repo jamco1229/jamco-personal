@@ -439,10 +439,8 @@ color: var(--color);
   color: var(--bold-color);
 }
 
-.pagination-item p {
-  color: var(--bold-color);
-  margin: 1rem;
-}
+
+
 .pagination {
   display: flex;
   justify-content: space-between;
