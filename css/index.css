@@ -502,6 +502,16 @@ color: var(--color);
   flex-direction: column;
 }
 
+.image-item h3 {
+  margin: 0;
+  color: var(--color);
+  visibility: hidden;
+  transition: visibility 0.3s ease-in;
+}
+.image-item:hover h3 {
+  visibility: visible;
+}
+
 .image-item img {
   border-radius: var(--border-radius);
   border: var(--border);
