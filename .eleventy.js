@@ -110,7 +110,6 @@ module.exports = function (config) {
       return collectionApi.getFilteredByGlob("content/cinematography.json");
     });
   };
-  
 
   module.exports = function (eleventyConfig) {
     eleventyConfig.addCollection("concept", function (collection) {
