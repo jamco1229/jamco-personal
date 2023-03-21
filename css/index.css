@@ -507,9 +507,11 @@ color: var(--color);
   color: var(--color);
   visibility: hidden;
   transition: visibility 0.3s ease-in;
+  transform: translateY(-2rem);
 }
 .image-item:hover h3 {
   visibility: visible;
+  transform: translateY(-2rem);
 }
 
 .image-item img {
