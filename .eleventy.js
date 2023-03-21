@@ -103,6 +103,7 @@ module.exports = function (config) {
   });
 
   // Collections
+  
   module.exports = function (eleventyConfig) {
     // Add the cinematography collection from the JSON file
     eleventyConfig.addCollection("cinematography", function (collectionApi) {
