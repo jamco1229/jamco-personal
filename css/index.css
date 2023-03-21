@@ -329,6 +329,7 @@ li {
   /* Signature animations */
 
   .st0 {
+    margin-top: 4rem;
     height: 6rem;
     display: flex;
     color: var(--color);
