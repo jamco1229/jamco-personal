@@ -503,7 +503,7 @@ color: var(--color);
 }
 
 .image-item h3 {
-  margin: 0;
+  margin: 0.5rem;
   color: var(--color);
   visibility: hidden;
   transition: visibility 0.3s ease-in;
