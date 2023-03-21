@@ -506,9 +506,10 @@ color: var(--color);
   margin: 0.5rem;
   color: var(--color);
   visibility: hidden;
-  transition: visibility 0.3s ease-in, transform 0.3 ease-in;
   transform: translateY(-2rem);
+  transition: visibility 0s, transform 0.3s ease-in-out;
 }
+
 .image-item:hover h3 {
   visibility: visible;
   transform: translateY(0rem);
