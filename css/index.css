@@ -499,6 +499,7 @@ color: var(--color);
   width: 100%;
   height: auto;
   display: flex;
+  flex-direction: column;
 }
 
 .image-item img {
