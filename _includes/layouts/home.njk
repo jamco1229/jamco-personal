@@ -80,37 +80,33 @@ permalink: "/"
 
 <h2>Cinematography Stills</h2>
 <p>I spent many years working in the film industry as a cinematographer, here are some stills from my favourite projects.</p>
-<div class='image-grid'>
+{# <div class='image-grid'>
   {% for item in cinematography %}
     <div class="image-item">
       <img src="{{ item.src }}" alt="{{ item.alt }}" />
       <h3>{{ item.title }}</h3>
     </div>
   {% endfor %}
-</div>
-
-<div class="blaze-slider">
-  <div class="blaze-container">
-    <div class="blaze-track-container">
-      <div class="blaze-track">
-         {% for item in cinematography %}
-            <div>
+</div> #}
+    <div class="app">
+      <div class="blaze-slider my-slider">
+        <div class="blaze-container">
+          <div class="blaze-track-container">
+            <div class="blaze-track">
+              {% for item in cinematography %}
+               <div class="image-item">
       <img src="{{ item.src }}" alt="{{ item.alt }}" />
       <h3>{{ item.title }}</h3>
     </div>
-    {% endfor %}
-     </div>
+  {% endfor %}
+            </div>
+          </div>
+        </div>
 
-      <!-- pagination container -->
-      <div class="my-pagination-container">
-        <div class="blaze-pagination"></div>
+        <div class="controls">
+          <button class="blaze-prev">prev</button>
+          <div class="blaze-pagination"></div>
+          <button class="blaze-next">next</button>
+        </div>
       </div>
     </div>
-
-    <!-- navigation buttons -->
-    <div class="my-nav-container">
-      <button class="blaze-prev">previous</button>
-      <button class="blaze-next">next</button>
-    </div>
-  </div>
-</div>
