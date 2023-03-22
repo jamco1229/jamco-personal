@@ -48,12 +48,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-feature-settings: "kern";
+  font-feature-settings: "kern";
   font-kerning: normal;
   -moz-osx-font-smoothing: grayscale !important;
   -webkit-font-smoothing: antialiased !important;
     font-smoothing: antialiased;
-    text-rendering: optimizeLegibility; */
+    text-rendering: optimizeLegibility;
 
   }
   
