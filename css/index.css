@@ -52,6 +52,9 @@
   font-kerning: normal;
   -moz-osx-font-smoothing: grayscale !important;
   -webkit-font-smoothing: antialiased !important;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+
   }
   
   body {
