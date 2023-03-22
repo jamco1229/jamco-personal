@@ -95,7 +95,7 @@ position: relative;
 
 /* TYPE */
   p, li {
-    font-family: --font-family, sans-serif;
+    font-family: var(--font-family), sans-serif;
   font-style: normal;
   font-size: 1rem;
   font-weight: 400;
