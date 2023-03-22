@@ -30,7 +30,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">  
     {% include 'snippets/meta.njk' %}
-     <script src="https://github.com/jamco1229/jamco-personal/blob/0d31548f6560e4017554cb282f66c8e4e358b7e0/script.js"></script>
+        <link
+      rel="stylesheet"
+      href="https://unpkg.com/blaze-slider@1.9.1/dist/blaze.css"
+    />
     <script defer data-domain="james-coy.netlify.app" src="https://plausible.io/js/script.js"></script>
      </head>
   <body>
@@ -63,5 +66,41 @@
       </footer>
 </div>
 
+    <script src="https://unpkg.com/blaze-slider@1.9.1/dist/blaze-slider.min.js"></script>
+
+    <!-- playground-->
+    <script>
+      const sliderEl = document.querySelector(".blaze-slider");
+
+      const blazeSlider = new BlazeSlider(sliderEl, {
+        all: {
+          enableAutoplay: true,
+          slidesToScroll: 3,
+          slidesToShow: 3,
+          transitionDuration: 300,
+          loop: true
+        },
+        "(max-width: 900px)": {
+          slidesToShow: 1,
+          slidesToShow: 2.75,
+          slidesGap: "40px"
+        },
+        "(max-width: 500px)": {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      });
+
+      // listen for slide event
+      blazeSlider.onSlide(
+        (pageIndex, firstVisibleSlideIndex, lastVisibleSlideIndex) => {
+          console.log({
+            pageIndex,
+            firstVisibleSlideIndex,
+            lastVisibleSlideIndex
+          });
+        }
+      );
+    </script>
   </body>
 </html>
