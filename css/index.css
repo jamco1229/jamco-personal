@@ -16,14 +16,14 @@
   font-family: 'IBM Plex Sans Variable - Italic';
   font-style: italic;
   font-weight: 400;
-  src: url('fonts/IBMPlexSansVar-Italic.woff2') format('woff2');
+  src: url('https://github.com/jamco1229/jamco-personal/blob/d5518eef216cda202fd21e5a014acb9a3e925a79/fonts/IBMPlexSansVar-Italic.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'IBM Plex Sans Variable';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/IBMPlexSansVar-Roman.woff2') format('woff2');
+  src: url('https://github.com/jamco1229/jamco-personal/blob/d5518eef216cda202fd21e5a014acb9a3e925a79/fonts/IBMPlexSansVar-Roman.woff2') format('woff2');
 }
 
 
