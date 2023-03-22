@@ -32,7 +32,7 @@
   font-size: 16px;
   line-height: 1.25em;
   font-weight: 400;
-  --font-family: 'IBM Plex Sans Variable', 'Helvetica Neue', Arial, sans-serif;
+  --font-family: 'ibm-plex-sans', 'Helvetica Neue', Arial, sans-serif;
   --col-width: 44rem;
   --background-color: #2A2A2B; 
   --card-background: linear-gradient(144.31deg, rgba(255, 255, 255, 0.1) 7.67%, rgba(145, 145, 145, 0.0567708) 35.34%, rgba(71, 71, 71, 0.0279276) 66.26%, rgba(0, 0, 0, 0) 85.78%), #2A2A2B;
