@@ -488,8 +488,10 @@ color: var(--color);
   margin-bottom: 3rem;
 }
 .site-footer p {
-font-style: italic;
+  font-family: 'IBM Plex Sans Variable - Italic', sans-serif;
+  font-style: italic;
 font-weight: 600;
+text-align: center;
 }
 .site-footer > a > p {
   color: var(--link-color);
