@@ -78,6 +78,23 @@ permalink: "/"
   {% endfor %}
 </ul>
 
+<h2 class='projects-heading'>Writing</h2>
+<p>A collection of my writing pieces.</p>
+{% set writingProjects = collections.writing %}
+<ul class='writing-list'>
+  {% for project in writingProjects %}
+    {% if project.inputPath.includes('/projects/') %}
+      <li class='writing'>
+        <a href="{{ project.url }}">
+          <h3>{{ project.data.title | safe }}  →</h3>
+          <p>{{ project.data.description | safe }}
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+
 <h2>Cinematography Stills</h2>
 <p>I spent many years working in the film industry as a cinematographer, here are some stills from my favourite projects.</p>
 {# <div class='image-grid'>

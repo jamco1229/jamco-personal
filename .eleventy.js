@@ -127,6 +127,12 @@ module.exports = function (config) {
     });
   };
   
+  module.exports = function (eleventyConfig) {
+    eleventyConfig.addCollection("writing", function (collection) {
+      return collection.getFilteredByTag("writing");
+    });
+  };
+  
   
   config.addCollection("projects", (collection) => {
     const projects = collection.getFilteredByGlob("content/projects/*.md");
