@@ -572,11 +572,11 @@ Media query for smaller screens
 .blaze-track > * {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   transition: width 300ms ease;
-  border-radius: var(--border-radius);
-  border: var(--border);
+  /* border-radius: var(--border-radius); */
+  /* border: var(--border); */
 }
 .blaze-track h3 {
   margin: 0;
