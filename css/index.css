@@ -548,7 +548,7 @@ Media query for smaller screens
 /* fix layout shifts */
 
 .blaze-slider.my-slider {
-  --slides-to-show: 2.5;
+  --slides-to-show: 1.5;
   --slide-gap: 1rem;
 }
 
