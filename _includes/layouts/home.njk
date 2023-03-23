@@ -51,32 +51,7 @@ permalink: "/"
     {% endif %}
   {% endfor %}
 </ul>
-<h2 class='projects-heading'>Concepts</h1>
-<p>Sometimes, I make up concepts for apps based on gaps I see, or ideas I have, read one of these to find out more about my process, the kinds of projects I'd love to work on, and hopefuly something that might spark something in you too!<p>
-{% set conceptProjects = collections.concept %}
-<ul class='concepts'>
-  {% for project in conceptProjects %}
-    {% if project.inputPath.includes('/projects/') %}
-      <li>
-    <a href="{{ project.url }}">
-       {% if project.data.icon %}
-          <img
-            loading="lazy"
-            src="/media/{{ project.data.icon }}"
-            alt=""
-            class='concepts-icon'
-          >
-          {% endif %}
-<div class='concepts-text'>
-        <h3>{{ project.data.title | safe }}  →</h3>
-    <p>{{ project.data.description | safe }}</p>
-    </div>
-    </a>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
-<h2 class='projects-heading'>Explorations</h1>
+<h2 class='projects-heading'>Explorations & Other designs</h1>
 <p>A space for me to explore different designs.</p>
 {% set explorationsProjects = collections.exploration %}
 <ul class='grid'>
@@ -134,6 +109,7 @@ permalink: "/"
         <div class="controls">
           <button class="blaze-prev">prev</button>
           <button class="blaze-next">next</button>
+          </div>
             <div class="blaze-track">
               {% for item in cinematography %}
                <div class="image-item">
