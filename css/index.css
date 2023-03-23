@@ -31,7 +31,7 @@
 /* Variables */
   :root {
   font-size: 16px;
-  line-height: 1.25em;
+  line-height: 1.5em;
   font-weight: 400;
   --font-family: 'IBM Plex Sans Variable', 'Helvetica Neue', Arial, sans-serif; --font-family-italic: 'IBM Plex Sans Variable - Italic'
   --col-width: 44rem;
@@ -103,10 +103,9 @@ position: relative;
   font-style: normal;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.25rem;
+  line-height: 1.5rem;
   letter-spacing: 0;
   color: var(--color);
-    line-height: inherit;
     margin: 1rem 0;
     color: var(--color);
     overflow-wrap: normal;
@@ -115,19 +114,8 @@ position: relative;
   .hidden {
     display: none;
   }
-
-  h1:first-of-type  {
-    font-family: var(--font-family), sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 50px ;
-  color: var(--bold-color);
-  text-decoration: none;
-  overflow-wrap: break-word; 
-  }
   
-  h1:not(:first-of-type), h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6 {
 font-family:var(--font-family), sans-serif;
   font-style: normal;
   font-weight: 400;
