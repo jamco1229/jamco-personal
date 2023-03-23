@@ -491,7 +491,7 @@ color: var(--color);
   margin-bottom: 3rem;
 }
 .site-footer p {
-  font-family: 'IBM Plex Sans Variable - Italic', sans-serif;
+  font-family: var(--font-family), sans-serif;
   font-style: italic;
 font-weight: 600;
 text-align: center;
