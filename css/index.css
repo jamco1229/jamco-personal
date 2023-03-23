@@ -541,7 +541,7 @@ Media query for smaller screens
 /* other styles */
 
 .blaze-slider.dragging .blaze-track {
-  cursor: grabbing; user-select: none;
+  cursor: grabbing;
 }
 
 .blaze-track > * {
@@ -556,7 +556,7 @@ Media query for smaller screens
 .blaze-track h3 {
   margin: 0;
   color: var(--color);
-}
+  user-select: none;}
 
 /* pagination buttons */
 
