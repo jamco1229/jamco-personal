@@ -214,10 +214,11 @@ align-items: flex-start;
 padding: 16px 16px 16px 32px;
 gap: 32px;
 height: 152px;
-background: rgb(42,42,43);
-background: -moz-linear-gradient(0deg, rgba(42,42,43,1) 33%, rgba(42,42,43,0.7819502801120448) 67%, rgba(42,42,43,0) 96%);
-background: -webkit-linear-gradient(0deg, rgba(42,42,43,1) 33%, rgba(42,42,43,0.7819502801120448) 67%, rgba(42,42,43,0) 96%);
-background: linear-gradient(0deg, rgba(42,42,43,1) 33%, rgba(42,42,43,0.7819502801120448) 67%, rgba(42,42,43,0) 96%);
+background: -webkit-linear-gradient(347.67deg, #0A0A0A 8.59%, #0A0A0A 36.37%, rgba(10, 10, 10, 0.755906) 60.31%, rgba(10, 10, 10, 0) 90.66%);
+background: -moz-linear-gradient(347.67deg, #0A0A0A 8.59%, #0A0A0A 36.37%, rgba(10, 10, 10, 0.755906) 60.31%, rgba(10, 10, 10, 0) 90.66%);
+background: -o-linear-gradient(347.67deg, #0A0A0A 8.59%, #0A0A0A 36.37%, rgba(10, 10, 10, 0.755906) 60.31%, rgba(10, 10, 10, 0) 90.66%);
+background: linear-gradient(347.67deg, #0A0A0A 8.59%, #0A0A0A 36.37%, rgba(10, 10, 10, 0.755906) 60.31%, rgba(10, 10, 10, 0) 90.66%);
+
 flex: none;
 order: 2;
 flex-grow: 0;
