@@ -169,7 +169,7 @@ font-family:var(--font-family), sans-serif;
 /* Images */
  audio,
     img,
-    video, svg {
+    video, svg { margin-bottom: 1rem;
       border-radius: var(--border-radius);
       width: 100%;
       /* width: 115%;
@@ -179,7 +179,7 @@ font-family:var(--font-family), sans-serif;
       position: inherit;
     }
 svg {
-  width: 180.95px;
+  width: 180px;
   height: 97px;
   flex: none;
   order: 0;
