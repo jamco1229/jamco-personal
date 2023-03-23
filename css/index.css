@@ -580,6 +580,7 @@ Media query for smaller screens
 }
 .blaze-track h3 {
   margin: 0;
+  color: var(--color);
 }
 
 /* pagination buttons */
