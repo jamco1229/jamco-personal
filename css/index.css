@@ -570,13 +570,12 @@ Media query for smaller screens
 }
 
 .blaze-track > * {
-  min-height: 300px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   transition: width 300ms ease;
-  border-radius: 6px;
-  background: linear-gradient(to top, hsl(0deg 0% 2%), hsl(0deg 0% 9%));
+  border-radius: var(--border-radius);
   border: var(--border);
 }
 
