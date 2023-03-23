@@ -6,9 +6,9 @@ permalink: "/"
 <div class="home-intro">
   {{ content | safe }}
 </div>
-<h2 class='projects-heading'>Case Studies</h2>
+<h2 class='projects-heading'>Case Studies & Concepts</h2>
 
-<p>Deep dives into my projects, read on to find out about how I approach UX Design in a project and all about my process.<p>
+<p>Deep dives into my projects, both for clients and app concepts, read on to find out about how I approach UX Design in a project and all about my process.<p>
 {% set caseStudies = collections.caseStudies %}
 <ul class='case-studies'>
 {% for project in caseStudies %}
@@ -28,6 +28,27 @@ permalink: "/"
         </div>
         </a>
       </li>
+  {% endfor %}
+  {% set conceptProjects = collections.concept %}
+  {% for project in conceptProjects %}
+    {% if project.inputPath.includes('/projects/') %}
+      <li>
+    <a href="{{ project.url }}">
+       {% if project.data.icon %}
+          <img
+            loading="lazy"
+            src="/media/{{ project.data.icon }}"
+            alt=""
+            class='concepts-icon'
+          >
+          {% endif %}
+<div class='concepts-text'>
+        <h3>{{ project.data.title | safe }}  →</h3>
+    <p>{{ project.data.description | safe }}</p>
+    </div>
+    </a>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
 <h2 class='projects-heading'>Concepts</h1>
