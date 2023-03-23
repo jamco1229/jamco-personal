@@ -61,7 +61,7 @@
     -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
 
-overflow: hidden;
+overflow-x: hidden;
 margin: 0;
 padding: 0;
 line-height: inherit;
