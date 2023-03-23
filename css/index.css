@@ -581,7 +581,7 @@ Media query for smaller screens
 
 /* pagination buttons */
 
-.blaze-controls {
+.controls {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
