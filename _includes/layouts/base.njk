@@ -75,22 +75,12 @@
 
       const blazeSlider = new BlazeSlider(sliderEl, {
         all: {
-          enableAutoplay: true,
-          slidesToScroll: 3,
-          slidesToShow: 3,
-          transitionDuration: 300,
+          enableAutoplay: false,
+          slidesToScroll: 2,
+          slidesToShow: 2.5,
+          transitionDuration: 150,
           loop: true
-        },
-        "(max-width: 900px)": {
-          slidesToShow: 1,
-          slidesToShow: 2.75,
-          slidesGap: "40px"
-        },
-        "(max-width: 500px)": {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      });
+        });
 
       // listen for slide event
       blazeSlider.onSlide(

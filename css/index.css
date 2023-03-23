@@ -61,7 +61,7 @@
     -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
 
-overflow-x: hidden;
+overflow: hidden;
 margin: 0;
 padding: 0;
 line-height: inherit;
@@ -555,7 +555,7 @@ Media query for smaller screens
 /* other styles */
 
 .blaze-slider.dragging .blaze-track {
-  cursor: grabbing;
+  cursor: grabbing; user-select: none;
 }
 
 .blaze-track > * {
