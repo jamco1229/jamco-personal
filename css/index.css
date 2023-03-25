@@ -536,20 +536,8 @@ Media query for smaller screens
 /* fix layout shifts */
 
 .blaze-slider.my-slider {
-  --slides-to-show: 3;
-  --slide-gap: 20px;
-}
-
-@media (max-width: 900px) {
-  .blaze-slider.my-slider {
-    --slides-to-show: 2;
-  }
-}
-
-@media (max-width: 500px) {
-  .blaze-slider.my-slider {
-    --slides-to-show: 1;
-  }
+  --slides-to-show: 1.5;
+  --slide-gap: 1rem;
 }
 
 /* other styles */
