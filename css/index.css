@@ -550,14 +550,14 @@ Media query for smaller screens
   justify-content: baseline;
   align-items: left;
   transition: width 300ms ease;
-  /* border-radius: var(--border-radius); */
+  border-radius: var(--border-radius);
   /* border: var(--border); */
 }
 .blaze-track p {
   margin: 0;
   color: var(--color);
   text-align:center;
-  /*user-select: none;*/
+  user-select: none;
 }
 
 /* pagination buttons */
