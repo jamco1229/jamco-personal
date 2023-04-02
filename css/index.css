@@ -508,6 +508,7 @@ text-align: center;
 
 .blaze-track > * {
   min-height: 300px;
+  width: auto;
   display: flex;
   justify-content: baseline;
   align-items: center;
