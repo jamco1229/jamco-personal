@@ -526,23 +526,6 @@ text-align: center;
   cursor: pointer;
 }
 
-.blaze-next,
-.blaze-prev {
-  border: none;
-  font-size: 0;
-  width: 20px;
-  height: 20px;
-  background: none;
-  cursor: pointer;
-  background-position: center;
-  background-size: 100%;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 0 24 24' width='24'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath fill='white' d='M11.67 3.87L9.9 2.1 0 12l9.9 9.9 1.77-1.77L3.54 12z'/%3E%3C/svg%3E");
-}
-
-.blaze-next {
-  transform: rotate(180deg);
-}
-
     /* Animations*/
     .site-header, h1, h2  {
       animation-delay: 2s;
