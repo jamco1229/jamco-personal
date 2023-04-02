@@ -93,14 +93,6 @@ permalink: "/"
 
 <h2>Cinematography Stills</h2>
 <p>I spent many years working in the film industry as a cinematographer, here are some stills from my favourite projects.</p>
-{# <div class='image-grid'>
-  {% for item in cinematography %}
-    <div class="image-item">
-      <img src="{{ item.src }}" alt="{{ item.alt }}" />
-      <h3>{{ item.title }}</h3>
-    </div>
-  {% endfor %}
-</div> #}
     <div class="app">
       <div class="blaze-slider my-slider">
         <div class="blaze-container">
@@ -127,10 +119,7 @@ permalink: "/"
     <div class="blaze-track-container">
       <div class="blaze-track">
          {% for item in cinematography %}
-               <div class="image-item">
-      <img src="{{ item.src }}" alt="{{ item.alt }}" />
-      <p>{{ item.title }}</p>
-    </div>
+      <img class='cinema-still' src="{{ item.src }}" alt="{{ item.alt }}" />
   {% endfor %}
       </div>
     </div>
