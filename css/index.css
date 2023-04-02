@@ -493,46 +493,6 @@ text-align: center;
   grid-gap: 1rem;
 }
 
-/* Style the images within the grid 
-.image-item h3 {
-  margin: 0.2rem;
-  z-index: -10;
-  color: var(--color);
-  visibility: hidden;
-  transform: translateY(-1rem);
-  opacity: 0;
-  transition: visibility 0.3s ease-in-out, transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-}
-
-.image-item:hover h3 {
-  visibility: visible;
-  transform: translateY(0rem);
-  opacity: 1;
-}
-
-
-.image-item:hover h3 {
-  visibility: visible;
-  transform: translateY(0rem);
-}
-
-.image-item img {
-  border-radius: var(--border-radius);
-  border: var(--border);
-}
-
-Media query for smaller screens 
-@media screen and (max-width: 768px) {
-  .image-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .image-item h3 {
-    display: none;
-  }
-}*/
-
-/* fix layout shifts */
-
 /* fix layout shifts */
 
 .blaze-slider.my-slider {
@@ -555,9 +515,6 @@ Media query for smaller screens
   border-radius: 6px;
 }
 
-.blaze-track p {
-  user-select: none;
-}
 
 /* pagination buttons */
 

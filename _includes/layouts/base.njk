@@ -73,14 +73,15 @@
     <script>
       const sliderEl = document.querySelector(".blaze-slider");
 
-      const blazeSlider = new BlazeSlider(sliderEl, {
-        all: {
-          enableAutoplay: false,
-          slidesToScroll: 2,
-          slidesToShow: 2.5,
-          transitionDuration: 150,
-          loop: true
-        });
+const blazeSlider = new BlazeSlider(sliderEl, {
+  all: {
+    enableAutoplay: false,
+    slidesToScroll: 1,
+    slidesToShow: 1.5,
+    transitionDuration: 150,
+    loop: true,
+  }
+});
 
       // listen for slide event
       blazeSlider.onSlide(

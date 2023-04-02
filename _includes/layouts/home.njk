@@ -121,3 +121,22 @@ permalink: "/"
         </div>
       </div>
     </div>
+
+<div class="blaze-slider">
+  <div class="blaze-container">
+    <div class="blaze-track-container">
+      <div class="blaze-track">
+         {% for item in cinematography %}
+               <div class="image-item">
+      <img src="{{ item.src }}" alt="{{ item.alt }}" />
+      <p>{{ item.title }}</p>
+    </div>
+  {% endfor %}
+      </div>
+    </div>
+
+    <!-- navigation buttons -->
+    <button class="blaze-prev">previous</button>
+    <button class="blaze-next">next</button>
+  </div>
+</div>
