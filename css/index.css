@@ -550,7 +550,6 @@ text-align: center;
   cursor: pointer;
 }
 
-/*
 .blaze-next,
 .blaze-prev {
   border: none;
@@ -566,7 +565,7 @@ text-align: center;
 
 .blaze-next {
   transform: rotate(180deg);
-}*/
+}
 
     /* Animations*/
     .site-header, h1, h2  {
