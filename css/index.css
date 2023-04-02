@@ -203,8 +203,8 @@ padding: 16px 16px 16px 32px;
 gap: 32px;
 height: 152px;
 background-color: var(--background-color);
-  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  -webkit-mask-image: linear-gradient(from bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(from bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 /*
 background: -webkit-linear-gradient(0deg, #0A0A0A 8.59%, #0A0A0A 36.37%, rgba(10, 10, 10, 0.755906) 60.31%, rgba(10, 10, 10, 0) 90.66%);
 background: -moz-linear-gradient(0deg, #0A0A0A 8.59%, #0A0A0A 36.37%, rgba(10, 10, 10, 0.755906) 60.31%, rgba(10, 10, 10, 0) 90.66%);
