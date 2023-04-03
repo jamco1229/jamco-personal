@@ -26,11 +26,12 @@
   src: url('https://raw.githubusercontent.com/jamco1229/jamco-personal/d5518eef216cda202fd21e5a014acb9a3e925a79/fonts/IBMPlexSansVar-Roman.woff2') format('woff2');
 }
 @font-face {
-  font-family: 'IBM Plex Sans';
+  font-family: 'IBM Plex Mono';
   font-style: normal;
   font-weight: 400;
-  src: url('https://raw.githubusercontent.com/jamco1229/jamco-personal/d5518eef216cda202fd21e5a014acb9a3e925a79/fonts/IBMPlexSansVar-Roman.woff2') format('woff2');
+  src: url('https://raw.githubusercontent.com/jamco1229/jamco-personal/d5518eef216cda202fd21e5a014acb9a3e925a79/fonts/IBMPlexMono-SemiBold.woff2') format('woff2');
 }
+
 
 
 /* Variables */
@@ -40,6 +41,7 @@
   font-weight: 400;
   --font-family: 'IBM Plex Sans Variable', 'Helvetica Neue', Arial, sans-serif;
   --font-family-italic: 'IBM Plex Sans Variable - Italic';
+  --font-family-mono: 'IBM Plex Mono';
   --col-width: 44rem;
   --background-color: #0a0a0a; 
   --card-background: linear-gradient(144.31deg, rgba(255, 255, 255, 0.1) 7.67%, rgba(145, 145, 145, 0.0567708) 35.34%, rgba(71, 71, 71, 0.0279276) 66.26%, rgba(0, 0, 0, 0) 85.78%), #2A2A2B;
@@ -59,7 +61,6 @@
   font-kerning: normal;
   -moz-osx-font-smoothing: grayscale !important;
   -webkit-font-smoothing: antialiased !important;
-    font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 
   }
@@ -104,7 +105,7 @@ position: relative;
   }
 
 /* TYPE */
-  p, li {
+  p, li, time {
     font-family: var(--font-family), sans-serif;
   font-style: normal;
   font-size: 1rem;
@@ -122,7 +123,7 @@ position: relative;
   }
   
   h1, h2, h3, h4, h5, h6 {
-font-family:var(--font-family), sans-serif;
+font-family:var(--font-family-mono), monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
