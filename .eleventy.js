@@ -16,14 +16,14 @@ var getIndex = (collection, currentSlug) => {
 
 module.exports = function (eleventyConfig) {
   // Plugins
-  config.addPlugin(pluginRss);
-  config.addPlugin(pluginNav);
+  eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(pluginNav);
 
   // Filters
-  config.addFilter("dateToFormat", (date, format) => {
+  eleventyConfig.addFilter("dateToFormat", (date, format) => {
     return DateTime.fromJSDate(date, { zone: "utc" }).toFormat(String(format));
   });
-  config.addFilter("yearRange", (date1Str, date2Str = false) => {
+  eleventyConfig.addFilter("yearRange", (date1Str, date2Str = false) => {
     let date = false;
     let end = false;
     let start = false;
@@ -56,27 +56,27 @@ module.exports = function (eleventyConfig) {
     }
     return date;
   });
-  config.addFilter("dateToISO", (date) => {
+  eleventyConfig.addFilter("dateToISO", (date) => {
     return DateTime.fromJSDate(date, { zone: "utc" }).toISO({
       includeOffset: false,
       suppressMilliseconds: true,
     });
   });
-  config.addFilter("nextInCollection", (collection, currentSlug) => {
+  eleventyConfig.addFilter("nextInCollection", (collection, currentSlug) => {
     const currentIndex = getIndex(collection, currentSlug);
     const pages = collection.filter((page, index) => {
       return index == currentIndex + 1 ? page : false;
     });
     return pages.length ? pages[0] : false;
   });
-  config.addFilter("prevInCollection", (collection, currentSlug) => {
+  eleventyConfig.addFilter("prevInCollection", (collection, currentSlug) => {
     const currentIndex = getIndex(collection, currentSlug);
     const pages = collection.filter((page, index) => {
       return index == currentIndex - 1 ? page : false;
     });
     return pages.length ? pages[0] : false;
   });
-  config.addFilter("getPagesByPaths", (collection, paths) => {
+  eleventyConfig.addFilter("getPagesByPaths", (collection, paths) => {
     let pages = [];
     paths.forEach((path) => {
       let page = collection.filter((page) => {
@@ -88,7 +88,7 @@ module.exports = function (eleventyConfig) {
     });
     return pages;
   });
-  config.addFilter("getFeaturedImage", (blocks) => {
+  eleventyConfig.addFilter("getFeaturedImage", (blocks) => {
     // Get the featured images
     let images = blocks.filter((block) => {
       return block.type == "image" && block.featured ? block : false;
@@ -105,7 +105,7 @@ module.exports = function (eleventyConfig) {
   // Collections
   
     // Add the cinematography collection from the JSON file
-    eleventyConfig.addCollection("cinematography", function (collectionApi) {
+  eleventyConfig.addCollection("cinematography", function (collectionApi) {
       return collectionApi.getFilteredByGlob("content/cinematography.json");
     });
 
@@ -158,20 +158,20 @@ module.exports = function (eleventyConfig) {
   const markdownLibrary = markdownIt(markdownOptions).use(markdownItAnchor, {
     permalink: false,
   });
-  config.setLibrary("md", markdownLibrary);
-  config.addNunjucksFilter("markdownify", (markdownString) =>
+  eleventyConfig.setLibrary("md", markdownLibrary);
+  eleventyConfig.addNunjucksFilter("markdownify", (markdownString) =>
     markdownIt(markdownOptions).render(markdownString)
   );
-  config.addNunjucksFilter("markdownifyInline", (markdownString) =>
+  eleventyConfig.addNunjucksFilter("markdownifyInline", (markdownString) =>
     markdownIt(markdownOptions).renderInline(markdownString)
   );
-  config.setFrontMatterParsingOptions({
+  eleventyConfig.setFrontMatterParsingOptions({
     excerpt: true,
     excerpt_separator: "<!--more-->", // Matches WordPress style
   });
 
   // BrowserSync
-  config.setBrowserSyncConfig({
+  eleventyConfig.setBrowserSyncConfig({
     callbacks: {
       ready: function (err, browserSync) {
         const content_404 = fs.readFileSync("_site/404.html");
