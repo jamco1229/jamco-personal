@@ -98,7 +98,7 @@ permalink: "/"
         <div class="blaze-container">
           <div class="blaze-track-container">
             <div class="blaze-track">
-              {% for item in cinematography | dailyShuffle %}
+              {% for item in cinematography %}
       <img src="{{ item.src }}" class="image-item" alt="{{ item.alt }}" />
   {% endfor %}
             </div>

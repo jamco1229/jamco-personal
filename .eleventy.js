@@ -102,27 +102,6 @@ module.exports = function (config) {
     return images.length ? images[0] : false;
   });
 
-// shuffle
-
-module.exports = function(eleventyConfig) {
-  // define daily shuffle filter
-  eleventyConfig.addFilter("dailyShuffle", function(array) {
-    // get current day of the year (0-365)
-    const dayOfYear = new Date().getDayOfYear();
-    // seed the random number generator with the day of the year
-    Math.seedrandom(dayOfYear);
-    // implement shuffle algorithm
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
-  });
-};
-
-
-  
-
   // Collections
   
   module.exports = function (eleventyConfig) {

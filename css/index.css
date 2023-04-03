@@ -527,11 +527,6 @@ text-align: center;
 
 .blaze-next,
 .blaze-prev {
-  border: none;
-  font-size: 0;
-  width: 20px;
-  height: 20px;
-  background: none;
   cursor: pointer;
 }
 
