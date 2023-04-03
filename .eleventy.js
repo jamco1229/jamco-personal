@@ -14,7 +14,7 @@ var getIndex = (collection, currentSlug) => {
   return currentIndex;
 };
 
-module.exports = function (elentyConfig) {
+module.exports = function (eleventyConfig) {
   // Plugins
   config.addPlugin(pluginRss);
   config.addPlugin(pluginNav);
