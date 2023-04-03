@@ -507,13 +507,16 @@ text-align: center;
 }
 
 .blaze-track > * {
-  min-height: 300px;
-  width: auto;
   display: flex;
   justify-content: baseline;
   align-items: center;
   transition: width 300ms ease;
   border-radius: 6px;
+}
+
+.image-item {
+    height: 300px;
+    width: auto;  
 }
 
 .blaze-next,
