@@ -1,9 +1,9 @@
 ---
-layout: post
-title: Resume
+layout: resume
+title: James Coy's Resume
 eleventyNavigation:
   key: Resume
-  order: 4
+  order: 3
 ---
 # Experience
 
