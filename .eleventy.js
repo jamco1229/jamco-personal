@@ -109,6 +109,9 @@ module.exports = function (config) {
     eleventyConfig.addCollection("cinematography", function (collectionApi) {
       return collectionApi.getFilteredByGlob("content/cinematography.json");
     });
+    eleventyConfig.addFilter("shuffle", function(arr) {
+      return arr.sort(() => Math.random() - 0.5);
+    });
   };
 
   module.exports = function (eleventyConfig) {
