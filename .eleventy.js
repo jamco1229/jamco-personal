@@ -202,6 +202,7 @@ module.exports = function (config) {
   config.addLayoutAlias("posts", "layouts/posts.njk");
   config.addLayoutAlias("project", "layouts/project.njk");
   config.addLayoutAlias("projects", "layouts/projects.njk");
+  config.addLayoutAlias("resume", "layouts/resume.njk");
 
   // Base Config
   return {
