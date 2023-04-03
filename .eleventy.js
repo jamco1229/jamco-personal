@@ -102,18 +102,20 @@ module.exports = function (config) {
     return images.length ? images[0] : false;
   });
 
-  const shuffle = arr => {
-    for (let i = arr.length - 1; i > 0; i--) {
+// shuffle
+
+module.exports = function(eleventyConfig) {
+  // define shuffle filter
+  eleventyConfig.addFilter("shuffle", function(array) {
+    // implement shuffle algorithm
+    for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      [arr[i], arr[j]] = [arr[j], arr[i]];
+      [array[i], array[j]] = [array[j], array[i]];
     }
-    return arr;
-  };
-  
-  module.exports = function(eleventyConfig) {
-    eleventyConfig.addFilter("shuffle", shuffle);
-    // ...
-  };
+    return array;
+  });
+};
+
   
 
   // Collections
