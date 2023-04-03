@@ -14,7 +14,7 @@ var getIndex = (collection, currentSlug) => {
   return currentIndex;
 };
 
-module.exports = function (config) {
+module.exports = function (elentyConfig) {
   // Plugins
   config.addPlugin(pluginRss);
   config.addPlugin(pluginNav);
