@@ -76,16 +76,15 @@ permalink: "/"
 
 <h2 class='projects-heading'>Writing</h2>
 <p>A collection of my writing pieces.</p>
-<ul>
 {% for post in collections.posts %}
+<ol>
   <li>
-    <a href='{{ post.url }}'>
     <h3>{{ post.data.title }}</h3>
-     <time class="post-date" datetime="{{ post.date | dateToFormat('yyyy-LL-dd') }}">{{ date | dateToFormat('d LLL y') }}</time>
-    </a><p>{{ post.description | safe }}</p>
-  </li>
+    <p>{{ post.data.description }}</p>
+    </li>
+    </ol>
 {% endfor %}
-</ul>
+
 
 
 <h2>Cinematography Stills</h2>
