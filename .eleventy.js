@@ -212,4 +212,4 @@ module.exports = function (config) {
     dataTemplateEngine: "njk",
     passthroughFileCopy: true,
   };
-};
+;
