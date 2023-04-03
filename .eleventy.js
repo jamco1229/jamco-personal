@@ -186,21 +186,21 @@ module.exports = function (eleventyConfig) {
   });
 
   // Pass-thru files
-  config.addPassthroughCopy({ "content/media": "media" });
-  config.addPassthroughCopy("css");
-  config.addPassthroughCopy("fonts");
+  eleventyConfig.addPassthroughCopy({ "content/media": "media" });
+  eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("fonts");
 
   // Layouts
-  config.addLayoutAlias("base", "layouts/base.njk");
-  config.addLayoutAlias("page", "layouts/page.njk");
-  config.addLayoutAlias("error", "layouts/error.njk");
-  config.addLayoutAlias("feed", "layouts/feed.njk");
-  config.addLayoutAlias("home", "layouts/home.njk");
-  config.addLayoutAlias("post", "layouts/post.njk");
-  config.addLayoutAlias("posts", "layouts/posts.njk");
-  config.addLayoutAlias("project", "layouts/project.njk");
-  config.addLayoutAlias("projects", "layouts/projects.njk");
-  config.addLayoutAlias("resume", "layouts/resume.njk");
+  eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
+  eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
+  eleventyConfig.addLayoutAlias("error", "layouts/error.njk");
+  eleventyConfig.addLayoutAlias("feed", "layouts/feed.njk");
+  eleventyConfig.addLayoutAlias("home", "layouts/home.njk");
+  eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
+  eleventyConfig.addLayoutAlias("posts", "layouts/posts.njk");
+  eleventyConfig.addLayoutAlias("project", "layouts/project.njk");
+  eleventyConfig.addLayoutAlias("projects", "layouts/projects.njk");
+  eleventyConfig.addLayoutAlias("resume", "layouts/resume.njk");
 
   // Base Config
   return {
