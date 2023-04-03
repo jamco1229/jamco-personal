@@ -1,6 +1,6 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginNav = require("@11ty/eleventy-navigation");
-const { DateTime } = require("luxon");
+const { DateTime: LuxonDateTime } = require("luxon");
 
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
@@ -128,10 +128,15 @@ module.exports = function (config) {
     });
   };
   
- module.exports = function (eleventyConfig) {
-  eleventyConfig.addCollection("writing", function(collection) {
-    return collection.getFilteredByGlob("content/posts/*.md");
-  });
+  module.exports = function (eleventyConfig) {
+    eleventyConfig.addCollection("writing", function(collection) {
+      return collection.getFilteredByGlob("content/posts/*.md");
+    });
+  
+    eleventyConfig.addFilter("date", (dateObj, format) => {
+      return LuxonDateTime.fromJSDate(dateObj).toFormat(format);
+    });
+  };
 
   config.addCollection("projects", (collection) => {
     const projects = collection.getFilteredByGlob("content/projects/*.md");
