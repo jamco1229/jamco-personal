@@ -80,7 +80,6 @@ permalink: "/"
 {% for post in collections.posts %}
   <li>
     <h2>{{ post.data.title }}</h2>
-    <p>{{ post.date | date("MMMM DD, YYYY") }}</p>
     <p>{{ post.description | safe }}</p>
   </li>
 {% endfor %}
