@@ -66,6 +66,7 @@
   }
   
   body {
+    font-family: var(--font-family);
     -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
 
