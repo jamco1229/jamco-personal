@@ -4,7 +4,6 @@ const { DateTime: LuxonDateTime } = require("luxon");
 
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
-const { DateTime } = require("luxon");
 const fs = require("fs");
 
 var getIndex = (collection, currentSlug) => {
@@ -105,30 +104,25 @@ module.exports = function (config) {
 
   // Collections
   
-  module.exports = function (eleventyConfig) {
     // Add the cinematography collection from the JSON file
     eleventyConfig.addCollection("cinematography", function (collectionApi) {
       return collectionApi.getFilteredByGlob("content/cinematography.json");
     });
-  };
 
-  module.exports = function (eleventyConfig) {
+
+
     eleventyConfig.addCollection("concept", function (collection) {
       return collection.getFilteredByTag("concept");
     });
-  };
-  module.exports = function (eleventyConfig) {
+
     eleventyConfig.addCollection("caseStudies", function (collection) {
       return collection.getFilteredByTag("caseStudies");
     });
-  };  
-  module.exports = function (eleventyConfig) {
+
     eleventyConfig.addCollection("exploration", function (collection) {
       return collection.getFilteredByTag("exploration");
     });
-  };
-  
-  module.exports = function (eleventyConfig) {
+
     eleventyConfig.addCollection("writing", function(collection) {
       return collection.getFilteredByGlob("content/posts/*.md");
     });
