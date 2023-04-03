@@ -79,9 +79,10 @@ permalink: "/"
 <ul>
 {% for post in collections.posts %}
   <li>
+    <a href='{{ post.url }}'>
     <h3>{{ post.data.title }}</h3>
      <time class="post-date" datetime="{{ post.date | dateToFormat('yyyy-LL-dd') }}">{{ date | dateToFormat('d LLL y') }}</time>
-    <p>{{ post.description | safe }}</p>
+    <p>{{ post.description | safe }}</p></a>
   </li>
 {% endfor %}
 </ul>
