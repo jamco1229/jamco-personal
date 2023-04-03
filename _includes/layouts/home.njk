@@ -76,18 +76,14 @@ permalink: "/"
 
 <h2 class='projects-heading'>Writing</h2>
 <p>A collection of my writing pieces.</p>
-{% set writingProjects = collections.writing %}
-<ul class='writing-list'>
-  {% for project in writingProjects %}
-    {% if project.inputPath.includes('/projects/') %}
-      <li class='writing'>
-        <a href="{{ project.url }}">
-          <h3>{{ project.data.title | safe }}  →</h3>
-          <p>{{ project.data.description | safe }}
-        </a>
-      </li>
-    {% endif %}
-  {% endfor %}
+<ul>
+{% for post in collections.posts %}
+  <li>
+    <h2>{{ post.data.title }}</h2>
+    <p>{{ post.date | date("MMMM DD, YYYY") }}</p>
+    <p>{{ post.description | safe }}</p>
+  </li>
+{% endfor %}
 </ul>
 
 
