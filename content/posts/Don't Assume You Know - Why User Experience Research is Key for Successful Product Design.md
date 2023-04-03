@@ -2,7 +2,7 @@
 title: Don't Assume You Know - Why User Experience Research is Key for Successful Product Design
 layout: post
 sort: 2
-dateEnd: 2023-02-15 12:00:15
+date: 2020-04-06 15:00:00 2023-04-03
 description: A blog exploring the importance of user experience research in product design and the potential dangers of assumptions.
 role: Product Design
 completionDate: April 2023

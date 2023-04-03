@@ -1,14 +1,8 @@
 ---
 title: How We Improved Accessibility and Boosted Conversions, Whilst Giving the Planners a new Lick of Paint.
-layout: project
-sort: 5
-dateEnd: 2023-02-15 12:00:08
+layout: post
 description: Refreshing a Shopify site to increase conversions.
-role: Product Design
-completionDate: March 2023
-platform: Web (Responsive) / Shopify
 readTime: 1 Mins
-tags: caseStudies
 
 media:
   - type: image
