@@ -11,7 +11,7 @@ permalink: "posts/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1
 <h1>Writing</h1>
 <p>The <em>full</em> collection of posts about UX Design, small projects I've worked on, and other ramblings.</p>
 <ol>
-{% for post in collections.writing | slice(0, 5) %}
+{% for post in collections.writing %}
   <li>
     <a href="{{ post.url }}">
       <h3>{{ post.data.title }}</h3> </a>
@@ -20,27 +20,4 @@ permalink: "posts/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1
   </li>
 {% endfor %}
 </ol>
-
 </div>
-
-{% if pagination.pages and pagination.pages.length > 1 %}
-  <nav class="pagination" aria-labelledby="pagination">
-    <ol class="pagination-item pagination-list">
-      {%- for pageEntry in pagination.pages %}
-        <li>
-          <a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %} aria-label="Page {{ loop.index }}">{{ loop.index }}</a>
-        </li>
-      {%- endfor %}
-    </ol>
-  {% if pagination.page.next %}
-    <p class="pagination-item">
-      <a href="{{ pagination.href.next }}" aria-label="Next page">Next</a>
-    </p>
-  {% endif %}
-  {% if pagination.page.previous %}
-    <p class="pagination-item">
-      <a href="{{ pagination.href.previous }}" aria-label="Previous page">Previous</a>
-    </p>
-  {% endif %}
-  </nav>
-{% endif %}
