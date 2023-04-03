@@ -102,15 +102,26 @@ module.exports = function (config) {
     return images.length ? images[0] : false;
   });
 
+  const shuffle = arr => {
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  };
+  
+  module.exports = function(eleventyConfig) {
+    eleventyConfig.addFilter("shuffle", shuffle);
+    // ...
+  };
+  
+
   // Collections
   
   module.exports = function (eleventyConfig) {
     // Add the cinematography collection from the JSON file
     eleventyConfig.addCollection("cinematography", function (collectionApi) {
       return collectionApi.getFilteredByGlob("content/cinematography.json");
-    });
-    eleventyConfig.addFilter("shuffle", function(arr) {
-      return arr.sort(() => Math.random() - 0.5);
     });
   };
 
