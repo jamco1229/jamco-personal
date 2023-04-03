@@ -1,5 +1,5 @@
 ---
-title: Building My Personal Portfolio Website: An Introspective Look at the Process
+title: Building My Personal Portfolio Website - An Introspective Look at the Process
 layout: project
 sort: 1
 dateEnd: 2023-02-15 12:00:08
