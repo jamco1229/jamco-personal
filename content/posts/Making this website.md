@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About This Website
-date: 2020-04-06 15:00:00
+date: 2020-04-06
 excerpt: First post about what it's taking to build this website.
 
 ---

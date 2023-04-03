@@ -1,6 +1,7 @@
 ---
 title: How We Improved Accessibility and Boosted Conversions, Whilst Giving the Planners a new Lick of Paint.
 layout: post
+date: 2023-04-01
 description: Refreshing a Shopify site to increase conversions.
 readTime: 1 Mins
 
