@@ -132,19 +132,19 @@ module.exports = function (config) {
     });
   };
 
-  config.addCollection("projects", (collection) => {
+  eleventyConfig.addCollection("projects", (collection) => {
     const projects = collection.getFilteredByGlob("content/projects/*.md");
     return projects.sort(function (a, b) {
       return b.data.dateEnd - a.data.dateEnd;
     });
   });
-  config.addCollection("posts", function (collection) {
+  eleventyConfig.addCollection("posts", function (collection) {
     const posts = collection.getFilteredByGlob("content/posts/*.md");
     return posts.sort(function (a, b) {
       return b.data.date - a.data.date;
     });
   });
-  config.addCollection("pages", function (collection) {
+  eleventyConfig.addCollection("pages", function (collection) {
     return collection.getFilteredByGlob("content/pages/*.md");
   });
 
