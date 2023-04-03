@@ -133,12 +133,12 @@ module.exports = function (config) {
     });
   };
 
-module.exports = function(eleventyConfig) {
-  eleventyConfig.addCollection("writing", function(collection) {
-    return collection.getFilteredByGlob("./posts/*.md");
-  });
-
-};
+  module.exports = function(eleventyConfig) {
+    eleventyConfig.addCollection("writing", function(collectionApi) {
+      return collectionApi.getFilteredByGlob("./posts/*.md");
+    });
+  };
+  
 
   
   
