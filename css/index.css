@@ -11,28 +11,29 @@
   font-weight: normal;
   font-style: italic;
 }
-
+*/
 @font-face {
   font-family: 'IBM Plex Sans Variable - Italic';
   font-style: italic;
   font-weight: 400;
-  src: url('https://github.com/jamco1229/jamco-personal/blob/d5518eef216cda202fd21e5a014acb9a3e925a79/fonts/IBMPlexSansVar-Italic.woff2') format('woff2');
+  src: url('https://raw.githubusercontent.com/jamco1229/jamco-personal/d5518eef216cda202fd21e5a014acb9a3e925a79/fonts/IBMPlexSansVar-Italic.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'IBM Plex Sans Variable';
   font-style: normal;
   font-weight: 400;
-  src: url('https://github.com/jamco1229/jamco-personal/blob/d5518eef216cda202fd21e5a014acb9a3e925a79/fonts/IBMPlexSansVar-Roman.woff2') format('woff2');
-}  */
+  src: url('https://raw.githubusercontent.com/jamco1229/jamco-personal/d5518eef216cda202fd21e5a014acb9a3e925a79/fonts/IBMPlexSansVar-Roman.woff2') format('woff2');
+}
+
 
 
 /* Variables */
   :root {
   font-size: 16px;
-  line-height: 1.25em;
+  line-height: 1.5em;
   font-weight: 400;
-  --font-family: 'ibm-plex-sans', 'Helvetica Neue', Arial, sans-serif;
+  --font-family: 'IBM Plex Sans Variable', 'Helvetica Neue', Arial, sans-serif; --font-family-italic: 'IBM Plex Sans Variable - Italic';
   --col-width: 44rem;
   --background-color: #0a0a0a; 
   --card-background: linear-gradient(144.31deg, rgba(255, 255, 255, 0.1) 7.67%, rgba(145, 145, 145, 0.0567708) 35.34%, rgba(71, 71, 71, 0.0279276) 66.26%, rgba(0, 0, 0, 0) 85.78%), #2A2A2B;
@@ -102,10 +103,9 @@ position: relative;
   font-style: normal;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.25rem;
+  line-height: 1.5rem;
   letter-spacing: 0;
   color: var(--color);
-    line-height: inherit;
     margin: 1rem 0;
     color: var(--color);
     overflow-wrap: normal;
@@ -114,19 +114,8 @@ position: relative;
   .hidden {
     display: none;
   }
-
-  h1:first-of-type  {
-    font-family: var(--font-family), sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 50px ;
-  color: var(--bold-color);
-  text-decoration: none;
-  overflow-wrap: break-word; 
-  }
   
-  h1:not(:first-of-type), h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6 {
 font-family:var(--font-family), sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -140,7 +129,7 @@ font-family:var(--font-family), sans-serif;
   }
   
   em {
-    font-family: var(--font-family), sans-serif !important;
+    font-family: var(--font-family-italic), sans-serif !important;
   }
   
   strong {
@@ -180,7 +169,7 @@ font-family:var(--font-family), sans-serif;
 /* Images */
  audio,
     img,
-    video, svg {
+    video, svg { margin-bottom: 1rem;
       border-radius: var(--border-radius);
       width: 100%;
       /* width: 115%;
@@ -190,7 +179,7 @@ font-family:var(--font-family), sans-serif;
       position: inherit;
     }
 svg {
-  width: 180.95px;
+  width: 180px;
   height: 97px;
   flex: none;
   order: 0;
@@ -457,7 +446,7 @@ color: var(--color);
 
 
 
-.pagination {
+.pagination, .controls {
   display: flex;
   justify-content: space-between;
   margin: 2rem 0;
@@ -469,7 +458,7 @@ color: var(--color);
   justify-content: baseline;
   }
 }
-.pagination-item {
+.pagination-item, .blaze-next, .blaze-prev {
   display: flex;
   width: auto;
   text-decoration: none;
@@ -492,9 +481,6 @@ color: var(--color);
   margin-bottom: 3rem;
 }
 .site-footer p {
-  font-family: var(--font-family), sans-serif;
-  font-style: italic;
-font-weight: 600;
 text-align: center;
 }
 .site-footer > a > p {
@@ -507,61 +493,11 @@ text-align: center;
   grid-gap: 1rem;
 }
 
-/* Style the images within the grid 
-.image-item h3 {
-  margin: 0.2rem;
-  z-index: -10;
-  color: var(--color);
-  visibility: hidden;
-  transform: translateY(-1rem);
-  opacity: 0;
-  transition: visibility 0.3s ease-in-out, transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-}
-
-.image-item:hover h3 {
-  visibility: visible;
-  transform: translateY(0rem);
-  opacity: 1;
-}
-
-
-.image-item:hover h3 {
-  visibility: visible;
-  transform: translateY(0rem);
-}
-
-.image-item img {
-  border-radius: var(--border-radius);
-  border: var(--border);
-}
-
-Media query for smaller screens 
-@media screen and (max-width: 768px) {
-  .image-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .image-item h3 {
-    display: none;
-  }
-}*/
-
 /* fix layout shifts */
 
 .blaze-slider.my-slider {
-  --slides-to-show: 4;
+  --slides-to-show: 1.5;
   --slide-gap: 1rem;
-}
-
-@media (max-width: 900px) {
-  .blaze-slider.my-slider {
-    --slides-to-show: 2.5;
-  }
-}
-
-@media (max-width: 500px) {
-  .blaze-slider.my-slider {
-    --slides-to-show: 1.5;
-  }
 }
 
 /* other styles */
@@ -571,46 +507,13 @@ Media query for smaller screens
 }
 
 .blaze-track > * {
+  min-height: 300px;
+  width: auto;
   display: flex;
-  flex-direction: column;
   justify-content: baseline;
-  align-items: left;
+  align-items: center;
   transition: width 300ms ease;
-  /* border-radius: var(--border-radius); */
-  /* border: var(--border); */
-}
-.blaze-track h3 {
-  margin: 0;
-  color: var(--color);
-}
-
-/* pagination buttons */
-
-.controls {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.blaze-pagination {
-  display: flex;
-  gap: 15px;
-}
-
-.blaze-pagination button {
-  font-size: 0;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  outline: none;
-  border: none;
-  background: hsl(0deg, 0%, 15%);
-  cursor: pointer;
-  transition: transform 200ms ease, background-color 300ms ease;
-}
-
-.blaze-pagination button.active {
-  background: white;
-  transform: scale(1.3);
+  border-radius: 6px;
 }
 
 .blaze-next,
@@ -621,14 +524,9 @@ Media query for smaller screens
   height: 20px;
   background: none;
   cursor: pointer;
-  background-position: center;
-  background-size: 100%;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 0 24 24' width='24'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath fill='white' d='M11.67 3.87L9.9 2.1 0 12l9.9 9.9 1.77-1.77L3.54 12z'/%3E%3C/svg%3E");
 }
 
-.blaze-next {
-  transform: rotate(180deg);
-}
+
 
     /* Animations*/
     .site-header, h1, h2  {
