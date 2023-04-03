@@ -8,7 +8,7 @@ role: Product Design
 completionDate: March 2023
 platform: Print
 readTime: 1 Mins
-tags: writing
+tags: exploration
 media:
   - type: image
     filename: planner.png

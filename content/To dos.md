@@ -1,9 +1,44 @@
-- [ ]  Make projects 100% under 400px
-- [ ] Add a button class to the pagination thing and then use that on other stuff like 'read more'
-- [ ] Left align footer
-- [ ] Add a button to the footer to get in touch
-- [ ] Add a get in touch button upfront
-- [x] Remove projects from the nav bar
-- [ ] Make news items like cards 
-	- [ ] See if I can change the length of text allowed in that preview
-- [ ] Decide on font 
+- [ ] **Personal branding:**
+  - [x] a. Logo or personal brand mark
+  - [x] b. A clear, concise tagline that reflects your strengths
+  - [x] c. Professional headshot or photo
+  - [x] d. Consistent color scheme and typography
+- [ ] **About section:**
+  - [x] a. Brief bio with a focus on your background in UX design
+  - [x] b. Relevant skills and expertise
+  - [x] c. Personality traits or work style
+  - [x] d. Links to your professional profiles (LinkedIn, Dribbble, Behance, etc.)
+  - [x] e. Contact information (email and/or phone)
+- [ ] **Work experience:**
+  - [ ] a. List of relevant professional experiences, internships, and freelance projects
+  - [ ] b. Include company name, role, duration, and key responsibilities
+  - [ ] c. Use bullet points or short descriptions to explain your contributions
+- [ ] **Case studies:**
+  - [ ] a. Include 3-5 projects that demonstrate a range of your UX design skills
+  - [ ] b. Showcase your process (research, wireframes, prototypes, user testing, etc.)
+  - [ ] c. Highlight the problem, your approach, and the solution
+  - [ ] d. Include visuals like sketches, wireframes, mockups, and final designs
+  - [ ] e. Discuss the results, metrics, or user feedback that demonstrate the project's success
+  - [ ] f. Mention the tools and technologies used for each project
+- [ ] **Testimonials and client feedback:**
+  - [ ] a. Collect testimonials from previous clients or coworkers
+  - [ ] b. Showcase them on your portfolio with the person's name, title, and company
+- [ ] **Education and certifications:**
+  - [ ] a. List relevant degrees, diplomas, or certifications in UX design
+  - [ ] b. Include the name of the institution, completion date, and any honors or awards
+- [ ] **Awards and recognitions:**
+  - [ ] a. Include any awards, recognitions, or achievements in the field of UX design
+  - [ ] b. Mention the awarding organization and date
+- [ ] **Blog or articles:**
+  - [ ] a. Publish articles or blog posts on UX design topics to demonstrate your thought leadership and knowledge
+  - [ ] b. Provide links to your published work on external platforms or feature them directly on your portfolio
+- [ ] **Skills and tools:**
+  - [ ] a. List relevant UX design skills, such as user research, information architecture, interaction design, and visual design
+  - [ ] b. Mention proficiency in design tools like Sketch, Figma, Adobe XD, InVision, and others
+  - [ ] c. Highlight any coding or prototyping skills, such as HTML, CSS, JavaScript, or Axure RP
+- [ ] **Mobile-responsive design:**
+  - [ ] a. Ensure your portfolio is mobile-responsive to provide a seamless user experience across devices
+- [ ] **SEO optimization:**
+  - [ ] a. Optimize your portfolio for search engines with relevant keywords, meta tags, and descriptions
+- [ ] **Call to action:**
+  - [ ] a. Encourage potential employers to get in touch with you by providing a clear call to action (e.g., "Let's work together" or "Hire me")
