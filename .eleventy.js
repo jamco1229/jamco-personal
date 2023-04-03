@@ -104,58 +104,50 @@ module.exports = function (config) {
 
   // Collections
   
-  module.exports = function (eleventyConfig) {
-    // Add the cinematography collection from the JSON file
+  mmodule.exports = function (eleventyConfig) {
     eleventyConfig.addCollection("cinematography", function (collectionApi) {
       return collectionApi.getFilteredByGlob("content/cinematography.json");
     });
-  };
-
-  module.exports = function (eleventyConfig) {
+  
     eleventyConfig.addCollection("concept", function (collection) {
       return collection.getFilteredByTag("concept");
     });
-  };
-  module.exports = function (eleventyConfig) {
+  
     eleventyConfig.addCollection("caseStudies", function (collection) {
       return collection.getFilteredByTag("caseStudies");
     });
-  };  
-  module.exports = function (eleventyConfig) {
+  
     eleventyConfig.addCollection("exploration", function (collection) {
       return collection.getFilteredByTag("exploration");
     });
-  };
   
-  module.exports = function (eleventyConfig) {
     eleventyConfig.addCollection("writing", function (collection) {
       return collection.getFilteredByTag("writing");
     });
+  
+    eleventyConfig.addCollection("writing", function(collection) {
+      return collection.getFilteredByGlob("content/posts/*.md");
+    });
+  
+    eleventyConfig.addCollection("projects", function (collection) {
+      const projects = collection.getFilteredByGlob("content/projects/*.md");
+      return projects.sort(function (a, b) {
+        return b.data.dateEnd - a.data.dateEnd;
+      });
+    });
+  
+    eleventyConfig.addCollection("posts", function (collection) {
+      const posts = collection.getFilteredByGlob("content/posts/*.md");
+      return posts.sort(function (a, b) {
+        return b.data.date - a.data.date;
+      });
+    });
+  
+    eleventyConfig.addCollection("pages", function (collection) {
+      return collection.getFilteredByGlob("content/pages/*.md");
+    });
   };
 
-  eleventyConfig.addCollection("writing", function(collection) {
-    return collection.getFilteredByGlob("content/posts/*.md");
-  });
-
-  
-
-  
-  
-  config.addCollection("projects", (collection) => {
-    const projects = collection.getFilteredByGlob("content/projects/*.md");
-    return projects.sort(function (a, b) {
-      return b.data.dateEnd - a.data.dateEnd;
-    });
-  });
-  config.addCollection("posts", function (collection) {
-    const posts = collection.getFilteredByGlob("content/posts/*.md");
-    return posts.sort(function (a, b) {
-      return b.data.date - a.data.date;
-    });
-  });
-  config.addCollection("pages", function (collection) {
-    return collection.getFilteredByGlob("content/pages/*.md");
-  });
 
   // Markdown
   const markdownOptions = {
