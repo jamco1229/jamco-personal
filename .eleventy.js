@@ -132,6 +132,14 @@ module.exports = function (config) {
       return collection.getFilteredByTag("writing");
     });
   };
+
+module.exports = function(eleventyConfig) {
+  eleventyConfig.addCollection("writing", function(collection) {
+    return collection.getFilteredByGlob("./posts/*.md");
+  });
+
+};
+
   
   
   config.addCollection("projects", (collection) => {
