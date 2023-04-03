@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "projects/Building My Personal Portfolio Website - An Introspective Look at the Process.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "projects/Building My Personal Portfolio Website - An Introspective Look at the Process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "projects/Building My Personal Portfolio Website - An Introspective Look at the Process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "projects/Building My Personal Portfolio Website - An Introspective Look at the Process.md"
               }
             }
           }
@@ -147,13 +147,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3cedc74c45ab40e1",
+  "active": "b04aa7190fba4dd8",
   "lastOpenFiles": [
+    "posts/Don't Assume You Know - Why User Experience Research is Key for Successful Product Design.md",
+    "projects/buttons-and-switches.md",
     "projects/Revamping Our Website and Planners.md",
+    "projects/Stay-project.md",
+    "projects/scribe-project.md",
+    "projects/HeadteacherChat (Work in Progress).md",
     "projects/Don't Assume You Know - Why User Experience Research is Key for Successful Product Design.md",
+    "projects/2023 Headteacher Planner.md",
+    "index.md",
     "projects/Building My Personal Portfolio Website - An Introspective Look at the Process.md",
     "Borne cover letter.md",
-    "index.md",
     "Untitled.md",
     "_data/cinematography.json",
     "cinematography.json",
@@ -168,14 +174,9 @@
     "media/cinematography/untitled-poem-1.jpeg",
     "media/cinematography/the-offering-2.jpeg",
     "media/cinematography",
-    "projects/HeadteacherChat (Work in Progress).md",
-    "projects/Stay-project.md",
     "projects/Refresh of HeadteacherChat Shop.md",
-    "projects/scribe-project.md",
-    "projects/2023 Headteacher Planner.md",
     "posts/coming-soon.md",
     "posts/Making this website.md",
-    "projects/buttons-and-switches.md",
     "To dos.md",
     "posts.md",
     "pages/Resume.md",
