@@ -1,5 +1,6 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginNav = require("@11ty/eleventy-navigation");
+const { DateTime } = require("luxon");
 
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
@@ -127,17 +128,10 @@ module.exports = function (config) {
     });
   };
   
- // module.exports = function (eleventyConfig) {
-//  eleventyConfig.addCollection("writing", function(collection) {
-//    return collection.getFilteredByGlob("content/posts/*.md");
-//  });
-//};
-config.addCollection("writing", (collection) => {
-  const projects = collection.getFilteredByGlob("content/posts/*.md");
-  return projects.sort(function (a, b) {
-    return b.data.dateEnd - a.data.dateEnd;
+ module.exports = function (eleventyConfig) {
+  eleventyConfig.addCollection("writing", function(collection) {
+    return collection.getFilteredByGlob("content/posts/*.md");
   });
-});
 
   config.addCollection("projects", (collection) => {
     const projects = collection.getFilteredByGlob("content/projects/*.md");
