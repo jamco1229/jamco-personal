@@ -62,6 +62,11 @@ module.exports = function (eleventyConfig) {
       suppressMilliseconds: true,
     });
   });
+  eleventyConfig.addFilter("date", (dateObj, format) => {
+    return LuxonDateTime.fromJSDate(dateObj).toFormat(format);
+  });
+};
+
   eleventyConfig.addFilter("nextInCollection", (collection, currentSlug) => {
     const currentIndex = getIndex(collection, currentSlug);
     const pages = collection.filter((page, index) => {
