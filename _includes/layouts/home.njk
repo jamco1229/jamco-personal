@@ -79,8 +79,11 @@ permalink: "/"
 {% for post in collections.posts %}
 <ol>
   <li>
+    <a href='{{ post.data.url }}'>
     <h3>{{ post.data.title }}</h3>
+    </a>
     <p>{{ post.data.description }}</p>
+        <p>Posted on {{ post.date | date("MMMM DD, YYYY") }}</p>
     </li>
     </ol>
 {% endfor %}
