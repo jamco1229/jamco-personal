@@ -93,19 +93,6 @@ permalink: "/"
 </ol>
 <a href='/posts'>Read All →</a>
 
-<ol>
-{% for post in collections.writing | slice(0, 5) %}
-  <li>
-    <a href="{{ post.url }}">
-      <h3>{{ post.data.title }}</h3> </a>
-      <p>{{ post.data.description }}</p>
-      <p>Written on{{ post.date | date("MMMM DD, YYYY") }}</p>
-  </li>
-{% endfor %}
-</ol>
-<a href='/posts'>Read All →</a> 
-
-
 
 <h2>Cinematography Stills</h2>
 <p>I spent a few years behind the camera, capturing cool shots for some cool projects. Check out these stills from some of my favorites.</p>
