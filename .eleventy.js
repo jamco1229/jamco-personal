@@ -135,8 +135,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter("date", (dateObj, format) => {
       return LuxonDateTime.fromJSDate(dateObj).toFormat(format);
     });
-
-
+    
   eleventyConfig.addCollection("projects", (collection) => {
     const projects = collection.getFilteredByGlob("content/projects/*.md");
     return projects.sort(function (a, b) {
