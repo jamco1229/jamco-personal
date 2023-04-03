@@ -9,7 +9,7 @@ completionDate: April 2023
 platform: Web (Responsive)
 readTime: 2 Mins
 tags: caseStudies
-icon: https://github.com/jamco1229/jamco-personal/blob/master/content/media/James-Coy-Favicon.png?raw=true
+icon: James-Coy-Favicon.png
 
 media:
   - type: image
