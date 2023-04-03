@@ -105,8 +105,12 @@ module.exports = function (config) {
 // shuffle
 
 module.exports = function(eleventyConfig) {
-  // define shuffle filter
-  eleventyConfig.addFilter("shuffle", function(array) {
+  // define daily shuffle filter
+  eleventyConfig.addFilter("dailyShuffle", function(array) {
+    // get current day of the year (0-365)
+    const dayOfYear = new Date().getDayOfYear();
+    // seed the random number generator with the day of the year
+    Math.seedrandom(dayOfYear);
     // implement shuffle algorithm
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -115,6 +119,7 @@ module.exports = function(eleventyConfig) {
     return array;
   });
 };
+
 
   
 
