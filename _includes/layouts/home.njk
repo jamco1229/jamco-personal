@@ -51,14 +51,18 @@ permalink: "/"
 <h2 class='projects-heading'>Writing</h2>
 <p>A collection of my writing.</p>
 <ol>
-{% for post in collections.posts %}
-  <li>
-    <a href="{{ post.url }}">
-      <h3>{{ post.data.title }}</h3> </a>
+  {% for post in collections.posts %}
+    <motion.li
+      whileHover={{ scale: 1.1 }}
+      transition={{ duration: 0.2 }}
+    >
+      <a href="{{ post.url }}">
+        <h3>{{ post.data.title }}</h3>
+      </a>
       <p>{{ post.data.description }}</p>
       <p>Written on {{ post.data.date | dateToFormat('MMMM dd, yyyy') }}</p>
-  </li>
-{% endfor %}
+    </motion.li>
+  {% endfor %}
 </ol>
 <a href='/posts'>Read All →</a>
 
