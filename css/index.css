@@ -491,6 +491,9 @@ li > a > h3 {
 .explorations h3 {
   color: var(--bold-color);
 }
+.explorations:hover {
+  border: solid 1px var(--link-color);
+}
 
   /* Media query for screens larger than 768px */
   @media (max-width: 640px) {
