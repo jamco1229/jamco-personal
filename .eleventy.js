@@ -234,4 +234,3 @@ eleventyConfig.addCollection("pages", function (collection) {
     dataTemplateEngine: "njk",
     passthroughFileCopy: true,
   };
-}; // Remove the extra closing brace here
