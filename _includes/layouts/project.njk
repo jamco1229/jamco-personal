@@ -2,7 +2,7 @@
 layout: base
 permalink: "/projects/{{ page.fileSlug }}/index.html"
 ---
-<article class="project">
+<article class="project" class='fade-in-element'>
     <header>
      {% if media %}
     {% for block in media %}
@@ -12,16 +12,16 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
       </div>
     {% endfor %}
   {% endif %}
-    <h1 class='fade-in-element'>{{ title | safe }}</h1>
+    <h1>{{ title | safe }}</h1>
     <div class='project-specs'>
-    <div class='fade-in-element' class='spec-container'>
-    <div class='fade-in-element' class='spec'><h3>Role</h3><p class='project-role'>{{ role | safe}}</p></div>
-    <div class='fade-in-element' class='spec'><h3>Completion Date</h3><p class='project-completion-date'>{{ completionDate | safe}}</p></div>
-    <div class='fade-in-element' class='spec'><h3>Read Time</h3><p class='project-readtime'>{{ readTime | safe}}</p></div>
-    <div class='fade-in-element' class='spec'><h3>Platform</h3><p class='project-platform'>{{ platform | safe}}</p></div>
+    <div class='spec-container'>
+    <div class='spec'><h3>Role</h3><p class='project-role'>{{ role | safe}}</p></div>
+    <div class='spec'><h3>Completion Date</h3><p class='project-completion-date'>{{ completionDate | safe}}</p></div>
+    <div class='spec'><h3>Read Time</h3><p class='project-readtime'>{{ readTime | safe}}</p></div>
+    <div class='spec'><h3>Platform</h3><p class='project-platform'>{{ platform | safe}}</p></div>
     </div>
     {% if content %}
-      <div class="project-text" class='fade-in-element'>
+      <div class="project-text">
         {{ content | safe }}
       </div>
     {% endif %}
