@@ -3,16 +3,16 @@ layout: base
 permalink: "/"
 ---
 
-<div class="home-intro">
+<div class="home-intro" class='fade-in-element'>
   {{ content | safe }}
 </div>
-<h2 class='projects-heading'>Case Studies & Concepts</h2>
+<h2 class='projects-heading' class='fade-in-element'>Case Studies & Concepts</h2>
 
-<p>Deep dives into my projects, both for clients and app concepts, read on to find out about how I approach UX Design in a project and all about my process.<p>
+<p class='fade-in-element'>Deep dives into my projects, both for clients and app concepts, read on to find out about how I approach UX Design in a project and all about my process.<p>
 {% set caseStudies = collections.caseStudies %}
 <ul class='case-studies'>
 {% for project in caseStudies %}
-      <li>
+      <li class='fade-in-element'>
         <a href="{{ project.url }}">
                  {% if project.data.icon %}
           <img
@@ -31,11 +31,11 @@ permalink: "/"
   {% endfor %}
 </ul>
 
-<h2 class="projects-heading">Explorations & Other designs</h2>
-<p>A space for me to explore different designs.</p>
+<h2 class="projects-heading" class='fade-in-element'>Explorations & Other designs</h2>
+<p class='fade-in-element'>A space for me to explore different designs.</p>
 <ul class="grid">
   {% for project in collections.explorations %}
-    <li class="explorations">
+    <li class="explorations fade-in-element" >
       <a href="{{ project.url }}">
         <img
           loading="lazy"
@@ -49,11 +49,11 @@ permalink: "/"
   {% endfor %}
 </ul>
 
-<h2 class='projects-heading'>Writing</h2>
-<p>A collection of my writing.</p>
+<h2 class='projects-heading' class='fade-in-element'>Writing</h2>
+<p class='fade-in-element'>A collection of my writing.</p>
 <ol>
     {% for post in collections.posts %}
-      <li>
+      <li class='fade-in-element'>
         <a href="{{ post.url }}">
           <h3>{{ post.data.title }}</h3>
         </a>
@@ -62,13 +62,13 @@ permalink: "/"
       </li>
     {% endfor %}
 </ol>
-<a href='/posts'>Read All →</a>
+<a href='/posts' class='fade-in-element'>Read All →</a>
 
 
 
-<h2>Cinematography Stills</h2>
-<p>I spent a few years behind the camera, capturing cool shots for some cool projects. Check out these stills from some of my favorites.</p>
-    <div class="app">
+<h2 class='fade-in-element'>Cinematography Stills</h2>
+<p class='fade-in-element'>I spent a few years behind the camera, capturing cool shots for some cool projects. Check out these stills from some of my favorites.</p>
+    <div class="app" class='fade-in-element'>
       <div class="blaze-slider my-slider">
         <div class="blaze-container">
           <div class="blaze-track-container">

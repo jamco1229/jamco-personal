@@ -26,6 +26,7 @@
 
     <title>{{ title ~ ' – ' ~ global.title if title else global.title }}</title>
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">  
@@ -93,6 +94,29 @@ const blazeSlider = new BlazeSlider(sliderEl, {
           });
         }
       );
+// Fade in stuff
+      document.addEventListener('DOMContentLoaded', function() {
+    const fadeInElements = document.querySelectorAll('.fade-in-element');
+
+    function checkVisibility() {
+      const windowHeight = window.innerHeight;
+      const scrollY = window.scrollY || window.pageYOffset;
+
+      fadeInElements.forEach(function(element) {
+        const elementPosition = element.getBoundingClientRect().top + scrollY;
+        const elementHeight = element.offsetHeight;
+
+        if (scrollY + windowHeight >= elementPosition + elementHeight / 4) {
+          element.classList.add('visible');
+        }
+      });
+    }
+
+    checkVisibility(); // Initial check in case some elements are already in the viewport
+
+    window.addEventListener('scroll', checkVisibility);
+    window.addEventListener('resize', checkVisibility);
+  });
     </script>
   </body>
 </html>

@@ -127,6 +127,14 @@ position: relative;
   .hidden {
     display: none;
   }
+  .fade-in-element {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .visible {
+    opacity: 1;
+  }
   
   h1 {
     font-family: var(font);
