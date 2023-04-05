@@ -103,36 +103,35 @@ module.exports = function (config) {
   });
 
   // Collections
-// Collections
-eleventyConfig.addCollection("projects", (collection) => {
+config.addCollection("projects", (collection) => {
   const projects = collection.getFilteredByGlob("content/projects/*.md");
   return projects.sort(function (a, b) {
     return b.data.dateEnd - a.data.dateEnd;
   });
 });
 
-eleventyConfig.addCollection("posts", (collection) => {
+config.addCollection("posts", (collection) => {
   const posts = collection.getFilteredByGlob("content/posts/*.md");
   return posts.sort(function (a, b) {
     return b.data.date - a.data.date;
   });
 });
 
-eleventyConfig.addCollection("pages", (collection) => {
+config.addCollection("pages", (collection) => {
   return collection.getFilteredByGlob("content/pages/*.md");
 });
 
-eleventyConfig.addCollection("caseStudies", (collection) => {
+config.addCollection("caseStudies", (collection) => {
   const projects = collection.getFilteredByGlob("content/project/*.md");
   return projects.filter((project) => project.data.tags.includes("caseStudies"));
 });
 
-eleventyConfig.addCollection("explorations", (collection) => {
+config.addCollection("explorations", (collection) => {
   const projects = collection.getFilteredByGlob("content/project/*.md");
   return projects.filter((project) => project.data.tags.includes("explorations"));
 });
 
-eleventyConfig.addCollection("cinematography", (collectionApi) => {
+config.addCollection("cinematography", (collectionApi) => {
   return collectionApi.getFilteredByGlob("content/cinematography.json");
 });
 
