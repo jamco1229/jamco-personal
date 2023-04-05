@@ -518,6 +518,13 @@ text-align: center;
   border: var(--border);
 }
 
+.app .image-item {
+  object-fit: cover;
+  width: 60%;
+  height: auto;
+}
+
+
 .blaze-next,
 .blaze-prev {
   cursor: pointer;
