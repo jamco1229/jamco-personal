@@ -166,6 +166,8 @@ eleventyConfig.addCollection("pages", function (collection) {
   return collection.getFilteredByGlob("content/pages/*.md");
 });
 
+
+
 // Part 2
   // ... (other collections)
 
@@ -213,7 +215,14 @@ eleventyConfig.addCollection("pages", function (collection) {
 
   // Layouts
   eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
-  // ... (other layout aliases)
+  eleventyConfig.addLayoutAlias("home", "layouts/home.njk");
+  eleventyConfig.addLayoutAlias("error", "layouts/error.njk");
+  eleventyConfig.addLayoutAlias("feed", "layouts/feed.njk");
+  eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
+  eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
+  eleventyConfig.addLayoutAlias("project", "layouts/project.njk");
+  eleventyConfig.addLayoutAlias("projects", "layouts/projects.njk");
+  eleventyConfig.addLayoutAlias("resume", "layouts/resume.njk");
 
   // Base Config
   return {
@@ -225,4 +234,4 @@ eleventyConfig.addCollection("pages", function (collection) {
     dataTemplateEngine: "njk",
     passthroughFileCopy: true,
   };
-};
+}; // Remove the extra closing brace here
