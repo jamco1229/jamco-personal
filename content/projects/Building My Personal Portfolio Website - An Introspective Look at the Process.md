@@ -19,8 +19,6 @@ media:
 
 ---
 
-# Building My Personal Portfolio Website: An Introspective Look at the Process
-
 ## **Introduction**
 
 Join me as I share my experience building my personal portfolio website—a journey that allowed me to dive into coding with HTML, CSS, and sneaky bit of Eleventy.js while exploring design concepts and learning valuable lessons along the way.

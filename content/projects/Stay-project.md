@@ -19,7 +19,7 @@ media:
     alt: Poster for Portfolio Starter
 ---
 
-For UX Design Institute I analysed <span>friction points</span> in a Hotel booking apps. I then designed a solution to them in the form of a prototype.
+> For UX Design Institute I analysed <span>friction points</span> in a Hotel booking apps. I then designed a solution to them in the form of a prototype.
 
 ## TLDR —
 Don’t have much time? No worries, here’s a rundown of the important bits.

@@ -175,16 +175,14 @@ position: relative;
   }
   
   h1 {
-    font-family: var(font);
+    font-family: var(--font-family-mono);
       font-style: normal;
       font-weight: 400;
-      font-size: rem;
+      font-size: 6rem;
       line-height: 1.25rem;
       color: var(--bold-color);
       text-decoration: none;
-      overflow-wrap: break-word; 
-      margin-top: 4rem;
-      margin-bottom: 0.5rem;
+      overflow-wrap: break-word;
       }
   
   h2, h3, h4, h5, h6 {
