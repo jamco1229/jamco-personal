@@ -1,10 +1,9 @@
-// Part 1
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginNav = require("@11ty/eleventy-navigation");
-const { DateTime } = require("luxon");
 
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const { DateTime } = require("luxon");
 const fs = require("fs");
 
 var getIndex = (collection, currentSlug) => {
@@ -15,28 +14,16 @@ var getIndex = (collection, currentSlug) => {
   return currentIndex;
 };
 
-module.exports = function (eleventyConfig) {
+module.exports = function (config) {
   // Plugins
-  eleventyConfig.addPlugin(pluginRss);
-  eleventyConfig.addPlugin(pluginNav);
+  config.addPlugin(pluginRss);
+  config.addPlugin(pluginNav);
 
   // Filters
-  eleventyConfig.addFilter("dateToFormat", (date, format) => {
+  config.addFilter("dateToFormat", (date, format) => {
     return DateTime.fromJSDate(date, { zone: "utc" }).toFormat(String(format));
   });
-  eleventyConfig.addFilter("yearRange", (date1Str, date2Str = false) => {
-    // ...
-  });
-  eleventyConfig.addFilter("dateToISO", (date) => {
-    // ...
-  });
-  eleventyConfig.addFilter("date", (dateObj, format) => {
-    return DateTime.fromJSDate(dateObj).toFormat(format);
-  });
-  eleventyConfig.addFilter("dateToFormat", (date, format) => {
-    return DateTime.fromJSDate(date, { zone: "utc" }).toFormat(String(format));
-  });
-  eleventyConfig.addFilter("yearRange", (date1Str, date2Str = false) => {
+  config.addFilter("yearRange", (date1Str, date2Str = false) => {
     let date = false;
     let end = false;
     let start = false;
@@ -69,33 +56,27 @@ module.exports = function (eleventyConfig) {
     }
     return date;
   });
-
-  eleventyConfig.addFilter("dateToISO", (date) => {
+  config.addFilter("dateToISO", (date) => {
     return DateTime.fromJSDate(date, { zone: "utc" }).toISO({
       includeOffset: false,
       suppressMilliseconds: true,
     });
   });
-  eleventyConfig.addFilter("date", (dateObj, format) => {
-    return LuxonDateTime.fromJSDate(dateObj).toFormat(format);
-  });
-};
-
-  eleventyConfig.addFilter("nextInCollection", (collection, currentSlug) => {
+  config.addFilter("nextInCollection", (collection, currentSlug) => {
     const currentIndex = getIndex(collection, currentSlug);
     const pages = collection.filter((page, index) => {
       return index == currentIndex + 1 ? page : false;
     });
     return pages.length ? pages[0] : false;
   });
-  eleventyConfig.addFilter("prevInCollection", (collection, currentSlug) => {
+  config.addFilter("prevInCollection", (collection, currentSlug) => {
     const currentIndex = getIndex(collection, currentSlug);
     const pages = collection.filter((page, index) => {
       return index == currentIndex - 1 ? page : false;
     });
     return pages.length ? pages[0] : false;
   });
-  eleventyConfig.addFilter("getPagesByPaths", (collection, paths) => {
+  config.addFilter("getPagesByPaths", (collection, paths) => {
     let pages = [];
     paths.forEach((path) => {
       let page = collection.filter((page) => {
@@ -107,8 +88,7 @@ module.exports = function (eleventyConfig) {
     });
     return pages;
   });
-
-  eleventyConfig.addFilter("getFeaturedImage", (blocks) => {
+  config.addFilter("getFeaturedImage", (blocks) => {
     // Get the featured images
     let images = blocks.filter((block) => {
       return block.type == "image" && block.featured ? block : false;
@@ -122,54 +102,40 @@ module.exports = function (eleventyConfig) {
     return images.length ? images[0] : false;
   });
 
-
   // Collections
-  eleventyConfig.addCollection("cinematography", function (collectionApi) {
-    return collectionApi.getFilteredByGlob("content/cinematography.json");
-  });
-
-
-
-  eleventyConfig.addCollection("concept", function (collection) {
-    return collection.getFilteredByTag("concept");
-  });
-
-  eleventyConfig.addCollection("caseStudies", function (collection) {
-    return collection.getFilteredByTag("caseStudies");
-  });
-
-  eleventyConfig.addCollection("exploration", function (collection) {
-    return collection.getFilteredByTag("exploration");
-  });
-
-  eleventyConfig.addCollection("writing", function(collection) {
-    return collection.getFilteredByGlob("content/posts/*.md");
-  });
-
-  eleventyConfig.addFilter("date", (dateObj, format) => {
-    return LuxonDateTime.fromJSDate(dateObj).toFormat(format);
-  });
-  
+// Collections
 eleventyConfig.addCollection("projects", (collection) => {
   const projects = collection.getFilteredByGlob("content/projects/*.md");
   return projects.sort(function (a, b) {
     return b.data.dateEnd - a.data.dateEnd;
   });
 });
-eleventyConfig.addCollection("posts", function (collection) {
+
+eleventyConfig.addCollection("posts", (collection) => {
   const posts = collection.getFilteredByGlob("content/posts/*.md");
   return posts.sort(function (a, b) {
     return b.data.date - a.data.date;
   });
 });
-eleventyConfig.addCollection("pages", function (collection) {
+
+eleventyConfig.addCollection("pages", (collection) => {
   return collection.getFilteredByGlob("content/pages/*.md");
 });
 
+eleventyConfig.addCollection("caseStudies", (collection) => {
+  const projects = collection.getFilteredByGlob("content/project/*.md");
+  return projects.filter((project) => project.data.tags.includes("caseStudies"));
+});
 
+eleventyConfig.addCollection("explorations", (collection) => {
+  const projects = collection.getFilteredByGlob("content/project/*.md");
+  return projects.filter((project) => project.data.tags.includes("explorations"));
+});
 
-// Part 2
-  // ... (other collections)
+eleventyConfig.addCollection("cinematography", (collectionApi) => {
+  return collectionApi.getFilteredByGlob("content/cinematography.json");
+});
+
 
   // Markdown
   const markdownOptions = {
@@ -181,20 +147,20 @@ eleventyConfig.addCollection("pages", function (collection) {
   const markdownLibrary = markdownIt(markdownOptions).use(markdownItAnchor, {
     permalink: false,
   });
-  eleventyConfig.setLibrary("md", markdownLibrary);
-  eleventyConfig.addNunjucksFilter("markdownify", (markdownString) =>
+  config.setLibrary("md", markdownLibrary);
+  config.addNunjucksFilter("markdownify", (markdownString) =>
     markdownIt(markdownOptions).render(markdownString)
   );
-  eleventyConfig.addNunjucksFilter("markdownifyInline", (markdownString) =>
+  config.addNunjucksFilter("markdownifyInline", (markdownString) =>
     markdownIt(markdownOptions).renderInline(markdownString)
   );
-  eleventyConfig.setFrontMatterParsingOptions({
+  config.setFrontMatterParsingOptions({
     excerpt: true,
     excerpt_separator: "<!--more-->", // Matches WordPress style
   });
 
   // BrowserSync
-  eleventyConfig.setBrowserSyncConfig({
+  config.setBrowserSyncConfig({
     callbacks: {
       ready: function (err, browserSync) {
         const content_404 = fs.readFileSync("_site/404.html");
@@ -209,20 +175,21 @@ eleventyConfig.addCollection("pages", function (collection) {
   });
 
   // Pass-thru files
-  eleventyConfig.addPassthroughCopy({ "content/media": "media" });
-  eleventyConfig.addPassthroughCopy("css");
-  eleventyConfig.addPassthroughCopy("fonts");
+  config.addPassthroughCopy({ "content/media": "media" });
+  config.addPassthroughCopy("css");
+  config.addPassthroughCopy("fonts");
 
   // Layouts
-  eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
-  eleventyConfig.addLayoutAlias("home", "layouts/home.njk");
-  eleventyConfig.addLayoutAlias("error", "layouts/error.njk");
-  eleventyConfig.addLayoutAlias("feed", "layouts/feed.njk");
-  eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
-  eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
-  eleventyConfig.addLayoutAlias("project", "layouts/project.njk");
-  eleventyConfig.addLayoutAlias("projects", "layouts/projects.njk");
-  eleventyConfig.addLayoutAlias("resume", "layouts/resume.njk");
+  config.addLayoutAlias("base", "layouts/base.njk");
+  config.addLayoutAlias("page", "layouts/page.njk");
+  config.addLayoutAlias("error", "layouts/error.njk");
+  config.addLayoutAlias("feed", "layouts/feed.njk");
+  config.addLayoutAlias("home", "layouts/home.njk");
+  config.addLayoutAlias("post", "layouts/post.njk");
+  config.addLayoutAlias("posts", "layouts/posts.njk");
+  config.addLayoutAlias("project", "layouts/project.njk");
+  config.addLayoutAlias("resume", "layouts/resume.njk");
+
 
   // Base Config
   return {
@@ -234,3 +201,4 @@ eleventyConfig.addCollection("pages", function (collection) {
     dataTemplateEngine: "njk",
     passthroughFileCopy: true,
   };
+};
