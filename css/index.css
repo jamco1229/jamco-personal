@@ -510,6 +510,7 @@ text-align: center;
 
 .blaze-track > * {
   display: flex;
+  min-height: 300px;
   justify-content: baseline;
   align-items: center;
   transition: width 150ms ease;
@@ -518,7 +519,6 @@ text-align: center;
 }
 
 .image-item {
-  max-height: 250px;
   width: auto;  
   aspect-ratio: 16.9;
 }
