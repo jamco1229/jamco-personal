@@ -55,7 +55,7 @@ permalink: "/"
   <AnimatePresence>
     {% for post in collections.posts %}
       <motion.li
-        key="{{ post.url }}"
+        key="writing"
         initial={{ { opacity: 0 } }}
         animate={{ { opacity: 1 } }}
         exit={{ { opacity: 0 } }}
