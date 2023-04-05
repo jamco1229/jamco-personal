@@ -9,7 +9,7 @@ role: Product Design
 completionDate: Jan 2023
 platform: iPad
 readTime: 5 Mins
-tags: concept
+tags: caseStudies
 
 icon: icon-scribe.png
 
