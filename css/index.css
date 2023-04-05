@@ -224,7 +224,7 @@ position: relative;
     position: relative;
     padding-left: 1rem;
     background-color: rgba(255, 255, 255, 0.2);
-    border-left: 2px solid var(--background-secondary-color);
+    border-left: 2px solid var(--bold-color);
   }
 
   a {
