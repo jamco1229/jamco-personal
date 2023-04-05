@@ -512,8 +512,9 @@ text-align: center;
   display: flex;
   justify-content: baseline;
   align-items: center;
-  transition: width 300ms ease;
-  border-radius: 6px;
+  transition: width 150ms ease;
+  border-radius: var(--border-radius);
+  border: var(--border);
 }
 
 .image-item {
