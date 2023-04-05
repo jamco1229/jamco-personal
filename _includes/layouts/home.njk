@@ -82,7 +82,7 @@ permalink: "/"
     <a href="{{ post.url }}">
       <h3>{{ post.data.title }}</h3> </a>
       <p>{{ post.data.description }}</p>
-      <p>Written on {{ post.data.date | date("MMMM DD, YYYY") }}</p>
+      <p>Written on {{ post.data.date }}</p>
   </li>
 {% endfor %}
 </ol>
