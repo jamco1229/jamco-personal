@@ -30,26 +30,21 @@ permalink: "/"
       </li>
   {% endfor %}
 </ul>
-<h2 class='projects-heading'>Explorations & Other designs</h1>
+<h2 class="projects-heading">Explorations & Other designs</h2>
 <p>A space for me to explore different designs.</p>
-{% set explorationsProjects = collections.explorations %}
-<ul class='grid'>
-  {% for project in explorationsProjects %}
-    {% if project.inputPath.includes('/projects/') %}
-      <li class='explorations'>
-        <a href="{{ project.url }}">
-          {% if project.data.image %}
-          <img
-            loading="lazy"
-            src="/media/{{ project.data.image }}"
-            alt=""
-            class='explorations-img'
-          >
-          {% endif %}
-          <h3>{{ project.data.title | safe }}  →</h3>
-        </a>
-      </li>
-    {% endif %}
+<ul class="grid">
+  {% for project in collections.explorations %}
+    <li class="explorations">
+      <a href="{{ project.url }}">
+        <img
+          loading="lazy"
+          src="/media/{{ project.data.image }}"
+          alt=""
+          class="explorations-img"
+        >
+        <h3>{{ project.data.title | safe }}  →</h3>
+      </a>
+    </li>
   {% endfor %}
 </ul>
 

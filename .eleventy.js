@@ -128,7 +128,7 @@ config.addCollection("caseStudies", (collection) => {
 
 config.addCollection("explorations", (collection) => {
   const projects = collection.getFilteredByGlob("content/projects/*.md");
-  return projects.filter((project) => project.data.tags.includes("explorations"));
+  return projects.filter((project) => project.data.tags.includes("exploration"));
 });
 
 
