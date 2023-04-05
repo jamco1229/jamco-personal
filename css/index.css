@@ -518,7 +518,7 @@ text-align: center;
 }
 
 .image-item {
-  height: 250px;
+  max-height: 250px;
   width: auto;  
   aspect-ratio: 16.9;
 }
