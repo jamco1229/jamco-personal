@@ -53,7 +53,7 @@ permalink: "/"
 </ul>
 <h2 class='projects-heading'>Explorations & Other designs</h1>
 <p>A space for me to explore different designs.</p>
-{% set explorationsProjects = collections.exploration %}
+{% set explorationsProjects = collections.explorations %}
 <ul class='grid'>
   {% for project in explorationsProjects %}
     {% if project.inputPath.includes('/projects/') %}
@@ -77,7 +77,7 @@ permalink: "/"
 <h2 class='projects-heading'>Writing</h2>
 <p>A collection of my writing.</p>
 <ol>
-{% for post in collections.writing %}
+{% for post in collections.posts %}
   <li>
     <a href="{{ post.url }}">
       <h3>{{ post.data.title }}</h3> </a>
@@ -96,7 +96,7 @@ permalink: "/"
         <div class="blaze-container">
           <div class="blaze-track-container">
             <div class="blaze-track">
-              {% for item in cinematography %}
+{% for item in collections.cinematography %}
       <img src="{{ item.src }}" class="image-item" alt="{{ item.alt }}" />
   {% endfor %}
             </div>
