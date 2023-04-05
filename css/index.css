@@ -495,12 +495,6 @@ text-align: center;
   color: var(--link-color);
 }
 
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(222px, 1fr));
-  grid-gap: 1rem;
-}
-
 /* fix layout shifts */
 
 .blaze-slider.my-slider {
@@ -523,8 +517,8 @@ text-align: center;
 }
 
 .image-item {
-    height: 300px;
-    width: auto;  
+  height: 300px;
+  width: auto;  
 }
 
 .blaze-next,
