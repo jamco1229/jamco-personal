@@ -1,6 +1,7 @@
+// Part 1
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginNav = require("@11ty/eleventy-navigation");
-const { DateTime: LuxonDateTime } = require("luxon");
+const { DateTime } = require("luxon");
 
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
@@ -20,6 +21,18 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginNav);
 
   // Filters
+  eleventyConfig.addFilter("dateToFormat", (date, format) => {
+    return DateTime.fromJSDate(date, { zone: "utc" }).toFormat(String(format));
+  });
+  eleventyConfig.addFilter("yearRange", (date1Str, date2Str = false) => {
+    // ...
+  });
+  eleventyConfig.addFilter("dateToISO", (date) => {
+    // ...
+  });
+  eleventyConfig.addFilter("date", (dateObj, format) => {
+    return DateTime.fromJSDate(dateObj).toFormat(format);
+  });
   eleventyConfig.addFilter("dateToFormat", (date, format) => {
     return DateTime.fromJSDate(date, { zone: "utc" }).toFormat(String(format));
   });
@@ -56,6 +69,7 @@ module.exports = function (eleventyConfig) {
     }
     return date;
   });
+
   eleventyConfig.addFilter("dateToISO", (date) => {
     return DateTime.fromJSDate(date, { zone: "utc" }).toISO({
       includeOffset: false,
@@ -93,6 +107,7 @@ module.exports = function (eleventyConfig) {
     });
     return pages;
   });
+
   eleventyConfig.addFilter("getFeaturedImage", (blocks) => {
     // Get the featured images
     let images = blocks.filter((block) => {
@@ -107,50 +122,52 @@ module.exports = function (eleventyConfig) {
     return images.length ? images[0] : false;
   });
 
+
   // Collections
-  
-    // Add the cinematography collection from the JSON file
   eleventyConfig.addCollection("cinematography", function (collectionApi) {
-      return collectionApi.getFilteredByGlob("content/cinematography.json");
-    });
+    return collectionApi.getFilteredByGlob("content/cinematography.json");
+  });
 
 
 
-    eleventyConfig.addCollection("concept", function (collection) {
-      return collection.getFilteredByTag("concept");
-    });
+  eleventyConfig.addCollection("concept", function (collection) {
+    return collection.getFilteredByTag("concept");
+  });
 
-    eleventyConfig.addCollection("caseStudies", function (collection) {
-      return collection.getFilteredByTag("caseStudies");
-    });
+  eleventyConfig.addCollection("caseStudies", function (collection) {
+    return collection.getFilteredByTag("caseStudies");
+  });
 
-    eleventyConfig.addCollection("exploration", function (collection) {
-      return collection.getFilteredByTag("exploration");
-    });
+  eleventyConfig.addCollection("exploration", function (collection) {
+    return collection.getFilteredByTag("exploration");
+  });
 
-    eleventyConfig.addCollection("writing", function(collection) {
-      return collection.getFilteredByGlob("content/posts/*.md");
-    });
+  eleventyConfig.addCollection("writing", function(collection) {
+    return collection.getFilteredByGlob("content/posts/*.md");
+  });
+
+  eleventyConfig.addFilter("date", (dateObj, format) => {
+    return LuxonDateTime.fromJSDate(dateObj).toFormat(format);
+  });
   
-    eleventyConfig.addFilter("date", (dateObj, format) => {
-      return LuxonDateTime.fromJSDate(dateObj).toFormat(format);
-    });
-    
-  eleventyConfig.addCollection("projects", (collection) => {
-    const projects = collection.getFilteredByGlob("content/projects/*.md");
-    return projects.sort(function (a, b) {
-      return b.data.dateEnd - a.data.dateEnd;
-    });
+eleventyConfig.addCollection("projects", (collection) => {
+  const projects = collection.getFilteredByGlob("content/projects/*.md");
+  return projects.sort(function (a, b) {
+    return b.data.dateEnd - a.data.dateEnd;
   });
-  eleventyConfig.addCollection("posts", function (collection) {
-    const posts = collection.getFilteredByGlob("content/posts/*.md");
-    return posts.sort(function (a, b) {
-      return b.data.date - a.data.date;
-    });
+});
+eleventyConfig.addCollection("posts", function (collection) {
+  const posts = collection.getFilteredByGlob("content/posts/*.md");
+  return posts.sort(function (a, b) {
+    return b.data.date - a.data.date;
   });
-  eleventyConfig.addCollection("pages", function (collection) {
-    return collection.getFilteredByGlob("content/pages/*.md");
-  });
+});
+eleventyConfig.addCollection("pages", function (collection) {
+  return collection.getFilteredByGlob("content/pages/*.md");
+});
+
+// Part 2
+  // ... (other collections)
 
   // Markdown
   const markdownOptions = {
@@ -196,15 +213,7 @@ module.exports = function (eleventyConfig) {
 
   // Layouts
   eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
-  eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
-  eleventyConfig.addLayoutAlias("error", "layouts/error.njk");
-  eleventyConfig.addLayoutAlias("feed", "layouts/feed.njk");
-  eleventyConfig.addLayoutAlias("home", "layouts/home.njk");
-  eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
-  eleventyConfig.addLayoutAlias("posts", "layouts/posts.njk");
-  eleventyConfig.addLayoutAlias("project", "layouts/project.njk");
-  eleventyConfig.addLayoutAlias("projects", "layouts/projects.njk");
-  eleventyConfig.addLayoutAlias("resume", "layouts/resume.njk");
+  // ... (other layout aliases)
 
   // Base Config
   return {
@@ -216,4 +225,4 @@ module.exports = function (eleventyConfig) {
     dataTemplateEngine: "njk",
     passthroughFileCopy: true,
   };
-;
+};
