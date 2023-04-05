@@ -2,11 +2,9 @@
 layout: base
 permalink: "/projects/{{ page.fileSlug }}/index.html"
 ---
-
-<ul class='project-header-container'>
-      <li>
-    <div class='project-header' href="{{ project.url }}">
-       {% if media %}
+<article class="project">
+    <header>
+     {% if media %}
     {% for block in media %}
       <div class="project-header-img">
         {% set caption = block.caption %}
@@ -14,18 +12,7 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
       </div>
     {% endfor %}
   {% endif %}
-  <div class='project-header-title'>
-<div class='project-header-text'>
-        <h3>{{ title | safe }}  →</h3>
-    <p>{{ description | safe }}</p>
-    </div>
-    </div>
- </div>
-      </li>
-</ul>
-
-<article class="project">
-    <header>
+    <h1>{{ title | safe }}</h1>
     <div class='project-specs'>
     <div class='spec-container'>
     <div class='spec'><h3>Role</h3><p class='project-role'>{{ role | safe}}</p></div>
