@@ -31,7 +31,12 @@
   font-weight: 400;
   src: url('https://raw.githubusercontent.com/jamco1229/jamco-personal/d5518eef216cda202fd21e5a014acb9a3e925a79/fonts/IBMPlexMono-SemiBold.woff2') format('woff2');
 } */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;1,300&display=swap');
+@font-face {
+  font-family: 'IBM Plex Mono SemiBold';
+  src: url('https://raw.githubusercontent.com/jamco1229/jamco-personal/d5518eef216cda202fd21e5a014acb9a3e925a79/font/IBMPlexMono-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
 
 
 /* Variables */
@@ -124,9 +129,7 @@ position: relative;
   }
   
   h1 {
-    font-family:var(--font-family-mono);
-
-    
+    font-family:var(--font-family-mono);    
       font-style: normal;
       font-weight: 400;
       font-size: rem;
