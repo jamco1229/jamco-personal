@@ -518,10 +518,6 @@ text-align: center;
   border: var(--border);
 }
 
-.image-item {
-  aspect-ratio: 16.9;
-}
-
 .blaze-next,
 .blaze-prev {
   cursor: pointer;
