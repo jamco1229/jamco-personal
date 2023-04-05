@@ -187,6 +187,7 @@ config.addCollection("cinematography", (collectionApi) => {
   config.addLayoutAlias("post", "layouts/post.njk");
   config.addLayoutAlias("posts", "layouts/posts.njk");
   config.addLayoutAlias("project", "layouts/project.njk");
+  config.addLayoutAlias("projects", "layouts/projects.njk");
   config.addLayoutAlias("resume", "layouts/resume.njk");
 
 
