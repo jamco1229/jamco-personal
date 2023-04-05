@@ -490,8 +490,10 @@ li > a > h3 {
 
 .explorations a {
   display: flex;
+  flex-direction: column;
   padding: 16px;
   max-height: 120px;
+  height: fit-content;
   transition: all 0.3s ease-in;
   border: solid 1px var(--background-color);
   border-radius: var(--border-radius);
