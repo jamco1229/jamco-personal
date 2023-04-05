@@ -59,6 +59,7 @@
   },
   "dependencies": {
     "blaze-slider": "^1.9.1",
-    "framer-motion": "^10.10.0"
+    "framer-motion": "^10.10.0",
+    "react": "^18.2.0"
   }
 }
