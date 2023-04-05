@@ -5,7 +5,7 @@ eleventyNavigation:
   key: Resume
   order: 3
 ---
-
+UX Designer with a diverse background, including 1 year as a Product Designer and 3+ years in the film industry, showcasing expertise in user research, creative collaboration, project management, prototyping, and interaction design. Successfully co-led the redesign of HeadteacherChat, catering to 100k+ monthly users, and earned a diploma from the UX Design Institute.
 ## Experience & Education
 ### Product Designer | HeadteacherChat | May 2022 - Present
 - Developing V2, a user-friendly website for senior leaders to discover resources
