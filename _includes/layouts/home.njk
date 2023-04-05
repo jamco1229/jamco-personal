@@ -48,23 +48,31 @@ permalink: "/"
   {% endfor %}
 </ul>
 
+import { motion, AnimatePresence } from "framer-motion";
+
 <h2 class='projects-heading'>Writing</h2>
 <p>A collection of my writing.</p>
 <ol>
-  {% for post in collections.posts %}
-    <motion.li
-      whileHover={{ scale: 1.1 }}
-      transition={{ duration: 0.2 }}
-    >
-      <a href="{{ post.url }}">
-        <h3>{{ post.data.title }}</h3>
-      </a>
-      <p>{{ post.data.description }}</p>
-      <p>Written on {{ post.data.date | dateToFormat('MMMM dd, yyyy') }}</p>
-    </motion.li>
-  {% endfor %}
+  <AnimatePresence>
+    {% for post in collections.posts %}
+      <motion.li
+        key="{{ post.url }}"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.5 }}
+      >
+        <a href="{{ post.url }}">
+          <h3>{{ post.data.title }}</h3>
+        </a>
+        <p>{{ post.data.description }}</p>
+        <p>Written on {{ post.data.date | dateToFormat('MMMM dd, yyyy') }}</p>
+      </motion.li>
+    {% endfor %}
+  </AnimatePresence>
 </ol>
 <a href='/posts'>Read All →</a>
+
 
 
 <h2>Cinematography Stills</h2>
