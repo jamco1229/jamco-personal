@@ -131,9 +131,6 @@ config.addCollection("explorations", (collection) => {
   return projects.filter((project) => project.data.tags.includes("explorations"));
 });
 
-config.addCollection("cinematography", (collectionApi) => {
-  return collectionApi.getFilteredByGlob("content/cinematography.json");
-});
 
 
   // Markdown
