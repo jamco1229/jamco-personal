@@ -29,27 +29,6 @@ permalink: "/"
         </a>
       </li>
   {% endfor %}
-  {% set conceptProjects = collections.concept %}
-  {% for project in conceptProjects %}
-    {% if project.inputPath.includes('/projects/') %}
-      <li>
-    <a href="{{ project.url }}">
-       {% if project.data.icon %}
-          <img
-            loading="lazy"
-            src="/media/{{ project.data.icon }}"
-            alt=""
-            class='concepts-icon'
-          >
-          {% endif %}
-<div class='concepts-text'>
-        <h3>{{ project.data.title | safe }}  →</h3>
-    <p>{{ project.data.description | safe }}</p>
-    </div>
-    </a>
-      </li>
-    {% endif %}
-  {% endfor %}
 </ul>
 <h2 class='projects-heading'>Explorations & Other designs</h1>
 <p>A space for me to explore different designs.</p>
