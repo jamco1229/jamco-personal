@@ -122,7 +122,7 @@ config.addCollection("pages", (collection) => {
 });
 
 config.addCollection("caseStudies", (collection) => {
-  const projects = collection.getFilteredByGlob("content/project/*.md");
+  const projects = collection.getFilteredByGlob("content/projects/*.md");
   return projects.filter((project) => project.data.tags.includes("caseStudies"));
 });
 
