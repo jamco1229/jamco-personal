@@ -498,7 +498,7 @@ text-align: center;
 /* fix layout shifts */
 
 .blaze-slider.my-slider {
-  --slides-to-show: 1.5;
+  --slides-to-show: 2.5;
   --slide-gap: 1rem;
 }
 
@@ -518,7 +518,7 @@ text-align: center;
 }
 
 .image-item {
-  height: 300px;
+  height: 2500px;
   width: auto;  
 }
 
