@@ -129,7 +129,7 @@ position: relative;
   }
   
   h1 {
-    font-family:var(--font-family-mono);    
+    font-family: var(--font-family-mono);
       font-style: normal;
       font-weight: 400;
       font-size: rem;
