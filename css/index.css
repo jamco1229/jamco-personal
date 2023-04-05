@@ -126,7 +126,7 @@ position: relative;
 
   .home-intro p {
     opacity: 0;
-    animation: fadeIn 150ms ease-in-out forwards;
+    animation: fadeIn 350ms ease-in-out forwards;
   }
 
   .home-intro p:nth-child(1) {
