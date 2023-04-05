@@ -6,6 +6,13 @@ const markdownItAnchor = require("markdown-it-anchor");
 const { DateTime } = require("luxon");
 const fs = require("fs");
 
+// Import Framer Motion
+const framerMotion = require("framer-motion");
+
+// Use Framer Motion in your code
+framerMotion.animate();
+
+
 var getIndex = (collection, currentSlug) => {
   let currentIndex = 0;
   collection.filter((page, index) => {

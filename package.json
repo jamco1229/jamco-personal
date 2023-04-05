@@ -58,6 +58,7 @@
     "markdown-it-anchor": "^5.2.5"
   },
   "dependencies": {
-    "blaze-slider": "^1.9.1"
+    "blaze-slider": "^1.9.1",
+    "framer-motion": "^10.10.0"
   }
 }
