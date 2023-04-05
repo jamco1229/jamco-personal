@@ -153,6 +153,18 @@ position: relative;
     animation-delay: 1.66s;
   }
 
+  .home-intro p:nth-child(7) {
+    animation-delay: 2s;
+  }
+
+  .home-intro p:nth-child(8) {
+    animation-delay: 2.33s;
+  }
+
+  .home-intro p:nth-child(9) {
+    animation-delay: 2.66s;
+  }
+
   @keyframes fadeIn {
     0% {
       opacity: 0;
