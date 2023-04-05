@@ -197,7 +197,20 @@ position: relative;
       overflow-wrap: break-word;
       }
   
-  h2, h3, h4, h5, h6 {
+  h2 {
+    font-family:var(--font-family), sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.75rem;
+      line-height: 1.25rem;
+      color: var(--bold-color);
+      text-decoration: none;
+      overflow-wrap: break-word; 
+      margin-top: 4rem;
+      margin-bottom: 0.5rem;
+      }
+  
+  h3, h4, h5, h6 {
     font-family:var(--font-family), sans-serif;
       font-style: normal;
       font-weight: 400;
