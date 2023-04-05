@@ -186,9 +186,8 @@ position: relative;
   }
   
   h1 {
-    font-family: var(--font-family-mono);
+    font-family: var(--font-family);
       font-style: normal;
-      font-weight: 400;
       font-size: 2rem;
       color: var(--color);
       line-height: 1.25em;
