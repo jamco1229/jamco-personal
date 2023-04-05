@@ -481,6 +481,7 @@ li > a > h3 {
 
 .exploration-img {
   height: 100%;
+  width: fit-content;
   border: var(--border);
   border-radius: var(--border-radius);
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
@@ -492,6 +493,7 @@ li > a > h3 {
   padding: 16px;
   max-height: 88px;
   transition: all 0.3s ease-in;
+  border: solid 1px var(--background-color);
 }
 
 .explorations h3 {
