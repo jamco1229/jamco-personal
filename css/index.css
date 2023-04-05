@@ -446,6 +446,7 @@ li > a > h3 {
   list-style: none;
 }
 
+/*
 .explorations a {
   border: var(--border);
   border-radius: 1rem;
@@ -465,9 +466,11 @@ li > a > h3 {
 .explorations a:hover {
   background: linear-gradient(144.31deg, rgba(255, 255, 255, 0.1) 7.67%, rgba(145, 145, 145, 0.0567708) 35.34%, rgba(71, 71, 71, 0.0279276) 66.26%, rgba(0, 0, 0, 0) 85.78%), #343435;
   box-shadow: 0px 4px 20px rgba(5, 18, 36, 0.4);
-}
+} */
 
 .exploration-img {
+  border: var(--border);
+  border-radius: var(--border-radius);
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
   margin-bottom: 1rem;
 }
