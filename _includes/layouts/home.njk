@@ -52,23 +52,15 @@ permalink: "/"
 <h2 class='projects-heading'>Writing</h2>
 <p>A collection of my writing.</p>
 <ol>
-  <AnimatePresence>
     {% for post in collections.posts %}
-      <motion.li
-        key="writing"
-        initial={{ { opacity: 0 } }}
-        animate={{ { opacity: 1 } }}
-        exit={{ { opacity: 0 } }}
-        transition={{ duration: 0.5 }}
-      >
+      <li>
         <a href="{{ post.url }}">
           <h3>{{ post.data.title }}</h3>
         </a>
         <p>{{ post.data.description }}</p>
         <p>Written on {{ post.data.date | dateToFormat('MMMM dd, yyyy') }}</p>
-      </motion.li>
+      </li>
     {% endfor %}
-  </AnimatePresence>
 </ol>
 <a href='/posts'>Read All →</a>
 
