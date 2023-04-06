@@ -5,7 +5,6 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const { DateTime } = require("luxon");
 const fs = require("fs");
-const Image = require('@11ty/eleventy-img');
 
 var getIndex = (collection, currentSlug) => {
   let currentIndex = 0;
@@ -16,25 +15,6 @@ var getIndex = (collection, currentSlug) => {
 };
 
 module.exports = function (config) {
-
-  async function imageShortcode(src, alt, sizes) {
-    let metadata = await Image(src, {
-      widths: [300, 600],
-      formats: ["webp"],
-      loading: 'lazy',
-    });
-  
-    let imageAttributes = {
-      alt,
-      sizes,
-      loading: "lazy",
-      decoding: "async",
-    };
-  
-    return Image.generateHTML(metadata, imageAttributes);
-  }
-  
-
   // Plugins
   config.addPlugin(pluginRss);
   config.addPlugin(pluginNav);
