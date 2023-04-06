@@ -17,26 +17,22 @@ var getIndex = (collection, currentSlug) => {
 
 module.exports = function (config) {
 
-config.addNunjucksAsyncShortcode('image', imageShortcode);
-config.addLiquidShortcode('image', imageShortcode);
-config.addJavaScriptFunction('image', imageShortcode);
-
-config.addShortcode("image", async function(src, alt, sizes) {
-  let metadata = await Image(src, {
-    widths: [300, 600],
-    formats: ["webp"]
-  });
-
-  let imageAttributes = {
-    alt,
-    sizes,
-    loading: "lazy",
-    decoding: "async",
-  };
-
-  // You bet we throw an error on a missing alt (alt="" works okay)
-  return Image.generateHTML(metadata, imageAttributes);
-});
+  async function imageShortcode(src, alt, sizes) {
+    let metadata = await Image(src, {
+      widths: [300, 600],
+      formats: ["webp"]
+    });
+  
+    let imageAttributes = {
+      alt,
+      sizes,
+      loading: "lazy",
+      decoding: "async",
+    };
+  
+    return Image.generateHTML(metadata, imageAttributes);
+  }
+  
 
   // Plugins
   config.addPlugin(pluginRss);
