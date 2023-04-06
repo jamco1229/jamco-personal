@@ -27,7 +27,7 @@ The inspirations are:
 
 Collab with Sophie Banks 💍
 ## Details
-<img src='/content/media/Aurora-1?raw=true' alt='Detail of a landing page design'>
+<img src='/content/media/Aurora-1' alt='Detail of a landing page design'>
 
-<img src='/content/media/Aurora-2?raw=true' alt='Detail of a landing page design'>
+<img src='/content/media/Aurora-2' alt='Detail of a landing page design'>
 
