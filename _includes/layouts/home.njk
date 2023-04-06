@@ -37,12 +37,7 @@ permalink: "/"
   {% for project in collections.explorations %}
     <li class="explorations fade-in-element" >
       <a href="{{ project.url }}">
-        <img
-          loading="lazy"
-          src="/media/{{ project.data.image }}"
-          alt=""
-          class="explorations-img"
-        >
+       {% image "/content/media/" + project.data.image, "project.data.alt" %}
         <h3>{{ project.data.title | safe }}  →</h3>
       </a>
     </li>
