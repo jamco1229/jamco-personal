@@ -27,7 +27,7 @@ The inspirations are:
 
 Collab with Sophie Banks 💍
 ## Details
-<img src='https://github.com/jamco1229/jamco-personal/blob/master/content/media/aurora-1?raw=true' alt='Detail of a landing page design'>
+<img src='/content/media/Aurora-1?raw=true' alt='Detail of a landing page design'>
 
-<img src='https://github.com/jamco1229/jamco-personal/blob/master/content/media/aurora-2?raw=true' alt='Detail of a landing page design'>
+<img src='/content/media/Aurora-2?raw=true' alt='Detail of a landing page design'>
 
