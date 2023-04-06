@@ -5,6 +5,26 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const { DateTime } = require("luxon");
 const fs = require("fs");
+const Image = require('@11ty/eleventy-img');
+
+async function imageShortcode(src, alt, sizes) {
+  let metadata = await Image(src, {
+    widths: [300, 600, 1200],
+    formats: ['avif', 'webp', 'jpeg'],
+    urlPath: '/images/',
+    outputDir: '_site/images/',
+  });
+
+  let imageAttributes = {
+    alt,
+    sizes,
+    loading: 'lazy',
+    decoding: 'async',
+  };
+
+  return Image.generateHTML(metadata, imageAttributes);
+}
+
 
 // Import Framer Motion
 const framerMotion = require("framer-motion");
@@ -18,6 +38,9 @@ var getIndex = (collection, currentSlug) => {
 };
 
 module.exports = function (config) {
+    eleventyConfig.addNunjucksAsyncShortcode('image', imageShortcode);
+    eleventyConfig.addLiquidShortcode('image', imageShortcode);
+    eleventyConfig.addJavaScriptFunction('image', imageShortcode);
   // Plugins
   config.addPlugin(pluginRss);
   config.addPlugin(pluginNav);

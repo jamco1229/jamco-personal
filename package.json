@@ -58,6 +58,7 @@
     "markdown-it-anchor": "^5.2.5"
   },
   "dependencies": {
+    "@11ty/eleventy-img": "^3.1.0",
     "blaze-slider": "^1.9.1",
     "framer-motion": "^10.10.0",
     "react": "^18.2.0"
