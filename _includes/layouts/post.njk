@@ -16,15 +16,19 @@ permalink: "/posts/{{ page.fileSlug }}/index.html"
 
 {% if next or previous%}
   <div class="pagination">
-    {% if next %}
-      <p class="pagination-item pagination-item-next">
-        <a href="{{ next.url }}">Next post</a>
-      </p>
-    {% endif %}
+    <div>
     {% if previous %}
-      <p class="pagination-item pagination-item-prev">
-        <a href="{{ previous.url }}">Previous post</a>
-      </p>
+      <a class="pagination-item pagination-item-prev" href="{{ previous.url }}">
+      <p>← Previous Project</p>
+      </a>
     {% endif %}
+    </div>
+    <div>
+    {% if next %}
+      <a class="pagination-item pagination-item-next" href="{{ next.url }}">
+        <p>Next Project  →</p>
+      </a>
+    {% endif %}
+    </div>
   </div>
 {% endif %}
