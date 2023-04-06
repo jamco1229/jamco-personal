@@ -10,7 +10,6 @@ const Image = require('@11ty/eleventy-img');
 async function imageShortcode(src, alt) {
   let metadata = await Image(src, {
     formats: ['webp'],
-    urlPath: '/content/media/',
     outputDir: './_site/content/media/',
   });
 
