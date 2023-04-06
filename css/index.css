@@ -186,7 +186,7 @@ position: relative;
   }
   
   h1 {
-    font-family: var(--font-family);
+    font-family: var(--font-family-mono);
       font-style: normal;
       font-size: 2rem;
       color: var(--color);
