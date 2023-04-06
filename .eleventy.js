@@ -11,7 +11,7 @@ async function imageShortcode(src, alt) {
   let metadata = await Image(src, {
     formats: ['webp'],
     urlPath: '/media/',
-    outputDir: '_site/content/media/',
+    outputDir: '/media/',
   });
 
   let imageAttributes = {
