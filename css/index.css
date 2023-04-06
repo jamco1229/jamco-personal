@@ -562,7 +562,6 @@ color: var(--color);
 .pagination-item, .blaze-next, .blaze-prev {
   display: flex;
   width: auto;
-  height: 48px;
   text-decoration: none;
   padding: 4px 16px;
   color: var(--bold-color);
