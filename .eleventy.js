@@ -38,9 +38,10 @@ var getIndex = (collection, currentSlug) => {
 };
 
 module.exports = function (config) {
-    eleventyConfig.addNunjucksAsyncShortcode('image', imageShortcode);
-    eleventyConfig.addLiquidShortcode('image', imageShortcode);
-    eleventyConfig.addJavaScriptFunction('image', imageShortcode);
+
+config.addNunjucksAsyncShortcode('image', imageShortcode);
+config.addLiquidShortcode('image', imageShortcode);
+config.addJavaScriptFunction('image', imageShortcode);
   // Plugins
   config.addPlugin(pluginRss);
   config.addPlugin(pluginNav);
