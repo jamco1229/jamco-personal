@@ -492,6 +492,11 @@ li > a > h3 {
 .explorations h3 {
   color: var(--bold-color);
 }
+@media screen and (max-width: 768px) {
+  .explorations {
+    flex-basis: 100%;
+  }
+}
 
   /* Media query for screens larger than 768px */
   @media (max-width: 640px) {
