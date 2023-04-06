@@ -563,7 +563,7 @@ color: var(--color);
   display: flex;
   width: auto;
   text-decoration: none;
-  padding: 4px 16px;
+  padding: 1rem 0;
   color: var(--bold-color);
   background-color: var(--button-background);
   border: var(--border);
