@@ -9,11 +9,11 @@ dateEnd: 2023-02-15 12:00:01
 role: UI Design
 completionDate: April 2023
 readTime: 1 Min
-image: Aurora-Header.png
+image: Aurora-Header.PNG
 
 media:
   - type: image
-    filename: Aurora-Header.png
+    filename: Aurora-Header.PNG
     size: md
     alt: Poster for Portfolio Starter
 ---
