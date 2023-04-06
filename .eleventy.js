@@ -7,27 +7,21 @@ const { DateTime } = require("luxon");
 const fs = require("fs");
 const Image = require('@11ty/eleventy-img');
 
-async function imageShortcode(src, alt, sizes) {
+async function imageShortcode(src, alt) {
   let metadata = await Image(src, {
-    widths: [300, 600, 1200],
-    formats: ['avif', 'webp', 'jpeg'],
-    urlPath: '/images/',
-    outputDir: '_site/images/',
+    formats: ['webp'],
+    urlPath: '/content/media/',
+    outputDir: '_site/content/media/',
   });
 
   let imageAttributes = {
     alt,
-    sizes,
     loading: 'lazy',
     decoding: 'async',
   };
 
   return Image.generateHTML(metadata, imageAttributes);
 }
-
-
-// Import Framer Motion
-const framerMotion = require("framer-motion");
 
 var getIndex = (collection, currentSlug) => {
   let currentIndex = 0;
@@ -42,6 +36,7 @@ module.exports = function (config) {
 config.addNunjucksAsyncShortcode('image', imageShortcode);
 config.addLiquidShortcode('image', imageShortcode);
 config.addJavaScriptFunction('image', imageShortcode);
+
   // Plugins
   config.addPlugin(pluginRss);
   config.addPlugin(pluginNav);
