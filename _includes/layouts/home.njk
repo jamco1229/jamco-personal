@@ -35,14 +35,9 @@ permalink: "/"
 <p class='fade-in-element'>A space for me to explore different designs.</p>
 <ul class="grid">
   {% for project in collections.explorations %}
-    <li class="explorations fade-in-element" >
+    <li class="explorations fade-in-element">
       <a href="{{ project.url }}">
-        <img
-          loading="lazy"
-          src="/media/{{ project.data.image }}"
-          alt=""
-          class="explorations-img"
-        >
+        {% image "/media/" + project.data.image, "", "(min-width: 30em) 50vw, 100vw" %}
         <h3>{{ project.data.title | safe }}  →</h3>
       </a>
     </li>
