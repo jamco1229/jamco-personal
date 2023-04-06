@@ -20,7 +20,8 @@ module.exports = function (config) {
   async function imageShortcode(src, alt, sizes) {
     let metadata = await Image(src, {
       widths: [300, 600],
-      formats: ["webp"]
+      formats: ["webp"],
+      loading: 'lazy',
     });
   
     let imageAttributes = {
