@@ -125,6 +125,12 @@ position: relative;
     overflow-wrap: normal;
   }
 
+  time, .time {
+    font-family: var(--font-family-mono);
+    text-transform: capitalize;
+    font-size: 0.8rem;
+  }
+
   .home-intro p {
     opacity: 0;
     animation: fadeIn 350ms ease-in-out forwards;
