@@ -557,7 +557,6 @@ color: var(--color);
   display: flex;
   justify-content: space-between;
   margin: 2rem 0;
-  max-width: 20rem;
 }
 
 @media (max-width: 640px) {
