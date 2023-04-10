@@ -601,6 +601,7 @@ transition: background 0.3s ease-in, box-shadow 0.3s ease-in;
 .site-footer { 
   margin-top: 2rem;
   margin-bottom: 3rem;
+  font-family: var(--font-family-mono);
 }
 
 .site-footer > a > p {
