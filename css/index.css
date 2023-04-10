@@ -127,7 +127,7 @@ position: relative;
 
   time, .time {
     font-family: var(--font-family-mono);
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-size: 0.8rem;
   }
 
