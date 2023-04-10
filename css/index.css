@@ -539,6 +539,7 @@ li > a > h3 {
   border-bottom: var(--border);
 }
 .spec h3{
+  font-family: var(--font-family-mono);
 margin: 0;
 text-align: left;
 color: var(--color);
