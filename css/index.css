@@ -37,7 +37,7 @@
   font-weight: 600;
   font-style: normal;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,400;0,600;1,100;1,400;1,600&display=swap');
 
 /* Variables */
   :root {
@@ -47,6 +47,7 @@
   --font-family: 'IBM Plex Sans Variable', 'Helvetica Neue', Arial, sans-serif;
   --font-family-italic: 'IBM Plex Sans Variable - Italic';
   --font-family-mono: 'IBM Plex Mono SemiBold', monospaced;
+  --font-family-serif: 'IBM Plex Serif', serif;
   --col-width: 44rem;
   --background-color: #0a0a0a; 
   --card-background: linear-gradient(144.31deg, rgba(255, 255, 255, 0.1) 7.67%, rgba(145, 145, 145, 0.0567708) 35.34%, rgba(71, 71, 71, 0.0279276) 66.26%, rgba(0, 0, 0, 0) 85.78%), #2A2A2B;
@@ -187,7 +188,7 @@ position: relative;
   }
   
   h1 {
-    font-family: var(--font-family-mono);
+    font-family: var(--font-family-serif);
       font-style: normal;
       font-size: 2rem;
       color: var(--color);
@@ -198,7 +199,7 @@ position: relative;
       }
   
   h2 {
-    font-family:var(--font-family), sans-serif;
+    font-family:var(--font-family-serif), sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 1.25rem;
