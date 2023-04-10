@@ -250,19 +250,19 @@ position: relative;
 
   a {
     color: var(--link-color);
-    text-decoration: underline;
+    text-decoration: none;
     padding-bottom: 0.05rem;
   }
   
   a:focus,
   a:hover {
-    text-decoration: none;
+    text-decoration: underline;
   }
   
   a:active,
   a:hover,
   a:focus {
-    text-decoration: none;
+    text-decoration: underline;
   }
   .site-nav p {
     text-decoration: none;
