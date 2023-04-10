@@ -614,6 +614,10 @@ transition: background 0.3s ease-in, box-shadow 0.3s ease-in;
 }
 
 /* other styles */
+.blaze-container{
+  -webkit-mask-image:linear-gradient(90deg,black 0%,black 10%,black 90%,transparent 100%);
+  mask-image:linear-gradient(90deg,black 0%,black 10%,black 90%,transparent 100%)
+}
 
 .blaze-slider.dragging .blaze-track {
   cursor: grabbing;
