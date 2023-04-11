@@ -569,11 +569,12 @@ color: var(--color);
 
 .spec > * {
   margin: 0 0.5rem;
+  width: fit-content;
 }
 
 .divider {
   flex-grow: 1;
-  width: 100%;
+  width: 100% !important;
   height: 1px;
   border-bottom: var(--border);
 }
