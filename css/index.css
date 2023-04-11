@@ -586,12 +586,14 @@ color: var(--color);
   text-align: left;
   margin: 0;
   width: max-content;
+  white-space: nowrap;
 }
 
 .spec > p {
   width: max-content;
   text-align: right;
   margin: 0;
+  white-space: nowrap;
 }
 .divider {
   flex-grow: 1;
