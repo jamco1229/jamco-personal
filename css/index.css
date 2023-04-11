@@ -566,14 +566,18 @@ color: var(--color);
   flex-direction: row;
   align-items: bottom;
   gap: 1rem;
+  margin-top: 1rem;
 }
 
-.spec > * {
+.spec > h3 {
+  text-align: left;
   margin: 0;
-  margin-top: 0.5rem;
-  width: fit-content;
 }
 
+.spec > p {
+  text-align: right;
+  margin: 0;
+}
 .divider {
   flex-grow: 1;
   width: 100% !important;
