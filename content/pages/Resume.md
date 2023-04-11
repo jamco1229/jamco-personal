@@ -3,7 +3,7 @@ layout: resume
 title: James Coy's Resume
 eleventyNavigation:
   key: Resume
-  order: 3
+  order: 2
 ---
 
 
