@@ -564,7 +564,8 @@ color: var(--color);
 .spec {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: bottom;
+  gap: 1rem;
 }
 
 .spec > * {
