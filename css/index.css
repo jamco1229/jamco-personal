@@ -558,9 +558,6 @@ color: var(--color);
 }
 
 .spec-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   width: 100%;
 }
 
@@ -573,7 +570,7 @@ color: var(--color);
 .divider {
   flex-grow: 1;
   height: 1px;
-  background-color: var(--border);
+  border-bottom: var(--border);
   margin: 0 10px;
 }
 
