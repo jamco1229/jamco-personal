@@ -6,6 +6,7 @@ const markdownItAnchor = require("markdown-it-anchor");
 const { DateTime } = require("luxon");
 const fs = require("fs");
 const respimg = require("eleventy-plugin-sharp-respimg");
+const pluginTOC = require('eleventy-plugin-toc')
 
 var getIndex = (collection, currentSlug) => {
   let currentIndex = 0;
@@ -20,6 +21,10 @@ module.exports = function (config) {
   config.addPlugin(pluginRss);
   config.addPlugin(pluginNav);
   config.addPlugin(respimg);
+  config.addPlugin(pluginTOC);
+  config.addPlugin(pluginTOC, {
+    wrapper: 'div'
+  })
 
   // Filters
   config.addFilter("dateToFormat", (date, format) => {
