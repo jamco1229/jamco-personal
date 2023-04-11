@@ -523,7 +523,7 @@ li > a > h3 {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-
+/*
   .spec-container {
     margin: 1rem 0 2rem  0;
 }
@@ -552,6 +552,30 @@ color: var(--color);
   color: var(--bold-color);
 }
 
+*/
+.project-specs {
+  width: 100%;
+}
+
+.spec-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.spec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.divider {
+  flex-grow: 1;
+  height: 1px;
+  background-color: var(--border);
+  margin: 0 10px;
+}
 
 
 .pagination, .controls {
