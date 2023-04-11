@@ -254,8 +254,10 @@ position: relative;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 4px 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     border: var(--border);
+    border-color: rgba(255, 255, 255, 0.05;
   }
 
   a {
