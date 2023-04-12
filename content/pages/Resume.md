@@ -15,7 +15,7 @@ Designer with a diverse background, including 1 year as a Product Designer and 3
 </svg>
 </a>
 
-## Experience & Education
+## Experience & Education #fade-in-element
 ### Product Designer | HeadteacherChat | May 2022 - Present
 - Developing V2, a user-friendly website for senior leaders to discover resources
 - Maintaining a formal, yet friendly brand voice consistent with Twitter presence
