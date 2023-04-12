@@ -264,7 +264,7 @@ position: relative;
     position: fixed;
     top: 4rem;
     left: 0;
-    max-width: calc(100%-(var(--col-width)));
+    max-width: calc((100% - var(--col-width)) / 2);
     padding: 2rem;
     z-index: 10;
   }
