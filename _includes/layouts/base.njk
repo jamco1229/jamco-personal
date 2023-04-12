@@ -116,6 +116,19 @@ const blazeSlider = new BlazeSlider(sliderEl, {
     window.addEventListener('scroll', checkVisibility);
     window.addEventListener('resize', checkVisibility);
   });
+// Smooth scroll stuff
+    document.addEventListener("DOMContentLoaded", function () {
+    const tocLinks = document.querySelectorAll(".toc a");
+
+    tocLinks.forEach((link) => {
+      link.addEventListener("click", function (event) {
+        event.preventDefault();
+        const targetId = this.getAttribute("href");
+        const targetElement = document.querySelector(targetId);
+        targetElement.scrollIntoView({ behavior: "smooth" });
+      });
+    });
+  });
     </script>
   </body>
 </html>
