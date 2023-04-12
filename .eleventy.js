@@ -6,18 +6,7 @@ const markdownItAnchor = require("markdown-it-anchor");
 const { DateTime } = require("luxon");
 const fs = require("fs");
 const respimg = require("eleventy-plugin-sharp-respimg");
-const pluginTOC = require('eleventy-plugin-toc')
-const Image = require("@11ty/eleventy-img");
-
-(async () => {
-	let url = "https://images.unsplash.com/photo-1608178398319-48f814d0750c";
-	let stats = await Image(url, {
-		widths: [300]
-    formats: ["webp", "jpeg"]
-	});
-
-	console.log( stats );
-})();
+const pluginTOC = require('eleventy-plugin-toc');
 
 var getIndex = (collection, currentSlug) => {
   let currentIndex = 0;
