@@ -8,6 +8,10 @@ permalink: "/posts/{{ page.fileSlug }}/index.html"
     <h1 class="post-title">{{ title | safe }}</h1>
     <time class="post-date" datetime="{{ date | dateToFormat('yyyy-LL-dd') }}">{{ date | dateToFormat('d LLL y') }}</time>
   </header>
+     <aside>
+            <h3>Contents</h3>
+  {{ content | toc | safe }}
+</aside>
   {{ content | safe }}
 </article>
 

@@ -7,5 +7,9 @@ permalink: "/{{ page.fileSlug }}/index.html"
   <header class="page-header">
     <h1 class="page-title">{{ title | safe }}</h1>
   </header>
+     <aside>
+            <h3>Contents</h3>
+  {{ content | toc | safe }}
+</aside>
   {{ content | safe }}
 </article>

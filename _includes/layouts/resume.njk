@@ -6,5 +6,9 @@ permalink: "/{{ page.fileSlug }}/index.html"
   <header class="resume-header">
     <h1 class='post-title'><b>James Coy</b> - Resume</h1>
   </header>
+     <aside>
+            <h3>Contents</h3>
+  {{ content | toc | safe }}
+</aside>
   {{ content | safe }}
 </article>

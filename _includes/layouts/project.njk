@@ -20,6 +20,10 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
     <div class='spec'><h3>Read Time</h3><div class='divider'></div><p class='project-readtime'>{{ readTime | safe}}</p></div>
     <div class='spec'><h3>Platform</h3><div class='divider'></div><p class='project-platform'>{{ platform | safe}}</p></div>
     </div>
+       <aside>
+            <h3>Contents</h3>
+  {{ content | toc | safe }}
+</aside>
     </div>
     {% if content %}
       <div class="project-text">
