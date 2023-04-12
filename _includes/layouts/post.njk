@@ -9,7 +9,7 @@ permalink: "/posts/{{ page.fileSlug }}/index.html"
     <time class="post-date" datetime="{{ date | dateToFormat('yyyy-LL-dd') }}">{{ date | dateToFormat('d LLL y') }}</time>
   </header>
      <aside>
-            <h3>Contents</h3>
+            <h2>Contents</h2>
   {{ content | toc | safe }}
 </aside>
   {{ content | safe }}
