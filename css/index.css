@@ -53,7 +53,7 @@
   --color: #C4C4C4; 
   --bold-color: #fff;
   --link-color: #D1BDFF;
-  --border: 0.5px solid #9a9a9a85;
+  --border: 0.5px solid #9a9a9a40;
   --button-background: #434343;
   --border-radius: 8px;
   }
@@ -437,6 +437,7 @@ color: var(--bold-color);
 .concepts a:hover, .case-studies a:hover, .project-header:hover{
   background: var(--card-background);
   box-shadow: 0px 4px 20px rgba(5, 18, 36, 0.1);
+  border-color: #9a9a9a85;
 }
 
 .concepts-icon, .case-studies-icon, .project-header-icon{
