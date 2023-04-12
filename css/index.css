@@ -298,8 +298,11 @@ position: relative;
   }
 
   .toc > ol > li > ol {
-color: var(--color);
     padding-left: 1.2em; /* Add padding to the left of the nested list */
+  }
+
+  .toc > ol > li > ol > li {
+    color: var(--color);
   }
   
   .toc > ol > li > ol > li::before {
