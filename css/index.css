@@ -448,7 +448,7 @@ color: var(--bold-color);
 
 .concepts a:hover, .case-studies a:hover, .project-header:hover{
   background: var(--card-background);
-  box-shadow: 0px 4px 20px rgba(5, 18, 36, 0.4);
+  box-shadow: 0px 4px 20px rgba(5, 18, 36, 0.1);
 }
 
 .concepts-icon, .case-studies-icon, .project-header-icon{
@@ -554,7 +554,7 @@ li > a > h3 {
 
 .explorations:hover {
   background: var(--card-background);
-  box-shadow: 0px 4px 20px rgba(5, 18, 36, 0.4);
+  box-shadow: 0px 4px 20px rgba(5, 18, 36, 0.1);
 }
 
 .explorations h3 {
