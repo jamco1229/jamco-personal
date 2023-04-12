@@ -293,6 +293,10 @@ position: relative;
   .toc {
     overflow-x: hidden;
   }
+
+  .toc h2 {
+    margin: none;
+  }
   
   .toc ol {
     list-style: none;
