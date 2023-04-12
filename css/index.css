@@ -270,16 +270,15 @@ position: relative;
   }
 
     
-  @media screen and (max-width: calc(var(--col-width) + 20px)) {
+  @media screen and (max-width: 900px) {
     aside {
-      position: relative;
-      top: auto;
-      left: auto;
+      position: static;
       width: 100%;
       max-width: 100%;
-      margin-bottom: 1em; /* Optional: Add some space between the aside and the following content */
+      margin-bottom: 1em; /* Add some space between the aside and the following content */
     }
   }
+  
   
   .toc {
     overflow-x: hidden;
