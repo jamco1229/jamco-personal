@@ -275,6 +275,8 @@ position: relative;
       position: static;
       width: 100%;
       max-width: 100%;
+      margin: 0;
+      padding: 0;
       margin-bottom: 1em; /* Add some space between the aside and the following content */
     }
     .toc, .toc ol, .toc li {
