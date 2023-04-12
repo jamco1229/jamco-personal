@@ -675,6 +675,7 @@ color: var(--color);
 .pagination-item, .blaze-next, .blaze-prev, .button {
   box-sizing: border-box;
 display: flex;
+overflow: hidden;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
@@ -690,8 +691,8 @@ transition: background 0.3s ease-in, box-shadow 0.3s ease-in, transform 0.15 eas
 }
 
 .button > svg {
-  height: 1.6rem;
-  width: auto;
+  max-height: 1.5rem;
+  vertical-align: middle;
 }
 
 .pagination-item:hover,  .blaze-next:hover, .blaze-prev:hover, .button:hover  {
