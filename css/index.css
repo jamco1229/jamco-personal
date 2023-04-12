@@ -295,9 +295,11 @@ position: relative;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: var(--bold-color);
   }
 
   .toc > ol > li > ol {
+color: var(--color);
     padding-left: 1.2em; /* Add padding to the left of the nested list */
   }
   
