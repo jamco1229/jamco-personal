@@ -279,6 +279,7 @@ position: relative;
     }
     .toc, .toc ol, .toc li {
       margin: 0;
+      padding: 0;
     }
   }
   
