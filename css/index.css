@@ -259,6 +259,8 @@ position: relative;
   }
 
   aside {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     position: fixed;
     top: 0;
     left: 0;
