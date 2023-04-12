@@ -259,34 +259,19 @@ position: relative;
   }
 
   aside {
-    margin: 1rem;
-    position: fixed;
-    top: 2rem;
-    right: 0;
-    width: calc((90% - var(--col-width)) / 2);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     padding: 1rem;
-    z-index: 10;
     border: var(--border);
     border-color: rgba(255, 255, 255, 0.05);
-    font-family: var(--font-family-serif);
     background-color: rgba(255, 255, 255, 0.02);
-
-  }
-
-    
-  @media screen and (max-width: 1000px) {
-    aside {
-      position: static;
-      width: 100%;
-      max-width: 100%;
-      margin: 0;
-      margin-bottom: 1em; /* Add some space between the aside and the following content */
+    width: 100%;
+    max-width: 100%;
     }
     .toc, .toc ol, .toc li {
       margin: 0;
       padding: 0;
     }
-  }
   
   
   .toc {
@@ -304,6 +289,7 @@ aside > h2 {
   }
   
   .toc li {
+    font-family: var(--font-family-serif);
     margin: 0;
     margin-top: 0.5rem;
     white-space: nowrap;
