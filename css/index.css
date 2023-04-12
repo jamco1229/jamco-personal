@@ -418,9 +418,9 @@ color: var(--bold-color);
   padding: 1rem;
   border: var(--border);
   border-radius: 1rem;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02675) 0%, rgba(255, 255, 255, 0.018) 0%, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0) 0%);;
+  background-color: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02675) 0%, rgba(255, 255, 255, 0.018) 0%, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0) 0%);;
   box-shadow: 0 0 0 rgba(5, 18, 36, 0.1);
-  transition: background 0.6s ease-in, box-shadow 0.3s ease-in;
+  transition: background-color 0.6s ease-in, box-shadow 0.3s ease-in;
 }
 
 .project-header {
@@ -438,7 +438,7 @@ color: var(--bold-color);
 
 
 .concepts a:hover, .case-studies a:hover, .project-header:hover{
-  background: var(--card-background);
+  background-color: var(--card-background);
   box-shadow: 0px 4px 20px rgba(5, 18, 36, 0.1);
   border-color: #9a9a9a85;
 }
