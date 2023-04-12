@@ -293,7 +293,7 @@ position: relative;
   }
 
 aside > h2 {
-    margin: none;
+    margin: 0;
   }
   
   .toc ol {
