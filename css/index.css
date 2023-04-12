@@ -260,7 +260,7 @@ position: relative;
     border-color: rgba(255, 255, 255, 0.05);
   }
 
-  aside {
+  .toc {
     position: fixed;
     top: 0;
     left: 0;
@@ -271,7 +271,7 @@ position: relative;
 
     
   @media screen and (max-width: 900px) {
-    aside {
+    .toc {
       position: static;
       width: 100%;
       max-width: 100%;
