@@ -294,9 +294,7 @@ position: relative;
   }
   .toc > ol > li > ol > li::before {
     content: "↳";
-    display: inline-block;
-    margin-left: -1.2em; /* Adjust this value to position the glyph accordingly */
-   margin-right: 0.2em;
+    display: block;
   }  
   
   .toc a {
