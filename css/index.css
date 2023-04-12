@@ -132,7 +132,7 @@ position: relative;
     margin: 0;
   }
 
-  .home-intro p {
+  .home-intro p, .button {
     opacity: 0;
     animation: fadeIn 350ms ease-in-out forwards;
   }
@@ -170,6 +170,10 @@ position: relative;
 
   .home-intro p:nth-child(9) {
     animation-delay: 1.3s;
+  }
+
+  .button {
+ animation-delay: 1.4s;
   }
 
   @keyframes fadeIn {

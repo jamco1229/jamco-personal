@@ -9,7 +9,7 @@ eleventyNavigation:
 
 Designer with a diverse background, including 1 year as a Product Designer and 3+ years in the film industry, showcasing expertise in user research, creative collaboration, project management, prototyping, and interaction design. Successfully co-led the redesign of HeadteacherChat, catering to 100k+ monthly users, and earned a diploma from the UX Design Institute.
 
-  <a class='button' href='mailto:james.coy.design@gmail.com'>Get in touch <svg width="20" height="20" fill="none" viewBox="20 20">
+  <a class='button fade-in-element' href='mailto:james.coy.design@gmail.com'>Get in touch <svg width="20" height="20" fill="none" viewBox="20 20">
 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.75 19.25L12 4.75L19.25 19.25L12 15.75L4.75 19.25Z"></path>
 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 15.5V12.75"></path>
 </svg>
