@@ -283,6 +283,7 @@ position: relative;
   
   .toc li {
     margin: 0;
+    margin-top: 0.5rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
