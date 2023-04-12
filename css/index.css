@@ -261,8 +261,8 @@ position: relative;
   aside {
     margin: 1rem;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 2rem;
+    right: 0;
     width: calc((90% - var(--col-width)) / 2);
     padding: 1rem;
     z-index: 10;
@@ -274,7 +274,7 @@ position: relative;
   }
 
     
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1000px) {
     aside {
       position: static;
       width: 100%;
