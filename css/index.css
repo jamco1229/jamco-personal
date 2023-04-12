@@ -50,8 +50,8 @@
   --col-width: 40rem;
   --background-color: #0B5356; 
   --card-background: radial-gradient(circle at 2% 3%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.05) 30%, rgba(255, 255, 255, 0) 60%);
-  --color: #C4C4C4; 
-  --bold-color: #f6f6f6;
+  --color: #E6E6E6; 
+  --bold-color: #fff;
   --link-color: #17C37B;
   --border: 0.5px solid #9a9a9a85;
   --button-background: #9a9a9a20;
