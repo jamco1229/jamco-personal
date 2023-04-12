@@ -277,6 +277,9 @@ position: relative;
       max-width: 100%;
       margin-bottom: 1em; /* Add some space between the aside and the following content */
     }
+    .toc, .toc ol, .toc li {
+      margin: 0;
+    }
   }
   
   
@@ -306,17 +309,7 @@ position: relative;
   .toc > ol > li > ol > li {
     color: var(--color);
   }
-  
-  .toc > ol > li > ol > li::before {
-    content: "↳";
-    display: inline-block;
-    position: absolute;
-    left: -1.2em; /* Adjust this value to position the glyph accordingly */
-    top: 0.1em; /* Adjust this value to align the glyph vertically with the text */
-  }
-  
-  
-  
+    
   .toc a {
     text-decoration: none;
     color: inherit;
