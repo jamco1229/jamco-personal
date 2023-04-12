@@ -272,7 +272,7 @@ position: relative;
     
   @media screen and (max-width: calc(var(--col-width) + 20px)) {
     aside {
-      position: static;
+      position: relative;
       max-width: 100%;
       margin-bottom: 1em; /* Optional: Add some space between the aside and the following content */
     }
