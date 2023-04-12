@@ -49,7 +49,7 @@
   --font-family-serif: 'IBM Plex Serif', serif;
   --col-width: 40rem;
   --background-color: #343B3F; 
-  --card-background: radial-gradient(circle at 2% 3%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.05) 30%, rgba(255, 255, 255, 0) 60%);
+  --card-background: radial-gradient(circle at 2% 3%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.03) 15%, rgba(255, 255, 255, 0.02) 15%, rgba(255, 255, 255, 0) 60%), rgba(255, 255, 255, 0.05) 100%;
   --color: #C4C4C4; 
   --bold-color: #fff;
   --link-color: #D1BDFF;
@@ -417,6 +417,7 @@ color: var(--bold-color);
   padding: 1rem;
   border: var(--border);
   border-radius: 1rem;
+  background: #ffffff00;
   transition: background 0.6s ease-in, box-shadow 0.3s ease-in;
 }
 
@@ -428,23 +429,13 @@ color: var(--bold-color);
   padding: 1rem;
   border: var(--border);
   border-radius: 1rem;
+  background: #ffffff00;
   transition: background 0.6s ease-in, box-shadow 0.3s ease-in;
 }
 
-.project-header-img {
-  width: 100%;
-  margin-bottom: 2rem;
-}
 
-.project-header-title {
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-.project-header-text {
-  width: 100%;
-}
+
+
 
 .concepts a:hover, .case-studies a:hover, .project-header:hover{
   background: var(--card-background);
@@ -456,6 +447,20 @@ color: var(--bold-color);
   width: 52px;
   margin: 8px;
   border-radius: 4px;
+}
+
+.project-header-img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.project-header-title {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.project-header-text {
+  width: 100%;
 }
 
 @media screen and (max-width: 479px) {
