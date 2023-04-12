@@ -434,7 +434,7 @@ z-index: 2;
   .site-header svg {
     display: none;
   }
-
+/*
   body > header > nav > ul > li > a {
     text-decoration: none !important;
   }
@@ -445,7 +445,7 @@ background-color: var(--button-background);
   .site-header li.active svg {
     width: 8px;
     height: 8px; 
-  }
+  }*/
 .concepts, .case-studies, .project-header-container{
   list-style: none;
 }
