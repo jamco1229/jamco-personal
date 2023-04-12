@@ -48,10 +48,10 @@
   --font-family-mono: 'IBM Plex Mono SemiBold', monospaced;
   --font-family-serif: 'IBM Plex Serif', serif;
   --col-width: 40rem;
-  --background-color: #167C80; 
+  --background-color: #0B5356; 
   --card-background: linear-gradient(144.31deg, rgba(255, 255, 255, 0.1) 7.67%, rgba(145, 145, 145, 0.0567708) 35.34%, rgba(71, 71, 71, 0.0279276) 66.26%, rgba(0, 0, 0, 0) 85.78%), #2A2A2B;
-  --color: #9a9a9a; 
-  --bold-color: #EBEBEB;
+  --color: #f5f5f5; 
+  --bold-color: #f7f7f8;
   --link-color: #6FDC8C;
   --border: 0.5px solid #9a9a9a85;
   --button-background: #9a9a9a20;
