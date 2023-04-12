@@ -298,16 +298,17 @@ position: relative;
   }
 
   .toc > ol > li > ol {
-    margin-left: 1rem;
+    padding-left: 1.2em; /* Add padding to the left of the nested list */
   }
+  
   .toc > ol > li > ol > li::before {
     content: "↳";
     display: inline-block;
-    position: relative;
-    margin-left: -1.2em;
-    margin-right: 0.2em;
-    top: -0.15em; /* Adjust this value to align the glyph vertically with the text */
+    position: absolute;
+    left: -1.2em; /* Adjust this value to position the glyph accordingly */
+    top: 0.1em; /* Adjust this value to align the glyph vertically with the text */
   }
+  
   
   
   .toc a {
