@@ -407,6 +407,8 @@ z-index: 2; */
     align-items: center;
     text-decoration: none;
     color: var(--color);
+    padding: 0 1rem;
+    height: 100%;
   }
 
   .site-header svg {
@@ -418,6 +420,7 @@ z-index: 2; */
   }
   .site-header li.active, .site-header li.active p, .site-header li:hover p {
 color: var(--bold-color);
+background-color: var(--button-background);
   }
   .site-header li.active svg {
     width: 8px;
