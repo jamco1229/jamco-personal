@@ -420,22 +420,8 @@ color: var(--bold-color);
   border-radius: 1rem;
   background-color: #ffffff00;
   box-shadow: 0 0 0 rgba(5, 18, 36, 0.1);
-  transition: background-color 0.6s ease-in, box-shadow 0.3s ease-in;
+  transition: background-color 0.15s ease-in, box-shadow 0.3s ease-in;
 }
-
-.project-header {
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 1rem;
-  border: var(--border);
-  background: transparent;
-  box-shadow: 0 0 0 rgba(5, 18, 36, 0.1);
-  border-radius: 1rem;
-  transition: background 0.6s ease-in, box-shadow 0.3s ease-in;
-}
-
 
 .concepts a:hover, .case-studies a:hover, .project-header:hover{
   background-color: #ffffff06;
