@@ -286,6 +286,10 @@ position: relative;
     overflow: hidden;
     text-overflow: ellipsis;
   }
+
+  .toc > ol > li > ol {
+    margin-left: 1rem;
+  }
   
   .toc a {
     text-decoration: none;
