@@ -262,7 +262,7 @@ position: relative;
 
   aside {
     position: fixed;
-    top: 4rem;
+    top: 1rem;
     left: 0;
     max-width: calc((100% - var(--col-width)) / 2);
     padding: 2rem;
