@@ -294,7 +294,7 @@ position: relative;
   }
   .toc > ol > li > ol > li::before {
     content: "↳";
-    display: block;
+    display: inline-block;
   }  
   
   .toc a {
