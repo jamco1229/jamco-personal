@@ -362,7 +362,6 @@ svg {
  /* Site Header */
 
  .site-header ul {
-  /* Auto layout */
   position: fixed;
     bottom: -32px;
     left: 0;
