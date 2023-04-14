@@ -13,9 +13,9 @@ icon: James-Coy-Favicon.png
 
 media:
   - type: image
-    filename: shopify.png
+    filename: portfolio.png
     size: md
-    alt: Screenshot of shop.headteachers.org
+    alt: Screenshot of my portfolio.
 
 ---
 

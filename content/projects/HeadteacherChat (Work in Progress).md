@@ -1,5 +1,5 @@
 ---
-title: HeadteacherChat (Work in Progress)
+title: Resource & template library for headteachers - *HeadteacherChat* (Work in Progress)
 layout: project
 sort: 3
 description: A long project we are under going to give headteachers.org a big refresh, with the key goal of &mdash; getting free resources to teachers as easily as possible.

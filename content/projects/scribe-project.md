@@ -1,5 +1,5 @@
 ---
-title: Working Messy with Scribe.
+title: A Notebook app with a nostalgic twist - Scribe.
 layout: project
 sort: 6
 description: A concept app for iPad to join together what I think are the best aspects of digital and physical notetaking.
