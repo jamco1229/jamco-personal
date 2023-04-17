@@ -19,4 +19,3 @@ If you have a project in mind, don't hesitate to [get in touch](mailto:james.coy
 **Skills:** Wireframing - Prototyping - UI Design - Research - HTML / CSS - Video Editing - Communicating with teams in high-stress environments - Interaction Design - Motion Design - Cinematography - Operating high-end equipment - Learning new tools - Stakeholder management - Balancing creative ideas with feasibility
 
 *I'm also a qualified Mental Health First Aider and have experience supporting my colleagues' well-being in a work setting.*
-

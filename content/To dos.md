@@ -1,4 +1,5 @@
 - [ ] **Personal branding:**
+- [ ] Large h1 on resume and project pages
   - [x] a. Logo or personal brand mark
   - [x] b. A clear, concise tagline that reflects your strengths
   - [x] c. Professional headshot or photo
@@ -7,28 +8,25 @@
   - [x] a. Brief bio with a focus on your background in UX design
   - [x] b. Relevant skills and expertise
   - [x] c. Personality traits or work style
-  - [x] d. Links to your professional profiles (LinkedIn, Dribbble, Behance, etc.)
+  - [ ] d. Links to your professional profiles (LinkedIn, Dribbble, Behance, etc.)
   - [x] e. Contact information (email and/or phone)
 - [ ] **Work experience:**
-  - [ ] a. List of relevant professional experiences, internships, and freelance projects
-  - [ ] b. Include company name, role, duration, and key responsibilities
-  - [ ] c. Use bullet points or short descriptions to explain your contributions
+  - [x] a. List of relevant professional experiences, internships, and freelance projects
+  - [x] b. Include company name, role, duration, and key responsibilities
+  - [x] c. Use bullet points or short descriptions to explain your contributions
 - [ ] **Case studies:**
-  - [ ] a. Include 3-5 projects that demonstrate a range of your UX design skills
-  - [ ] b. Showcase your process (research, wireframes, prototypes, user testing, etc.)
-  - [ ] c. Highlight the problem, your approach, and the solution
-  - [ ] d. Include visuals like sketches, wireframes, mockups, and final designs
-  - [ ] e. Discuss the results, metrics, or user feedback that demonstrate the project's success
-  - [ ] f. Mention the tools and technologies used for each project
+  - [x] a. Include 3-5 projects that demonstrate a range of your UX design skills
+  - [x] b. **Showcase your process (research, wireframes, prototypes, user testing, etc.)**
+  - [x] c. Highlight the problem, your approach, and the solution
+  - [x] d. Include visuals like sketches, wireframes, mockups, and final designs
+  - [x] e. Discuss the results, metrics, or user feedback that demonstrate the project's success
+  - [x] f. Mention the tools and technologies used for each project
 - [ ] **Testimonials and client feedback:**
   - [ ] a. Collect testimonials from previous clients or coworkers
   - [ ] b. Showcase them on your portfolio with the person's name, title, and company
 - [ ] **Education and certifications:**
-  - [ ] a. List relevant degrees, diplomas, or certifications in UX design
-  - [ ] b. Include the name of the institution, completion date, and any honors or awards
-- [ ] **Awards and recognitions:**
-  - [ ] a. Include any awards, recognitions, or achievements in the field of UX design
-  - [ ] b. Mention the awarding organization and date
+  - [x] a. List relevant degrees, diplomas, or certifications in UX design
+  - [x] b. Include the name of the institution, completion date, and any honors or awards
 - [ ] **Blog or articles:**
   - [ ] a. Publish articles or blog posts on UX design topics to demonstrate your thought leadership and knowledge
   - [ ] b. Provide links to your published work on external platforms or feature them directly on your portfolio
