@@ -2,37 +2,41 @@
 <html lang="{{ global.lang }}">
   <head>
     <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Explore James Coy's diverse portfolio and learn how he crafts immersive and impactful experiences as a Multidisciplinary Creative & Experience Designer.">
-<meta name="keywords" content="Multidisciplinary Creative, Experience Designer">
-<meta name="author" content="James Coy">
-<link rel="icon" type="image/png" href="https://github.com/jamco1229/jamco-personal/blob/master/content/media/James-Coy-Favicon.png?raw=true">
-<!-- Open Graph (OG) Tags -->
-<meta property="og:title" content="{{ title ~ ' – ' ~ 'James Coy - Multidisciplinary Creative & Experience Designer' if title else 'James Coy - Multidisciplinary Creative & Experience Designer' }}">
-<meta property="og:description" content="Explore James Coy's diverse portfolio and learn how he crafts immersive and impactful experiences as a Multidisciplinary Creative & Experience Designer.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.jamescoy.site">
-<meta property="og:image" content="https://github.com/jamco1229/jamco-personal/blob/master/content/media/thumbnail.png?raw=true">
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ title ~ ' – ' ~ 'James Coy - Multidisciplinary Creative & Experience Designer' if title else 'James Coy - Multidisciplinary Creative & Experience Designer' }}">
-<meta name="twitter:description" content="Explore James Coy's diverse portfolio and learn how he crafts immersive and impactful experiences as a Multidisciplinary Creative & Experience Designer.">
-<meta name="twitter:url" content="https://www.jamescoy.site">
-<meta name="twitter:image" content="https://github.com/jamco1229/jamco-personal/blob/master/content/media/thumbnail.png?raw=true">
-<!-- Robots meta tag -->
-<meta name="robots" content="index, follow">
-<link rel="stylesheet" href="{{ '/css/index.css' | url }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore James Coy's diverse portfolio and learn how he crafts immersive and impactful experiences as a Multidisciplinary Creative & Experience Designer.">
+    <meta name="keywords" content="Multidisciplinary Creative, Experience Designer">
+    <meta name="author" content="James Coy">
+    <link rel="icon" type="image/png" href="https://github.com/jamco1229/jamco-personal/blob/master/content/media/James-Coy-Favicon.png?raw=true">
+
+    <!-- Open Graph (OG) Tags -->
+    <meta property="og:title" content="{{ title ~ ' – James Coy - Multidisciplinary Creative & Experience Designer' if title else 'James Coy - Multidisciplinary Creative & Experience Designer' }}">
+    <meta property="og:description" content="Explore James Coy's diverse portfolio and learn how he crafts immersive and impactful experiences as a Multidisciplinary Creative & Experience Designer.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.jamescoy.site">
+    <meta property="og:image" content="https://github.com/jamco1229/jamco-personal/blob/master/content/media/thumbnail.png?raw=true">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ title ~ ' – James Coy - Multidisciplinary Creative & Experience Designer' if title else 'James Coy - Multidisciplinary Creative & Experience Designer' }}">
+    <meta name="twitter:description" content="Explore James Coy's diverse portfolio and learn how he crafts immersive and impactful experiences as a Multidisciplinary Creative & Experience Designer.">
+    <meta name="twitter:url" content="https://www.jamescoy.site">
+    <meta name="twitter:image" content="https://github.com/jamco1229/jamco-personal/blob/master/content/media/thumbnail.png?raw=true">
+
+    <!-- Robots meta tag -->
+    <meta name="robots" content="index, follow">
 
     <title>{{ title ~ ' – ' ~ global.title if title else global.title }}</title>
+
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,400;0,600;1,100;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/blaze-slider@1.9.1/dist/blaze.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,400;0,600;1,100;1,400;1,600&display=swap" rel="stylesheet">
+
     {% include 'snippets/meta.njk' %}
-        <link
-      rel="stylesheet"
-      href="https://unpkg.com/blaze-slider@1.9.1/dist/blaze.css"
-    />
+
+    <script defer src="/_vercel/insights/script.js"></script>
 <script defer src="/_vercel/insights/script.js"></script>
 
      </head>
