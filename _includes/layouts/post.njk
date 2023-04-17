@@ -5,9 +5,13 @@ permalink: "/posts/{{ page.fileSlug }}/index.html"
 
 <article class="post">
   <header class="post-header">
-    <h2 class="post-title">{{ title | safe }}</h2>
+    <h1 class="post-title">{{ title | safe }}</h1>
     <time class="post-date" datetime="{{ date | dateToFormat('yyyy-LL-dd') }}">{{ date | dateToFormat('d LLL y') }}</time>
   </header>
+     <aside>
+            <h2>Contents</h2>
+  {{ content | toc | safe }}
+</aside>
   {{ content | safe }}
 </article>
 
@@ -16,15 +20,19 @@ permalink: "/posts/{{ page.fileSlug }}/index.html"
 
 {% if next or previous%}
   <div class="pagination">
-    {% if next %}
-      <p class="pagination-item pagination-item-next">
-        <a href="{{ next.url }}">Next post</a>
-      </p>
-    {% endif %}
+    <div>
     {% if previous %}
-      <p class="pagination-item pagination-item-prev">
-        <a href="{{ previous.url }}">Previous post</a>
-      </p>
+      <a class="pagination-item pagination-item-prev" href="{{ previous.url }}">
+      <p>← Previous Post</p>
+      </a>
     {% endif %}
+    </div>
+    <div>
+    {% if next %}
+      <a class="pagination-item pagination-item-next" href="{{ next.url }}">
+        <p>Next Post  →</p>
+      </a>
+    {% endif %}
+    </div>
   </div>
 {% endif %}

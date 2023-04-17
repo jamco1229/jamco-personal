@@ -9,16 +9,15 @@ completionDate: April 2023
 platform: Web (Responsive)
 readTime: 2 Mins
 tags: caseStudies
+icon: James-Coy-Favicon.png
 
 media:
   - type: image
-    filename: shopify.png
+    filename: portfolio.png
     size: md
-    alt: Screenshot of shop.headteachers.org
+    alt: Screenshot of my portfolio.
 
 ---
-
-# Building My Personal Portfolio Website: An Introspective Look at the Process
 
 ## **Introduction**
 

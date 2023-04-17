@@ -12,13 +12,13 @@
 <meta property="og:title" content="James Coy - Multidisciplinary Creative & Experience Designer">
 <meta property="og:description" content="Explore James Coy's diverse portfolio and learn how he crafts immersive and impactful experiences as a Multidisciplinary Creative & Experience Designer.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.james-coy.netlify.app">
+<meta property="og:url" content="https://www.jamescoy.site">
 <meta property="og:image" content="https://github.com/jamco1229/jamco-personal/blob/master/content/media/thumbnail.png?raw=true">
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="James Coy - Multidisciplinary Creative & Experience Designer">
 <meta name="twitter:description" content="Explore James Coy's diverse portfolio and learn how he crafts immersive and impactful experiences as a Multidisciplinary Creative & Experience Designer.">
-<meta name="twitter:url" content="https://www.james-coy.netlify.app">
+<meta name="twitter:url" content="https://www.jamescoy.site">
 <meta name="twitter:image" content="https://github.com/jamco1229/jamco-personal/blob/master/content/media/thumbnail.png?raw=true">
 <!-- Robots meta tag -->
 <meta name="robots" content="index, follow">
@@ -26,15 +26,15 @@
 
     <title>{{ title ~ ' – ' ~ global.title if title else global.title }}</title>
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,400;0,600;1,100;1,400;1,600&display=swap" rel="stylesheet">
     {% include 'snippets/meta.njk' %}
         <link
       rel="stylesheet"
       href="https://unpkg.com/blaze-slider@1.9.1/dist/blaze.css"
     />
-    <script defer data-domain="james-coy.netlify.app" src="https://plausible.io/js/script.js"></script>
+<script defer src="/_vercel/insights/script.js"></script>
 
      </head>
   <body>
@@ -63,7 +63,7 @@
       {{ content | safe }}
     </main>
       <footer class="site-footer">
-        <p>Built in Norfolk with CSS and HTML using the <a href='https://portfolio-starter.sb-ph.com'>Portfolio Starter</a> as a starting point. See my <a href='/resume'>Resume</a> or my <a href='read.cv/jamco'>ReadCV</a>. Or follow me on <a href='https://twitter.com/its_james_coy'>Twitter</a> or <a href='https://www.instagram.com/jamco_designer/'>Instagram</a>.</p>
+        <p><em>Built in Norfolk with CSS and HTML using the <a href='https://portfolio-starter.sb-ph.com'>Portfolio Starter</a> as a starting point. See my <a href='/resume'>Resume</a> or my <a href='https://read.cv/jamco'>ReadCV</a>. Or follow me on <a href='https://twitter.com/its_james_coy'>Twitter</a> or <a href='https://www.instagram.com/jamco_designer/'>Instagram</a>.</em></p>
       </footer>
 </div>
 
@@ -77,7 +77,7 @@ const blazeSlider = new BlazeSlider(sliderEl, {
   all: {
     enableAutoplay: false,
     slidesToScroll: 1,
-    slidesToShow: 1.5,
+    slidesToShow: 1.4,
     transitionDuration: 150,
     loop: true,
   }
@@ -93,6 +93,42 @@ const blazeSlider = new BlazeSlider(sliderEl, {
           });
         }
       );
+// Fade in stuff
+      document.addEventListener('DOMContentLoaded', function() {
+    const fadeInElements = document.querySelectorAll('.fade-in-element');
+
+    function checkVisibility() {
+      const windowHeight = window.innerHeight;
+      const scrollY = window.scrollY || window.pageYOffset;
+
+      fadeInElements.forEach(function(element) {
+        const elementPosition = element.getBoundingClientRect().top + scrollY;
+        const elementHeight = element.offsetHeight;
+
+        if (scrollY + windowHeight >= elementPosition + elementHeight / 4) {
+          element.classList.add('visible');
+        }
+      });
+    }
+
+    checkVisibility(); // Initial check in case some elements are already in the viewport
+
+    window.addEventListener('scroll', checkVisibility);
+    window.addEventListener('resize', checkVisibility);
+  });
+// Smooth scroll stuff
+    document.addEventListener("DOMContentLoaded", function () {
+    const tocLinks = document.querySelectorAll(".toc a");
+
+    tocLinks.forEach((link) => {
+      link.addEventListener("click", function (event) {
+        event.preventDefault();
+        const targetId = this.getAttribute("href");
+        const targetElement = document.querySelector(targetId);
+        targetElement.scrollIntoView({ behavior: "smooth" });
+      });
+    });
+  });
     </script>
   </body>
 </html>

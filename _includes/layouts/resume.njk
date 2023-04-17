@@ -1,0 +1,14 @@
+---
+layout: base
+permalink: "/{{ page.fileSlug }}/index.html"
+---
+<article class="resume">
+  <header class="resume-header">
+    <h1 class='post-title'><b>James Coy</b> - Resume</h1>
+  </header>
+     <aside>
+            <h2>Contents</h2>
+  {{ content | toc | safe }}
+</aside>
+  {{ content | safe }}
+</article>

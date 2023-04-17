@@ -1,14 +1,15 @@
 ---
-title: How We Improved Accessibility and Boosted Conversions, Whilst Giving the Planners a new Lick of Paint.
+title: Refreshing the tailor made planners for HeadteacherChat
 layout: post
-description: Refreshing a Shopify site to increase conversions.
+date: 2023-04-01
+description: Collaborating with other designers to eavtate the HeadteacherChat planners
 readTime: 1 Mins
 
 media:
   - type: image
-    filename: shopify.png
+    filename: planner.png
     size: md
-    alt: Screenshot of shop.headteachers.org
+    alt: Mockup of the HeadteacherChat Planner
 
 ---
 
@@ -21,8 +22,6 @@ HeadteacherChat's planners are designed for a niche audience of educators who cr
 ## The Creative Process and Design Inspiration
 
 The design process began with a series of conversations, including gathering feedback from attendees at a conference held by HeadteacherChat last October. We learned how users perceived our planners and how they utilized them in their daily lives. This feedback guided our design process, helping us improve the planner's durability and functionality.
-
-![Before and after images of planners and website]
 
 ## Embracing Accessibility and Boosting Conversions
 

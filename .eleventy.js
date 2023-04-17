@@ -5,6 +5,8 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const { DateTime } = require("luxon");
 const fs = require("fs");
+const respimg = require("eleventy-plugin-sharp-respimg");
+const pluginTOC = require('eleventy-plugin-toc');
 
 var getIndex = (collection, currentSlug) => {
   let currentIndex = 0;
@@ -18,6 +20,11 @@ module.exports = function (config) {
   // Plugins
   config.addPlugin(pluginRss);
   config.addPlugin(pluginNav);
+  config.addPlugin(respimg);
+  config.addPlugin(pluginTOC);
+  config.addPlugin(pluginTOC, {
+    wrapper: 'div'
+  })
 
   // Filters
   config.addFilter("dateToFormat", (date, format) => {
@@ -103,52 +110,35 @@ module.exports = function (config) {
   });
 
   // Collections
-  
-  module.exports = function (eleventyConfig) {
-    // Add the cinematography collection from the JSON file
-    eleventyConfig.addCollection("cinematography", function (collectionApi) {
-      return collectionApi.getFilteredByGlob("content/cinematography.json");
-    });
-  };
+config.addCollection("projects", (collection) => {
+  const projects = collection.getFilteredByGlob("content/projects/*.md");
+  return projects.sort(function (a, b) {
+    return b.data.dateEnd - a.data.dateEnd;
+  });
+});
 
-  module.exports = function (eleventyConfig) {
-    eleventyConfig.addCollection("concept", function (collection) {
-      return collection.getFilteredByTag("concept");
-    });
-  };
-  module.exports = function (eleventyConfig) {
-    eleventyConfig.addCollection("caseStudies", function (collection) {
-      return collection.getFilteredByTag("caseStudies");
-    });
-  };  
-  module.exports = function (eleventyConfig) {
-    eleventyConfig.addCollection("exploration", function (collection) {
-      return collection.getFilteredByTag("exploration");
-    });
-  };
-  
-  module.exports = function (eleventyConfig) {
-    eleventyConfig.addCollection("writing", function (collection) {
-      return collection.getFilteredByTag("writing");
-    });
-  };
-  
-  
-  config.addCollection("projects", (collection) => {
-    const projects = collection.getFilteredByGlob("content/projects/*.md");
-    return projects.sort(function (a, b) {
-      return b.data.dateEnd - a.data.dateEnd;
-    });
+config.addCollection("posts", (collection) => {
+  const posts = collection.getFilteredByGlob("content/posts/*.md");
+  return posts.sort(function (a, b) {
+    return b.data.date - a.data.date;
   });
-  config.addCollection("posts", function (collection) {
-    const posts = collection.getFilteredByGlob("content/posts/*.md");
-    return posts.sort(function (a, b) {
-      return b.data.date - a.data.date;
-    });
-  });
-  config.addCollection("pages", function (collection) {
-    return collection.getFilteredByGlob("content/pages/*.md");
-  });
+});
+
+config.addCollection("pages", (collection) => {
+  return collection.getFilteredByGlob("content/pages/*.md");
+});
+
+config.addCollection("caseStudies", (collection) => {
+  const projects = collection.getFilteredByGlob("content/projects/*.md");
+  return projects.filter((project) => project.data.tags.includes("caseStudies"));
+});
+
+config.addCollection("explorations", (collection) => {
+  const projects = collection.getFilteredByGlob("content/projects/*.md");
+  return projects.filter((project) => project.data.tags.includes("exploration"));
+});
+
+
 
   // Markdown
   const markdownOptions = {
@@ -202,6 +192,8 @@ module.exports = function (config) {
   config.addLayoutAlias("posts", "layouts/posts.njk");
   config.addLayoutAlias("project", "layouts/project.njk");
   config.addLayoutAlias("projects", "layouts/projects.njk");
+  config.addLayoutAlias("resume", "layouts/resume.njk");
+
 
   // Base Config
   return {

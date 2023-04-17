@@ -1,31 +1,31 @@
 ---
-layout: post
-title: Resume
+layout: resume
+title: James Coy's Resume
 eleventyNavigation:
   key: Resume
-  order: 4
+  order: 2
 ---
-# Experience
 
-## Product Designer | HeadteacherChat | May 2022 - Present
+
+Designer with a diverse background, including 1 year as a Product Designer and 3+ years in the film industry, showcasing expertise in user research, creative collaboration, project management, prototyping, and interaction design. Successfully co-led the redesign of HeadteacherChat, catering to 100k+ monthly users, and earned a diploma from the UX Design Institute.
+
+## Experience & Education #fade-in-element
+### Product Designer | HeadteacherChat | May 2022 - Present
 - Developing V2, a user-friendly website for senior leaders to discover resources
 - Maintaining a formal, yet friendly brand voice consistent with Twitter presence
 - Collaborating with print designers to create physical planners with cohesive aesthetic
 - Managing a team of freelance designers and illustrators for planner rollout
-
-## UX Design Diploma | UX Design Institute | May 2022 - December 2022
+### UX Design Diploma | UX Design Institute | May 2022 - December 2022
 - Acquired globally recognized, industry-approved qualification
 - Mastered UX processes including user research, data analysis, and prototype creation
 - Gained confidence and adapted skills to enhance value as a UX designer
-
-## Production Assistant | Lambda Films | Oct 2019 - May 2022
+### Production Assistant | Lambda Films | Oct 2019 - May 2022
 - Assisted in all areas of production, from securing jobs to on-set equipment management
 - Supported DoP on shoots, setting up technical requirements and monitoring visual quality
 - Headed personal project 'That night with you' as writer, co-director, and cinematographer
 - Operated high-end cinema cameras and equipment, ensuring visual quality
 - Developed pre-production workflows and logistical documents for efficient shoots
-
-## Film and Moving Image (BA) | Norwich University of the Arts | 2016 - 2019
+### Film and Moving Image (BA) | Norwich University of the Arts | 2016 - 2019
 - Focused on Cinematographer role, blending art and technical skills
 - Learned collaboration, planning, and preparation in high-stress environments
 - Documented work in detail for effective collaboration
