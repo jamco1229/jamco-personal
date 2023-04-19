@@ -9,9 +9,9 @@ permalink: "/posts/{{ page.fileSlug }}/index.html"
 <div class='shelf'>
 {% for item in books %}
   <div class='books'>
-    <h2>{{ item.data.title }}</h2>
-    <p>By {{ item.data.authors }}</p>
-    <img src="https://covers.openlibrary.org/b/isbn/{{ item.data.isbn13 }}-L.jpg" />
+    <h2>{{ item.data.title | safe}}</h2>
+    <p>By {{ item.data.authors | safe }}</p>
+    <img src="https://covers.openlibrary.org/b/isbn/{{ item.data.isbn13 }}-m.jpg" alt='Cover for {{ item.data.title }}' />
   </div>
 {% endfor %}
 </div>
