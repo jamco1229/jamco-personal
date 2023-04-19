@@ -1,134 +1,314 @@
 [
+  {
+    "Book Id": 386372,
+    "Title": "Mort (Discworld, #4; Death, #1)",
+    "Author": "Terry Pratchett",
+    "Author l-f": "Pratchett, Terry",
+    "Additional Authors": null,
+    "ISBN": "=\"0061020680\"",
+    "ISBN13": "=\"9780061020681\"",
+    "My Rating": 0,
+    "Average Rating": 4.24,
+    "Date Read": null,
+    "Date Added": "2023/03/16",
+    "Bookshelves": "read",
+    "Bookshelves with positions": "",
+    "Exclusive Shelf": "",
+    "My Review": "",
+    "Read Count": 1,
+    "Owned Copies": 0
+  },
+  {
+    "Book Id": 49021976,
+    "Title": "Rhythm of War (The Stormlight Archive, #4)",
+    "Author": "Brandon Sanderson",
+    "Author l-f": "Sanderson, Brandon",
+    "Additional Authors": null,
+    "ISBN": "=\"0765326388\"",
+    "ISBN13": "=\"9780765326386\"",
+    "My Rating": 0,
+    "Average Rating": 4.62,
+    "Date Read": null,
+    "Date Added": "2023/03/16",
+    "Bookshelves": "read",
+    "Bookshelves with positions": "",
+    "Exclusive Shelf": "",
+    "My Review": "",
+    "Read Count": 1,
+    "Owned Copies": 0
+  },
+  {
+    "Book Id": 34002132,
+    "Title": "Oathbringer (The Stormlight Archive, #3)",
+    "Author": "Brandon Sanderson",
+    "Author l-f": "Sanderson, Brandon",
+    "Additional Authors": null,
+    "ISBN": "=\"076532637X\"",
+    "ISBN13": "=\"9780765326379\"",
+    "My Rating": 0,
+    "Average Rating": 4.62,
+    "Date Read": null,
+    "Date Added": "2023/03/16",
+    "Bookshelves": "read",
+    "Bookshelves with positions": "",
+    "Exclusive Shelf": "",
+    "My Review": "",
+    "Read Count": 1,
+    "Owned Copies": 0
+  },
+  {
+    "Book Id": 28187,
+    "Title": "The Lightning Thief (Percy Jackson and the Olympians, #1)",
+    "Author": "Rick Riordan",
+    "Author l-f": "Riordan, Rick",
+    "Additional Authors": null,
+    "ISBN": null,
+    "ISBN13": null,
+    "My Rating": 0,
+    "Average Rating": 4.29,
+    "Date Read": null,
+    "Date Added": "2023/03/16",
+    "Bookshelves": "read",
+    "Bookshelves with positions": "",
+    "Exclusive Shelf": "",
+    "My Review": "",
+    "Read Count": 1,
+    "Owned Copies": 0
+  },
     {
-      "title": "Good Omens",
-      "authors": "Terry Pratchett, Neil Gaiman",
-      "isbn10": "1448110238",
-      "isbn13": "9781448110230",
-      "image": ""
+        "title": "The Hobbit (The Lord of the Rings, #0)",
+        "author": "J.R.R. Tolkien",
+        "series": "Tolkien, J.R.R.",
+        "series_list": "Douglas A. Anderson, Michael Hague, Jemima Catlin",
+        "review": 5,
+        "rating": 4.28,
+        "format": "Paperback",
+        "publisher": "Houghton Mifflin",
+        "read_date": "2023/03/07",
+        "read_count": 1,
+        "wishlist": 0
     },
     {
-      "title": "Piranesi",
-      "authors": "Susanna Clarke",
-      "isbn10": "163557563X",
-      "isbn13": "9781635575637",
-      "image": ""
+        "title": "The Poppy War (The Poppy War, #1)",
+        "author": "R.F. Kuang",
+        "series": "Kuang, R.F.",
+        "series_list": "",
+        "review": 5,
+        "rating": 4.16,
+        "format": "ebook",
+        "publisher": "Harper Voyager",
+        "read_date": "2023/03/07",
+        "read_count": 1,
+        "wishlist": 0
     },
     {
-      "title": "Warbreaker",
-      "authors": "Brandon Sanderson",
-      "isbn10": "0575097469",
-      "isbn13": "9780575097469",
-      "image": ""
+        "title": "Shadows of Self (Mistborn, #5)",
+        "author": "Brandon Sanderson",
+        "series": "Sanderson, Brandon",
+        "series_list": "",
+        "review": 4,
+        "rating": 4.29,
+        "format": "Hardcover",
+        "publisher": "Tor Books",
+        "read_date": "2023/03/07",
+        "read_count": 1,
+        "wishlist": 0
     },
     {
-      "title": "The Way of Kings",
-      "authors": "Brandon Sanderson",
-      "isbn10": "0765326353",
-      "isbn13": "9780765326355",
-      "image": ""
+        "title": "Secret History (Mistborn, #3.5)",
+        "author": "Brandon Sanderson",
+        "series": "Sanderson, Brandon",
+        "series_list": "",
+        "review": 3,
+        "rating": 4.37,
+        "format": "Kindle Edition",
+        "publisher": "Dragonsteel Entertainment, LLC",
+        "read_date": "2023/03/07",
+        "read_count": 1,
+        "wishlist": 0
     },
     {
-      "title": "The Hobbit",
-      "authors": "J.R.R. Tolkien",
-      "isbn10": "0618260307",
-      "isbn13": "9780618260300",
-      "image": ""
+        "title": "The Lost Metal (Mistborn, #7)",
+        "author": "Brandon Sanderson",
+        "series": "Sanderson, Brandon",
+        "series_list": "",
+        "review": 5,
+        "rating": 4.49,
+        "format": "Hardcover",
+        "publisher": "Tor Books",
+        "read_date": "2023/03/07",
+        "read_count": 1,
+        "wishlist": 0
     },
     {
-      "title": "Klara and the Sun",
-      "authors": "Kazuo Ishiguro",
-      "isbn10": "059331817X",
-      "isbn13": "9780593318171",
-      "image": ""
+        "title": "The Bands of Mourning (Mistborn, #6)",
+        "author": "Brandon Sanderson",
+        "series": "Sanderson, Brandon",
+        "series_list": "",
+        "review": 4,
+        "rating": 4.43,
+        "format": "Kindle Edition",
+        "publisher": "Tor",
+        "read_date": "2023/03/07",
+        "read_count": 1,
+        "wishlist": 0
     },
-    {
-      "title": "A Wizard of Earthsea",
-      "authors": "Ursula K. Le Guin",
-      "isbn10": "0553383043",
-      "isbn13": "9780553383041",
-      "image": ""
-    },
-    {
-      "title": "Words of Radiance",
-      "authors": "Brandon Sanderson",
-      "isbn10": "0765326361",
-      "isbn13": "9780765326362",
-      "image": ""
-    },
-    {
-      "title": "Rhythm of War",
-      "authors": "Brandon Sanderson",
-      "isbn10": "0765326388",
-      "isbn13": "9780765326386",
-      "image": ""
-    },
-    {
-      "title": "Legion",
-      "authors": "Brandon Sanderson",
-      "isbn10": "1596064854",
-      "isbn13": "9781596064850",
-      "image": ""
-    },
-    {
-      "title": "Mort",
-      "authors": "Terry Pratchett",
-      "isbn10": "0061020680",
-      "isbn13": "9780061020681",
-      "image": ""
-    },
-    {
-      "title": "Mistborn: Secret History",
-      "authors": "Brandon Sanderson",
-      "isbn10": "1473221781",
-      "isbn13": "9781473221789",
-      "image": ""
-    },
-    {
-      "title": "Elantris",
-      "authors": "Brandon Sanderson",
-      "isbn10": "0575097450",
-      "isbn13": "9780575097452",
-      "image": ""
-    },
-    {
-      "title": "Oathbringer: Book Three of the Stormlight Archive",
-      "authors": "Brandon Sanderson",
-      "isbn10": "076532637X",
-      "isbn13": "9780765326379",
-      "image": ""
-    },  
-    {
-      "title": "The emperor's soul",
-      "authors": "Brandon Sanderson",
-      "isbn10": "1616960922",
-      "isbn13": "9781616960926",
-      "image": ""
-    },
-    {
-      "title": "The Hero of Ages: Mistborn Book Three",
-      "authors": "Brandon Sanderson (author)",
-      "isbn10": "1473223059",
-      "isbn13": "9781473223059",
-      "image": ""
+      {
+        "title": "The Alloy of Law (Mistborn, #4)",
+        "author": "Brandon Sanderson",
+        "author_lf": "Sanderson, Brandon",
+        "isbn10": "0765330423",
+        "isbn13": "9780765330420",
+        "average_rating": 4.21,
+        "date_added": "2023/03/07",
+        "date_read": null,
+        "bookshelves": [
+          "read"
+        ],
+        "exclusive_shelf": null,
+        "my_review": "",
+        "my_rating": "",
+        "num_pages": 332
       },
       {
-      "title": "The left hand of darkness",
-      "authors": "Ursula K. Le Guin",
-      "isbn10": "0060125748",
-      "image": ""
+        "book_id": 17332218,
+        "title": "Words of Radiance (The Stormlight Archive, #2)",
+        "author": "Brandon Sanderson",
+        "author_lf": "Sanderson, Brandon",
+        "isbn10": "0765326361",
+        "isbn13": "9780765326362",
+        "average_rating": 4.76,
+        "date_added": "2023/03/06",
+        "date_read": "2022/11/09",
+        "bookshelves": [
+          "read"
+        ],
+        "exclusive_shelf": null,
+        "my_review": "",
+        "my_rating": "",
+        "num_pages": 1087
       },
       {
-      "title": "The Well of Ascension (Mistborn, Book 2)",
-      "authors": "",
-      "isbn10": "0765356139",
-      "isbn13": "9780765356130",
-      "image": ""
+        "book_id": 7896527,
+        "title": "Throne of Glass (Throne of Glass, #1)",
+        "author": "Sarah J. Maas",
+        "author_lf": "Maas, Sarah J.",
+        "isbn10": "",
+        "isbn13": "",
+        "average_rating": 4.19,
+        "date_added": "2022/11/09",
+        "date_read": null,
+        "bookshelves": [
+          "to-read",
+          "to-read (#5)"
+        ],
+        "exclusive_shelf": "to-read",
+        "my_review": "",
+        "my_rating": "",
+        "num_pages": 406
       },
       {
-      "title": "The Final Empire",
-      "authors": "Brandon Sanderson",
-      "isbn10": "0575089911",
-      "isbn13": "9780575089914",
-      "image": ""
-      }
-      ]  
+        "book_id": 12067,
+        "title": "Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch",
+        "author": "Terry Pratchett",
+        "author_lf": "Pratchett, Terry",
+        "isbn10": "",
+        "isbn13": "",
+        "average_rating": 4.25,
+        "date_added": "2022/11/09",
+        "date_read": "2022/11/09",
+        "bookshelves": [
+          "read"
+        ],
+        "exclusive_shelf": null,
+        "my_review": "",
+        "my_rating": "",
+        "num_pages": 491
+      },
+      [
+        {
+          "title": "The Belgariad Boxed Set: Pawn of Prophecy / Queen of Sorcery / Magician's Gambit / Castle of Wizardry / Enchanters' End Game (The Belgariad, #1-5)",
+          "author": "Eddings, David",
+          "isbn13": "9780345340443",
+          "average_rating": 4.29,
+          "language_code": "eng",
+          "format": "Paperback",
+          "num_pages": 1635,
+          "publication_year": 1984
+        },
+        {
+          "book_id": 113436,
+          "title": "Eragon (The Inheritance Cycle, #1)",
+          "author": "Paolini, Christopher",
+          "isbn13": "9780375826696",
+          "average_rating": 3.94,
+          "language_code": "eng",
+          "format": "Paperback",
+          "num_pages": 503,
+          "publication_year": 2005
+        },
+        {
+          "book_id": 186074,
+          "title": "The Name of the Wind (The Kingkiller Chronicle, #1)",
+          "author": "Rothfuss, Patrick",
+          "isbn13": "9780756404079",
+          "average_rating": 4.52,
+          "language_code": "eng",
+          "format": "Hardcover",
+          "num_pages": 662,
+          "publication_year": 2007
+        },
+        {
+          "book_id": 13496,
+          "title": "A Game of Thrones (A Song of Ice and Fire, #1)",
+          "author": "Martin, George R.R.",
+          "isbn13": "9780553588484",
+          "average_rating": 4.44,
+          "language_code": "eng",
+          "format": "Mass Market Paperback",
+          "num_pages": 835,
+          "publication_year": 2005
+        },
+        {
+          "book_id": 13642,
+          "title": "A Wizard of Earthsea (Earthsea Cycle, #1)",
+          "author": "Guin, Ursula K. Le",
+          "isbn13": "9780553383041",
+          "average_rating": 4.01,
+          "language_code": "eng",
+          "format": "Paperback",
+          "num_pages": 183,
+          "publication_year": 2004
+        },
+        {
+          "book_id": 18423,
+          "title": "The Left Hand of Darkness",
+          "author": "Guin, Ursula K. Le",
+          "average_rating": 4.09,
+          "language_code": "eng",
+          "format": "Paperback",
+          "num_pages": 304,
+          "publication_year": 2000
+        },
+        {
+          "book_id": 13452375,
+          "title": "Legion (Legion, #1)",
+          "author": "Sanderson, Brandon",
+          "isbn13": "9781596064850",
+          "average_rating": 4.13,
+          "language_code": "eng",
+          "format": "Hardcover",
+          "num_pages": 88,
+          "publication_year": 2012
+        },
+        {
+          "book_id": 13578175,
+          "title": "The Emperor's Soul (The Cosmere)",
+          "author": "Sanderson, Brandon",
+          "isbn13": "9781616960926",
+          "average_rating": 4.37,
+          "language_code": "eng",
+          "format": "Paperback",
+         
+      
+    
