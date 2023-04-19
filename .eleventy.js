@@ -7,6 +7,8 @@ const { DateTime } = require("luxon");
 const fs = require("fs");
 const respimg = require("eleventy-plugin-sharp-respimg");
 const pluginTOC = require('eleventy-plugin-toc');
+const { fetchBookCovers } = require('./fetch-book-covers.js');
+
 
 var getIndex = (collection, currentSlug) => {
   let currentIndex = 0;
