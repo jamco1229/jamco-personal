@@ -1,4 +1,4 @@
-const fetch = require("node-fetch");
+const fetch = await import('node-fetch').then(module => module.default);
 const fs = require("fs");
 
 const books = require("./content/_data/books.json");
