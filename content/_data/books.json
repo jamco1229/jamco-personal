@@ -3,114 +3,132 @@
       "title": "Good Omens",
       "authors": "Terry Pratchett, Neil Gaiman",
       "isbn10": "1448110238",
-      "isbn13": "9781448110230"
+      "isbn13": "9781448110230",
+      "image": ""
     },
     {
       "title": "Piranesi",
       "authors": "Susanna Clarke",
       "isbn10": "163557563X",
-      "isbn13": "9781635575637"
+      "isbn13": "9781635575637",
+      "image": ""
     },
     {
       "title": "Warbreaker",
       "authors": "Brandon Sanderson",
       "isbn10": "0575097469",
-      "isbn13": "9780575097469"
+      "isbn13": "9780575097469",
+      "image": ""
     },
     {
       "title": "The Way of Kings",
       "authors": "Brandon Sanderson",
       "isbn10": "0765326353",
-      "isbn13": "9780765326355"
+      "isbn13": "9780765326355",
+      "image": ""
     },
     {
       "title": "The Hobbit",
       "authors": "J.R.R. Tolkien",
       "isbn10": "0618260307",
-      "isbn13": "9780618260300"
+      "isbn13": "9780618260300",
+      "image": ""
     },
     {
       "title": "Klara and the Sun",
       "authors": "Kazuo Ishiguro",
       "isbn10": "059331817X",
-      "isbn13": "9780593318171"
+      "isbn13": "9780593318171",
+      "image": ""
     },
     {
       "title": "A Wizard of Earthsea",
       "authors": "Ursula K. Le Guin",
       "isbn10": "0553383043",
-      "isbn13": "9780553383041"
+      "isbn13": "9780553383041",
+      "image": ""
     },
     {
       "title": "Words of Radiance",
       "authors": "Brandon Sanderson",
       "isbn10": "0765326361",
-      "isbn13": "9780765326362"
+      "isbn13": "9780765326362",
+      "image": ""
     },
     {
       "title": "Rhythm of War",
       "authors": "Brandon Sanderson",
       "isbn10": "0765326388",
-      "isbn13": "9780765326386"
+      "isbn13": "9780765326386",
+      "image": ""
     },
     {
       "title": "Legion",
       "authors": "Brandon Sanderson",
       "isbn10": "1596064854",
-      "isbn13": "9781596064850"
+      "isbn13": "9781596064850",
+      "image": ""
     },
     {
       "title": "Mort",
       "authors": "Terry Pratchett",
       "isbn10": "0061020680",
-      "isbn13": "9780061020681"
+      "isbn13": "9780061020681",
+      "image": ""
     },
     {
       "title": "Mistborn: Secret History",
       "authors": "Brandon Sanderson",
       "isbn10": "1473221781",
-      "isbn13": "9781473221789"
+      "isbn13": "9781473221789",
+      "image": ""
     },
     {
       "title": "Elantris",
       "authors": "Brandon Sanderson",
       "isbn10": "0575097450",
-      "isbn13": "9780575097452"
+      "isbn13": "9780575097452",
+      "image": ""
     },
     {
       "title": "Oathbringer: Book Three of the Stormlight Archive",
       "authors": "Brandon Sanderson",
       "isbn10": "076532637X",
-      "isbn13": "9780765326379"
-    },
+      "isbn13": "9780765326379",
+      "image": ""
+    },  
     {
       "title": "The emperor's soul",
       "authors": "Brandon Sanderson",
       "isbn10": "1616960922",
-      "isbn13": "9781616960926"
+      "isbn13": "9781616960926",
+      "image": ""
     },
     {
       "title": "The Hero of Ages: Mistborn Book Three",
       "authors": "Brandon Sanderson (author)",
       "isbn10": "1473223059",
-      "isbn13": "9781473223059"
+      "isbn13": "9781473223059",
+      "image": ""
       },
       {
       "title": "The left hand of darkness",
       "authors": "Ursula K. Le Guin",
       "isbn10": "0060125748",
-      "isbn13": ""
+      "image": ""
       },
       {
       "title": "The Well of Ascension (Mistborn, Book 2)",
       "authors": "",
       "isbn10": "0765356139",
-      "isbn13": "9780765356130"
+      "isbn13": "9780765356130",
+      "image": ""
       },
       {
       "title": "The Final Empire",
       "authors": "Brandon Sanderson",
       "isbn10": "0575089911",
-      "isbn13": "9780575089914"
+      "isbn13": "9780575089914",
+      "image": ""
       }
       ]  
