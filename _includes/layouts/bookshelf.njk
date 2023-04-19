@@ -7,11 +7,11 @@ permalink: "/posts/{{ page.fileSlug }}/index.html"
 <p>A collection of what I have read recently.</p>
 
 <div class='shelf'>
-{% for book in collections.books %}
+{% for item in collections.books %}
   <div>
-    <h2>{{ book.data.title }}</h2>
-    <p>By {{ book.data.authors }}</p>
-    <img src="https://covers.openlibrary.org/b/isbn/{{ book.data.isbn13 }}-L.jpg" />
+    <h2>{{ item.data.title }}</h2>
+    <p>By {{ item.data.authors }}</p>
+    <img src="https://covers.openlibrary.org/b/isbn/{{ item.data.isbn13 }}-L.jpg" />
   </div>
 {% endfor %}
 </div>
