@@ -199,6 +199,7 @@ config.addCollection("explorations", (collection) => {
   config.addLayoutAlias("project", "layouts/project.njk");
   config.addLayoutAlias("projects", "layouts/projects.njk");
   config.addLayoutAlias("resume", "layouts/resume.njk");
+  config.addLayoutAlias("bookshelf", "layouts/bookshelf.njk");
 
 
   // Base Config
