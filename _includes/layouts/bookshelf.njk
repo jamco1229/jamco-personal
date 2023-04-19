@@ -1,0 +1,17 @@
+---
+layout: base
+permalink: "/posts/{{ page.fileSlug }}/index.html"
+---
+
+<h1>Bookshelf</h1>
+<p>A collection of what I have read recently.</p>
+
+<div class='shelf'>
+{% for book in collections.books %}
+  <div>
+    <h2>{{ book.data.title }}</h2>
+    <p>By {{ book.data.authors }}</p>
+    <p>ISBN: {{ book.data.isbn13 }}</p>
+  </div>
+{% endfor %}
+</div>
