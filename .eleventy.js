@@ -133,10 +133,15 @@ config.addCollection("caseStudies", (collection) => {
   return projects.filter((project) => project.data.tags.includes("caseStudies"));
 });
 
+config.addCollection("books", function (collectionApi) {
+  return collectionApi.getFilteredByGlob("_data/books.json");
+});
+
 config.addCollection("explorations", (collection) => {
   const projects = collection.getFilteredByGlob("content/projects/*.md");
   return projects.filter((project) => project.data.tags.includes("exploration"));
 });
+
 
 
 
