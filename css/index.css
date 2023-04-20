@@ -193,7 +193,9 @@ position: relative;
   .visible {
     opacity: 1;
   }
-  
+  .post-date {
+    text-align: center;
+  }
   h1 {
     font-family: var(--font-family-serif);
     text-align: center;
