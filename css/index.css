@@ -514,7 +514,7 @@ li {
 /* Styles for desktop devices */
 @media (min-width: 768px) {
   .shelf {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
