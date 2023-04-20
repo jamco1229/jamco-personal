@@ -4,14 +4,6 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
 ---
 <article class="project" class='fade-in-element'>
     <header>
-     {% if media %}
-    {% for block in media %}
-      <div class="project-header-img">
-        {% set caption = block.caption %}
-        {% include 'snippets/media.njk' %}
-      </div>
-    {% endfor %}
-  {% endif %}
     <h1>{{ title | safe }}</h1>
     <div class='project-specs'>
     <div class='spec-container'>
@@ -20,6 +12,14 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
     <div class='spec'><h3>Read Time</h3><div class='divider'></div><p class='project-readtime'>{{ readTime | safe}}</p></div>
     <div class='spec'><h3>Platform</h3><div class='divider'></div><p class='project-platform'>{{ platform | safe}}</p></div>
     </div>
+         {% if media %}
+    {% for block in media %}
+      <div class="project-header-img">
+        {% set caption = block.caption %}
+        {% include 'snippets/media.njk' %}
+      </div>
+    {% endfor %}
+  {% endif %}
        <aside>
             <h2>Contents</h2>
   {{ content | toc | safe }}
