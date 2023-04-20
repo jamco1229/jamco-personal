@@ -196,6 +196,7 @@ position: relative;
   
   h1 {
     font-family: var(--font-family-serif);
+    text-align: center;
       font-style: normal;
       font-size: 2rem;
       color: var(--color);
