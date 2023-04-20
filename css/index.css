@@ -504,6 +504,25 @@ li {
     color: var(--bold-color);
   }
 
+/* Base styles for mobile devices */
+.shelf {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
+/* Styles for desktop devices */
+@media (min-width: 768px) {
+  .shelf {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.cover {
+  border-radius: 4px;
+  box-shadow: 0px 4px 20px rgba(5, 18, 36, 0.1);
+  
+}
 /* Cards */
 ul {
   margin: 1rem 0;
