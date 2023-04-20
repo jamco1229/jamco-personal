@@ -1,9 +1,0 @@
----
-layout: post
-title: Coming Soon
-date: 2020-04-06
-excerpt: An update on the website I'm building.
----
-
-This is a website I'm building using HTML, CSS, and some other stuff. This is my first time doing this, and I'm using the starter kit for static portfolio sites by [Piper Haywood](https://piperhaywood.com) and [Sam Baldwin](https://sambaldwin.info).
-I've then linked this up to my obsidian, so that I can publish here often and easily right from the tools I use everyday!
