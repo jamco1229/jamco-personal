@@ -9,7 +9,7 @@ permalink: "/posts/{{ page.fileSlug }}/index.html"
 <div class='shelf'>
 {% for item in books %}
   <div class='books'>
-  <img class='cover' src="https://covers.openlibrary.org/b/isbn/{{ item.isbn10 }}-l.jpg" alt='Cover for {{ item.title }}' />
+  <img class='cover' src="https://covers.openlibrary.org/b/isbn/{{ item.isbn10 }}-L.jpg" alt='Cover for {{ item.title }}' />
     <h3>{{ item.title | safe}}</h3>
     <p>By {{ item.authors | safe }}</p>
   </div>
