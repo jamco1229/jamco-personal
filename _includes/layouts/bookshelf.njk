@@ -11,7 +11,7 @@ permalink: "/posts/{{ page.fileSlug }}/index.html"
   <div class='books'>
     <h2>{{ item.title | safe}}</h2>
     <p>By {{ item.authors | safe }}</p>
-    <img src="https://covers.openlibrary.org/b/isbn/{{ item.isbn13 }}-l.jpg" alt='Cover for {{ item.title }}' />
+    <img src="https://covers.openlibrary.org/b/isbn/{{ item.isbn10 }}-l.jpg" alt='Cover for {{ item.title }}' />
   </div>
 {% endfor %}
 </div>
