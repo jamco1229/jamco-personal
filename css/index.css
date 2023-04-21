@@ -354,6 +354,11 @@ aside > h2 {
     text-decoration: none;
   }
 
+  tippy('#singleElement', {
+    content: 'Tooltip',
+  });
+  
+
 .tooltip {
     visibility: hidden;
     background-color: #555;

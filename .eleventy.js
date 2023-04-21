@@ -1,9 +1,5 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginNav = require("@11ty/eleventy-navigation");
-// main.js
-import tippy from 'https://cdn.skypack.dev/tippy.js';
-import 'https://cdn.skypack.dev/tippy.js/dist/tippy.css';
-
 
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");

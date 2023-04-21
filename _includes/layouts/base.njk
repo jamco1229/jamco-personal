@@ -53,7 +53,7 @@
       <a href='/Resume'><p>Resume</p></a>
       </li>
       <li>
-      <a id="contact"><p>Contact</p></a>
+      <a id='contact'><p>Contact</p></a>
       </li>
     </ul>
   </nav>
@@ -70,9 +70,19 @@
 
     <script src="https://unpkg.com/blaze-slider@1.9.1/dist/blaze-slider.min.js"></script>
     <script>
-tippy('#contact', {
-        content: 'Copied to clipboard!',
-      });
+// main.js
+import tippy from 'https://cdn.skypack.dev/tippy.js';
+import 'https://cdn.skypack.dev/tippy.js/dist/tippy.css';
+
+// Initialize tippy.js for the button with the 'contact' ID
+document.addEventListener('DOMContentLoaded', () => {
+  const contactButton = document.getElementById('contact');
+  if (contactButton) {
+    tippy(contactButton, {
+      content: 'Copy my email to your clipboard!',
+    });
+  }
+});
 
 
 document.getElementById('emailBtn').addEventListener('click', function(event) {
