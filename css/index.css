@@ -104,7 +104,7 @@ position: relative;
   z-index: -50;
   background: var(--background-color);
 opacity: 1;
-background-image:  radial-gradient(#b7e3e477 1.2000000000000002px, transparent 1.2000000000000002px), radial-gradient(#b7e3e477 1.2000000000000002px, var(--background-color) 1.2000000000000002px);
+background-image:  radial-gradient(#b7e3e420 1.2000000000000002px, transparent 1.2000000000000002px), radial-gradient(#b7e3e420 1.2000000000000002px, var(--background-color) 1.2000000000000002px);
 background-size: 48px 48px;
 background-position: 0 0,24px 24px;
 }
