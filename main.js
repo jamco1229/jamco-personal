@@ -1,6 +1,5 @@
-// main.js
-import tippy from 'https://cdn.skypack.dev/tippy.js';
-import 'https://cdn.skypack.dev/tippy.js/dist/tippy.css';
+import tippy from 'tippy.js';
+import 'tippy.js/dist/tippy.css'; // optional for styling
 
 const contactButton = document.getElementById('contact');
 if (contactButton) {
