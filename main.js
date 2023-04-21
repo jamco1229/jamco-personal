@@ -73,9 +73,9 @@ function checkVisibility() {
 }
 
 checkVisibility(); // Initial check in case some elements are already in the viewport
-
 window.addEventListener("scroll", checkVisibility);
 window.addEventListener("resize", checkVisibility);
+
 
 // Code for smooth scroll
 const tocLinks = document.querySelectorAll(".toc a");
