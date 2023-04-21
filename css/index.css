@@ -486,7 +486,6 @@ svg {
   }
   .concepts a, .case-studies a, .project-header a{
     display: flex;
-    flex-direction: column;
     align-items: baseline;
     justify-content: baseline;
   }
