@@ -45,18 +45,16 @@
 <header class="site-header">
   <nav class="site-nav">
     <ul>
-      {% for item in collections.all | eleventyNavigation %}
-        <li{% if item.url == page.url %} class="active"{% endif %}>
-          <a href="{{ item.url }}">
-           <p>{{ item.title | safe }}</p>
-          </a>
-                      {% if item.url == page.url %}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="12" cy="12" r="12" fill="currentColor"></circle>
-              </svg>
-            {% endif %}
         </li>
-      {% endfor %}
+      <li>
+      <a href='/'><p>Home</p></a>
+      </li>
+      <li>
+      <a href='/resume'><p>Resume</p></a>
+      </li>
+      <li>
+      <a href='mailto:jamescoydesign@gmail.com' id="emailBtn"><p>Contact</p></a>
+      </li>
     </ul>
   </nav>
 </header>
