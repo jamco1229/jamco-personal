@@ -28,6 +28,7 @@
     <title>{{ title ~ ' – ' ~ global.title if title else global.title }}</title>
 <link href="https://unpkg.com/@primer/css@^20.2.4/dist/primer.css" rel="stylesheet" />
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+
     <link rel="stylesheet" href="https://unpkg.com/blaze-slider@1.9.1/dist/blaze.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -71,7 +72,6 @@
 </div>
 
     <script src="https://unpkg.com/blaze-slider@1.9.1/dist/blaze-slider.min.js"></script>
-   <script type="module" src="main.js"></script>
     <script src="dist/clipboard.min.js"></script>
     <script>
       // Code for fadeInElements
@@ -93,6 +93,6 @@ window.addEventListener("resize", checkVisibility);
       </script>
       <script src="https://unpkg.com/@popperjs/core@2"></script>
 <script src="https://unpkg.com/tippy.js@6"></script>
-<script src="main.js"></script>
+<script src="/main.js"></script>
   </body>
 </html>
