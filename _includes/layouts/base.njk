@@ -71,31 +71,19 @@
 
     <script src="https://unpkg.com/blaze-slider@1.9.1/dist/blaze-slider.min.js"></script>
     <script>
- document.addEventListener("DOMContentLoaded", function () {
-  const emailBtn = document.getElementById("emailBtn");
-  const tooltip = document.getElementById("tooltip");
+document.getElementById('emailBtn').addEventListener('click', function(event) {
+    event.preventDefault();
+    const email = 'james.coy.design@gmail.com';
+    const tooltip = document.getElementById('tooltip');
 
-  emailBtn.addEventListener("click", function (event) {
-    event.preventDefault(); // Prevent the default "mailto:" behavior
-
-    const email = emailBtn.href.replace("mailto:", ""); // Extract email from the "mailto:" link
-    const dummyInput = document.createElement("input"); // Create a dummy input to hold the email
-    document.body.appendChild(dummyInput); // Append the input to the body
-    dummyInput.value = email;
-    dummyInput.select();
-    dummyInput.setSelectionRange(0, 99999); // For mobile devices
-    document.execCommand("copy");
-    document.body.removeChild(dummyInput); // Remove the input from the body
-
-    // Show the tooltip
-    tooltip.style.visibility = "visible";
-    tooltip.style.opacity = "1";
-
-    // Hide the tooltip after 2 seconds
-    setTimeout(function () {
-      tooltip.style.visibility = "hidden";
-      tooltip.style.opacity = "0";
-    }, 2000);
+    navigator.clipboard.writeText(email).then(() => {
+      tooltip.style.display = 'block';
+      setTimeout(() => {
+        tooltip.style.display = 'none';
+      }, 2000);
+    }).catch(() => {
+      console.error('Failed to copy email to clipboard.');
+    });
   });
 
   // Code for active class in nav bar
