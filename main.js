@@ -55,27 +55,6 @@ blazeSlider.onSlide((pageIndex, firstVisibleSlideIndex, lastVisibleSlideIndex) =
   console.log({ pageIndex, firstVisibleSlideIndex, lastVisibleSlideIndex });
 });
 
-// Code for fadeInElements
-const fadeInElements = document.querySelectorAll(".fade-in-element");
-
-function checkVisibility() {
-  const windowHeight = window.innerHeight;
-  const scrollY = window.scrollY || window.pageYOffset;
-
-  fadeInElements.forEach(function (element) {
-    const elementPosition = element.getBoundingClientRect().top + scrollY;
-    const elementHeight = element.offsetHeight;
-
-    if (scrollY + windowHeight >= elementPosition + elementHeight / 4) {
-      element.classList.add("visible");
-    }
-  });
-}
-
-checkVisibility(); // Initial check in case some elements are already in the viewport
-window.addEventListener("scroll", checkVisibility);
-window.addEventListener("resize", checkVisibility);
-
 
 // Code for smooth scroll
 const tocLinks = document.querySelectorAll(".toc a");
