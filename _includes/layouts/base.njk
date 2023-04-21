@@ -84,7 +84,24 @@
         document.execCommand("copy");
         document.body.removeChild(dummyInput); // Remove the input from the body
         alert("Copied the email: " + email);
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+    const navLinks = document.querySelectorAll(".site-nav a");
+    const currentUrl = window.location.href;
+
+    navLinks.forEach(function (link) {
+      if (link.href === currentUrl) {
+        link.classList.add("active");
+      } else {
+        link.classList.remove("active");
+      }
+    });
+  });
+
+  
       const sliderEl = document.querySelector(".blaze-slider");
+
 
 const blazeSlider = new BlazeSlider(sliderEl, {
   all: {
