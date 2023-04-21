@@ -53,7 +53,7 @@
       <a href='/Resume'><p>Resume</p></a>
       </li>
       <li>
-      <a data-clipboard-text="jamescoydesign@gmail.com" class='tooltipped tooltipped-n' aria-label='Copy my email to your clipboard!'><p>Contact</p></a>
+      <a id="contact"><p>Contact</p></a>
       </li>
     </ul>
   </nav>
@@ -70,6 +70,10 @@
 
     <script src="https://unpkg.com/blaze-slider@1.9.1/dist/blaze-slider.min.js"></script>
     <script>
+tippy('#contact', {
+        content: 'Copied to clipboard!',
+      });
+
 
 document.getElementById('emailBtn').addEventListener('click', function(event) {
   event.preventDefault();
