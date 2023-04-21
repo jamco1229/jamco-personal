@@ -69,9 +69,21 @@
 </div>
 
     <script src="https://unpkg.com/blaze-slider@1.9.1/dist/blaze-slider.min.js"></script>
-
-    <!-- playground-->
     <script>
+    const emailBtn = document.getElementById("emailBtn");
+
+    emailBtn.addEventListener("click", function(event) {
+        event.preventDefault(); // Prevent the default "mailto:" behavior
+        
+        const email = emailBtn.href.replace("mailto:", ""); // Extract email from the "mailto:" link
+        const dummyInput = document.createElement("input"); // Create a dummy input to hold the email
+        document.body.appendChild(dummyInput); // Append the input to the body
+        dummyInput.value = email;
+        dummyInput.select();
+        dummyInput.setSelectionRange(0, 99999); // For mobile devices
+        document.execCommand("copy");
+        document.body.removeChild(dummyInput); // Remove the input from the body
+        alert("Copied the email: " + email);
       const sliderEl = document.querySelector(".blaze-slider");
 
 const blazeSlider = new BlazeSlider(sliderEl, {
