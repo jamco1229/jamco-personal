@@ -86,6 +86,32 @@
         alert("Copied the email: " + email);
    });
 
+    const emailBtn = document.getElementById("emailBtn");
+    const tooltip = document.getElementById("tooltip");
+
+    emailBtn.addEventListener("click", function(event) {
+        event.preventDefault(); // Prevent the default "mailto:" behavior
+
+        const email = emailBtn.href.replace("mailto:", ""); // Extract email from the "mailto:" link
+        const dummyInput = document.createElement("input"); // Create a dummy input to hold the email
+        document.body.appendChild(dummyInput); // Append the input to the body
+        dummyInput.value = email;
+        dummyInput.select();
+        dummyInput.setSelectionRange(0, 99999); // For mobile devices
+        document.execCommand("copy");
+        document.body.removeChild(dummyInput); // Remove the input from the body
+
+        // Show the tooltip
+        tooltip.style.visibility = "visible";
+        tooltip.style.opacity = "1";
+
+        // Hide the tooltip after 2 seconds
+        setTimeout(function() {
+            tooltip.style.visibility = "hidden";
+            tooltip.style.opacity = "0";
+        }, 2000);
+    });
+
         document.addEventListener("DOMContentLoaded", function () {
     const navLinks = document.querySelectorAll(".site-nav a");
     const currentUrl = window.location.href;

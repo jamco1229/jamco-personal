@@ -341,7 +341,22 @@ aside > h2 {
   .site-nav p {
     text-decoration: none;
   }
-  
+
+.tooltip {
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position the tooltip */
+    left: 50%;
+    margin-left: -30px; /* Center the tooltip */
+    opacity: 0; /* Start with 0 opacity */
+    transition: opacity 0.3s;
+}
 /* Images */
  audio,
     img,
