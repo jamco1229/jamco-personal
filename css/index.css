@@ -819,6 +819,7 @@ top: 0;
 }
 
 .book {
+  position: static;
   width: 2rem;
   border-radius: 4px;
 }
