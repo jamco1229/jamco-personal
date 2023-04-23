@@ -809,6 +809,10 @@ transition: background 0.3s ease-in, box-shadow 0.3s ease-in, transform 0.3 ease
   filter: blur(20px);
 }
 
+.book-text {
+transform: rotateX('-90deg');
+}
+
 .book {
   width: 2rem;
   border-radius: 4px;
