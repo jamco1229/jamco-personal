@@ -807,14 +807,17 @@ transition: background 0.3s ease-in, box-shadow 0.3s ease-in, transform 0.3 ease
 
 .book > .cover {
   filter: blur(20px);
+display: block;
 }
 
 .book-text {
+  display: block;
 transform: rotateX('90deg');
 }
 
 
 .book {
+  display: block;
   position: static;
   width: 2rem;
   height: 10rem;
