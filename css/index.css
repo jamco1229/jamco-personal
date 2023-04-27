@@ -473,6 +473,11 @@ mask-image: linear-gradient(0deg, #0A0A0A 8.59%, #0A0A0A 36.37%, rgba(10, 10, 10
   width: 100%;
   margin-bottom: 2rem;
 }
+.project-header-img > *{
+  width: 100%;
+  border: var(--border);
+}
+
 .project-header-title {
   text-decoration: none;
   display: flex;

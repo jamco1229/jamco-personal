@@ -5,13 +5,6 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
 <article class="project" class='fade-in-element'>
     <header>
     <h1>{{ title | safe }}</h1>
-    <div class='project-specs'>
-    <div class='spec-container'>
-    <div class='spec'><h3>Role</h3><div class='divider'></div><p class='project-role'>{{ role | safe}}</p></div>
-    <div class='spec'><h3>Completion Date</h3><div class='divider'></div><p class='project-completion-date'>{{ completionDate | safe}}</p></div>
-    <div class='spec'><h3>Read Time</h3><div class='divider'></div><p class='project-readtime'>{{ readTime | safe}}</p></div>
-    <div class='spec'><h3>Platform</h3><div class='divider'></div><p class='project-platform'>{{ platform | safe}}</p></div>
-    </div>
          {% if media %}
     {% for block in media %}
       <div class="project-header-img">
@@ -20,6 +13,13 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
       </div>
     {% endfor %}
   {% endif %}
+      <div class='project-specs'>
+    <div class='spec-container'>
+    <div class='spec'><h3>Role</h3><div class='divider'></div><p class='project-role'>{{ role | safe}}</p></div>
+    <div class='spec'><h3>Completion Date</h3><div class='divider'></div><p class='project-completion-date'>{{ completionDate | safe}}</p></div>
+    <div class='spec'><h3>Read Time</h3><div class='divider'></div><p class='project-readtime'>{{ readTime | safe}}</p></div>
+    <div class='spec'><h3>Platform</h3><div class='divider'></div><p class='project-platform'>{{ platform | safe}}</p></div>
+    </div>
        <aside>
             <h2>Contents</h2>
   {{ content | toc | safe }}
