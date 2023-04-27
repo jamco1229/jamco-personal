@@ -4,10 +4,10 @@ layout: project
 sort: 3
 tags:
   - exploration
-description: Quick poster for an upwork job.
+description: Super quick poster for an upwork job.
 dateEnd: 2023-02-15 12:00:01
-role: UI Design
-completionDate: Feb 2023
+role: Design
+completionDate: April 2023
 readTime: 1 Min
 image: upwork-poster.png
 
