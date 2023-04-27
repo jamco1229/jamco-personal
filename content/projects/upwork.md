@@ -18,4 +18,4 @@ media:
     alt: Poster for Upwork
 ---
 
-[Checl out the listing on my page](https://www.upwork.com/freelancers/jamesc64)
+[Check out the listing on my page](https://www.upwork.com/freelancers/jamesc64)
