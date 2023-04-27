@@ -12,7 +12,7 @@ eleventyNavigation:
 
 I prioritize accessibility, collaboration, and **creating meaningful impact through design.** When I'm not working on projects, you can find me [reading something fantasy](https://jamescoy.site/posts/bookshelf/) or sitting in a local coffee shop.
 
-[Hire me on upwork.](https://www.upwork.com/freelancers/~01c5b23fafbd1f1e56)
+[Hire me on upwork.](https://www.upwork.com/freelancers/jamesc64)
 
 If you have a project in mind, don't hesitate to [get in touch](mailto:james.coy.design@gmail.com).
 
