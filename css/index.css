@@ -355,10 +355,10 @@ aside > h2 {
     text-decoration: none;
   }
 
-  tippy('#singleElement', {
-    content: 'Tooltip',
-  });
-  
+.custom-tooltip {
+  font-size: 1.25rem;
+  padding: 0.5rem;
+}
 
 .tooltip {
     visibility: hidden;
