@@ -171,31 +171,6 @@ const button = document.getElementById('copy-email-button');
       tippyInstance.setContent('Click to copy email');
     }, 2000);
   });
-   // Initialize Tippy.js for the link
-  const tippyInstance = tippy(link, {
-    content: 'Click to copy email',
-    trigger: 'manual',
-    hideOnClick: false,
-  });
-
-  // Add a click event listener to the link
-  link.addEventListener('click', () => {
-    // Copy the email to the clipboard
-    const email = link.getAttribute('data-email');
-    copyToClipboard(email);
-
-    // Update the tooltip content and show it
-    tippyInstance.setContent('Email copied to clipboard');
-    tippyInstance.show();
-
-    // Hide the tooltip after 2 seconds
-    setTimeout(() => {
-      tippyInstance.hide();
-      tippyInstance.setContent('Click to copy email');
-    }, 2000);
-  });
-});
-
 
       </script>
       <script src="https://unpkg.com/@popperjs/core@2"></script>
