@@ -159,12 +159,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const email = button.getAttribute('data-email');
     copyToClipboard(email);
 
-    tippyButton.setContent('Email copied to clipboard');
+    tippyButton.setContent('Email copied to clipboard ✓');
     tippyButton.show();
 
     setTimeout(() => {
       tippyButton.hide();
-      tippyButton.setContent('Click to copy email');
+      tippyButton.setContent('Click to copy email →');
     }, 2000);
   });
 
@@ -178,12 +178,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const email = link.getAttribute('data-email');
     copyToClipboard(email);
 
-    tippyLink.setContent('Email copied to clipboard');
+    tippyLink.setContent('Email copied to clipboard ✓');
     tippyLink.show();
 
     setTimeout(() => {
       tippyLink.hide();
-      tippyLink.setContent('Click to copy email');
+      tippyLink.setContent('Click to copy email →');
     }, 2000);
   });
 });
