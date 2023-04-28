@@ -399,6 +399,7 @@ svg {
   iframe {
       position: relative;
       margin: 40px auto;
+      align-self: center;
       width: 360px;
       height: 780px;
       background-color: #7371ee;
