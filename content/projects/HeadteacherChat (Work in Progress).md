@@ -18,6 +18,9 @@ media:
     size: md
     alt: Cover for HeadteacherChat Navigation Post
 ---
+
+<iframe style='margin: 4rem 0;width:100%;height:600px;border:solid,2px,#222;border-radius:16px;' src="https://headteacherchat.com/" title="Chroma Web Page"></iframe>
+
 HeadteacherChat has come a long way since its humble beginnings as a weekly Twitter thread. What started as a casual conversation among teachers has grown into a valuable resource hub and a network of trusted companies for senior leaders in education. This is the story of how a small family endeavor transformed into a vital online platform.
 
 ## The Background
