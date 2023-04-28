@@ -246,8 +246,6 @@ background-position: 0 0,24px 24px;
       overflow-wrap: break-word; 
       margin-top: 4rem;
       margin-bottom: 0.5rem;
-      padding-bottom: 0.5rem;
-      border-bottom: var(--border);
       }
   
   em {
