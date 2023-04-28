@@ -568,11 +568,11 @@ li > a > h3 {
 }
 
 .grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   list-style-type: none;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: masonry;
 }
 
 .explorations {
