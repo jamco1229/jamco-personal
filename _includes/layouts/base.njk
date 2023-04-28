@@ -59,7 +59,7 @@
       <a href='/Resume'><p>Resume</p></a>
       </li>
       <li>
-      <a id="copy-email-button" data-email="james.coy.design@gmail.com"><p>Contact</p></a>
+      <a class="copy-email-button" data-email="james.coy.design@gmail.com"><p>Contact</p></a>
       </li>
     </ul>
   </nav>
@@ -145,8 +145,7 @@ function copyToClipboard(text) {
   document.body.removeChild(textarea);
 }
 document.addEventListener('DOMContentLoaded', () => {
-  const button = document.getElementById('copy-email-button');
-
+  const buttons = document.querySelectorAll('.copy-email-button');
   // Initialize Tippy.js for the button
   const tippyInstance = tippy(button, {
     content: 'Click to copy email',
