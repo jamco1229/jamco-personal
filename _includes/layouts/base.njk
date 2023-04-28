@@ -145,7 +145,8 @@ function copyToClipboard(text) {
   document.body.removeChild(textarea);
 }
 document.addEventListener('DOMContentLoaded', () => {
-  const buttons = document.querySelectorAll('.copy-email-button');
+  const button = document.getElementById('copy-email-button');
+
   // Initialize Tippy.js for the button
   const tippyInstance = tippy(button, {
     content: 'Click to copy email',
@@ -160,13 +161,8 @@ document.addEventListener('DOMContentLoaded', () => {
     copyToClipboard(email);
 
     // Update the tooltip content and show it
-    tippyInstance.setContent('Email copied to clipboard!');
+    tippyInstance.setContent('Email copied to clipboard');
     tippyInstance.show();
-      tippy(button, {
-  theme: 'dark', // Tooltip will use the light theme
-  className: 'custom-tooltip', // Add a custom class to the tooltip
-  // Other Tippy.js options
-});
 
     // Hide the tooltip after 2 seconds
     setTimeout(() => {
@@ -175,6 +171,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 2000);
   });
 });
+
 
       </script>
       <script src="https://unpkg.com/@popperjs/core@2"></script>
