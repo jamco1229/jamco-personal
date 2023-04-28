@@ -1,8 +1,8 @@
 ---
-title: Resource & template library for headteachers - *HeadteacherChat* (Work in Progress)
+title: Resource & template library for headteachers - HeadteacherChat
 layout: project
 sort: 3
-description: A long project we are under going to give headteachers.org a big refresh, with the key goal of &mdash; getting free resources to teachers as easily as possible.
+description: A long multifaceted project to design and build a resource library for senior leaders.
 dateEnd: 2023-02-15 12:00:05
 role: Product Design
 platfrom: Mobile
