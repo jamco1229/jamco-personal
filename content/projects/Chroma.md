@@ -18,7 +18,7 @@ media:
     alt: Design for Chroma web page.
 ---
 
-<iframe style='width:100%;height:600px;' src="https://james-chroma.framer.website/" title="Chroma Web Page"></iframe>
+<iframe style='width:100%;height:600px;border:solid,2px,#222;border-radius:16px;' src="https://james-chroma.framer.website/" title="Chroma Web Page"></iframe>
 
 # The Idea behind the exploration
 One of my favourite ways to challenge myself is by using ChatGPT to develop briefs, I input a promt to test a certain skill, in this case UI design, and then I set myself a timeframe and just work through it.
