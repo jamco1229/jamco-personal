@@ -171,8 +171,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Initialize Tippy.js for the link
   const tippyLink = tippy(link, {
-    content: 'Click to open email client',
+    content: 'Click to copy email',
     trigger: 'mouseenter',
+  });
+  // Add a click event listener to the button
+  link.addEventListener('click', () => {
+    const email = link.getAttribute('data-email');
+    copyToClipboard(email);
+
+    tippyLink.setContent('Email copied to clipboard');
+    tippyLink.show();
+
+    setTimeout(() => {
+      tippyLink.hide();
+      tippyLink.setContent('Click to copy email');
+    }, 2000);
   });
 });
 
