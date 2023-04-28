@@ -44,7 +44,7 @@
   line-height: 1.5em;
   font-weight: 400;
   --font-family: 'IBM Plex Sans Variable', 'Helvetica Neue', Arial, sans-serif;
-  --font-family-italic: 'IBM Plex Serif';
+  --font-family-italic: 'IBM Plex Serif', serif;
   --font-family-mono: 'IBM Plex Mono SemiBold', monospaced;
   --font-family-serif: 'IBM Plex Serif', serif;
   --col-width: 40rem;
@@ -251,7 +251,7 @@ background-position: 0 0,24px 24px;
       }
   
   em {
-    font-family: var(--font-family-italic), sans-serif !important;
+    font-family: var(--font-family-italic) !important;
   }
   
   strong {
