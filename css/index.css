@@ -760,7 +760,7 @@ transition: background 0.3s ease-in, box-shadow 0.3s ease-in, transform 0.3 ease
 /* FOOTER */
 .site-footer { 
   margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   font-family: var(--font-family-mono);
 }
 
