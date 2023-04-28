@@ -1,5 +1,5 @@
 ---
-title: Upwork Poster
+title: Chroma - A Colour Pallet saving tool for designers.
 layout: project
 sort: 3
 tags:
