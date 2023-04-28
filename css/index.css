@@ -397,7 +397,8 @@ svg {
 
 
   iframe {
-      position: relative;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
       margin-left: auto;
       margin-right: auto;
       align-self: center;
