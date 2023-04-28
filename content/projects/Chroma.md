@@ -4,9 +4,9 @@ layout: project
 sort: 3
 tags:
   - exploration
-description: Super quick poster for an upwork job.
+description: Challenge to make a web design project in Framer.
 dateEnd: 2023-02-15 12:00:01
-role: Design
+role: Web Design
 completionDate: April 2023
 readTime: 1 Min
 image: Chroma.png
