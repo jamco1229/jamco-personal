@@ -573,10 +573,10 @@ li > a > h3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: masonry;
+  gap: 0.5rem;
 }
 
 .explorations {
-  flex-basis: calc(50% - 1rem);
   margin: 0.5rem;
   padding: 1rem;
   max-width: 100%;
