@@ -570,10 +570,9 @@ li > a > h3 {
 .grid {
   list-style-type: none;
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: masonry;
-  gap: 0.5rem;
+  column-count: 2;
+  column-gap: 0.5rem;
+  break-inside: avoid;
 }
 
 .explorations {
@@ -584,11 +583,12 @@ li > a > h3 {
   list-style: none;
   border: var(--border);
   border-radius: 1rem;
-  margin: 8px;
+  margin-bottom: 8px;
   color: var(--bold-color);
   transition: background 0.3s ease-in, box-shadow 0.3s ease-in;
-
+  break-inside: avoid;
 }
+
 
 .explorations a {
   text-decoration: none;
