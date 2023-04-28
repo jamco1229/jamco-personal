@@ -145,7 +145,7 @@ function copyToClipboard(text) {
   document.body.removeChild(textarea);
 }
 document.addEventListener('DOMContentLoaded', () => {
-  const button = document.getElementById('copy-email-button');
+    const buttons = document.querySelectorAll('#copy-email-button');
 
   // Initialize Tippy.js for the button
   const tippyInstance = tippy(button, {
