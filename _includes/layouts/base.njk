@@ -161,8 +161,12 @@ document.addEventListener('DOMContentLoaded', () => {
     copyToClipboard(email);
 
     // Update the tooltip content and show it
-    tippyInstance.setContent('Email copied to clipboard');
+    tippyInstance.setContent('Email copied to clipboard!');
     tippyInstance.show();
+    tippy(button, {
+  theme: 'dark', // Tooltip will use the light theme
+});
+
 
     // Hide the tooltip after 2 seconds
     setTimeout(() => {
