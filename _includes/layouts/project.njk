@@ -5,14 +5,6 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
 <article class="project" class='fade-in-element'>
     <header>
     <h1>{{ title | safe }}</h1>
-         {% if media %}
-    {% for block in media %}
-      <div class="project-header-img">
-        {% set caption = block.caption %}
-        {% include 'snippets/media.njk' %}
-      </div>
-    {% endfor %}
-  {% endif %}
       <div class='project-specs'>
     <div class='spec-container'>
     <div class='spec'><h3>Role</h3><div class='divider'></div><p class='project-role'>{{ role | safe}}</p></div>
