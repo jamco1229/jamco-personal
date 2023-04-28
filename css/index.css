@@ -579,8 +579,8 @@ li > a > h3 {
   flex-basis: calc(50% - 1rem);
   margin: 0.5rem;
   padding: 1rem;
-  height: 100%;
-  min-height: 500px;
+  max-width: 100%;
+  display: block;
   list-style: none;
   border: var(--border);
   border-radius: 1rem;
