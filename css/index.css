@@ -211,7 +211,6 @@ background-position: 0 0,24px 24px;
   }
   h1 {
     font-family: var(--font-family-serif);
-    text-align: center;
       font-style: normal;
       font-size: 2rem;
       color: var(--color);
@@ -232,6 +231,8 @@ background-position: 0 0,24px 24px;
       overflow-wrap: break-word; 
       margin-top: 4rem;
       margin-bottom: 0.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: var(--border);
       }
   
   h3, h4, h5, h6 {
@@ -245,6 +246,8 @@ background-position: 0 0,24px 24px;
       overflow-wrap: break-word; 
       margin-top: 4rem;
       margin-bottom: 0.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: var(--border);
       }
   
   em {
