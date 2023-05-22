@@ -19,4 +19,5 @@ media:
     alt: Cover for HeadteacherChat Navigation Post
 ---
 
-<iframe src="https://www.headteacherchat.com" title="Chroma Web Page"></iframe>
+# Work in progress
+The project is now finished and can be viewed at headteacherchat.com but I now need to take the time to write up the full case study!
