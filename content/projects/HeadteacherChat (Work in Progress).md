@@ -19,4 +19,4 @@ media:
     alt: Cover for HeadteacherChat Navigation Post
 ---
 
-<iframe src="https://headteacherchat.com/" title="Chroma Web Page"></iframe>
+<iframe src="https://www.headteacherchat.com" title="Chroma Web Page"></iframe>
