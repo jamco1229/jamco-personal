@@ -91,33 +91,3 @@ permalink: "/"
         </div>
       </div>
     </div>
-
-
-<h2 class='projects-heading fade-in-element'>Projects & Posts</h2>
-
-<p class='fade-in-element'>A combined list of my projects and posts, showing different designs based on their categories.</p>
-
-<ul class="combined-list">
-{% for item in collections.all %}
-    <li class='fade-in-element'>
-        <a href="{{ item.url }}">
-            {% if item.data.tags.includes('caseStudies') %}
-                {% if item.data.icon %}
-                    <img loading="lazy" src="/media/{{ item.data.icon }}" alt="" class='case-studies-icon'>
-                {% endif %}
-                <div class='case-studies-text'>
-                    <h3>{{ item.data.title | safe }}  →</h3>
-                    <p>{{ item.data.description | safe }}</p>
-                </div>
-            {% elseif item.data.tags.includes('explorations') %}
-                <img loading="lazy" src="/media/{{ item.data.image }}" alt="" class='explorations-img'>
-                <h3>{{ item.data.title | safe }}  →</h3>
-            {% elseif item.data.tags.includes('posts') %}
-                <h3>{{ item.data.title }}</h3>
-                <p class='time'>Written on {{ item.data.date | dateToFormat('MMMM dd, yyyy') }}</p>
-                <p>{{ item.data.description }}</p>
-            {% endif %}
-        </a>
-    </li>
-{% endfor %}
-</ul>

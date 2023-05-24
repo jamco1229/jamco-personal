@@ -56,7 +56,29 @@
   --border: 0.5px solid #9a9a9a40;
   --button-background: #434343;
   --border-radius: 8px;
+/* --------------- LIGHT----------------*/
+  --background-color-light: #FFFFFF;
+  --card-background-light: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 1.61%, rgba(0, 0, 0, 0.02675) 14.72%, rgba(0, 0, 0, 0.018) 27.32%, rgba(0, 0, 0, 0.01) 50.52%, rgba(0, 0, 0, 0) 98.42%);
+  --color-light: #222222;
+  --bold-color-light: #000000;
+  --link-color-light: #1B4B5A;
+  --border-light: 0.5px solid #555555;
+  --button-background-light: #BBBBBB;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: var(--background-color-light);
+    --card-background: var(--card-background-light);
+    --color: var(--color-light);
+    --bold-color: var(--bold-color-light);
+    --link-color: var(--link-color-light);
+    --border: var(--border-light);
+    --button-background: var(--button-background-light);
   }
+}
+
+
 
 /* BASE */
   * {
