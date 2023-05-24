@@ -427,10 +427,8 @@ svg {
   backdrop-filter: blur(10px);
 border: var(--border);
 width: 100%;
- flex: none;
-  order: 2;
-  flex-grow: 0;
-  z-index: 2;
+display: flex;
+justify-content: center;
 
   position: fixed;
   bottom: 0;
@@ -439,7 +437,6 @@ width: 100%;
 }
 
  .site-header ul {
-  margin: auto 0;
 max-width: var(--col-width);
   display: flex;
   flex-direction: row;
@@ -460,10 +457,20 @@ max-width: var(--col-width);
       text-decoration: none;
       color: var(--color);
     }
+    .site-header h2 {
+      width: max-content;
+      margin: 0;
+    }
   
     body > header > nav > ul > li > a {
       text-decoration: none !important;
+      margin: 0;
     }
+    .site-header p{
+      margin: 0;
+    }
+
+
     .site-header li.active, .site-header li.active p, .site-header li:hover p {
   color: var(--bold-color);
     }
