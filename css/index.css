@@ -445,12 +445,13 @@ max-width: var(--col-width);
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  gap: 32px;
+  gap: 1rem;
   
     }
 
     .site-header li {
-      padding: 1rem, 0.25rem;
+      margin: 0;
+      padding: 0;
       list-style: none;
       display: flex;
       flex-direction: column;
