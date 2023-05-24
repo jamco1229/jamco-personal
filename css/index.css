@@ -57,13 +57,13 @@
   --button-background: #434343;
   --border-radius: 8px;
 /* --------------- LIGHT----------------*/
-  --background-color-light: #FFFFFF;
+  --background-color-light: #f6f6f6;
   --card-background-light: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 1.61%, rgba(0, 0, 0, 0.02675) 14.72%, rgba(0, 0, 0, 0.018) 27.32%, rgba(0, 0, 0, 0.01) 50.52%, rgba(0, 0, 0, 0) 98.42%);
   --color-light: #222222;
   --bold-color-light: #000000;
   --link-color-light: #1B4B5A;
-  --border-light: 0.5px solid #555555;
-  --button-background-light: #BBBBBB;
+  --border-light: 0.5px solid #d5cece;
+  --button-background-light: #f6f6f6;
 }
 
 @media (prefers-color-scheme: light) {
