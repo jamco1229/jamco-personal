@@ -77,20 +77,24 @@
     <script src="https://unpkg.com/blaze-slider@1.9.1/dist/blaze-slider.min.js"></script>
     <script src="dist/clipboard.min.js"></script>
     <script>
+   <script>
     window.onload = function() {
         var links = document.querySelectorAll('a'); // Select all links
 
         for (var i = 0; i < links.length; i++) {
             const annotation = RoughNotation.annotate(links[i], {
                 type: 'underline', // The type of annotation
-                color: '#fbbc04', // The color of the underline
+                color: 'var(--link-color)', // The color of the underline
                 strokeWidth: 2, // The thickness of the underline
                 padding: 3, // The space around the text
+                multiline: true, // To underline multiline text 
             });
 
             annotation.show();
         }
     };
+</script>
+
       // Code for fadeInElements
 const fadeInElements = document.querySelectorAll(".fade-in-element");
 function checkVisibility() {
