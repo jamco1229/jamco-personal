@@ -448,7 +448,7 @@ max-width: var(--col-width);
     }
 
     .site-header li {
-      height: 100%;
+      padding: 1rem, 0.25rem;
       list-style: none;
       display: flex;
       flex-direction: column;
