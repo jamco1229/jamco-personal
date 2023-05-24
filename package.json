@@ -67,6 +67,7 @@
     "eleventy-plugin-toc": "^1.1.5",
     "framer-motion": "^10.10.0",
     "react": "^18.2.0",
+    "rough-notation": "^0.5.1",
     "tippy.js": "^6.3.7"
   }
 }
