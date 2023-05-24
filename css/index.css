@@ -420,29 +420,33 @@ svg {
   width:100%;
 }
 
- .site-header ul {
-  max-width: var(--col-width);
+.site-header{
+  background-color: rgba(var(--background-color), 0.7); /* Adjust opacity as needed */
+  backdrop-filter: blur(10px);
+border: var(--border);
+width: 100%;
+ flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2;
+
   position: fixed;
-    bottom: -32px;
-    left: 0;
+  bottom: 0;
     width: 100%;
     z-index: 1000; /* Ensure the nav stays on top of other content */
+}
+
+ .site-header ul {
+max-width: var(--col-width);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
   padding: 16px 16px 16px 32px;
   gap: 32px;
-  height: 152px;
-  background-color: rgba(var(--background-color), 0.7); /* Adjust opacity as needed */
-  backdrop-filter: blur(10px);
-  border: var(--border);
- flex: none;
-  order: 2;
-  flex-grow: 0;
-  z-index: 2;
-    }
   
+    }
+
     .site-header li {
       height: 100%;
       list-style: none;
