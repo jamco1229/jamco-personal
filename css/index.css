@@ -434,8 +434,8 @@ svg {
   padding: 16px 16px 16px 32px;
   gap: 32px;
   height: 152px;
-  background-color: var(--background-color);
-  filter: blur(10px);
+  background-color: rgba(var(--background-color), 0.7); /* Adjust opacity as needed */
+  backdrop-filter: blur(10px);
   border: var(--border);
  flex: none;
   order: 2;
