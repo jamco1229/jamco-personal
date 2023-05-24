@@ -421,7 +421,8 @@ svg {
 }
 
 .site-header{
-  background-color: rgba(var(--background-color), 0.7); /* Adjust opacity as needed */
+  background-color: var(--background-color); /* Adjust opacity as needed */
+  opacity: 60%;
   backdrop-filter: blur(10px);
 border: var(--border);
 width: 100%;
