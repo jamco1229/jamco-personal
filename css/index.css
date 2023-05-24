@@ -461,6 +461,8 @@ max-width: var(--col-width);
     .site-header h2 {
       width: max-content;
       margin: 0;
+      text-decoration: none;
+      
     }
   
     body > header > nav > ul > li > a {
