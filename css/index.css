@@ -421,6 +421,7 @@ svg {
 }
 
  .site-header ul {
+  max-width: var(--col-width);
   position: fixed;
     bottom: -32px;
     left: 0;
