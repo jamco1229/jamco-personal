@@ -4,6 +4,7 @@ layout: post
 date: 2023-04-01
 description: Refreshing a Shopify site to increase conversions and boost accesibility.
 readTime: 1 Mins
+tags: posts
 
 media:
   - type: image

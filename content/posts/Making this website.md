@@ -2,6 +2,7 @@
 layout: post
 title: About This Website
 date: 2020-04-06
+tags: posts
 excerpt: First post about what it's taking to build this website.
 
 ---
