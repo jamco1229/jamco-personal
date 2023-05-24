@@ -437,12 +437,12 @@ width: 100%;
 }
 
  .site-header ul {
+  margin: auto 0;
 max-width: var(--col-width);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  padding: 16px 16px 16px 32px;
   gap: 32px;
   
     }
