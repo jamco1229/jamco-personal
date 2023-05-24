@@ -58,6 +58,7 @@
   :root {
     --background-color: var(--background-color-light);
     --card-background: var(--card-background-light);
+    --nav-color: var(--nav-color-light);
     --color: var(--color-light);
     --bold-color: var(--bold-color-light);
     --bg-pattern-color: var(--bg-pattern-color-light);
@@ -425,7 +426,7 @@ svg {
 .site-header{
   background-color: var(--nav-color);
   backdrop-filter: blur(10px);
-border: var(--border);
+border-top: var(--border);
 width: 100%;
 display: flex;
 justify-content: center;
@@ -462,7 +463,7 @@ max-width: var(--col-width);
       width: max-content;
       margin: 0;
       text-decoration: none;
-      
+
     }
   
     body > header > nav > ul > li > a {
