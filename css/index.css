@@ -437,6 +437,7 @@ justify-content: center;
 }
 
  .site-header ul {
+  width: 100%;
 max-width: var(--col-width);
   display: flex;
   flex-direction: row;
