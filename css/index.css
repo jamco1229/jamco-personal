@@ -864,6 +864,13 @@ transition: background 0.3s ease-in, box-shadow 0.3s ease-in, transform 0.3 ease
   padding: 20px;
 }
 
+.book-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 4px;
+}
+
 .books {
   perspective: 1200px;
   position: relative;

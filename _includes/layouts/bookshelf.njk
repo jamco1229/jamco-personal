@@ -8,6 +8,7 @@ permalink: "/posts/{{ page.fileSlug }}/index.html"
 
 <div class='shelf'>
 {% for item in books %}
+  <div class='book-group'>
   <div class='books'>
           <div class="crease"></div>
   <img class='cover' src="https://covers.openlibrary.org/b/isbn/{{ item.isbn10 }}-L.jpg" alt='Cover for {{ item.title }}' />
@@ -80,8 +81,9 @@ permalink: "/posts/{{ page.fileSlug }}/index.html"
             Proident labore non consectetur eu.
           </p>
         </div>
-   </div>
    <div class='book-text'> <h3>{{ item.title | safe}}</h3>
     <p>By {{ item.authors | safe }}</p> </div>
+    </div>
+  </div>
   </div>
 {% endfor %}
