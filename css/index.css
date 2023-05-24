@@ -219,7 +219,6 @@ background-position: 0 0,24px 24px;
     text-align: center;
   }
   h1 {
-    font-family: var(--font-family-serif);
       font-style: normal;
       font-size: 2rem;
       color: var(--color);
@@ -230,7 +229,6 @@ background-position: 0 0,24px 24px;
       }
   
   h2 {
-    font-family:var(--font-family-serif), sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 1.25rem;
@@ -417,6 +415,10 @@ svg {
   }
 
  /* Site Header */
+
+.spacer {
+  width:100%;
+}
 
  .site-header ul {
   position: fixed;
