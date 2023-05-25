@@ -867,7 +867,7 @@ transition: background 0.3s ease-in, box-shadow 0.3s ease-in, transform 0.3 ease
   display: flex;
   flex-direction: column;
   gap: 8px;
-  padding: 8px;
+  padding: 4px;
 }
 
 .cover:hover {
@@ -875,20 +875,17 @@ transition: background 0.3s ease-in, box-shadow 0.3s ease-in, transform 0.3 ease
 }
 
 .books {
-  perspective: 1200;
+  perspective: 1200px;
   position: relative;
-  width: 19.5rem; 
-  height: 0;
-  padding-bottom: calc((img height / img width) * 100%);
+  width: 19.5rem;
+  height: auto;
 }
 
 .cover {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
+  display: block;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
   z-index: 2;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(5, 18, 36, 0.3);
@@ -897,16 +894,16 @@ transition: background 0.3s ease-in, box-shadow 0.3s ease-in, transform 0.3 ease
 }
 
 .page {
-  background-color: #f2eecb;
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(5, 18, 36, 0.3);
   width: 100%;
   height: 100%;
-  z-index: -5;
-  overflow: hidden;
+  z-index: 1;
+  background-color: #f2eecb;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(5, 18, 36, 0.3);
+  overflow: auto;
 }
 
 .crease {
