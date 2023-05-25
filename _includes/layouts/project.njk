@@ -4,7 +4,14 @@ permalink: "/projects/{{ page.fileSlug }}/index.html"
 ---
 <article class="project" class='fade-in-element'>
     <header>
-      <img loading="lazy" src="/media/{{ image }}" alt="{{ alt }}" class='explorations-img'>
+    {% if media %}
+    {% for block in media %}
+      <div class="project-block">
+        {% set caption = block.caption %}
+        {% include 'snippets/media.njk' %}
+      </div>
+    {% endfor %}
+  {% endif %}
     <h1>{{ title | safe }}</h1>
       <div class='project-specs'>
     <div class='spec-container'>
