@@ -683,10 +683,11 @@ li > a > h3 {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-/*
-  .spec-container {
-    margin: 1rem 0 2rem  0;
-}
+
+.spec-container {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
 
 .spec {
   display: flex;
