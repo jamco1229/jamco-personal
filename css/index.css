@@ -40,7 +40,7 @@
   --link-color: #B7E3E4;
   --bg-pattern-color: #b7e3e440;
   --border: 0.5px solid #9a9a9a40;
-  --button-background: #434343;
+  --button-background: #167C80;
   --border-radius: 8px;
 /* --------------- LIGHT----------------*/
   --background-color-light: #f6f6f6;
@@ -51,7 +51,7 @@
   --link-color-light: #1B4B5A;
   --bg-pattern-color-light: #1b4b5a30;
   --border-light: 0.5px solid #d5cece;
-  --button-background-light: #f6f6f6;
+  --button-background-light: #167C80;
 }
 
 @media (prefers-color-scheme: light) {
