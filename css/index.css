@@ -874,8 +874,7 @@ transition: background 0.3s ease-in, box-shadow 0.3s ease-in, transform 0.3 ease
 .books {
   perspective: 1200px;
   position: relative;
-  width: 248px;
-  height: 350px;
+  width: 39.5rem;
 }
 
 .cover:hover {
