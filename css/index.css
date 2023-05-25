@@ -877,7 +877,7 @@ transition: background 0.3s ease-in, box-shadow 0.3s ease-in, transform 0.3 ease
 .books {
   perspective: 1200px;
   position: relative;
-  width: 19.5rem;
+  width: 10rem;
   height: auto;
 }
 
@@ -891,6 +891,7 @@ transition: background 0.3s ease-in, box-shadow 0.3s ease-in, transform 0.3 ease
   box-shadow: 0 4px 8px rgba(5, 18, 36, 0.3);
   transition: transform 0.15s ease-out;
   transform-origin: left center;
+  margin: 0;
 }
 
 .page {
@@ -923,4 +924,8 @@ transition: background 0.3s ease-in, box-shadow 0.3s ease-in, transform 0.3 ease
   margin: 8px;
   font-size: 8px;
   text-align: right;
+}
+
+.book-test {
+  width: 100%;
 }
