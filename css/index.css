@@ -33,7 +33,7 @@
   --font-family-serif: 'IBM Plex Serif', serif;
   --col-width: 40rem;
   --background-color: #343B3F; 
-  --nav-color: rgba(52,59,63,0.6);
+  --nav-color: rgba(52,59,63,0.7);
   --card-background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 1.61%, rgba(255, 255, 255, 0.02675) 14.72%, rgba(255, 255, 255, 0.018) 27.32%, rgba(255, 255, 255, 0.01) 50.52%, rgba(255, 255, 255, 0) 98.42%);
   --color: #C4C4C4; 
   --bold-color: #fff;
@@ -44,7 +44,7 @@
   --border-radius: 8px;
 /* --------------- LIGHT----------------*/
   --background-color-light: #f6f6f6;
-  --nav-color-light: rgba(246,246,246,0.6);
+  --nav-color-light: rgba(246,246,246,0.7);
   --card-background-light: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 1.61%, rgba(0, 0, 0, 0.02675) 14.72%, rgba(0, 0, 0, 0.018) 27.32%, rgba(0, 0, 0, 0.01) 50.52%, rgba(0, 0, 0, 0) 98.42%);
   --color-light: #222222;
   --bold-color-light: #000000;
