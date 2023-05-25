@@ -858,17 +858,16 @@ transition: background 0.3s ease-in, box-shadow 0.3s ease-in, transform 0.3 ease
 
 
 .shelf {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
-  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .book-group {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  padding: 4px;
+  padding: 8px;
 }
 
 .cover:hover {
