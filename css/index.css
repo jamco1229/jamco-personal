@@ -871,30 +871,45 @@ transition: background 0.3s ease-in, box-shadow 0.3s ease-in, transform 0.3 ease
   padding: 4px;
 }
 
-.books {
-  perspective: 1200px;
-  position: relative;
-  width: 39.5rem;
-  height: auto;
-}
-
 .cover:hover {
   transform: rotateY(-22deg);
+}
+
+.books {
+  perspective: 1200;
+  position: relative;
+  width: 19.5rem; 
+  height: 0;
+  padding-bottom: calc((img height / img width) * 100%);
 }
 
 .cover {
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(5, 18, 36, 0.3);
+  transition: transform 0.15s ease-out;
+  transform-origin: left center;
+}
+
+.page {
+  background-color: #f2eecb;
+  position: absolute;
+  top: 0;
+  left: 0;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(5, 18, 36, 0.3);
   width: 100%;
   height: 100%;
-  transition: transform 0.15s ease-out;
-  transform-origin: left center;
+  z-index: -5;
+  overflow: hidden;
 }
+
 .crease {
   width: 10px;
   position: absolute;
@@ -907,20 +922,7 @@ transition: background 0.3s ease-in, box-shadow 0.3s ease-in, transform 0.3 ease
   box-shadow: inset -5px 0px 4px rgba(255, 255, 255, 0.2),
     inset 5px 0px 4px rgba(0, 0, 0, 0.1);
 }
-.page {
-  background-color: #f2eecb;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(5, 18, 36, 0.3);
-  width: 100%;
-  height: 100%;
-  z-index: -5;
-  overflow: hidden;
-}
+
 .page > p {
   margin: 8px;
   font-size: 8px;
