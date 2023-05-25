@@ -688,32 +688,7 @@ li > a > h3 {
     margin-top: 1rem;
     margin-bottom: 2rem;
   }
-
-.spec {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: baseline;
-  text-align: left;
-  height: auto;
-  margin: 2rem 0;
-  border-bottom: var(--border);
-}
-.spec h3{
-  font-family: var(--font-family-mono);
-margin: 0;
-text-align: left;
-color: var(--color);
-}
-
-.spec p {
-  text-align: right;
-  margin: 0;
-  color: var(--bold-color);
-}
-
-*/
+  
 .project-specs {
   width: 100%;
 }
