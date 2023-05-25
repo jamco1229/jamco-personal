@@ -7,83 +7,23 @@ permalink: "/posts/{{ page.fileSlug }}/index.html"
 <p>A collection of what I have read recently. THIS PAGE IS STILL BEING BUILT.</p>
 
 <div class='shelf'>
-{% for item in books %}
-  <div class='book-group'>
-  <div class='books'>
-          <div class="crease"></div>
-  <img class='cover' src="https://covers.openlibrary.org/b/isbn/{{ item.isbn10 }}-L.jpg" alt='Cover for {{ item.title }}' />
-  <div class="page">
+  {% for item in books %}
+    <div class='book-group'>
+      <div class='books'>
+        <div class="crease"></div>
+        <img class='cover' src="https://covers.openlibrary.org/b/isbn/{{ item.isbn10 }}-L.jpg" alt='Cover for {{ item.title }}' />
+        <div class="page">
           <p>
-            Id deserunt commodo cillum officia fugiat eiusmod nisi laborum et
-            excepteur adipisicing. Amet amet dolore consequat veniam eu esse
-            incididunt anim sint fugiat voluptate dolor pariatur. Aliquip do
-            consectetur ea nostrud sunt est. Excepteur quis consectetur pariatur
-            velit incididunt do deserunt laborum nulla duis ut amet commodo
-            mollit. Lorem non qui veniam fugiat amet laboris laboris ullamco ex
-            occaecat amet consectetur cillum. Ipsum commodo occaecat incididunt
-            aliquip laboris proident enim nisi aliquip cupidatat id Lorem.
-            Veniam qui qui ea qui non nostrud elit nulla pariatur sint enim sint
-            nulla officia voluptate. Consequat labore incididunt quis duis
-            mollit incididunt exercitation laborum minim nisi eiusmod ipsum
-            aliquip. Minim veniam aliquip ex qui eiusmod in aliquip
-            reprehenderit nisi do eiusmod velit enim commodo commodo. Ad id
-            minim voluptate sit. Adipisicing enim exercitation Lorem est esse
-            officia ea sit sit Lorem exercitation ea do deserunt tempor. Cillum
-            ea elit ea irure minim nulla occaecat veniam aute incididunt. Ut
-            fugiat minim exercitation sunt dolore irure fugiat ullamco
-            voluptate. Reprehenderit voluptate incididunt fugiat enim et elit
-            culpa incididunt laborum occaecat est. Pariatur consectetur ex
-            exercitation consequat nisi culpa irure ad ipsum veniam ad.
-            Adipisicing excepteur ad non consequat amet proident duis proident
-            aliquip in cupidatat. Cupidatat eiusmod nulla mollit sint anim
-            aliqua eiusmod ea commodo. Sit reprehenderit deserunt est ex in et
-            id nulla magna fugiat sint pariatur nostrud officia aliquip. Labore
-            tempor eiusmod dolore exercitation nisi non ea cupidatat commodo
-            laboris pariatur do ullamco exercitation sit. Et cillum laborum
-            consequat mollit quis enim amet cillum. Sit deserunt nulla voluptate
-            amet veniam velit labore id mollit. Sunt velit mollit sit ea minim
-            deserunt quis duis aliqua tempor ad aliqua enim fugiat esse. Elit
-            velit adipisicing deserunt consequat tempor consequat. Proident
-            labore non consectetur eu.voluptate sit. Adipisicing enim
-            exercitation Lorem est esse officia ea sit sit Lorem exercitation ea
-            do deserunt tempor. Cillum ea elit ea irure minim nulla occaecat
-            veniam aute incididunt. Ut fugiat minim exercitation sunt dolore
-            irure fugiat ullamco voluptate. Reprehenderit voluptate incididunt
-            fugiat enim et elit culpa incididunt laborum occaecat est. Pariatur
-            consectetur ex exercitation consequat nisi culpa irure ad ipsum
-            veniam ad. Adipisicing excepteur ad non consequat amet proident duis
-            proident aliquip in cupidatat. Cupidatat eiusmod nulla mollit sint
-            anim aliqua eiusmod ea commodo. Sit reprehenderit deserunt est ex in
-            et id nulla magna fugiat sint pariatur nostrud officia aliquip.
-            Labore tempor eiusmod dolore exercitation nisi non ea cupidatat
-            commodo laboris pariatur do ullamco exercitation sit. Et cillum
-            laborum consequat mollit quis enim amet cillum. Sit deserunt nulla
-            voluptate amet veniam velit labore id mollit. Sunt velit mollit sit
-            ea minim deserunt quis duis aliqua tempor ad aliqua enim fugiat
-            esse. Elit velit adipisicing deserunt consequat tempor consequat.
-            Proident labore non consectetur eu.voluptate sit. Adipisicing enim
-            exercitation Lorem est esse officia ea sit sit Lorem exercitation ea
-            do deserunt tempor. Cillum ea elit ea irure minim nulla occaecat
-            veniam aute incididunt. Ut fugiat minim exercitation sunt dolore
-            irure fugiat ullamco voluptate. Reprehenderit voluptate incididunt
-            fugiat enim et elit culpa incididunt laborum occaecat est. Pariatur
-            consectetur ex exercitation consequat nisi culpa irure ad ipsum
-            veniam ad. Adipisicing excepteur ad non consequat amet proident duis
-            proident aliquip in cupidatat. Cupidatat eiusmod nulla mollit sint
-            anim aliqua eiusmod ea commodo. Sit reprehenderit deserunt est ex in
-            et id nulla magna fugiat sint pariatur nostrud officia aliquip.
-            Labore tempor eiusmod dolore exercitation nisi non ea cupidatat
-            commodo laboris pariatur do ullamco exercitation sit. Et cillum
-            laborum consequat mollit quis enim amet cillum. Sit deserunt nulla
-            voluptate amet veniam velit labore id mollit. Sunt velit mollit sit
-            ea minim deserunt quis duis aliqua tempor ad aliqua enim fugiat
-            esse. Elit velit adipisicing deserunt consequat tempor consequat.
+            <!-- The content of the paragraph goes here. I've truncated it for readability. -->
+            Id deserunt commodo cillum officia fugiat eiusmod nisi laborum et excepteur adipisicing...
             Proident labore non consectetur eu.
           </p>
         </div>
-          </div>
-   <div class='book-text'> <h3>{{ item.title | safe}}</h3>
-    <p>By {{ item.authors | safe }}</p> </div>
+      </div>
+      <div class='book-text'>
+        <h3>{{ item.title | safe }}</h3>
+        <p>By {{ item.authors | safe }}</p>
+      </div>
     </div> 
-  </div>
-{% endfor %}
+  {% endfor %}
+</div>
