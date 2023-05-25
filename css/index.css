@@ -875,6 +875,7 @@ transition: background 0.3s ease-in, box-shadow 0.3s ease-in, transform 0.3 ease
   perspective: 1200px;
   position: relative;
   width: 39.5rem;
+  height: auto;
 }
 
 .cover:hover {
