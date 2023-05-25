@@ -927,5 +927,5 @@ transition: background 0.3s ease-in, box-shadow 0.3s ease-in, transform 0.3 ease
 }
 
 .book-test {
-  width: 100%;
+  width: 10rem;
 }
