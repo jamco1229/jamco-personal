@@ -315,6 +315,14 @@ aside > h2 {
 
 
   a {
+    background-image: url(assets/splat-underline-2-default.svg);
+    background-size: 100% 4px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: #000;
+    padding-bottom: 0.05rem;
+    text-decoration: none;
+    -webkit-tap-highlight-color: hsla(1, 76%, 51%, .4);
     color: var(--link-color);
     text-decoration: none;
     padding-bottom: 0.05rem;
@@ -657,7 +665,7 @@ li > a > h3 {
     margin-top: 1rem;
     margin-bottom: 2rem;
   }
-  
+
 .project-specs {
   width: 100%;
 }
