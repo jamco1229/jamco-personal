@@ -23,7 +23,7 @@ media:
 
 <iframe 
     src="https://www.figma.com/embed?embed_host=astra&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FC1bII7bCKrN546IvnegRUv%2Fnotes%3Ftype%3Ddesign%26node-id%3D13-1845%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D13%253A1845%26hide-ui%3D1" 
-    width="100%" 
-    height="auto" 
+    width="260px" 
+    height="550px" 
     allowfullscreen>
 </iframe>
